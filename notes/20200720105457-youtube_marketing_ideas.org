@@ -1,0 +1,24 @@
+#+title: Youtube Video Ideas
+#+ROAM_TAGS: Marketing Idea
+- related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]], [[file:20200720101007-tropin_youtube_channel.org][TROPIN youtube channel]]
+
+* RDE/Nix related
+- How to build iso
+- GNU starter kit (cool name for vid, can be an rde introduction or
+  something like that)
+- Docker problems.
+- ML pipeline in 5 minutes.
+- How to send patch to Guix.
+- How to update packages in Guix/RDE.
+
+* Other Ideas
+- [[file:20200720105819-cleanest_dotfiles_setup.org][Cleanest Dotfiles Setup]] video and reference to Luke Smith's
+  https://www.youtube.com/watch?v=yy8RoDSdhIQ&t=319s
+
+- Implementing CI in few hours with [[file:20200620142517-guix.org][Guix]]
+
+- Creating a [[https://www.youtube.com/watch?v=rbasThWVb-c][snake game]] in five minutes. It's possible to show, how cool [[file:20200620141734-reproducible_development_environment.org][RDE]] is for developers.
+- Humor: [[https://youtu.be/pI5ToeZWP7s][Ref Vid]] How I read documentation (super fast scrolling wheel)
+- Installing linux without root partition [[file:20200731150359-nixos_tmpfs_as_root.org][NixOS: tmpfs as root]]
+- Installing linux from VRAM
+- [[https://www.youtube.com/watch?v=GKviflL9XeI][Tiling Window Management and i3wm config additions]]

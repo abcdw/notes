@@ -1,0 +1,9 @@
+#+title: Cleanest Dotfiles Setup
+#+ROAM_TAGS: Video Idea
+
+A 11 minutes video about dotfiles, [[file:20200723101317-home_manager.org][Home Manager]] and proper setup. Can be based
+on materials for [[file:20200720094620-rde_managing_dotfiles.org][RDE: Managing Dotfiles]].
+
+- ~ls -a ~~ should be very clean
+- Pretty consistent theme with fancy icons and indicators
+- Easy switch from i3 to sway

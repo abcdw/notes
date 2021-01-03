@@ -1,0 +1,3 @@
+#+title: NixOS
+
+[[file:20200620142500-nix.org][Nix]]-based GNU/Linux distribution.

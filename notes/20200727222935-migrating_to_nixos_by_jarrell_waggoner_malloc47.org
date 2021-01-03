@@ -1,0 +1,9 @@
+#+title: Migrating to NixOS by Jarrell Waggoner (malloc47)
+#+roam_key: https://www.malloc47.com/migrating-to-nixos/
+
+Good introduction to main NixOS features:
+- [[file:20200620142500-nix.org][Nix]], [[file:20200723102251-nix_lang.org][Nix Lang]], nix-shell, [[file:20200620141734-reproducible_development_environment.org][RDE]]
+- [[file:20200727223629-nixpkgs.org][nixpkgs]], AttributeSets, [[file:20200727223231-fhs.org][FHS]]
+- [[file:20200727224003-nixos.org][NixOS]], Declarative configuration, [[file:20200727224254-nixos_modules.org][NixOS modules]]
+- [[file:20200723101317-home_manager.org][Home Manager]], Dotfiles
+- Layout of nixos configuration https://github.com/malloc47/config

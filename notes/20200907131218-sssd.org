@@ -1,0 +1,5 @@
+#+title: SSSD
+#+roam_key: https://sssd.io/
+
+Allows to authenticate using for example [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] or [[file:20200907125150-kerberos_protocol.org][Kerberos]]. Have caching
+capabilities and pluggable backends for different account sources.

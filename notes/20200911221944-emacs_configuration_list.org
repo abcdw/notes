@@ -1,0 +1,10 @@
+#+title: Emacs Configuration Collection
+- related :: [[file:20200816095244-emacs.org][Emacs]]
+
+* Collection
+:PROPERTIES:
+:ID:       f19c9617-7663-4941-a36a-a9ce071e2d18
+:END:
+- Valeriy from Emacs tg group: https://github.com/xFA25E/dotfiles/blob/master/emacs/.config/emacs/init.el
+- https://github.com/caisah/emacs.dz use-package, dired file extensions
+- https://github.com/a13/emacs.d literate, use-package, ru.

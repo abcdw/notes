@@ -1,0 +1,3 @@
+#+title: The Web is Broken
+
+A place to refer, when mentioning problems of modern Web or http.

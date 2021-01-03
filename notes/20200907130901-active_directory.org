@@ -1,0 +1,4 @@
+#+title: Active Directory
+#+roam_alias: AD
+
+Microsoft's implementation of [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] with some additional features.

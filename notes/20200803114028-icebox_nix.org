@@ -1,0 +1,3 @@
+#+title: icebox-nix
+#+roam_key: https://github.com/icebox-nix/icebox
+[[file:20200727224003-nixos.org][NixOS]] configuration framework.

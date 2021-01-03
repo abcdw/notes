@@ -1,0 +1,5 @@
+#+title: BIND
+#+roam_key: https://www.isc.org/bind/
+#+roam_alias: "BIND DNS Server"
+
+Implementation of [[file:20200907125510-domain_name_system.org][Domain Name System]]. Most wide-spread [[file:20200907125510-domain_name_system.org][DNS]] server.

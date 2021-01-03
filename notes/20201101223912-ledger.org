@@ -1,0 +1,10 @@
+#+title: ledger
+#+roam_key: https://www.ledger-cli.org/
+
+One of the most popular [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] [[file:20201101223835-plain_text_accounting.org][Plain text accounting]] tool.
+
+There are many different ways to manage [[file:20200619115544-finances.org][Finances]] with ledger, but one
+interesting approach is [[file:20201201202632-ynab.org][YNAB]].
+
+Author of Elbank utility switched to ledger and wrote a small post
+about YNAB in ledger: [[https://emacs.cafe/ledger/emacs/ynab/budgeting/2018/06/12/elbank-ynab.html][Using Ledger for YNAB-like envelope budgeting]]

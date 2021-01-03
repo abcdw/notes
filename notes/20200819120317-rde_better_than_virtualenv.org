@@ -1,0 +1,44 @@
+#+title: RDE: Better than virtualenv
+#+roam_tags: Stream
+#+roam_key: https://youtu.be/irPTtmP4x
+
+* What we will do today
+We will create a reproducible development environment for python project with native dependencies.
+* What is a development environment
+- dependencies
+- shell
+- tools (vcs, *make/build, deps management, cluster management)
+- Editor or IDE
+* Why?
+** History of single C project
+** Long instructions
+** Virtualenv
+Doesn't provide:
+- Native dependencies
+- [[file:20200810221415-reproducibility.org][Reproducibility]]
+- Shared dependencies
+* Use cases
+** Few projects with different deps
+** Easy setup without instructions
+** Shared environment for the team
+** Caching of long builds
+
+* Practice
+** nix-shell
+- PATH
+- env vars
+** direnv
+** lorri
+** flakes
+- env without project
+- dataset
+** Deploy to prod
+* Question
+* Next episode
+python telegram bot with deploy to aws
+* Summary
+As simple as
+#+BEGIN_SRC shell
+# Install nix package manager w/ flakes
+nix develop github:abcdw/rde
+#+END_SRC

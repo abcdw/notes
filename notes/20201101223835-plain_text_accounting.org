@@ -1,0 +1,9 @@
+#+title: Plain text accounting
+#+roam_key: https://plaintextaccounting.org/#budgeting
+- related :: [[file:20201101223912-ledger.org][ledger]]
+
+  List of good resources about plain text accounting:
+  - Articles
+  - Comparisons
+  - Tips
+  - FAQs

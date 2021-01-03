@@ -1,0 +1,8 @@
+#+title: NixOS: tmpfs as root
+#+roam_key: https://elis.nu/blog/2020/05/nixos-tmpfs-as-root/
+- related :: [[file:20200727224003-nixos.org][NixOS]], [[file:20200620141734-reproducible_development_environment.org][RDE]]
+
+[[file:20200727224003-nixos.org][NixOS]] can work only with ~/boot~ and ~/nix/store~ present.
+
+The article explains the way to install system on tmpfs instead of physical
+volume.

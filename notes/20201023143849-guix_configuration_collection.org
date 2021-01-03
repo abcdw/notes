@@ -1,0 +1,13 @@
+#+title: Guix Configuration Collection
+
+- https://github.com/krevedkokun/guix-config :: one-file config of
+  fullstack clojure dev.
+- http://ix.io/2CyD :: efi+btrfs+encrypted root.
+- https://git.sr.ht/~w96k/dotfiles/tree/master/guix/config.scm :: sway,
+  intel, wacom.
+- https://gitlab.com/pkill-9/guix-config :: fhs, intel screen tear fix,
+- https://github.com/daviwil/dotfiles/blob/master/Systems.org :: David
+  Wilson aka System Crafters on youtube.
+- https://git.sr.ht/~yaca/.dotfiles/tree/master :: wayland, stow
+- https://github.com/alezost/config/blob/master/config.scm :: has
+  examples of cli arguments parsing, state management.

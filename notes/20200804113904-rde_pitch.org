@@ -1,0 +1,90 @@
+#+title: rde pitch
+- related :: [[file:20200620141734-reproducible_development_environment.org][RDE]]
+
+This file contains only thoughts about what can be possible with rde,
+not exect implementation description.
+
+* Pitches
+** Solving problem once
+Alternative phrasing: I hate loosing all my work related to OS configuration.
+
+Every time I setup new device with OS, I have to solve a lot of small tricky
+problems, uninstall unecessary stuff, install required packages and so on.
+[[file:20200804114500-dotfiles.org][Dotfiles]] helps to persist some solutions, but they don't solve integration
+issues (package installation, inter-app dependencies).
+
+Sample problems:
+- Firefox requires existing ssh tunnel
+
+** Complex setups not a problem
+With [[file:20200810221415-reproducibility.org][Reproducibility]] you can easily share your setup for the project with
+another person without forcing him to install and configure all the tricky
+dependencies.
+
+** No ~How?~ question
+You don't need to explain ~How to achieve something~, you just say what
+do you want. You can describe only end result and that's it, you don't
+have to care about any previous state.
+
+** No imperative bs, just a declarative perfection
+Describing environment you declare what you want and not how to achieve it.
+pip and nix difference
+* Problems
+:PROPERTIES:
+:ID:       09aad969-6bab-4438-8064-e481db661476
+:END:
+** Reproducible Research
+It's hard to maintain the work (ML experiment, trained model, etc),
+which was done in unkown or hard to replicate environment. Especially
+hard, when ML Engineer or Researcher left the organization.
+
+rde have tools to manage the data, computational environments and
+deploy both things to the infrastructure.
+** Reproducible Development Environment
+Similar to Reproducible Research. You can share the same development
+environment between team members (the whole environment or most
+important parts of it). The same environment can be packed inside
+container or reproduced from source code inside infrastructure.
+** Reproducible Infrastructure
+Truly declarative operating system, worry-free updates (built-in
+rollbacks). Code describes how your infrastructure will look like.
+Same with updates: change the code -> update the infrastructure to
+desired state.
+* Guix main properties
+- Reproducible
+- Declarative
+* What rde does?
+:PROPERTIES:
+:ID:       0cca2001-ce36-4a8d-8d2e-b44605731118
+:END:
+- Initial OS image, no more "just install Ubuntu or something".
+- Easy to replicate project setup.
+- From local setup to prod infrastructure.
+* Perks
+- Easy to get started.
+- Solving problem once.
+- Do not build/train anything twice (shared build cache).
+- Same environment for dev/stage/prod.
+
+
+* 2020-12-03 Meeting with Antti Vikman
+https://jfrog.com/
+
+Eraisng patient data before selling
+
+JFrog something extra, not only packages, but security too
+reproducibilty dosen't communicate something,
+
+Caching ML pipeline
+
+Docker has implicit inputs (prev layers), Docker does'n care about
+enviroment it runs in.
+
+Another call in few months with new selling point fo cool technology.
+** Ideas
+- Need more pitch sessions. -> Better selling points + FAQ.
+- Techno demo. Pitch videos. 3 minutes demo on updating ML
+  pipeline. (clone, pull cache, update step, reeval).
+- Sell OS to developer, sell pipelines to business.
+- Security sell point or similar idea.
+- Docker problems video.

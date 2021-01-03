@@ -1,0 +1,10 @@
+#+title: NixOS Configuration Collection
+#+roam_key: https://nixos.wiki/wiki/Configuration_Collection
+
+|                     | tags                                            | Link                            | description              |
+|---------------------+-------------------------------------------------+---------------------------------+--------------------------|
+| [[file:20200803113119-harry_ying.org][Harry Ying]]'s config | [[file:20200723101317-home_manager.org][Home Manager]], [[file:20200803112742-nix_flakes.org][flakes]], iso image, encrypted boot | https://github.com/LEXUGE/nixos |                          |
+| nixflk template     | [[file:20200723101317-home_manager.org][Home Manager]], [[file:20200803112742-nix_flakes.org][flakes]], template                  | https://github.com/nrdxp/nixflk | well-structured template |
+| Mic92               | krop                                            |                                 |                          |
+| [[https://github.com/bqv/nixrc/][bqv's nixrc]]         | [[file:20200803112742-nix_flakes.org][flakes]], [[file:20200816095244-emacs.org][Emacs]], [[file:20200620142517-guix.org][Guix]]                             | https://github.com/bqv/nixrc/   | Actively develpoed       |
+

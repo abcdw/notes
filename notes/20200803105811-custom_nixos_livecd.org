@@ -1,0 +1,26 @@
+#+title: Custom NixOS LiveCD
+#+roam_key: https://nixos.wiki/wiki/Creating_a_NixOS_live_CD
+- related :: [[file:20200727224003-nixos.org][NixOS]]
+
+Required modules for building LiveCD:
+#+BEGIN_SRC nix
+{config, pkgs, ...}:
+{
+  imports = [
+    <nixpkgs/nixos/modules/installer/cd-dvd/installation-cd-minimal.nix>
+    # Provide an initial copy of the NixOS channel so that the user
+    # doesn't need to run "nix-channel --update" first.
+    <nixpkgs/nixos/modules/installer/cd-dvd/channel.nix>
+  ];
+}
+#+END_SRC
+
+To build an image:
+#+BEGIN_SRC shell
+nix-build '<nixpkgs/nixos>' -A config.system.build.isoImage -I nixos-config=iso.nix
+#+END_SRC
+
+~result/iso/~ will be containing LiveCD image.
+
+* Links
+- https://nixos.org/nixos/manual/index.html#sec-building-cd

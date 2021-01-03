@@ -1,0 +1,8 @@
+#+title: Literate Programming
+
+* Tags
+[[file:20200717213713-org_mode.org][Org mode]]
+* Content
+There are two options to work with source code:
+- tangling https://orgmode.org/manual/Extracting-Source-Code.html
+- including https://orgmode.org/manual/Include-Files.html

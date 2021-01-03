@@ -1,0 +1,10 @@
+#+title: The PGP Problem
+#+roam_key: https://latacora.micro.blog/2019/07/16/the-pgp-problem.html
+
+Article describing problems of [[file:20200907140005-openpgp.org][OpenPGP]] and [[file:20200907134309-gnupg.org][GnuPG]]. 30 years is a lot of time for
+cryptography, it's hard to keep backward compatibility in such old software and
+introduce modern approaches. Web of trust is a nice idea, but works not as good
+as it sounds. [[file:20200907134309-gnupg.org][gpg]] has some purely written code and vulnurabilities appears from
+time to time. UX is bad, even technically advanced people have a lot of problems
+with the tool.
+

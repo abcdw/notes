@@ -1,0 +1,78 @@
+#+title: Hip-Notics WakeCamp Checklist
+
+* Checklist
+** Equipment
+- [X] Slippers
+- [X] Towel
+- [X] 2x Swimming shorts
+- [X] Swimming trunks
+- [X] 2x Riding T-shirt
+- [X] Comp vest
+- [X] Helmet
+- [X] Wakeboard
+- [X] Poncho
+- [X] Toolkit + screws
+** Dry and warm clothes
+- [X] 9x Pants
+- [X] 9x Socks pairs
+- [X] 6x T-shirts
+- [X] Jacket
+- [X] Hoodie
+- [X] Rush guard and trousers
+- [X] Trousers
+** Gear
+*** GoPro gear
+- [X] GoPro 7 Black
+- [X] SanDisk Extreme 256gb
+- [X] GoPro handle
+- [X] Suck mount
+- [X] Helmet mount
+- [X] Mouth mount
+- [X] GoPro type-c cable
+- [X] GoPro batteries
+*** Camera gear
+- [X] Camera
+- [X] Memory cards
+- [X] Batteries
+- [X] Tripod
+- [X] Card reader
+- [X] Micro USB cable
+*** Other gear
+- [X] Phone
+- [X] Type C cable
+- [X] Laptop
+- [X] Laptop charger
+- [X] Power bank
+** Important things
+- [X] Driver license
+- [X] Internetional Driver license
+- [X] Passport
+- [X] COVID [[https://cdn.pobeda.aero/media/email/2020/rospotreb/toturkey.pdf][Form]]
+- [X] Home keys
+- [X] Money
+- [X] Allergy and asthma pills and inhalers
+** Other stuff
+- [X] Download offline maps
+- [X] Internetional simcard and check balance
+** Other
+:PROPERTIES:
+:ID:       2eaa662c-7862-4a6c-8756-ec08cdc35dcd
+:END:
+- [X] Suncream
+- [X] Toothbrush
+- [X] Desodorant
+- [X] Nail clipper
+- [X] Trimmer
+- [X] Food containers
+- [X] Wrist band
+- [X] Sunglasses
+
+* Tricks wishlist
+- [X] Skinny obstacles
+- [X] Frontflip (Reverse)
+- [X] Fast ring riddding
+- [ ] Kicker 360
+- [X] Ollie to blind
+- [ ] Simple transfer
+- [X] Raley to blind (Reverse)
+- [ ] Double backroll to revert (Reverse)

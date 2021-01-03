@@ -1,0 +1,106 @@
+#+title: Nix vs Guix
+#+roam_key: https://youtu.be/S9V-pcTrdL8
+#+roam_tags: Stream
+
+* Some notes
+- We are not aware of a lot of GNU software available to us.
+- Seems that Guix more hacker-friendly/explorable.
+* General comparsion
+
+| Description         | Nix              | Guix            | Comment               |
+|---------------------+------------------+-----------------+-----------------------|
+| Established         | 2003             | 2013            |                       |
+| Poprietary Software | Yes              | No              |                       |
+| Other OSe           | MacOS, GNU/Linux | GNU/Linux, Hurd |                       |
+| [[id:b61f83ce-3da1-4970-8f29-0e693f8081da][Packages]]            | nixpkgs (53000)  | guix (15000+)   | https://repology.org/ |
+| [[id:55019ea4-f7ad-463d-a5e1-77810fa3fb5f][Nix vs Guile]]        | Nix              | GNU Guile       |                       |
+| [[id:61145f72-db36-4a84-a266-ca0d3e863ec7][Documentation]]       | Docbook          | GNU Texinfo     |                       |
+| [[id:54c3315d-2a40-4ea7-9805-a9a4d2620b06][Branching model]]     | Combined         | Rolling-release |                       |
+| Service manager     | systemd          | GNU Shepherd    |                       |
+| Build scripts       | Bash             | G-exps          |                       |
+| [[id:ec84b526-1cd2-4dc6-9067-e6a6a91b582a][Version lock]]        | Flakes           | Channels        |                       |
+| Consistency         | Medium           | High            |                       |
+| cli implementation  | c++              | guile           |                       |
+| Bootstrapping       | ?                | Yes             | GNU Mes               |
+| Module System       | Yes              | No              |                       |
+| Implicity           | Frequent         | OKeish          |                       |
+
+
+** Version lock
+:PROPERTIES:
+:ID:       ec84b526-1cd2-4dc6-9067-e6a6a91b582a
+:END:
+Flakes seems to provide more hermetic builds than guix channels. Guix
+still can access different values on host, maybe I'm not yet aware of
+some features like pure evaluation mode or something similiar.
+** Nix vs Guile
+:PROPERTIES:
+:ID:       55019ea4-f7ad-463d-a5e1-77810fa3fb5f
+:END:
+Nix isn't bad, but feels like DSL and it's necessary to learn/invent
+new patterns, the tooling is kinda lacking. There are some goodies:
+you can have few versions of nixpkgs in one profile at the same time,
+nix doesn't have namespaces and it won't fail with name collision.
+
+Guile is full-fledged scheme with good tooling.
+** Packages
+:PROPERTIES:
+:ID:       b61f83ce-3da1-4970-8f29-0e693f8081da
+:END:
+Nix has much more packaged.
+
+Guix has only free software in main repo, definitions looks more
+consistent and less hacky.
+
+Also, main Guix channel doesn't include too crappy packages. Will add
+more formal definition of crappy packages later, but as far as I know
+packages should be bootstrapable in most cases.
+** Documentation
+:PROPERTIES:
+:ID:       61145f72-db36-4a84-a266-ca0d3e863ec7
+:END:
+Guix has centralaized and well-organized documentation in
+html/pdf/info format. Moreover info format has links to related topics
+like guile, different gnu utilities and so on.
+
+For example [[info:guix#Build Systems][info:guix#Build Systems]] refers to [[info:guile#Optional Arguments][info:guile#Optional
+Arguments]].
+** Branching model
+:PROPERTIES:
+:ID:       54c3315d-2a40-4ea7-9805-a9a4d2620b06
+:END:
+NixOS has a release twice an year. Guix doesn't have stable branch,
+all fixes goes straight to master. Is it bad or good is debatable,
+because it's possible to freeze versions of specific packages or even
+whole development environments. That's mean that we can keep as less
+system packages as possible to reduce attack surface and possible
+breakage on pulling updates from master, everything else will be
+managed per-user or per-project inside profiles.
+* Guix problems
+- You can't use few channels with different version of guix in one profile
+* Nix problems
+- Inconsistent nix cli
+- Tooling kinda lacking for nix language
+- Glued together different parts not so well integrated
+* Resources
+- https://www.reddit.com/r/NixOS/comments/9zwiee/nixos_vs_guixsd/eaddvf6/
+- https://news.ycombinator.com/item?id=16490027
+* Why started with Nix?
+- dotfiles not enought
+- multilang projects are hard
+- tools outside lang ecosystem
+- db other external services
+* How it feels?
+- Nix and Guix feels like Spacemacs and Emacs
+- Flakes.
+- NixOS modules
+* What can be done for Guix
+- easier setup LiveCD with WM/DE + small cli utility
+- easier configuration like NixOS modules
+- tool for managing multilangual projects and related profiles
+  (updating manifest/lockfile, creating project from template)
+* For future conferences
+- Background music while waiting for start and message on the screen.
+* Contacts
+- abcdw
+- andrew@trop.in

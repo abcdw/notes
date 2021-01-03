@@ -1,0 +1,7 @@
+#+title: org-roam
+#+roam_key: https://www.orgroam.com/
+
+Nice [[file:20200816095244-emacs.org][Emacs]] package, which helps to do [[file:20200618173345-note_taking.org][Note-taking]] and
+linking/backlinking.
+
+Inspired by Roam Research.

@@ -1,0 +1,5 @@
+#+title: Annotating books and articles with org-mode
+- related :: [[file:20200618173345-note_taking.org][Note-taking]]
+
+* Links
+- https://rgoswami.me/posts/org-note-workflow/

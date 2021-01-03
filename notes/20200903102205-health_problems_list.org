@@ -1,0 +1,10 @@
+#+title: Health Problems List
+
+- Wrist pain (RSI)
+- Lower back pain
+- Headache
+- Knee pain
+
+- Cough
+- Sputum
+- Low temperature (35.3)

@@ -1,0 +1,6 @@
+#+title: TrackPoint
+#+roam_alias: "Pointing Stick"
+- related :: [[file:20200922225107-ergonomics.org][Ergonomics]]
+
+Pretty nice implementation
+- TrackPoint [[ https://github.com/rinx/trackpoint-iris][implementation]] of trackpoint for Iris [[file:20200922225139-mechanical_keyboard.org][Mechanical Keyboard]]

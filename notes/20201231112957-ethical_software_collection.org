@@ -1,0 +1,19 @@
+#+title: Ethical Software Collection
+
+[[file:20200907124550-free_libre_and_open_source_software.org][FOSS]] and federated/more ethical alternatives to unethical services and
+applications.
+
+* Services
+| Unethical | Ethical              | Description of ethical solution.                                                                                                                    |
+|-----------+----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| twitter   | [[https://joinmastodon.org/][Mastodon]]             | Service for exchanging thoughts/news. Mastodon is a [[file:20201231114107-federated_architecture.org][federated]], client and server implementation is [[file:20200907124550-free_libre_and_open_source_software.org][FOSS]].                                            |
+| patreon   | [[https://en.liberapay.com/][Liberpay]]             | Reccurent donation platform. Liberpay is non-profit organization, source code is public.                                                            |
+| github    | [[https://sr.ht/][sr.ht]]                | Sourcehut is software forge, supports git and mercurial, perfectly usable without javascript, has mailing lists, ci, tracker. FSF forge [[https://libreplanet.org/wiki/FSF_2020_forge_evaluation][evaluation]]. |
+| instagram | [[https://pixelfed.org/][pixelfed]]             | [[file:20201231114107-federated_architecture.org][Federated]], open source photo sharing platform.                                                                                                      |
+| youtube   | [[https://joinpeertube.org/][PeerTube]]             | p2p, federated video platform.                                                                                                                      |
+| zoom      | [[https://meet.jit.si/][jitsi]], [[https://bigbluebutton.org/][BigBlueButton]] | Jitsi for fast calls, BBB for conferences/classes.                                                                                                  |
+
+
+* Links
+- https://ethical.net/resources/
+- https://degooglisons-internet.org/en/

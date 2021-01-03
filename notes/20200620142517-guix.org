@@ -1,0 +1,4 @@
+#+title: Guix
+#+roam_key: https://guix.gnu.org/
+
+Free operating system and package manager

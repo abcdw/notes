@@ -1,0 +1,2 @@
+#+title: XDG Base Directory Specification
+#+roam_key: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html

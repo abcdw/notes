@@ -1,0 +1,17 @@
+#+title: Content monetization
+- related :: [[file:20200619115544-finances.org][Finances]]
+
+* Obvious options
+- donations via patreon, liberpay, etc
+- selling merch
+- selling exclusive content, courses, braindump
+- affilate links
+- referal links
+- integrating ads
+- offline training
+
+* Example of monetized content:
+  :PROPERTIES:
+  :ID:       a4f56049-a415-4c68-a008-d245f75bd621
+  :END:
+https://www.nateliason.com/support

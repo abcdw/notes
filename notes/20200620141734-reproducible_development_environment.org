@@ -1,0 +1,38 @@
+#+title: Reproducible Development Environment
+#+roam_alias: rde
+
+- related :: [[file:20200620142500-nix.org][Nix]], [[file:20200620142517-guix.org][Guix]]
+
+* RDE
+In the future it won't make much sense to do video like that:
+https://youtu.be/DX_gQTQLUZc Person will be able to replicate such setup with
+just few lines of config file.
+** Perks
+:PROPERTIES:
+:ID:       9598952b-826d-4a38-ae00-7e52b7769148
+:END:
+- Fear free environment :: rde control all the data, which have to be
+  synced/backed up, everything else is reproducible from this data.
+- Truly reproducible :: When you can fix project, that was released 10 years ago
+- Instant set-up :: When developer don't have to spend hours to get all
+  necessary libs and packages installed and configured in his system.
+- Close to prod :: When you have same binaries on production.
+- Dev/system env separation :: System can be updated, without breaking project
+  environment.
+- Simple :: Complex setup without complex setup process. In more details that
+  idea described in [[file:20200804113904-rde_pitch.org][RDE pitch]].
+
+** Nice bonuses
+- Collaborate on env :: Developers can develop their development environment
+
+** Difference with puppet/chef/ansible
+- [[https://github.com/kalbasit/shabka/blob/master/doc/congruent.md][Declarative congruence]] is a system management method, which simplify the work
+  with infrastructure.
+* Funny idea
+- rde.sh from [[file:20200717164909-cool_domain_names.org][Cool Domain Names]] can be a Reasonable Defaults, rather than RDE
+
+* Similar projects
+- https://idempotent-desktop.netlify.app/#docs
+* Links
+- http://trop.in/rde
+- https://nix.dev/

@@ -1,0 +1,25 @@
+#+title: rde file systems
+
+[[file:20201112114638-btrfs.org][Btrfs]] looks as a good candidate becasue it has snapshot capabilities,
+which can help implement [[file:20201112115141-erase_your_darlings.org][Erase your darlings]] like approach.
+
+| destination                   | description                | /storage                    | partition  | sync  | init url             |
+|-------------------------------+----------------------------+-----------------------------+------------+-------+----------------------|
+| /                             | erase on boot via snapshot |                             | @guix-root | -     | -                    |
+| /gnu/store                    |                            |                             |            |       |                      |
+| /etc/NetworkManager           | connections info           | ./system/etc/NetworkManager | @system    |       |                      |
+| -                             | swap file                  | ./system/swap/swapfile      | @swap      |       |                      |
+|-------------------------------+----------------------------+-----------------------------+------------+-------+----------------------|
+| ~/files                       | synced via git             |                             |            |       |                      |
+| ~/pics                        |                            |                             |            |       |                      |
+| ~/vids                        |                            |                             |            |       |                      |
+| ~/archive                     | compression                |                             |            |       |                      |
+| ~/dl                          |                            |                             | @tmp       |       |                      |
+| ~/.local/share/password-store | passwords                  | ./home/abcdw/pass-store1    | @small     | git   | olorin.lan/pw-store  |
+| ~/files/org                   | notes and org files        | ./home/abcdw/files/org      | @small     | git   | olorin.lan/org-files |
+| ~/files/ledger                | finances info              | ./home/abcdw/files/ledger   | @small     | git   | olorin.lan/ledger    |
+| ~/files/books                 | books and articles         |                             |            | rsync |                      |
+| ~/files/stream-materials      | to archive                 |                             |            | rsync |                      |
+
+
+Implement archive functionality with rsync. It's basically rsync && rm.

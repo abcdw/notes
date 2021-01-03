@@ -1,0 +1,25 @@
+#+title: YNAB
+
+You need a budget. Is an app + approach for managing personal
+[[file:20200619115544-finances.org][finances]].
+
+The book: https://www.youneedabudget.com/ynab-the-book/
+
+The rules: https://www.youneedabudget.com/the-four-rules/
+
+- Give Every Dollar a Job :: Plan what you will spend it for.
+- Embrase Your True Expenses :: Plan all your rare, but big expenses.
+- Roll With The Punches :: Transfer money from one budget to another on demand.
+- Age Your Money :: Use as old money as possible, it will increase the
+  period between getting money and spending it, the longer this
+  period - more money you have.
+
+The implementation: [[https://youtu.be/xPVEB759gkU][YNAB For Beginners - Quick Start Guide (2018)]]
+- Talks about categories and initial setup of money sources.
+- Set monthly goals for different categories
+- Set goals by exact day for specific categories (Now you can see if
+  your monthly goal will allow you to reach deadline with necessary
+  amonut of money)
+- Budget all necessary categories (transfer money from your account to
+  specific category)
+- Make transactions from your category to exact purchase

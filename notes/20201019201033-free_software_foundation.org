@@ -1,0 +1,6 @@
+#+title: Free Software Foundation
+#+roam_alias: FSF
+#+roam_key: https://www.fsf.org/
+
+Non-profit organization, which helps to defend user freedoms and
+develop [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]].

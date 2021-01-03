@@ -1,0 +1,58 @@
+#+title: rde emacs config
+Don't make setup flexible, just one opinionated config option.
+precfg.org-roam doesn't depend on precfg.org, but depends on org package
+
+
+* Prototype configuration
+#+BEGIN_SRC nix
+  {
+    rde.emacs = {
+      enable = true;
+      precfg.rde-core.enable = rde.emacs.enable;
+      precfg.org.enable = rde.emacs.enable;
+    };
+
+  }
+#+END_SRC
+
+* Conception
+  :PROPERTIES:
+  :ID:       adb0bcec-9996-4c2c-99a5-448b9253c664
+  :END:
+This configuration with all features disabled should do nothing, but enabling
+features should provide close to vanilla, but reasonable configuration of some
+packages, install system dependencies, providing secrets.
+
+Don't need to care about [[file:20200816095244-emacs.org][Emacs]] and package versions, because this
+emacs distribution shipped with emacs and packages.
+** Keybinding idea
+Stick to vanilla keys as much as possible, use ~s-~ for frequently used commands.
+* Structure
+| filename            | description                                 |
+|---------------------+---------------------------------------------|
+| ~early-init.el~       | Some tweaks for startup time                |
+| ~init.el~             | Minimal file, requiring rde-core rde-config |
+| ~~/somewhere/user.el~ | Like persistent scratch                     |
+| ~rde-core.el~         | Use package cfg                             |
+| ~rde-config.el~       | Configuration accumulated from features     |
+
+
+* Substitutions
+| swipper | isearch-occur |
+|         |               |
+* Features
+** Layers
+*** Clojure
+*** Python
+*** Nix
+** Additional features
+   :PROPERTIES:
+   :ID:       c2d9ce84-104d-412f-9273-2f18da2ab21e
+   :END:
+- goto last change
+- Smart ~C-a~
+- Smart kill-line/join-line
+- Comment next line if typing on comment line
+- file name with dir (uniquify)
+- Visualise regexp substitution
+- ~C-e~ completes suggestion

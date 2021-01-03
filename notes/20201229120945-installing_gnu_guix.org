@@ -1,0 +1,7 @@
+#+title: Installing GNU Guix
+#+roam_key: https://youtu.be/XOYirIzUlW8
+#+roam_tags: Stream
+* Summary
+Installation of GNU [[file:20200620142517-guix.org][Guix]] to encrypted [[file:20201112114638-btrfs.org][Btrfs]].
+  
+

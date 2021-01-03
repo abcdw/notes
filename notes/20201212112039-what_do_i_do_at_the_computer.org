@@ -1,0 +1,9 @@
+#+title: What do I do at the computer
+
+- Task management
+- Notes
+- Communication (IRC, Telegram)
+- Communication (Mail)
+- Programming
+- Consuming multimedia
+- Producing multimedia

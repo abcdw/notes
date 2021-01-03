@@ -1,0 +1,10 @@
+#+title: Courses
+
+Index of courses
+
+| name                                                       | Progress | Subject        |     | Next lecture      |
+|------------------------------------------------------------+----------+----------------+-----+-------------------|
+| [[file:20201101193703-8_04_quantum_physics_i.org][8.04 Quantum Physics I]]                                     | 4/115    | Physics        | MIT | [[https://youtu.be/CR-eOhdxbes?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G][L1.5]]              |
+| [[file:20201101194654-topics_in_mathematics_with_applications_in_finance.org][Topics in Mathematics with Applications in Finance]]         | 1/24     | Finances, Math | MIT | [[https://youtu.be/9YtmGy-wfE4?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR][2. Linear Algebra]] |
+| [[file:20201101195244-functional_programming_in_haskell_course.org][Functional Programming in Haskell Course]]                   | 54/238   | CS             | HSE |                   |
+| [[file:20201211235230-cs_6120_advanced_compilers_the_self_guided_online_course.org][CS 6120: Advanced Compilers: The Self-Guided Online Course]] |          |                |     |                   |

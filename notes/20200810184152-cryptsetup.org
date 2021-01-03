@@ -1,0 +1,4 @@
+#+title: cryptsetup
+[[file:20200810183326-dm_crypt.org][dm-crypt]] frontend. Allows to create encrypted volumes.
+
+Also supports [[file:20200810184614-linux_unified_key_setup.org][LUKS]].

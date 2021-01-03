@@ -1,0 +1,14 @@
+#+title: Superposition principle
+
+The net repsonse caused by few stimulus is the sum of responses for
+each of them.
+
+A function F(x) that satisfies Superposition principle is called a
+linear function.
+
+#+begin_src latex
+\begin{equation}
+F(x_1 + x_2) = F(x_1) + F(x_2)
+\alpha F(x) = F(\alpha x)
+\end{equation}
+#+end_src

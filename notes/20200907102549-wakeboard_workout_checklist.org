@@ -1,0 +1,41 @@
+#+title: Wakeboard Workout Checklist
+- related :: [[file:20200907102629-checklists.org][Checklists]]
+
+* Template
+** Equipment
+- [ ] Slippers
+- [ ] Towel
+- [ ] Swimming Shorts
+- [ ] Swimming Trunks
+- [ ] Riding T-shirt
+- [ ] Comp Vest
+- [ ] Helmet
+- [ ] Wakeboard
+- [ ] Poncho
+- [ ] (Optional) Wetsuite
+** Dry and warm clothes
+:PROPERTIES:
+:ID:       5aa11b8b-8ae5-4902-9d10-7f85301a8271
+:END:
+- [ ] Pants
+- [ ] Socks
+- [ ] Jacket/Hoodie
+** Filming gear
+- [ ] Camera
+- [ ] Memory cards
+- [ ] Batteries
+- [ ] Tripod
+** Important things
+- [ ] Driver License
+- [ ] Car Documents
+- [ ] Home Keys
+- [ ] Car Keys
+- [ ] Money
+- [ ] Phone
+** Other
+- [ ] Food
+- [ ] Water
+- [ ] Sunglasses
+- [ ] Suncream
+- [ ] Hat
+- [ ] Power bank

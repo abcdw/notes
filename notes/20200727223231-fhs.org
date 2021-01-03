@@ -1,0 +1,9 @@
+#+title: Filesystem Hierarchy Standard
+#+roam_alias: FHS
+#+roam_key: https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html#requirements
+
+Declares directory layout for linux systems. It's incompatible with
+[[file:20200810221415-reproducibility.org][Reproducibility]].
+
+* Links
+- https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard

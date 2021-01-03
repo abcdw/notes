@@ -1,0 +1,4 @@
+#+title: Operating System Architecture
+
+List of references about OS arch:
+- [[https://www.freebsd.org/doc/en_US.ISO8859-1/books/arch-handbook/index.html][FreeBSD Architecture Handbook]]

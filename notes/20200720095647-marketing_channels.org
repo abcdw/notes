@@ -1,0 +1,30 @@
+#+title: Marketing Channels
+#+ROAM_TAGS: Marketing
+- related :: [[file:20200720101007-tropin_youtube_channel.org][TROPIN youtube channel]]
+
+Prepare a dashboard before starting marketing campaign.
+
+Read this article: [[file:20200915115300-side_project_marketing_checklist.org][Side Project Marketing Checklist]]
+* Nice marketing ideas
+- Red bull marketing hackers: https://t.me/temno/2984
+* Possible channels
+** Awesome tool/config lists
+- https://github.com/caisah/emacs.dz
+- https://nixos.wiki/wiki/Configuration_Collection
+- https://github.com/webpro/awesome-dotfiles
+** HackerNews
+ Even pretty small posts can get a lot of attention.
+ https://news.ycombinator.com/from?site=mycpu.org
+** LinekedIn
+ Has a lot of followers, big part of them are developers
+** Reddit
+ Has a lot of emacs/nix/rice related threads
+** IRC
+ Small communities around topic
+** Telegram chats
+ Same as irc, but a little more modern
+** YouTube
+ - Collaboration with DistroTube on NixOS distro topic. Collaboration guide (ru):
+   https://youtu.be/BkptnUewz4U, [[file:20200815231650-youtube_similar_channels.org][YouTube Similar Channels]], [[https://www.youtube.com/channel/UCnxk5BzZxRN7y3a1IqHhVlA][Pingvinus]].
+** Conferences and meetups
+ fprog, ClojuTRE, NixCon

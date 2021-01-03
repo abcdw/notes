@@ -1,0 +1,8 @@
+#+title: Conference Talk Intro Ideas
+
+- related :: [[file:20200907120703-conference.org][Conference]], [[file:20200907120712-talk.org][Talk]]
+
+* Ideas
+- To make people engaged in the talk, start with 1-2 sentences about topic, which
+will be covered and only after that give [[file:20200730172322-self_presentation_in_30_seconds.org][Self-Presentation]] or information about
+your team and so on.

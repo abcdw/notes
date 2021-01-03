@@ -1,0 +1,3 @@
+#+title: Gemini
+
+Protocol somewhere between gopher and http

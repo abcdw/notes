@@ -1,0 +1,3 @@
+#+title: ThinkPad perks (corporate discounts)
+#+roam_key: https://n4ru.it/perks
+- related :: [[file:20200730193712-thinkpad.org][ThinkPad]]

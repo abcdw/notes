@@ -1,0 +1,7 @@
+#+title: Harry Ying
+Guy from [[file:20200727224003-nixos.org][NixOS]] telegram channel, author of [[file:20200803114028-icebox_nix.org][icebox-nix]].
+
+* Links
+- [[https://github.com/LEXUGE][github]]
+- [[https://lexuge.github.io/][blog]]
+- [[https://github.com/LEXUGE/nixos][NixOS config]]

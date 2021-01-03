@@ -1,0 +1,2 @@
+#+title: Domain Name System
+#+roam_alias: DNS

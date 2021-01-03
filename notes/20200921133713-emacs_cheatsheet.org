@@ -1,0 +1,13 @@
+#+title: Emacs Cheatsheet
+
+- related :: [[file:20200816095244-emacs.org][Emacs]]
+
+My notes on useful keybindings.
+
+The good example of a cheatsheet: [[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf][GNU Emacs Reference Card]].
+
+* All
+| key     | present in refcard | command                 | description                                                          |
+|---------+--------------------+-------------------------+----------------------------------------------------------------------|
+| C-h f   | +                  | describe-function       | Describes emacs function, works in any mode, prefers symbol at point |
+| C-x C-x | +                  | exchange-point-and-mark | Remark previously marked region                                      |

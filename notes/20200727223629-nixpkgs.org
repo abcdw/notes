@@ -1,0 +1,4 @@
+#+title: nixpkgs
+#+roam_key: https://github.com/NixOS/nixpkgs
+
+The repository with a lot of packages, declared in [[file:20200723102251-nix_lang.org][Nix Lang]] and modules for [[file:20200727224003-nixos.org][NixOS]].

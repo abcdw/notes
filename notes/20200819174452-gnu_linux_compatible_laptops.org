@@ -1,0 +1,11 @@
+#+title: GNU/Linux Compatible Laptops
+
+- related :: [[file:20201019200944-h_node.org][h-node]]
+
+Funny fact, current [[file:20200730193712-thinkpad.org][ThinkPad]]s most of the time requires some
+proprietary firmwares/blobs and it's hard to use [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] with them.
+
+* Links
+- http://kde.slimbook.es/specs/
+- https://tuxedocomputers.com/en/Linux-Hardware/Linux-Notebooks
+- https://www.pine64.org/pinebook/

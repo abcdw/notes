@@ -1,0 +1,4 @@
+#+title: List of Top-Level domains
+#+roam_key: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+
+- related :: [[file:20200717165201-fqdn.org][FQDN]]

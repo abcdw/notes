@@ -1,0 +1,5 @@
+#+title: Better Motherfucking Website
+#+roam_key: http://bettermotherfuckingwebsite.com/
+- related :: [[file:20200831165704-blogging_setup.org][Blogging Setup]]
+
+Few tips on how to make a website readable.

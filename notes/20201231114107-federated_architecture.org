@@ -1,0 +1,5 @@
+#+title: Federated architecture
+
+The approach of creating system, which consist of few semi-autonmous
+instances, which can exchange data between each other, but can live
+perfectly fine on their own.

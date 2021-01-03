@@ -1,0 +1,48 @@
+#+title: In defence of swap: common misconceptions
+#+roam_key: https://chrisdown.name/2018/01/02/in-defence-of-swap.html
+
+It's really hard to find a good article explaining purpose of swap, at
+the many places in the internet it described as an archaic mechanism
+for low-ram machines, used as an "emergency" memory.
+
+In reality in modern world swap is used for swapping out of rarely
+used parts of memory in favour of often used for improving overall
+performance.
+
+This post gives a brief list of memory types and some properties of
+them. Most important is a notion of reclaimable memory and another
+useful for examples is anonymous:
+- Anonymous :: Allocated with malloc or mmap with ~MAP_ANONYMOUS~ flag.
+- Reclaimable :: Part of the memory, which can be removed
+from physical RAM. For example unmodified part of the file, which
+mapped to the memory. Or anonymous memory in case swap is present.
+
+Under low memory contention, with swap we can "unload" rarely used
+parts of anonymous memory to swap, which allows to use the rest of
+free memory for improving cache hit rate or something
+similiar. Without swap it won't be possible to do so, which can cause
+performance drop in some cases.
+
+Under medium to high memory contention the problem becomes more
+important. Without swap there are more memory types, which can be
+reclaimed that is why some parts of oftenly used code segments or db
+caches will be dropped from primary memory and re-read from disk on
+next call/access.
+
+Under spikes loads the moment of OOM killer is postponed and there ar
+more time to investigate and react.
+
+Swap can be used for hibernate a laptop to it. In that case it has to
+be at least as big as RAM.
+
+The last part of the article describes different options to be tuned
+for better swap usage.
+
+~vm.swappines~ says what is costier: reclaiming anonymous memory or
+files. on ssd it mostly equal, that's why 100 is ok value, for hdd
+lower value is better. value equal to 0 is special case, described in
+the [[https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/patch/?id=fe35004fbf9eaf67482b074a2e032abb9c89b1dd][patch]].
+
+Overall it's possible to live without swap, but it doesn't make much
+sense. Swap gives flexibility for memory page reclamation, which
+improves performance in most cases.

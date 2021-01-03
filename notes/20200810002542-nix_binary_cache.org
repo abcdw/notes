@@ -1,0 +1,7 @@
+#+title: Nix Binary Cache
+- related :: [[file:20200620142500-nix.org][Nix]], [[file:20200727223629-nixpkgs.org][nixpkgs]], [[file:20200727224003-nixos.org][NixOS]], [[file:20200620141734-reproducible_development_environment.org][RDE]]
+
+  Allows to build artifacts only once and reuse them. Built a library for dev
+  environment and reuse it on production/CI.
+* Links
+- [[https://fzakaria.com/2020/07/15/setting-up-a-nix-s3-binary-cache.html][setting up a Nix S3 binary cache]] :: single user nix cache with s3.

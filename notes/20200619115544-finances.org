@@ -1,0 +1,7 @@
+#+title: Finances
+
+[[file:20201201202632-ynab.org][YNAB]] - is simple approach for managing money.
+
+* What I can improve
+- Allocate money for retirement
+- How to mix investments with savings?

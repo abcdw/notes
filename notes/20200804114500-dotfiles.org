@@ -1,0 +1,4 @@
+#+title: Dotfiles
+A set of config files for user-space apps. ~.vimrc~, ~.config/i3/config~, etc.
+In most cases they are stored and distributed with git repository and managed
+with stow/yadm/custom script.

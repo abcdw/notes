@@ -1,0 +1,4 @@
+#+title: YouTube alternatives
+
+- https://joinpeertube.org/
+- https://lbry.com/

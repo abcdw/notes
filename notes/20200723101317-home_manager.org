@@ -1,0 +1,2 @@
+#+title: Home Manager
+A [[file:20200620142500-nix.org][Nix]] utility for managing dotfiles, xsessions and configs.

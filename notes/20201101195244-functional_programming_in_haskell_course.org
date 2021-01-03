@@ -1,0 +1,2 @@
+#+title: Functional Programming in Haskell Course
+#+roam_key: https://stepik.org/course/75/syllabus

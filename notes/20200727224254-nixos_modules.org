@@ -1,0 +1,5 @@
+#+title: NixOS modules
+#+roam_key: https://nixos.wiki/wiki/Module
+
+* Links
+- https://discourse.nixos.org/t/best-resources-for-learning-about-the-nixos-module-system/1177/4

@@ -1,0 +1,7 @@
+#+title: Setting up LDAP Authentication with NixOS
+#+roam_key: https://mt-caret.github.io/blog/posts/2020-07-25-ldap-client-with-nixos.html
+
+Create [[file:20200727224003-nixos.org][NixOS]] container with [[file:20200810182522-lxd.org][LXD]]. The system uses [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] to authenticate users.
+Some hacks are required for such setup to work: for example there is no
+~/bin/bash~ in [[file:20200727224003-nixos.org][NixOS]], but in [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] records loginShell is ~/bin/bash~.
+Also it setups [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] auth in [[file:20200810191606-nginx.org][nginx]].

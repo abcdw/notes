@@ -1,0 +1,5 @@
+#+title: dm-crypt
+
+Transparent disk encryption subsystem in Linux kernel, part of Device Mapper infrastructure.
+
+Has few different frontends. [[file:20200810184152-cryptsetup.org][cryptsetup]] is one of them.

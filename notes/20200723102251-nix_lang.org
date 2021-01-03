@@ -1,0 +1,4 @@
+#+title: Nix Lang
+
+- [[https://nixos.org/nixos/nix-pills/why-you-should-give-it-a-try.html][Nix Pills]] :: canonical [[file:20200620142500-nix.org][Nix]] and [[file:20200723102251-nix_lang.org][Nix Lang]] introduction.
+- [[https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55][Nix by example]] :: medium article about [[file:20200723102251-nix_lang.org][Nix Lang]], faced it few times.

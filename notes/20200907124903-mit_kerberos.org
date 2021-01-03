@@ -1,0 +1,4 @@
+#+title: MIT Kerberos
+#+roam_key: https://kerberos.org
+
+A reference implementation of [[file:20200907125150-kerberos_protocol.org][Kerberos Protocol]].

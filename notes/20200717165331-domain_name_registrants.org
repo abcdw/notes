@@ -1,0 +1,5 @@
+#+title: Domain Name Registrants
+
+* List of decent
+- https://namecheap.com :: relatively cheap, use for most my domains
+- https://gandi.net :: allows to register two-letter domains

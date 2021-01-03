@@ -1,0 +1,14 @@
+#+title: How the Blog Broke the Web
+#+roam_key: https://stackingthebricks.com/how-blogs-broke-the-web/
+
+- related :: [[file:20201015093916-blogging.org][Blogging]], [[file:20201015154734-the_web_is_broken.org][The Web is Broken]]
+
+  Not a technical story about web transformation, from home pages to
+  weblogs, about the appearing of CMSs like blog engines, facebook,
+  instagram and other stuff. How such tools ruined the internet of
+  carefully crafted HTML home pages.
+
+  In my own opinion, now it's much easier to shitpost a lot of
+  nonsense and overall quality of the web content reduced radically.
+  Probably the future of the intellectual internet (the internet
+  containing is [[file:20201001202853-gemini.org][Gemini]].

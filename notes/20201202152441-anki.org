@@ -1,0 +1,7 @@
+#+title: Anki
+#+roam_key: https://apps.ankiweb.net/
+
+- related :: [[file:20200618173345-note_taking.org][Note-taking]]
+
+Cross plaftofrm app for maintaining flashcards for improved learning
+and remembering.

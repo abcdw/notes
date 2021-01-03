@@ -1,0 +1,4 @@
+#+title: Math Coolness
+
+List of interesting math ideas
+- [[file:20201004192933-penrose_tiling.org][Penrose tiling]]

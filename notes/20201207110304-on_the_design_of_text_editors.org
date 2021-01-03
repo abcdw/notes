@@ -1,0 +1,5 @@
+#+title: On the design of text editors
+#+roam_key: https://arxiv.org/pdf/2008.06030.pdf
+- related :: [[file:20200816095244-emacs.org][Emacs]], [[file:20201207110349-usability.org][Usability]], [[file:20200922225107-ergonomics.org][Ergonomics]]
+
+*  TODO read the article

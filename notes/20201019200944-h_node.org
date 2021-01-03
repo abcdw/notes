@@ -1,0 +1,8 @@
+#+title: h-node
+#+roam_alias: "Libre Hardware"
+#+roam_key: https://h-node.org/
+
+- related :: [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]], [[file:20201019201033-free_software_foundation.org][FSF]]
+
+Wiki containing information about hardware working with free/libre
+operating systems.

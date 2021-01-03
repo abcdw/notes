@@ -1,0 +1,6 @@
+#+title: Erase your darlings
+#+roam_key: https://grahamc.com/blog/erase-your-darlings
+
+An article describing an approach, where root partition get reverted
+to empty state on every boot to make sure that there is no undesired
+accidential state on it.

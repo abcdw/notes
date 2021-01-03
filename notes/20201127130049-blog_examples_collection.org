@@ -1,0 +1,17 @@
+#+title: Blog Examples Collection
+
+* Examples
+  :PROPERTIES:
+  :ID:       86bd1744-3628-45a7-bbaf-c88664fcfa3c
+  :END:
+- https://lihebi.com/ :: home page of one student, minimalistic, but
+  has good writings.
+- https://www.alexkehayias.com/essays/zettelkasten-setup/ :: note
+  taking and sharing workflow with [[file:20200816095244-emacs.org][Emacs]], org-roam, hugo and other
+  things.
+- https://drewdevault.com/ :: some posts available only via gemini.
+- http://okmij.org/ftp/ :: home page without any fancy css, well
+  structured, not time order, but has ~recent changes~ page. Link found
+  in [[info:guix#G-Expressions][info:guix#G-Expressions]]
+- https://rce.sh/ :: Danish Police Officer, geeky, but cool design of
+  webpage

@@ -1,0 +1,7 @@
+#+title: How to use Emacs help
+
+[[file:20200816095244-emacs.org][Emacs]] manual is great.
+
+~C-h r~ to open emacs manual.
+
+~C-h r i~ to search topic in index of emacs manual.

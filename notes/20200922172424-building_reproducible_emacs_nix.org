@@ -1,0 +1,79 @@
+#+title: Building reproducible Emacs (nix)
+#+roam_key: https://youtu.be/2_e3kPJQ93s
+#+roam_tags: Stream
+
+* Emacs configuration ~= System configuration
+- dired uses ls, grep.el uses grep
+- info uses system's info files
+- gpg, git, make, gcc, etc...
+
+* How?
+- bunch of ~el~ files?
+- dotfiles?
+
+* Files
+- [[https://github.com/abcdw/rde][github.com/abcdw/rde]]
+- [[file:~/work/rde][~/work/rde/]]
+- [[file:~/work/rde/src/config.nix][rde/config.nix]]
+- [[file:~/work/rde/src/modules/emacs][rde/emacs]]
+- [[file:~/.config/emacs][.config/emacs]]
+
+* f(inputs) -> system
+- package definitions
+- environment definitions
+- service configurations
+
+* Problems
+- Integration
+  - Sharing values between programs
+- Reproducibility
+  - Version of emacs packages
+  - Broken packages on updates hard to revert
+  - Missing native dependencies
+  - Hard to share configurations
+
+* Configuration inspiration
+- spacemacs/doom
+- Protesilaos' config
+- custom configs
+- use-package
+
+* Subconfig
+- EmacsLisp configuration
+- Emacs packages
+- Native dependencies
+- Variables
+- Service/system definitions
+
+* Examples
+- Font
+- org-roam
+- magit
+
+* Nix intro
+- virtualenv
+- lockfiles
+- profiles
+- system as a package
+
+* Current state
+- PoC configuration framework utilizing Nix and NixOS
+  - Emacs package management
+  - Native package management
+  - System and programs configuration in one place
+  - Tighter integration between programs
+
+* Future work
+- Reimplement it in guile for GNU Guix
+- From PoC to user-friendly state
+- Make a Lisp machine insipired OS
+
+* Links
+- https://github.com/abcdw/rde/tree/d938d6f51643f7a7eceda73178924c3313884434
+- https://nixos.org/
+- https://guix.gnu.org/
+- [[https://blog.rfox.eu/en/Programming/Programmers_critique_of_missing_structure_of_operating_systems.html][Programmer's critique of missing structure of operating systems]]
+
+* Contacts
+- abcdw
+- andrew@trop.in

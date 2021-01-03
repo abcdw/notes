@@ -1,0 +1,6 @@
+#+title: GnuPG
+#+roam_key: https://gnupg.org/
+#+roam_alias: gpg
+- related :: [[file:20200907134417-gnu.org][GNU]]
+
+Complete and free implementation of [[file:20200907140005-openpgp.org][OpenPGP]] as defined by [[https://www.ietf.org/rfc/rfc4880.txt][RFC4880]].

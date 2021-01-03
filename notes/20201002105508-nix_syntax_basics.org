@@ -1,0 +1,143 @@
+#+title: Nix syntax basics
+#+roam_key: https://youtu.be/5F-1Q3nk4Es
+#+PROPERTY: header-args :tangle ~/tmp/nix-syntax/example.nix
+
+* Intro
+* Comments
+:PROPERTIES:
+:ID:       f415b8e1-d1f8-4bf6-acfb-1e9672e31aeb
+:END:
+#+begin_src nix
+# line comments
+
+/* multiline
+   comments */
+#+end_src
+* Types
+** Basic types
+:PROPERTIES:
+:ID:       78523f7e-7da3-4efb-a4fe-8e9866fabd9e
+:END:
+#+begin_src nix
+[
+  true # b
+  1 2 3.5
+  "hello"
+  { k = "v"; k2 = "v2"; } # unorder
+  /tmp/file.nix ./file.nix
+]
+#+end_src
+** Lazy Reccursive AttrSet
+:PROPERTIES:
+:ID:       35682f91-040f-41aa-9449-6e0f0185ef17
+:END:
+#+begin_src nix
+rec { a = "12"; b = "something" + a; c."k1"."${b}" = "value"; }
+rec { a = 12; b = { k = b; }; }.b.k
+#+end_src
+** Strings
+:PROPERTIES:
+:ID:       86f7d7c4-ce46-452f-b2c1-32fdb08af05d
+:END:
+#+begin_src nix
+''
+  multi line
+   ${toString (10 + 15)}
+  string
+  with multiple lines''
+#+end_src
+* Conditionals
+~if~ is  expression
+:PROPERTIES:
+:ID:       5bc2abd3-eb5a-40b2-a75b-95f28eb88ae8
+:END:
+#+begin_src nix
+if 3 > 5 then "greater" else "less"
+#+end_src
+* Functions
+** Simple
+:PROPERTIES:
+:ID:       95918209-4fc6-496c-aa2e-a3c6e979675c
+:END:
+#+begin_src nix
+a: { t = "test";  b = a; }
+#+end_src
+** Application
+:PROPERTIES:
+:ID:       a80699ad-67a8-4840-b4f4-00aaa376fcd8
+:END:
+#+begin_src nix
+((a: a + 1) 2)
+#+end_src
+** More complex
+#+begin_src nix
+{a ? null, ...}@args: b: { result = args; }
+#+end_src
+* Scope helpers
+:PROPERTIES:
+:ID:       a2fd5207-0f78-488b-9140-49eae256f41e
+:END:
+- let
+- inherit
+- with
+#+begin_src nix
+let
+  a = { b = { c = "1"; d = 2; }; };
+in
+with a;
+{ inherit (b); }
+#+end_src
+* Imports
+#+begin_src nix
+import ./test.nix {}
+#+end_src
+* builtins && lib
+:PROPERTIES:
+:ID:       f46edd65-db88-4852-88d6-035cdb3482e7
+:END:
+https://github.com/NixOS/nixpkgs/tree/master/lib
+:PROPERTIES:
+:ID:       c1ac9301-4450-4522-9f86-e973b4acb67d
+:END:
+#+begin_src nix
+let
+  lib = (import <nixpkgs> {}).lib;
+in
+{ ea = builtins.elemAt; lb = lib.strings; }
+#+end_src
+* loops
+There is no loops, oops.
+
+How to live without loops ideas:
+- map
+- filter
+- foldl
+* Impurities
+:PROPERTIES:
+:ID:       634dec7c-3bdb-41db-acff-cfa83815dba1
+:END:
+#+begin_src nix
+#{ pkgs ? import <nixpkgs> {} }:
+let
+  pkgs = import <nixpkgs> {};
+  newPkg = pkgs.writeText "hello.txt" "Hello world!";
+  # and different fetchSomething functions
+in
+"${builtins.getEnv "HOME"} and ${newPkg}"
+#+end_src
+
+* Modules
+#+begin_src nix
+{ config, pkgs, ...}:
+{
+  options = {};
+  config = {};
+}
+#+end_src
+Home-manager module [[https://github.com/nix-community/home-manager/blob/master/modules/programs/emacs.nix][example]].
+* Links
+- https://github.com/NixOS/nixpkgs/blob/master/lib/attrsets.nix
+- https://nixcloud.io/tour/?id=1
+- https://learnxinyminutes.com/docs/nix/
+- https://nixos.wiki/wiki/Nix_Expression_Language
+- https://nixery.dev/nix-1p.html

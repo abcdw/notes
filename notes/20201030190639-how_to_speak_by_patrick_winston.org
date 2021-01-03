@@ -1,0 +1,101 @@
+#+title: How To Speak by Patrick Winston
+#+roam_key: https://youtu.be/Unzc731iCUY
+
+* The Rule of Engagement
+No phones, no laptops. It was a rule for his talk, but should work for
+other talks too.
+* How to start
+** Joke at the beginning of the talk
+Not recommended. People are getting adjusted to funny way of
+narrative, but it's not true for the whole talk, only for the
+beggining.
+** Start with a Promise
+:PROPERTIES:
+:ID:       8061162a-a34f-40af-b4a6-71095d77cb2e
+:END:
+What people will know at the end of the hour they didn't know at the
+beggining of it. The reason for being here.
+* 4 Samples
+** Cycle on the subject
+Repeat three times, what you want to say. People a getting
+distracted. Go back and repeat the same idea one more time to make it
+clearer for people, who listen you.
+** Build a fence around the idea
+Explaining the difference of your idea from everybody else's.
+** Verbal punctuation
+Enumerating, outlines, providing numbers, splitting into subtopics to
+make people able to get back into narrative easier.
+** Ask a question
+Carefully chosen, not to hard, not to easy. Wait 7-10 seconds for
+answer.
+* The Tools
+** Time and Place
+11 a.m. is a good time for lecture, already awake, not too hungry.
+
+The place should be well lit. To make people awake.
+
+#+begin_quote
+- People will see slides better if we turn the lights off.
+- It's extremely hard to see slides through closed eyelids.
+#+end_quote
+
+The place should be cased. Before rubbering the bank, it's necessary
+to visit it few times to get better understanding of the place.
+
+The place should be reasonably populated. Not packed, not empty. More
+than half full is good.
+** Black Board
+Graphic representation. Easy of drawing. The same speed of presenting
+as speed of absorbing ideas. You can use a board as a target for
+pointing with your hands. Btw, it's not necessary to point to what you
+are saying about.
+** Props
+Props are good. Steel ball flying around the class make you feel that
+person is pretty close to death during the experiment and he really
+trust in physics letting that ball come back to his head.
+
+Empathatic mirroring makes your neurones activated while you watching
+someone writing on the board.
+** Slides
+It's always too many words on slides.
+
+Simple rules:
+- Do not read
+- Be in the image
+- Keep images simple
+- Eliminate clutter (logos, title, bullets, etc)
+
+  40-50 is a good size for slides font.
+** Stick and laser pointer
+You loose eye contact using it.
+** Inspiration
+People will be inspired by your pation with things you do.
+
+Provide a [[id:8061162a-a34f-40af-b4a6-71095d77cb2e][Promise]] and express your pation about how cool it is. How
+cool to solve a problem of coloring states (with special restrictions)
+in few seconds, when the naive approach take time until sun explode.
+** A Winston's Star
+- Symbol :: To make you work remembered, make a symbol associated with
+  your work.
+- Slogan :: Example: One-shot learning.
+- Surprise :: Example: you don't need million of samples, you can
+  learn from each sample.
+- Salient Idea :: Example: Near miss
+- Story :: How you did it, how it works, why it is important.
+* How to Stop
+** Final Slide
+No "Questions?", no "Contributors", no "Thank you, the end, etc".
+
+Conclusions is toleratable.
+
+Contributions is kinda similar to
+Conclusions, but much more personal, it's what you did, not abstract
+statements.
+** Final Words
+- Joke :: is ok. ~Always finish with a joke and that way people think
+  that they've had a fun for the whole time~.
+- Thank you :: Weak move, that's mean that people stayed for
+  politeness.
+- Ite, missa est. :: Latin phrase to point that the event is finished.
+- Salut the audience :: How the cool it was, how you value what people
+  do and so on.

@@ -1,0 +1,10 @@
+#+title: Encypted Btrfs Root with Opt-in State on NixOS
+#+roam_key: https://mt-caret.github.io/blog/posts/2020-06-29-optin-state.html
+
+Similiar idea with [[file:20200731150359-nixos_tmpfs_as_root.org][NixOS: tmpfs as root]], but using brtfs and snapshot
+capabilities, which helps to clear root on every boot.
+
+Uses [[file:20200810183326-dm_crypt.org][dm-crypt]] for creating entcrypted volumes and [[file:20200810182845-brtfs.org][Brtfs]] subvolume features to
+create multiple mount points.
+
+Additionally discusses questions about [[file:20200810182347-docker.org][Docker]] and [[file:20200810182522-lxd.org][LXD]].

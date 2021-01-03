@@ -1,0 +1,64 @@
+#+title: EmacsConf 2020 Proposal
+
+- related :: [[file:20200816095244-emacs.org][Emacs]]
+
+Name:
+Andrew Tropin
+
+Title:
+Building reproducible Emacs
+
+Preferred format:
+Extended preferred, standard possible
+
+Abstract:
+It's not always easy to take part of someone's configuration and
+make it work, it's almost never easy to move your configuration
+to fresh OS installation or hardware. Not sure that this snippet
+is enough to make package work? Forgot to install ripgrep in your
+system for rg.el?  Got a broken version of package on
+package-install?
+
+There is a way to make an Emacs configuration reliable, composable and
+self-contained. It's possible to freeze package versions, create
+systemd unit for emacs daemon, maintain system dependencies and
+package subconfigurations in one place with one tool.
+
+The talk explains how to leverage the power of nix package manager
+and use-package to make pretty good emacs configuration.
+
+There is a stream record on the same topic:
+https://youtu.be/2_e3kPJQ93s. It lacks few interesting points about
+composability of such configuration approach, but already have enough
+interesting information. The talk will be a little more structured and
+more Emacs-users oriented.
+
+(Un)availability:
+After 4pm UTC
+
+
+Speaker release:
+
+  By submitting this proposal, I agree that my presentation at
+  EmacsConf 2020 is subject to the following terms and conditions:
+
+  The EmacsConf organizers may capture audio and video (a "Recording")
+  of my presentation and any associated materials, which may include
+  slides, notes, transcripts, and prerecording(s) of my presentation
+  that I provide to the EmacsConf organizers.
+
+  I authorize the EmacsConf organizers to distribute, reproduce,
+  publicly display, and prepare derivative works of the Recording and
+  any derivative works of the Recording (the "Licensed Materials")
+  under the terms of the Creative Commons Attribution-ShareAlike 4.0
+  International (CC BY-SA 4.0) license.
+
+  I grant to the EmacsConf organizers permission to use my name,
+  likeness, and biographic information in association with their use
+  of the Licensed Materials under the above license.
+
+  I represent that I have the authority to grant the above license to
+  the EmacsConf organizers.  If my presentation incorporates any
+  material owned by third parties, I represent that the material is
+  sublicensable to the EmacsConf organizers or that my use of them is
+  fair use.

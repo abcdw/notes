@@ -1,0 +1,12 @@
+#+title: NVIDIA on Guix
+
+It's possible to build NVIDIA drivers modules on Guix to use them for
+[[file:20201001095517-machine_learning.org][Machine Learning]].
+
+* Links
+  :PROPERTIES:
+  :ID:       1be8103c-c92f-4f18-beee-b436779456dd
+  :END:
+- https://lihebi.com/wiki/linux.html#org5318bd7
+- https://github.com/lihebi/guix-channel/blob/master/guix/packages/nvidia.scm
+- https://github.com/BIMSBbioinfo/guix-bimsb-nonfree/blob/master/non-free/cuda.scm

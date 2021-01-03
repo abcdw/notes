@@ -1,0 +1,7 @@
+#+title: Discource
+#+roam_key: https://www.discourse.org/
+
+Modern open-source customizable forum platform. Used for many
+technical projects.
+
+Is it [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]]?

@@ -1,0 +1,8 @@
+#+title: YouTube Similar Channels
+- related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]], [[file:20200720101007-tropin_youtube_channel.org][TROPIN youtube channel]]
+
+* Similiar channels
+- [[https://www.youtube.com/c/EngineerMan/][EngineerMan]] :: 300k subs, low number of views, boring previews, has video
+  about kernel module. Video with 4.3M views is about Scammer.
+- [[https://www.youtube.com/channel/UCEbYhDd6c6vngsF5PQpFVWg][tsoding]] :: 11k subs yt/tw, has live streams on twitch, more entartaining.
+- [[https://www.youtube.com/channel/UCwgKmJM4ZJQRJ-U5NjvR2dg][commaai archive]] :: archive of live streams of George Hotz

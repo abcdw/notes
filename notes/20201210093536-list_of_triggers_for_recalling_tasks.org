@@ -1,0 +1,83 @@
+#+title: List of triggers for recalling tasks
+
+- related :: [[file:20201210093630-planning.org][Planning]]
+
+* Health
+** Medicine
+- Dentist
+- Checkup (Medical examination)
+- Drugs, vitamins
+** Other
+- Diet
+- Sport
+* Personal life
+** Cultural development
+- Learning history
+- Visiting museums and theaters
+** House
+- Repair/Building
+- Mortgage/Tax deduction
+- Clean-up (Balcony, Mezzanine, Garage)
+** Finances
+*** Payments
+- Taxes
+- Public service (Counters, Payments)
+- Rent
+*** Purchases
+- Shoes/Clothes
+- Furniture/Tech/Other
+*** Debts
+- Things, Tools, Books
+** Vacations
+- Hotel, tickets, visa
+- Clothes, equipmnet
+- Insurance, grafts
+** Holidays
+- Gifts
+- Postcards
+** Automobile
+- Repair/Checkup
+- Buy/Sell
+** Pets
+- Grafts
+- Food
+- Care
+* Hobby
+- Personal projects
+- Ideas
+- Meetings and parties
+- Accessories/equipment
+* Studies
+** Lections
+- Recording
+- Notes/Syllabus
+- Webinars
+** Other
+- Home work
+- Exams
+- Papers/Conferences
+- Report/Practice
+* Work
+** People
+- Colleagues
+- Boss
+- Clients (future, present, past)
+** Communication
+- Mail
+- Social networks
+- Meetings (Plan, Reject, Escape, Prepare)
+- Reminders
+** Tasks
+- Do
+- Check
+- Remind
+- Think
+** Unresolved problems
+** Documents
+- Time sheets
+- Reports
+- Grade/review
+- Orders
+** Professional growth
+- Books/articles
+- Seminars/Trainings

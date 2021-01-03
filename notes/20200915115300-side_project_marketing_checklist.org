@@ -1,0 +1,3 @@
+#+title: Side Project Marketing Checklist
+#+roam_key:  https://github.com/portable-cto/side-project-marketing/blob/master/marketing-checklist.md
+#+roam_tags: Marketing

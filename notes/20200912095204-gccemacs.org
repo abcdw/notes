@@ -1,0 +1,6 @@
+#+title: gccemacs
+#+roam_key: https://akrl.sdf.org/gccemacs.html
+
+Previously [[file:20200816095244-emacs.org][Emacs]] fork, now it's feature flag, which allows to compile
+elisp to native code. It can rapidly improve perfomance and reduce the
+need to write C code.

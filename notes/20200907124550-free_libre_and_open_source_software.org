@@ -1,0 +1,3 @@
+#+title: Free/Libre and Open Source Software
+#+roam_alias: FLOSS FOSS "Libre Software"
+#+roam_key: https://www.gnu.org/philosophy/floss-and-foss.en.html

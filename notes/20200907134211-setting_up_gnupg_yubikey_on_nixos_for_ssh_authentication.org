@@ -1,0 +1,10 @@
+#+title: Setting up GnuPG + Yubikey on NixOS for SSH authentication
+#+roam_key: https://rzetterberg.github.io/yubikey-gpg-nixos.html
+
+Setting up [[file:20200907134309-gnupg.org][GnuPG]] for [[file:20200907163757-secure_shell.org][SSH]] authentication. Keys stored on [[file:20200907164029-yubikey.org][YubiKey]], configuration
+done on [[file:20200727224003-nixos.org][NixOS]].
+
+Article has overview of [[file:20200907140005-openpgp.org][pgp]] basics.
+
+Similiar article:
+https://www.linode.com/docs/guides/gpg-key-for-ssh-authentication/

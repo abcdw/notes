@@ -1,0 +1,4 @@
+#+title: OpenPGP
+#+roam_key: https://www.ietf.org/rfc/rfc4880.txt
+
+https://www.openpgp.org/

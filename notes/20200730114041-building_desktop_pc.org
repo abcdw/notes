@@ -1,0 +1,2 @@
+#+title: Building desktop PC
+- [[https://www.logicalincrements.com/][logicalincrements]] :: PC calcuraltor/constructor, good starting point.

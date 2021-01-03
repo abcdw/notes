@@ -1,0 +1,18 @@
+#+title: FreeIPA
+#+roam_key: https://www.freeipa.org/
+- related :: [[file:20200907121952-secret_managmement_and_provisioning.org][Secret Managmement and Provisioning]]
+
+* Description
+Integrated security infromation management solution.
+
+Provides:
+- [[file:20200907122242-389_directory_server.org][389 Directory Server]]
+- [[file:20200907124903-mit_kerberos.org][MIT Kerberos]]
+- [[file:20200907125911-dogtag_certificate_system.org][Dogtag Certificate System]]
+- [[file:20200907125357-bind.org][BIND DNS Server]]
+- [[file:20200907131014-network_time_protocol.org][Network Time Protocol]]
+- JSON/XML RPC
+- CLI/Web UI
+- Integration with [[file:20200907130901-active_directory.org][Active Directory]]
+
+Plays nicely with [[file:20200907131218-sssd.org][SSSD]].

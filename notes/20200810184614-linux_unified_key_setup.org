@@ -1,0 +1,2 @@
+#+title: Linux Unified Key Setup
+#+roam_alias: LUKS

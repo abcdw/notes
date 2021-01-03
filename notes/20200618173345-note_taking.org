@@ -1,0 +1,11 @@
+#+title: Note-taking
+- related :: [[file:20200620103241-knowledge_sharing.org][Knowledge sharing]]
+
+- Not nly the process of taking notes, but also externalization of
+  thinking process.
+- Well-taken notes helps to write articles much easier, because
+  clusters of related notes already present, you just need to join
+  them.
+
+* Links
+- https://takesmartnotes.com/

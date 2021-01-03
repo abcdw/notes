@@ -1,0 +1,5 @@
+#+title: Protesilaos Stavrou
+
+Man doing philosophy, writing, politics and many other things. Being
+non-programmer he knows [[file:20200816095244-emacs.org][Emacs]] and elisp pretty well, maintaining his [[file:20200717213328-literate_programming.org][literate]]
+[[https://protesilaos.com/dotemacs/][configuration]], author of [[file:20200831195230-modus_themes.org][Modus Themes]]. Has a youtube [[https://www.youtube.com/channel/UC0uTPqBCFIpZxlz_Lv1tk_g][channel]] and [[https://protesilaos.com/][blog/website]].

@@ -1,0 +1,5 @@
+#+title: Reddit
+#+roam_key: https://www.reddit.com/
+#+roam_alias: reddit
+
+One of the most popular web aggregators/forums. Among top-20 websites.

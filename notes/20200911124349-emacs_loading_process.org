@@ -1,0 +1,23 @@
+#+title: Emacs Loading Process
+- related :: [[file:20200816095244-emacs.org][Emacs]]
+
+[[info:elisp#Startup Summary][Startup Summary]] covers most of the necessary information on startup process.
+
+Interesting notes:
+- There are ~before-init-time~ and ~after-init-time~, which can be
+  used later for measuring startup perfomance by calling
+  ~emacs-init-time~.
+- autoloads creates a placeholder, which loads actual function on
+  first call.
+- [[file:20200911211835-use_package.org][use-package]] has a lot of mechanisms to make package load as lazy as
+  possible.
+- Startup with plugged charger 2x faster
+
+Since version 27 use [[file:20200911125123-xdg_base_directory_specification.org][XDG Base Directory Specification]], scans (at least) for:
+- ~~/.emacs~
+- ~~/.emacs.el~
+- ~~/.emacs.d/init.el~
+- ~~/.config/emacs/init.el~
+
+Evaluate first encountered file, others are ignored. Not sure about
+order in the list, but ~~/.config/emacs/init.el~ checked last.

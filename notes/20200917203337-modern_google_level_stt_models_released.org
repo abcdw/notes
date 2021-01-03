@@ -1,0 +1,4 @@
+#+title: Modern Google-level STT Models Released
+#+roam_key: https://habr.com/ru/post/519562/
+
+- related :: [[file:20200917203458-natural_language_processing.org][Natural Language Processing]], [[file:20200917203513-speech_to_text.org][Speech To Text]]

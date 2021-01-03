@@ -1,0 +1,49 @@
+#+title: Plans for 2021
+#+roam_key: https://youtu.be/di-jllXHjRs
+#+roam_tags: Stream
+
+* What we do today?
+  Plans for the future.
+
+* Recap
+** Done (roughtly)
+   - Installed a system and all user configurations in few commands.
+   - Built a reproducible emacs config.
+   - Created a development environment (python+system).
+   - Deploy an operating system to remote host from declarative
+     configuration.
+   - Switched to Guix and Wayland
+** Not done
+   - State management
+   - Dev Service management
+   - Secret management
+* Roadmap
+** rde home
+   For managing configs and services
+** rde state
+   For syncranization and backup.
+   
+   At every given moment if state is syncronized I can completely wipe
+   the storage and will be able to recover the working environment in
+   few minutes.
+
+   - Credentials (passwords and keys) Management (gpg+pass+ssh+state)
+   - Notes (emacs+sqlite+state)
+   - Accounting/Finances (ledger+gpg+state)
+   - Emails/Patches (mbsync+pass+mu4e/gnus+backup?)
+   - Blogging setup (org-roam tree+blog posts+deploy to server)
+** rde project
+   - Dependency managment (also transparent)
+   - Instantion from template
+   - Dev Services management
+   - State management
+
+* Ask for help
+  - Give me a feedback (on video quality, format or content)
+  - Share recordings (on reddit, hackernews)
+
+* Contacts
+  - abcdw
+  - @andrewtropin at telegram
+  - andrew [-at-] trop.in
+

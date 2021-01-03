@@ -1,0 +1,23 @@
+#+title: Blogging Setup
+
+- related :: [[file:20201015093916-blogging.org][Blogging]]
+
+* Concept
+  :PROPERTIES:
+  :ID:       b6d200fe-a610-48cb-b576-158e5777a72a
+  :END:
+Do I want a [[file:20201001202853-gemini.org][Gemini]] support?
+I want to combine [[file:20200618173345-note_taking.org][Note-taking]] with blogging by publishing:
+- notes
+- graph of notes
+- feed of changes in the notes
+- blog posts
+- feed of posts
+
+
+[[https://commonplace.doubleloop.net/Blog%20and%20Wiki%20Combo.html][Thoughts]] on blogging and wikiing are related to this note. [[https://doubleloop.net/2020/08/21/how-publish-org-roam-wiki-org-publish/][Article]] on
+how to make org-roam+org-publish setup works.
+
+org-roam [[https://org-roam.discourse.group/t/are-there-any-repositories-of-good-example-org-roam-files/530/11][discourse]] on publishing of digital garden.
+
+[[file:20201127130049-blog_examples_collection.org][Blog Examples Collection]] is a good reference for nice blog examples.

@@ -1,0 +1,4 @@
+#+title: Computer Science Literature
+
+* Operating systems
+- [[https://web.mit.edu/~simsong/www/ugh.pdf][The UNIX-HATERS Handbook]] :: Should be a good historical book.

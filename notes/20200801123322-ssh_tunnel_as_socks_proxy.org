@@ -1,0 +1,11 @@
+#+title: SSH tunnel as socks proxy
+- related :: [[file:20200907163757-secure_shell.org][SSH]]
+
+Making ~localhost:8123~ a socks proxy:
+#+BEGIN_SRC sh
+ssh -D 8123 -C -N user@host.example
+#+END_SRC
+
+* Links
+- gist: [[https://gist.github.com/drmalex07/c0f9304deea566842490][ssh tunnel as systemd unit]]
+- DigitalOcean tutorial: [[https://www.digitalocean.com/community/tutorials/how-to-route-web-traffic-securely-without-a-vpn-using-a-socks-tunnel][How To Route Web Traffic Securely Without a VPN Using a SOCKS Tunnel]]

@@ -1,0 +1,29 @@
+#+title: FLOSS monetization
+- related :: [[file:20200619115544-finances.org][Finances]]
+
+* Some options
+- donations via patreon, liberpay, etc
+- selling merch
+- selling exclusive content, courses, braindump
+- offline training
+- crowed sourcing (I pay 10 for implementation of this button and I!
+  and I will pay 20), works for features, but not for maintaining.
+- providing software as a service
+- delayed open source (latest public version < latest paid version)
+* Other options
+** Support subscription
+   (Red Hat, SUSE, Nextcloud)
+
+   Expertise.
+   Support from developers, Migration assisstant, etc.
+
+   Influence.
+   Can vote for most important features to implement.
+
+   Knowledge access.
+   Knowledge base, trainings, courses,
+   workshops. Scaling expertise, legal expertise, specific stack
+   expertise.
+
+* Links
+- https://youtu.be/2L1U2KpSgk8 :: Almost all monetization options for [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] project

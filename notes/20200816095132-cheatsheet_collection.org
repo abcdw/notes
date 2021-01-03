@@ -1,0 +1,5 @@
+#+title: Cheatsheet Collection
+- related :: [[file:20200816095244-emacs.org][Emacs]]
+
+* Emacs
+- [[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf][Emacs ref card]] from gnu.org

@@ -1,0 +1,86 @@
+#+title: Stateless Operating System
+#+roam_alias: "Stateless OS"
+#+roam_key: https://youtu.be/2eN0R0f_RX0
+#+roam_tags: Stream
+
+* Problems of undesired statefulness
+https://i.stack.imgur.com/JG9yA.png
+** Problems
+- Reasoning hugely increase congnitive load.
+- Not aware of what happens.
+- Much easier to make a mistake, because a change affects almost whole
+  system.
+** Example
+- ifconfig/iptables/nm-tui/gnome settings/etc
+- Did some tweaks. Forgot about it. Did reboot. Broke everything.
+* Stateless OS is possible?
+Nope.
+- # of packages, dhcp, etc.
+- NetworkManager configuration and similar.
+- db cache, db data, etc.
+* Solution 1: Immutable OS
+revisioned configuration and revisioned pkgs.
+- ~f(config, pkgs) -> system~
+- ~f(config, pkgs, encrypted-secrets) -> system~ + security key
+** Problem of Reproducibility
+You can't make secrets a part of OS.
+* Desirable workflow
+- Threw out ssd of your localhost, insert new one
+- Boot from usb stick, connect to network
+- Clone ~rde-config~ repo
+- ~cd rde-config~
+- ~[rde partition config.scm /device]~
+- ~rde system init config.scm /device/partition~
+- ~reboot~
+** Init is idempotent
+* How to achieve? [OS]
+- Pre-configure as much as possible
+- Update only by ~system reconfigure~
+- Erase ~/~ with snapshot on each boot
+- Boot the system
+- Make another snapshot
+- Work
+- Diff changes
+- Move state to config
+* Solution 2: Computing Environment
+Immutable OS + User programs with state
+** Immutability and Small State
+Good practice.
+https://i.stack.imgur.com/JG9yA.png
+* Realistic workflow
+[[file:20201112114603-rde_file_systems.org][rde file systems]]
+- ~[rde partition config.scm /device]~
+- ~[rde security-key init /device/partition]~
+- ~rde system init config.scm /device/partition~
+- ~rde state init config.scm /device/partition~
+- ~reboot~
+* How to achieve? [User]
+- Define state components
+- Work
+- Diff changes
+- Eliminate uncontrolled state
+** How it will look?
+- ~rde state check-untracked~
+- ~rde state edit            # state.scm config~
+- ~rde state sync~
+- ~rde state status~
+** State types
+*** Credentials/secrets (system)
+Part of the system + secret key.
+- 2-step deployement
+*** Cache
+In most cases we do not care.
+*** Remote FS
+*** Revisionable data
+*** Archive
+No need to init, possible to retrieve manually
+*** Backup
+Same as
+*** Media (video/pics/music/books/articles)
+Can be archiveable or not. Something that we are agree to lose.
+*** Encrypted data
+* Conclusion
+It's obviously possible to reduce the amount of state, but it requires
+some time to implement such solution.
+* Links
+- https://grahamc.com/blog/erase-your-darlings

@@ -1,0 +1,37 @@
+#+title: The next generation of contributors is not on IRC
+#+roam_key: https://youtu.be/jOPAYeVqdJQ
+#+roam_tags: Marketing
+- related :: [[file:20200925213216-interesting_numbers.org][Interesting Numbers]], [[file:20200720095647-marketing_channels.org][Marketing Channels]]
+
+Talk about importance of other communication channels. Current [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]]
+contributors can use many different resources to communicate. Contains
+some overall ideas about how communication with comunity should look
+like.
+
+Estimated number of users 2020:
+
+| app              | million |
+|------------------+---------|
+| irc              |     0.4 |
+| google chat      |       4 |
+| riot.im (matrix) |      11 |
+| slack            |      12 |
+| MS Teams         |      13 |
+| GitHub           |      40 |
+| Twitter          |     126 |
+| Telegram         |     200 |
+| Discord          |     250 |
+| Reddit           |     330 |
+|                  |         |
+
+
+Talk-recommended defaults for building new community:
+| sync        | -                          |
+| async       | [[file:20200925214411-discource.org][Discource]]                  |
+| Face 2 Face | Zoom                       |
+| News        | twitter & mail newsletters |
+
+Agree with [[file:20200925214411-discource.org][Discource]], but prefer [[file:20200925215145-jitsi.org][Jitsi]] for videoconferencing. Mail
+newsletters is also good, I'm curious how good mailing lists are?
+There are federated and ethical alternatives to twitter, but they have
+less number of users.

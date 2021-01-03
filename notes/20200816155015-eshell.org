@@ -1,0 +1,36 @@
+#+title: Eshell
+
+Eshell is a [[file:20200816095244-emacs.org][Emacs]] shell. Has two parsers for sh-like and lisp syntax.
+
+* Buffers instead of Pipes
+Use buffers, Luke.
+
+* Command line
+** Globbin' Filters
+Allows to write expressions with predicates:
+
+Get all files with more than 50 character.
+#+BEGIN_SRC eshell
+ls *(.L+50)
+#+END_SRC
+
+To get more info, use ~C-c M-q~ or:
+#+BEGIN_SRC eshell
+eshell-display-predicate-help
+#+END_SRC
+
+** Modifiers
+Special syntax for converting strings. Have sed like functionality ~s/pat/match~.
+
+Make string uppercased:
+#+BEGIN_SRC eshell
+echo "hello"(:U:s/EL/AP/)
+#+END_SRC
+
+#+RESULTS:
+: HAPLO
+
+To get more info, use ~C-c M-m~ or: ~eshell-display-modifier-help~
+
+* Links
+- [[https://youtu.be/RhYNu6i_uY4][Introduction to EShell]]

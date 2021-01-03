@@ -1,0 +1,7 @@
+#+title: GPG instead of SSH
+
+It is possible to use gpg-agent instead of ssh-agent and also it's
+possible to generate ssh public key from gpg key with A capability.
+
+Also, it's much easier to manage few ssh keys, because it's easy to
+add gpg subkey with ~addkey~ command.

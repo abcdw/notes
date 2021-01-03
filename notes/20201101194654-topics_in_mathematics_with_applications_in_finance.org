@@ -1,0 +1,4 @@
+#+title: 18.S096 Topics in Mathematics with Applications in Finance
+#+roam_key: https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/
+
+youtube [[https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR][playlist]].

@@ -1,0 +1,24 @@
+#+title: Flakes in nix 3.0
+#+roam_key: https://youtu.be/98EwejpIJzE
+#+roam_tags: Stream
+
+* Problems
+  - Implicit inputs
+  - Implicit inputs to imported expressions
+  - Hard to freeze/update dependencies
+  - Few mechanisms
+* Channels and NIX_PATH
+* What is nix 3.0?
+* Flakes schema
+  https://nixos.wiki/wiki/Flakes
+* Flake reference syntax
+  github:NixOS/nixpkgs#package
+* Flake registry
+* Sample flake.nix
+  - https://github.com/NixOS/nixpkgs/blob/master/flake.nix
+  - https://github.com/nix-community/home-manager/blob/master/flake.nix
+  - https://github.com/abcdw/rde/blob/master/flake.nix
+* Special self input
+* Flake.lock
+* Links
+  https://gist.github.com/edolstra/40da6e3a4d4ee8fd019395365e0772e7

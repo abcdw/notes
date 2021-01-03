@@ -1,0 +1,68 @@
+#+title: Almost Perfect Dotfiles Management w/ nix, home-manager and flakes
+#+roam_tags: Stream
+#+roam_key: https://youtu.be/CDzgNxoAlnA
+#+STARTUP: fold
+
+- related :: [[file:20200620141734-reproducible_development_environment.org][RDE]], [[file:20200803112742-nix_flakes.org][flakes]], [[file:20200620142500-nix.org][Nix]], [[file:20200723101317-home_manager.org][Home Manager]]
+
+* Announce
+** ru
+Когда-нибудь задумывались о переносе старых конфигов с одного компа на другой?
+Всё ещё используете git+stow или самописные скрипты для создания симлинков?
+Тогда мы идём к вам!
+
+Дотфайлы, ~\~/.configs~, как их мэнэджить, как не забыть установить нужный пакет
+в систему.
+** en
+*Perfect Dotfiles Management.*
+
+In 2.5 hours will be talking about dotfiles, flakes, NixOS modules, overlays,
+home-manger and how to combine all that stuff.
+
+Will make reproducible dotfiles, package and system management setup.
+
+Will glad to see you on the stream and discuss any questions in the chat.
+
+https://youtu.be/CDzgNxoAlnA
+* Previously
+- Partitioned
+- Generated config -> flake modified
+- Skipped step about user-space apps
+* Use case
+Maintainable developer setup with few machines and few projects.
+* What we will be doing today?
+- Talk about simple solutions
+- Explore current setup
+- Refactor and write documentation
+* Basic solution
+** Dotfiles manager
+- [[file:20200804114500-dotfiles.org][Dotfiles]] (~/.vimrc, ~/.zshrc, etc)
+- git+stow/yadm
+** Few Sample Problems
+- Package drifting
+- Can't handle system or external dependencies
+- Unexpected breakages and painful rollbacks
+- Different HiDPI across few hosts
+- Shared data between programs
+* Goal
+- Easy installation of new system
+- Separate package and configuration updates
+- Easy rollback
+- Sharing data between apps
+- Configuration and dependencies in one place
+How to check? Install system reading README. Didn't forget anything important
+that you introduced recently?
+* pros and cons
+** Advantages
+- Can generate system with all dotfiles pre-installed
+- One language to rule them all
+- Shared variables for different apps
+** Downsides
+- You have to rebuild you home after changing config
+* In the next episodes
+- Setup from flake template
+- Managing secrets
+- Per project setup
+* To higlight/For demo
+- i3lock not installed in the system, but still works
+- vscode theme syncronization with alacritty

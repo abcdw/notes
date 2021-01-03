@@ -1,0 +1,3 @@
+#+title: nginx
+#+roam_alias: NGINX
+#+roam_key: https://nginx.org/

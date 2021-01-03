@@ -1,0 +1,3 @@
+#+title: Level of reproducibility
+- related :: [[file:20200620141734-reproducible_development_environment.org][Reproducible Development Environment]]
+Shows how much of nixpkgs are reproducible: https://r13y.com/

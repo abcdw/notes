@@ -1,0 +1,3 @@
+#+title: Barnum Effect
+#+roam_alias: "Forer Effect"
+#+roam_key: https://en.wikipedia.org/wiki/Barnum_effect

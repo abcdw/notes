@@ -1,0 +1,4 @@
+#+title: Jitsi
+#+roam_key: https://jitsi.org/
+
+[[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] video conferencing web app, similiar to Google Meet/Hangout.

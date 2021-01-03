@@ -1,0 +1,5 @@
+#+title: Penrose tiling
+
+One of aperiodic tilings.
+
+- [[https://youtu.be/gqlnXRxV32o][Vert Dider's video]]

@@ -1,0 +1,18 @@
+#+title: Nix
+
+#+BEGIN_SRC shell
+curl -L https://nixos.org/nix/install | sh
+#+END_SRC
+
+Package manager, which uses a ~/nix/store~ + hash of a package definition + name
+and ver of the package as output dir and later creates symlinks on those
+packages or updates PATH variable instead of installing directly to ~/usr~ and
+similiar dirs.
+
+- It allows to have multiple version of the same package in the system
+- To have packages, which depends on different versions of the same library
+- To have per project environments, similiar virtualenv for python, but for all
+  languages, see [[file:20200620141734-reproducible_development_environment.org][Reproducible Development Environment]].
+
+* Links
+- https://nixos.org/download.html

@@ -1,0 +1,2 @@
+#+title: Secure Shell
+#+roam_alias: SSH
