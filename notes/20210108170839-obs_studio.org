@@ -1,0 +1,14 @@
+#+title: OBS Studio
+#+roam_key: https://obsproject.com/
+
+- related :: [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]]
+
+Broadcasting and recording software. Suitable for streams/technical
+demos and many other use cases.
+
+* Plugins
+Can radically improve stream setup, add transitions/effects/audio
+visualizer. The idea of what can be done with plugins: [[https://youtu.be/Wgg_7gfbfCc][5 OBS Studio
+Plugins To Make Your Stream Pro!]]
+- https://github.com/Xaymar/obs-StreamFX
+

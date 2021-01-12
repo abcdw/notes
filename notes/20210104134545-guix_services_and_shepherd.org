@@ -1,0 +1,56 @@
+#+title: Guix services and Shepherd
+#+roam_tags: Stream
+#+STARTUP: hidestars
+
+* Knowledge assumptions
+- /gnu/store structure and notion of store item
+- Profiles
+- Init system
+* Updates
+- Stream setup update
+- https://lists.sr.ht/~abcdw/rde-discuss
+* Runtime and build time
+Shepherd and System services
+* Shepherd and its daemons
+Shepherd services and daemons.
+#+begin_src shell
+herd status
+#+end_src
+
+Run-time entities.
+#+begin_src shell
+guix system shepherd-graph | dot -Grankdir=LR -Tpdf > shepherd-graph.pdf
+#+end_src
+* Service is a primary guix concept
+~operating-system~ is an entry point and bunch of helpers for
+declaring services.
+
+System services are building blocks for your operating system.
+
+Confusing name clash.
+
+#+begin_src shell
+guix system extension-graph | dot -Grankdir=LR -Tpdf > extension-graph.pdf
+#+end_src
+* Simplified OS reconfiguration process
+- Declare OS and services
+- Extend services, instantiate missing one
+- Generate system and switch to it
+- Call activation script
+- Adjust shepherd services according to target
+- Install bootloader
+* Practice
+Service, service-type, service-configuration
+one service-type, many instances
+* Service modification
+- https://guix.gnu.org/manual/en/guix.html#System-Services
+* Future work
+- User configuration with services (3 options)
+
+* Links
+- https://guix.gnu.org/manual/en/guix.html#Defining-Services
+- https://guix.gnu.org/manual/en/guix.html#System-Services
+- https://lists.sr.ht/~abcdw/rde-discuss
+- https://guix.gnu.org/en/blog/2020/gnu-shepherd-user-services/
+
+

@@ -1,0 +1,5 @@
+#+title: PAM
+#+roam_alias: "Pluggable Authentication Modules"
+#+roam_key: http://www.linux-pam.org/
+
+
