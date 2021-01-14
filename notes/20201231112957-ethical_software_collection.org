@@ -10,8 +10,9 @@ applications.
 | patreon   | [[https://en.liberapay.com/][Liberpay]]             | Reccurent donation platform. Liberpay is non-profit organization, source code is public.                                                            |
 | github    | [[https://sr.ht/][sr.ht]]                | Sourcehut is software forge, supports git and mercurial, perfectly usable without javascript, has mailing lists, ci, tracker. FSF forge [[https://libreplanet.org/wiki/FSF_2020_forge_evaluation][evaluation]]. |
 | instagram | [[https://pixelfed.org/][pixelfed]]             | [[file:20201231114107-federated_architecture.org][Federated]], open source photo sharing platform.                                                                                                      |
-| youtube   | [[https://joinpeertube.org/][PeerTube]]             | p2p, federated video platform.                                                                                                                      |
+| youtube   | [[https://joinpeertube.org/][PeerTube]]             | p2p, federated video platform. Since 3.0 has streaming capabilities.                                                                                |
 | zoom      | [[https://meet.jit.si/][jitsi]], [[https://bigbluebutton.org/][BigBlueButton]] | Jitsi for fast calls, BBB for conferences/classes.                                                                                                  |
+| disqus    | [[ https://commento.io/][Commento]]             | Lightweight and privacy oriented comment solution. Source code is available.                                                                        |
 
 
 * Links
