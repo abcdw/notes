@@ -1,0 +1,9 @@
+#+title: English language questions
+
+- related :: [[file:20210125110806-learning_english.org][Learning English]]
+* Character case
+- When to use upper/lower case? Headings/titles/etc
+
+[[https://guix.gnu.org/manual/en/guix.html#Services][Guix services]]
+
+Guix: Packaging tutorial

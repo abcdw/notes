@@ -3,6 +3,8 @@
 * Schedule
 | name                                      | date                   | playlist |
 |-------------------------------------------+------------------------+----------|
+| [[file:20210125110315-guix_packaging_tutorial.org][Guix: Packaging tutorial]]                  | <2021-01-26 Tue 18:00> |          |
+| [[file:20210104134545-guix_services_and_shepherd.org][Guix Services and Shepherd]]                | <2021-01-12 Tue 18:00> |          |
 | [[file:20201229121430-plans_for_2021.org][Plans for 2021]]                            | <2020-12-29 Tue 18:00> |          |
 | [[file:20201229120945-installing_gnu_guix.org][Installing GNU Guix]]                       | <2020-12-15 Tue 18:00> |          |
 | [[file:20201201111723-stateless_operating_system.org][Stateless OS]]                              | <2020-12-01 Tue 18:00> |          |

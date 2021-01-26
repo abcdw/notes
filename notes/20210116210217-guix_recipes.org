@@ -1,0 +1,10 @@
+#+title: Guix recipes
+
+- related :: [[file:20200620142517-guix.org][Guix]]
+
+The idea: A wrapper around ~guix environment~, which allows simple
+one-liners to test out things:
+
+#+begin_src shell
+guix recipe trop.in/games/freedoom
+#+end_src

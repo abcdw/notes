@@ -1,0 +1,22 @@
+#+title: The SCARF model
+
+Model describes the way people socially interact. It has 5 domains,
+each of them contributes to threat or reward component.
+- Status
+- Certainty
+- Autonomy
+- Relatedness
+- Fairness
+
+For example there is a task, which won't make your social status
+higher (nobody will know that you did it for example), you don't know
+how to do it, you are very restricted with the tools, have to do it in
+non-friendly environment and won't get any cookies for that. It's very
+unlikely to be done, because all of those aspects are threating and
+not rewarding. Chances increases if you get ability to pick proper
+tool, get the respect for completion and so on.
+
+
+* Links
+- https://conference.iste.org/uploads/ISTE2016/HANDOUTS/KEY_100525149/understandingtheSCARFmodel.pdf
+- https://www.growthengineering.co.uk/scarf-model/

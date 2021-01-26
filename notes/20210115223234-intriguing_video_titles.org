@@ -1,0 +1,4 @@
+#+title: Intriguing video titles
+
+List of ideas for catchy video titles:
+- What happens if/when I boot without kernel/type rm -rf/etc?

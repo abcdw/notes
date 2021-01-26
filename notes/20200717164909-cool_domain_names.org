@@ -3,8 +3,10 @@
 [[file:20200717165201-fqdn.org][FQDN]], [[file:20200717165331-domain_name_registrants.org][Domain Name Registrants]]
 
 * List
-- tr.pn :: url shortener tr.pn/yt
+- tr.pn :: url shortener tr.pn/peertube
 - tro.ly :: for trolls
-- iwo.mc :: it works on my pc
+- iwo.mc :: it works on my computer
 - rde.sh :: [[file:20200620141734-reproducible_development_environment.org][RDE]] tools or docs
 - rr.sh :: Reproducible Research
+- guix.io :: Something guix related
+- guix.so/guix.sh :: looks like a library name

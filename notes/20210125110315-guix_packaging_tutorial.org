@@ -1,0 +1,37 @@
+#+title: Guix: Packaging tutorial
+#+roam_key: https://youtu.be/R8DtPnP4eL8
+#+roam_tags: Stream
+
+* The problem
+* Guix environment
+* To package today
+- obs-wlrobs
+- obs-spectralizer
+- obs-next
+* Package structure
+** Source
+** Different inputs
+- native-inputs :: Required for building but not runtime – installing
+  a package through a substitute won't install these inputs.
+- inputs :: Installed in the store but not in the profile, as well as
+  being present at build time.
+- propagated-inputs :: Installed in the store and in the profile, as
+  well as being present at build time.
+** Build systems
+* Setting load-path
+* Getting guix
+#+begin_src shell
+git clone https://git.savannah.gnu.org/git/guix.git
+#+end_src
+
+* Submitting a patch
+[[https://guix.gnu.org/manual/en/guix.html#Packaging-Guidelines][Packaging guidlines]]
+** Guix lint
+** Generate a patch
+** Send the patch
+* Summary
+- it's not that hard.
+- help yourself, help the community.
+* Links
+- https://guix.gnu.org/manual/en/html_node/Defining-Packages.html
+- https://guix.gnu.org/en/blog/2018/a-packaging-tutorial-for-guix/

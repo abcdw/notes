@@ -15,7 +15,13 @@ issues (package installation, inter-app dependencies).
 
 Sample problems:
 - Firefox requires existing ssh tunnel
+** Linux has great self-help resources
+You can solve anything by looking up the problem in the internet. Just
+find the solution and type few commands in your terminal. Right? Not
+quite, it highly depends on the environment.
 
+With rde it's more likely to be truth, because the environment will be
+reproducible, hence the solution too.
 ** Complex setups not a problem
 With [[file:20200810221415-reproducibility.org][Reproducibility]] you can easily share your setup for the project with
 another person without forcing him to install and configure all the tricky

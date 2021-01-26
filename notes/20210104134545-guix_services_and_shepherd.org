@@ -1,4 +1,4 @@
-#+title: Guix services and Shepherd
+#+title: Guix Services and Shepherd
 #+roam_tags: Stream
 #+STARTUP: hidestars
 

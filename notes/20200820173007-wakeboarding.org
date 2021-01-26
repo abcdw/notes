@@ -1,1 +1,3 @@
 #+title: Wakeboarding
+
+- related :: [[file:20210121130142-sport.org][Sport]]

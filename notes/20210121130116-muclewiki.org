@@ -1,0 +1,6 @@
+#+title: MucleWiki
+#+roam_key: https://musclewiki.com/
+
+- related :: [[file:20210121130142-sport.org][Sport]]
+  
+Site with list of exercises for specific muscle group.

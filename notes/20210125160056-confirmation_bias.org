@@ -1,0 +1,4 @@
+#+title: Confirmation bias
+
+A tendency of people to look for information, which support their
+beliefs and ignore the rest.

@@ -1,5 +1,6 @@
 #+title: use-package
 #+roam_key: https://github.com/jwiegley/use-package
 
-Allows to make [[file:20200816095244-emacs.org][Emacs]] package configuration declarative. Also, defers
-loading of a lot of things, which radically improves startup time.
+Allows to make [[file:20200816095244-emacs.org][Emacs]] package configuration declarative. Also,
+automatically defers loading of a lot of things, which improves
+startup time.
