@@ -1,7 +1,9 @@
 #+title: English language questions
 
 - related :: [[file:20210125110806-learning_english.org][Learning English]]
-* Character case
+
+* Questions
+- How to say "you are welcome" in a different way?
 - When to use upper/lower case? Headings/titles/etc
 
 [[https://guix.gnu.org/manual/en/guix.html#Services][Guix services]]

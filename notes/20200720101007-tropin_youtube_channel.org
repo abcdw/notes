@@ -1,17 +1,4 @@
 #+title: TROPIN YouTube channel
 - related :: [[file:20200620141734-reproducible_development_environment.org][rde]]
-* Schedule
-| name                                      | date                   | playlist |
-|-------------------------------------------+------------------------+----------|
-| [[file:20210125110315-guix_packaging_tutorial.org][Guix: Packaging tutorial]]                  | <2021-01-26 Tue 18:00> |          |
-| [[file:20210104134545-guix_services_and_shepherd.org][Guix Services and Shepherd]]                | <2021-01-12 Tue 18:00> |          |
-| [[file:20201229121430-plans_for_2021.org][Plans for 2021]]                            | <2020-12-29 Tue 18:00> |          |
-| [[file:20201229120945-installing_gnu_guix.org][Installing GNU Guix]]                       | <2020-12-15 Tue 18:00> |          |
-| [[file:20201201111723-stateless_operating_system.org][Stateless OS]]                              | <2020-12-01 Tue 18:00> |          |
-| [[file:20201116170301-gpg_explained.org][gpg explained]]                             | <2020-11-17 Tue 18:00> |          |
-| [[file:20200930133033-nix_vs_guix.org][Nix vs Guix]]                               | <2020-11-03 Tue 18:00> |          |
-| [[file:20201001084458-flakes_in_nix_3_0.org][Flakes in Nix 3.0]]                         | <2020-10-20 Tue 18:00> |          |
-| [[file:20200922172424-building_reproducible_emacs_nix.org][Building reproducible Emacs (nix)]]         | <2020-09-22 Tue 18:00> |          |
-| [[file:20200819120317-rde_better_than_virtualenv.org][RDE: Better than virtualenv]]               | <2020-08-25 Tue 18:00> |          |
-| [[file:20200720094620-rde_managing_dotfiles.org][Almost Perfect Dotfiles Management w/ nix]] | <2020-07-28 Tue 18:00> |          |
-|                                           |                        |          |
+
+- [[file:20210201172141-trop_in_streams_schedule.org][trop.in streams schedule]]

@@ -1,6 +1,6 @@
 #+title: Emacs Loading Process
 - related :: [[file:20200816095244-emacs.org][Emacs]]
-
+  
 [[info:elisp#Startup Summary][Startup Summary]] covers most of the necessary information on startup process.
 
 Interesting notes:

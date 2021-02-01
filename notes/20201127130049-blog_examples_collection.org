@@ -15,3 +15,4 @@
   in [[info:guix#G-Expressions][info:guix#G-Expressions]]
 - https://rce.sh/ :: Danish Police Officer, geeky, but cool design of
   webpage
+- https://kl.wtf/ :: nice markdown like home page.
