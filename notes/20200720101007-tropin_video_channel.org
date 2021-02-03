@@ -1,4 +1,4 @@
-#+title: TROPIN YouTube channel
+#+title: TROPIN video channel
 - related :: [[file:20200620141734-reproducible_development_environment.org][rde]]
 
 - [[file:20210201172141-trop_in_streams_schedule.org][trop.in streams schedule]]

@@ -1,5 +1,5 @@
-#+title: YouTube Similar Channels
-- related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]], [[file:20200720101007-tropin_youtube_channel.org][TROPIN youtube channel]]
+#+title: Similar Video Channels
+- related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]]
 
 * Similiar channels
 - [[https://www.youtube.com/c/EngineerMan/][EngineerMan]] :: 300k subs, low number of views, boring previews, has video

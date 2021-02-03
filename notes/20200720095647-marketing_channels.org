@@ -1,6 +1,5 @@
-#+title: Marketing Channels
+#+title: Marketing channels
 #+ROAM_TAGS: Marketing
-- related :: [[file:20200720101007-tropin_youtube_channel.org][TROPIN youtube channel]]
 
 Prepare a dashboard before starting marketing campaign.
 
@@ -25,6 +24,6 @@ Read this article: [[file:20200915115300-side_project_marketing_checklist.org][S
  Same as irc, but a little more modern
 ** YouTube
  - Collaboration with DistroTube on NixOS distro topic. Collaboration guide (ru):
-   https://youtu.be/BkptnUewz4U, [[file:20200815231650-youtube_similar_channels.org][YouTube Similar Channels]], [[https://www.youtube.com/channel/UCnxk5BzZxRN7y3a1IqHhVlA][Pingvinus]].
+   https://youtu.be/BkptnUewz4U, [[file:20200815231650-similar_video_channels.org][Similar Video Channels]], [[https://www.youtube.com/channel/UCnxk5BzZxRN7y3a1IqHhVlA][Pingvinus]].
 ** Conferences and meetups
  fprog, ClojuTRE, NixCon
