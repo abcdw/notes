@@ -1,0 +1,17 @@
+#+title: EmacsConf 2020 - 17 - Org-mode and Org-Roam for Scholars and Researchers - Noorah Alhasan
+#+roam_key: https://emacsconf.org/2020/talks/17/
+
+- related :: [[file:20200816095244-emacs.org][Emacs]]
+
+Cool researcher setup:
+- task management and inlinetasks
+- bibliography
+- org-noter
+- org-sidebar
+- org-superagenda
+- org transclusion
+
+* Links
+- https://github.com/nalhasan/emacsconf2020/blob/master/presentation.org
+- https://github.com/nalhasan/emacsconf2020/blob/master/presentation.pdf
+- https://youtu.be/bTbiC6SamT4

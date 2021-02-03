@@ -8,3 +8,7 @@ Index of courses
 | [[file:20201101194654-topics_in_mathematics_with_applications_in_finance.org][Topics in Mathematics with Applications in Finance]]         | 1/24     | Finances, Math | MIT | [[https://youtu.be/9YtmGy-wfE4?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR][2. Linear Algebra]] |
 | [[file:20201101195244-functional_programming_in_haskell_course.org][Functional Programming in Haskell Course]]                   | 54/238   | CS             | HSE |                   |
 | [[file:20201211235230-cs_6120_advanced_compilers_the_self_guided_online_course.org][CS 6120: Advanced Compilers: The Self-Guided Online Course]] |          |                |     |                   |
+
+
+* Courses for some future maybe
+- MIT 6.824: Distributed Systems :: https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/playlists
