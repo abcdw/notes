@@ -1,0 +1,16 @@
+#+title: The Rise of Worse is Better
+#+roam_key: https://www.dreamsongs.com/RiseOfWorseIsBetter.html
+
+- related :: [[file:20210203114801-to_revisit.org][To revisit]]
+
+The article is about two approaches for design and implememntation:
+MIT/Stanford and New Jersey.
+
+While New Jersey's approach produces less correct/quality/right
+result, but this result is more viral and widely-accepted, that means
+it gains more popularity and adoption, later it will be improved and
+be almost 90% as good as a right and correct product.
+
+The lesson to learn: in most cases it better to do a 50% right thing,
+let it spread and improve to 90% later, rather then trying to
+implement 100% right thing at the beginning.
