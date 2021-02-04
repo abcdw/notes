@@ -1,0 +1,29 @@
+#+title: How guix home works
+#+roam_key: https://youtu.be/t3zRzQnarUI
+
+* What and Why?
+- User packages
+- Dotfiles
+- User-wide configurations
+- User services
+* home-environment record
+* Services
+* Differences of guix-home-manager
+- Read only home and /data
+- New notion of extension-point
+- Lack of important services
+- Other cool, but arguable design descisions
+* Future features
+- onlogin script
+- shepherd service
+- activation script
+- gpg-agent/pass/mpv/emacs/mbsync/etc
+- operating-system integration instead of skeletons
+* Future steps
+- Write contribution guide
+- Write documentation
+- Propose it to upstream
+- Move rde/* to home environment
+* Links
+- https://framagit.org/tyreunom/guix-home-manager/
+- https://guix.gnu.org/manual/en/guix.html#Service-Composition
