@@ -1,6 +1,36 @@
-#+title: Youtube Video Ideas
+#+title: Video Ideas
 #+ROAM_TAGS: Marketing Idea
-- related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]], [[file:20200720101007-tropin_youtube_channel.org][TROPIN youtube channel]]
+- related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]], [[file:20200720101007-tropin_video_channel.org][TROPIN video channel]]
+
+* Video series
+** Managing notes:
+- Fleeting/fast notes
+- Graph instead of hierarchy
+- Making publications
+- Bibliography
+- Synchronizing notes, even on mobile
+
+** Managing finances:
+- Theoretical background and vocabulary
+- Double entry bookkeeping
+- Managing budgets
+- Managing stocks
+
+** Managing emails:
+- How emails works
+- Downloading emails
+- Sending emails
+- Searching and processing emails
+- Mail workflows
+
+** General:
+- Managing contacts
+- Why phone sucks (notifications, spying, distractions, etc)
+
+** Guix FAQ series:
+- Difference between propagated, native and just inputs
+- How to submit patch to guix
+- Why docker sucks
 
 * RDE/Nix related
 - How to build iso

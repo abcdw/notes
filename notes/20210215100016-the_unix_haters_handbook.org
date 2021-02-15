@@ -1,0 +1,7 @@
+#+title: The UNIX-HATERS handbook
+#+roam_key: https://web.mit.edu/~simsong/www/ugh.pdf
+
+- related :: [[file:20210203210847-the_rise_of_worse_is_better.org][The Rise of Worse is Better]]
+
+The book based on MIT mailing list about problems of UNIX operating
+systems. Some of the topics can be not actual anymore.

@@ -5,6 +5,7 @@
 * Questions
 - How to say "you are welcome" in a different way?
 - When to use upper/lower case? Headings/titles/etc
+- Video ideas
 
 [[https://guix.gnu.org/manual/en/guix.html#Services][Guix services]]
 

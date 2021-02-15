@@ -1,0 +1,85 @@
+#+title: Elbrus snowboard checklist
+* Checklist
+** Equipment
+- [X] Helmet
+- [X] Snowboard
+- [X] Boots
+- [X] Jacket
+- [X] Pants
+- [X] Knee protectors
+- [X] Impact shorts
+- [X] Fleece turtleneck
+- [X] Underwear (pants + turtleneck)
+- [X] 2x Socks
+- [X] 2x Backpacks
+- [X] Toolkit + screws
+** Dry and warm clothes
+- [X] Slippers
+- [X] Towel
+- [X] 9x Boxers
+- [X] 9x Socks pairs
+- [X] 5x T-shirts
+- [X] Jacket
+- [X] Hoodie
+- [X] Trousers
+** Gear
+*** Radio
+- [X] 3x Radio and chargers
+*** GoPro gear
+- [X] GoPro 7 Black
+- [X] SanDisk Extreme 256gb
+- [X] GoPro handle
+- [X] Suck mount
+- [X] Helmet mount
+- [X] Mouth mount
+- [X] GoPro type-c cable
+- [X] GoPro batteries
+*** Camera gear
+- [X] Camera
+- [X] Memory cards
+- [X] Batteries
+- [X] Tripod
+- [X] Card reader
+- [X] Micro USB cable
+*** Other gear
+- [X] Phone
+- [X] Type C cable
+- [X] Laptop
+- [X] Laptop charger
+- [X] Power bank
+- [X] Shoes warmers
+** Important things
+- [X] Driver license
+- [ ] Internetional Driver license
+- [X] 2x Passport
+- [ ] COVID [[https://cdn.pobeda.aero/media/email/2020/rospotreb/toturkey.pdf][Form]]
+- [X] Home keys
+- [X] Money
+- [X] Allergy and asthma pills and inhalers
+** Medications
+- [X] First Aid kit
+- [X] Allergy/asthma
+** Other stuff
+- [ ] Download offline maps
+- [ ] Internetional simcard and check balance
+** Other
+:PROPERTIES:
+:ID:       2eaa662c-7862-4a6c-8756-ec08cdc35dcd
+:END:
+- [X] Suncream
+- [X] Toothbrush
+- [X] Desodorant
+- [X] Nail clipper
+- [X] Trimmer
+- [X] Food containers
+- [X] Wrist band
+- [X] Sunglasses
+
+* Films to download
+- [ ] Гарри Поттер
+- [ ] Пластелин Овец
+- [X] Мимино
+- [X] Москва слезам не верит
+
+
+
