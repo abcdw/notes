@@ -1,0 +1,10 @@
+#+title: The Collapse of the UNIX Philosophy
+#+roam_key: https://kukuruku.co/post/the-collapse-of-the-unix-philosophy/
+
+- related :: [[file:20210215100016-the_unix_haters_handbook.org][The UNIX-HATERS handbook]]
+
+A story about UNIX problems, originally written in Russian. [[file:20210203210847-the_rise_of_worse_is_better.org][The Rise
+of Worse is Better]] is mentioned on the second page.
+
+* Links
+- https://habr.com/en/post/321652/ :: original article.

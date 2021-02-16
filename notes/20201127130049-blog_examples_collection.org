@@ -16,3 +16,6 @@
 - https://rce.sh/ :: Danish Police Officer, geeky, but cool design of
   webpage
 - https://kl.wtf/ :: nice markdown like home page.
+- https://www.gwern.net :: found by a review for [[file:20210216215741-worm_parahumans_series.org][Worm (Parahumans
+  series)]], has a changelog, subreddit, mailing list. Author do haskell
+  programming, has a relationship to [[file:20210216220841-lesswrong.org][LessWrong]] community blog.
