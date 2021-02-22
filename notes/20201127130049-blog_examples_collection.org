@@ -19,3 +19,6 @@
 - https://www.gwern.net :: found by a review for [[file:20210216215741-worm_parahumans_series.org][Worm (Parahumans
   series)]], has a changelog, subreddit, mailing list. Author do haskell
   programming, has a relationship to [[file:20210216220841-lesswrong.org][LessWrong]] community blog.
+
+* Setup guides
+- https://othacehe.org/hosting-a-blog-using-only-scheme.html

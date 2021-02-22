@@ -1,0 +1,101 @@
+#+title: guix home: Environment variables, Profiles and Shepherd
+#+roam_key: https://youtu.be/4lJaVzxO_Bs
+
+* Introduction
+Discuss more high-level and conceptual structure of the tool than on
+previous stream.
+- Why we do all that?
+- OS structure
+- home environment building blocks
+- Installation and configuration process
+- Future steps
+
+* The State
+- the state is bad
+- the state is required
+- the state should be explicit and dedicated
+* OS structure
+** System environment
+- bootloader, kernel, init, etc
+
+[System-wide]
+- Avaliable software
+- Software configurations
+- Services and regular jobs
+- State (/var/log, /tmp/tmux-1000, etc)
+- Environment variables
+** Home environment 0.1
+- ??? ~/.bin
+- ~/.config
+- ??? ~/.config/shepherd
+- ~/Pictures, ~/Documents, tons of ~/.cmake, ~/.mozilla, ...
+- ~/.profile or ~/.bashrc
+** Home environment
+- Avaliable software ($PATH)
+- Software configurations ($XDG_DATA_DIRS, $XDG_CONFIG_HOME)
+- Per-user services and regular jobs
+- State (~/.cache, ~/work/project1, ~/.local/var/password-store, etc)
+- Environment vars (source ~/.guix-home-environment/setup-environment)
+** Goodies of separation
+- Doesn't require sudo and rebuild of the rest of the system.
+- Each user on multi-user can have it's own setup.
+- ~guix home~ can be used on foreign distro.
+** The ~~/.config~ question
+Do we really need it?
+* Main building blocks
+** home-environment @ gnu/home.scm
+~home-environment~ is an analog to ~operating-system~ record.
+** services @ gnu/home-services.scm
+- home-service-type
+- home-profile-service-type
+- home-environment-vars-service-type
+- home-run-on-first-login-service-type
+** shepherd @ home-services/shepherd.scm
+- home-shepherd-service-type
+* When home environment come into play?
+on-login
+** Login process
+- Auth
+- Running login shell
+- Evaluating profile/rc files
+
+Environment vars read ($PATHs, $XDG, etc).
+Shepherd launched.
+
+* Contributions and mailing lists
+https://lists.sr.ht/~abcdw
+* Setup guide
+** Warning note
+It's not recommended to use ~guix home~ at the moment, breaking
+changes can be introduced, no support guaranteed and so on, wait until
+it will be accepted to upstream.
+
+If you are very keen and curious read:
+- [[https://lists.sr.ht/~abcdw/rde-discuss/%3C878s7ho4bk.fsf%40yoctocell.xyz%3E][Getting started with `guix home`]] @ rde-discuss mailing list
+
+** Write a configuration
+[[https://git.sr.ht/~abcdw/rde/tree/7165853009b44f7c3c69422fc9a3dd61d85639e5/item/examples/home-environment.scm.tmpl][home-environment.scm.tmpl]]
+** Build a home environment
+#+begin_src shell
+GUILE_LOAD_PATH=./ guix home reconfigure ./examples/home-environment.scm.tmpl
+#+end_src
+** Add to shell init file
+To set proper environment variables and launch Shepherd on login
+update ~/.bash_profile, ~/.profile or ~/.zprofile to contain:
+#+begin_src shell
+source ~/.guix-home-environment/setup-environment
+sh ~/.guix-home-environment/on-login
+#+end_src
+** Re-login and enjoy
+* Why it's important to upstream?
+** Problems of nix's HM
+- Decoupled from NixOS (not a common approach, separate
+  installation/docs, etc)
+- A lot of duplicates with slightly different implementations
+* Future of ~guix home~
+- The ~~/.config~ question
+- State management
+- Migrating my config and ensuring all API are provided
+- Write documentation and upstream
+- OS and home environment glue layer (system service)
+

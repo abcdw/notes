@@ -1,0 +1,21 @@
+#+title: The Law of Leaky Abstractions
+#+roam_key: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
+
+Abstractions leaks and there are many examples:
+
+- IP can't guarantee packages delivery, TCP over IP even more so.
+- You have to know underlying mechanisms to make declarative SQL
+  queries work efficently enough.
+- ~"foo" + "bar"~ in C++.
+
+In most cases sooner or later the abstraction will leak and will drag
+you down (up to the bare metal and physics in worst case). Thus
+underlying levels must be simple and clean. If you abstract away some
+dirty hacks, they will hit you or someone, who use those abstractions
+very hard and will force you or someone to make much obscure
+abstractions to "fix" them, which will also leak and hit even harder.
+
+[[file:20210219204651-building_an_operating_system.org][Building an operating system]] is an important part of making underlying
+levels simple and clean. It should reduce the impact of leaking
+abstractions. Currently, poorly designed OSes hits us on every level of
+software development.

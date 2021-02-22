@@ -1,0 +1,4 @@
+#+title: Structured editing
+
+Opposite to line/character based editing. Can be used for structured
+data with predefined grammar, for example for [[file:20210217210237-lisp.org][Lisp]], json, etc.

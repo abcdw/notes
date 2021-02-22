@@ -1,0 +1,4 @@
+#+title: Building an operating system
+#+roam_alias: "Building an OS"
+
+An anchor for reference from materials related to OS construction.

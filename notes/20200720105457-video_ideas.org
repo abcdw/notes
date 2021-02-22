@@ -1,9 +1,12 @@
 #+title: Video Ideas
 #+ROAM_TAGS: Marketing Idea
 - related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]], [[file:20200720101007-tropin_video_channel.org][TROPIN video channel]]
-
-* Video series
+* How to call videos
+- gnu changelog style :: guix: home: How to setup on foreign distro?
+- series style :: Managing finances s01e02: Double entry bookkeeping.
+* Video series plan
 ** Managing notes:
+- How to [[https://telegra.ph/Kak-chitat-stati-i-byt-produktivnym-po-versii-Danlark-12-31][read]] articles
 - Fleeting/fast notes
 - Graph instead of hierarchy
 - Making publications
@@ -20,6 +23,7 @@
 - How emails works
 - Downloading emails
 - Sending emails
+- Mailing lists
 - Searching and processing emails
 - Mail workflows
 
@@ -32,15 +36,21 @@
 - How to submit patch to guix
 - Why docker sucks
 
+** Managing OS:
+- How to build custom iso.
+- How to partition storage.
+- How to install OS.
+- How to configure home.
+
 * RDE/Nix related
-- How to build iso
 - GNU starter kit (cool name for vid, can be an rde introduction or
   something like that)
 - Docker problems.
 - ML pipeline in 5 minutes.
 - How to send patch to Guix.
 - How to update packages in Guix/RDE.
-
+* OS related topics
+- Plain text is fundamentally broken.
 * Other Ideas
 - [[file:20200720105819-cleanest_dotfiles_setup.org][Cleanest Dotfiles Setup]] video and reference to Luke Smith's
   https://www.youtube.com/watch?v=yy8RoDSdhIQ&t=319s

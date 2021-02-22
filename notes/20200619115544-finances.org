@@ -5,3 +5,8 @@
 * What I can improve
 - Allocate money for retirement
 - How to mix investments with savings?
+
+* Links
+- https://beancount.github.io/docs
+- https://hledger.org/investments.html
+- https://plaintextaccounting.org/

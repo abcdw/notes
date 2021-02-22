@@ -1,0 +1,8 @@
+#+title: Inspiring a future Clojure editor with forgotten Lisp UX - Shaun Lebron
+#+roam_key: https://youtu.be/K0Tsa3smr1w
+
+A video telling about existing solution for [[file:20210217210045-structured_editing.org][structured editing]] with
+very nice demos.
+
+* Links
+- [[https://gist.github.com/cellularmitosis/2f03066a3903aec77b1955b40625ef46][Notes on Structured Editors @ gist]]
