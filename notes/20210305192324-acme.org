@@ -1,0 +1,19 @@
+#+title: Acme
+#+roam_key: http://acme.cat-v.org/
+#+roam_alias: "The Acme User Interface for Programmers"
+
+The text editor, integrating development environment, ui
+platform. It's not extensible in the sense of [[file:20200816095244-emacs.org][Emacs]], doesn't have
+themes, configurations, but it integrates with tools from the
+environment, which makes it very powerful.
+
+Every piece of text can be executed as a command. To extend menu bar
+you can just write the name of the command in it.
+
+The state of acme instance (windows/panes, content of buffer and so
+on) is exposed via FUSE as a bunch of directories and files.
+
+* Links
+- https://github.com/evbogdanov/acme :: materials about acme + some
+  user scripts.
+- http://man.cat-v.org/plan_b/1/omero :: a window system, inspired by acme.
