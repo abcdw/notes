@@ -21,6 +21,7 @@
 
 ** Managing emails:
 - How emails works
+- Replying emails and quoting
 - Downloading emails
 - Sending emails
 - Mailing lists

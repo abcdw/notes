@@ -1,3 +1,13 @@
 #+title: Learning English
 
 Entry point for Learning English language related topics
+
+* Pronunciation
+How to read transcriptions?
+
+* Capitalization
+[[file:20210224102856-capitalization_rules.org][Capitalization rules]]
+
+* Punctuation
+- [[https://www.thepunctuationguide.com/][The Punctuation Guide]]
+- [[https://dictionary.cambridge.org/ru/%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0/punctuation][Cambridge Dictionary: Punctuation]]

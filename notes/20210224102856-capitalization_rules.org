@@ -1,0 +1,30 @@
+#+title: Capitalization rules
+#+roam_tags: English
+** General
+[[https://www.grammarly.com/blog/capitalization-rules/][Capitalization by grammarly]]
+
+Do:
+- First word of the sentence.
+- Proper nouns (names, cities, countries, religions, political
+  parties, nationalities, Languages, time-periods/events).
+- First word of a quote, when the quote is complete sentence.
+- Days, months, holidays, but not seasons.
+- Most words in the titles (check the next section).
+
+Do not:
+- First word after colon, until it's a proper noun or the beginning of
+  few complete sentences.
+- First word of partial quote.
+  
+** Headings and Titles
+[[https://www.webucator.com/how-to/how-capitalize-headings-titles.cfm][How to Capitalize Heading and Titles]]:
+- Capitalize first and last word of the title.
+- All other words, unless they are prepositions, articles, conjunctions.
+
+The Gregg Reference manual says: capitalize all word of four or more
+letters, even prepositions.
+
+[[https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case#:~:text=In%20title%20case%2C%20capitalize%20the,end%20punctuation%20in%20a%20heading][Title case, end punctuation]]:
+- The first word after colon, em dash or end punctuation.
+- Both parts of hyphenated words.
+

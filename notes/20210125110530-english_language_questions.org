@@ -4,9 +4,7 @@
 
 * Questions
 - How to say "you are welcome" in a different way?
-- When to use upper/lower case? Headings/titles/etc
-- Video ideas
-
-[[https://guix.gnu.org/manual/en/guix.html#Services][Guix services]]
-
-Guix: Packaging tutorial
+- Video ideas, lunch boxes
+- it will sell more easily :: The simple and effective phrase, with
+  just few words. она продаста намного проще.
+- "Adds SSH_AUTH_SOCK variable to user's environment." or add?

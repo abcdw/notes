@@ -1,0 +1,28 @@
+#+title: guix home: on-reconfigure and symlink-manager
+#+roam_key: https://youtu.be/ZRQtCvo8MoM
+#+roam_tags: Stream
+
+* Introduction
+** For newcommers
+** What we've done
+*** actions
+- build
+- drafty reconfigure
+*** home-services
+- profile
+- arbitrary additional files
+- environment variables
+- shepherd
+- drafty on-login
+** What we do today
+* on-reconfigure
+- gexp
+- with-imported-modules
+* symlink-manager
+- DFS
+- Preordering/Posterdering
+- Cleanup and Update logic
+* Future work
+- State management
+- guix-devel
+
