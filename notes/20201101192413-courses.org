@@ -8,6 +8,7 @@ Index of courses
 | [[file:20201101194654-topics_in_mathematics_with_applications_in_finance.org][Topics in Mathematics with Applications in Finance]]         | 1/24     | Finances, Math | MIT | [[https://youtu.be/9YtmGy-wfE4?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR][2. Linear Algebra]] |
 | [[file:20201101195244-functional_programming_in_haskell_course.org][Functional Programming in Haskell Course]]                   | 54/238   | CS             | HSE |                   |
 | [[file:20201211235230-cs_6120_advanced_compilers_the_self_guided_online_course.org][CS 6120: Advanced Compilers: The Self-Guided Online Course]] |          |                |     |                   |
+| [[file:20210310141945-build_a_modern_computer_from_first_principles_from_nand_to_tetris_project_centered_course.org][Build a Modern Computer]]                                    |          |                |     |                   |
 
 
 * Courses for some future maybe

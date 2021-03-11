@@ -1,0 +1,2 @@
+#+title: Build a Modern Computer from First Principles: Nand to Tetris Part II (project-centered course)
+#+roam_key: https://www.coursera.org/learn/nand2tetris2

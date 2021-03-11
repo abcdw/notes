@@ -1,0 +1,4 @@
+#+title: Choosing a software license (sr.ht)
+#+roam_key: https://man.sr.ht/license.md
+
+Very simplified overview of OSS licenses.

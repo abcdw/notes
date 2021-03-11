@@ -28,3 +28,4 @@
 * Links
 - https://youtu.be/2L1U2KpSgk8 :: Almost all monetization options for [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] project
 - [[https://braindump.rasen.dev/20200409124227][Open source business models]] :: a note by Alexey Shmalko
+- [[https://drewdevault.com/2021/03/03/To-make-money-in-FOSS-build-a-business.html][To make money in FOSS, build a business first]] :: post by Drew DeVault
