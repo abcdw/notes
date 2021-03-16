@@ -1,0 +1,11 @@
+#+title: Polymorphic Links
+- related :: [[file:20210311123030-building_a_compiler.org][Building a Compiler]]
+
+Imaging you sending a link to line in the file in the project to your
+colleague: ~file:///home/bob/work/guix/file.scm:34~, but he keep this
+project in the other directory, for example ~~/projects/guix~.
+
+~{:project :guix}/files.scm:34~ could be the way to go. It doesn't
+have to be a text, it can be a structured object.
+
+Can it introduce new vulnerabilities?

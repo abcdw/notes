@@ -14,3 +14,6 @@ be almost 90% as good as a right and correct product.
 The lesson to learn: in most cases it better to do a 50% right thing,
 let it spread and improve to 90% later, rather then trying to
 implement 100% right thing at the beginning.
+
+Lots of additional commentaries to the article:
+https://wiki.c2.com/?WorseIsBetter

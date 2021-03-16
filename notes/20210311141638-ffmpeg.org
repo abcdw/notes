@@ -1,0 +1,7 @@
+#+title: ffmpeg
+#+roam_key: https://www.ffmpeg.org/
+
+Very flexible tool for manipulating audio and video streams.
+
+
+- https://ffmpegfromzerotohero.com/ :: book about ffmpeg

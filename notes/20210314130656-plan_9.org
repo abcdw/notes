@@ -1,0 +1,36 @@
+#+title: Plan 9
+
+It's a distributed operating system inspired by Unix, but not POSIX
+compatible.
+
+Plan 9 seems like an interesting attempt to remove all the unnecessary
+complexity of Unix's legacy. It still uses a text and files as a basic
+building blocks, but overall looks more consistent, simple and
+composable, which is a step in the right direction I think. It's a
+good research project we can learn and benifit from.
+
+https://youtu.be/6m3GuoaxRNM
+
+It uses 9p network protocol for almost all tasks, which adds network
+transparency to all the applications for free. You can run an app
+window on a different machine, without writing any additional line of
+code.
+
+* Innovations
+- utf8
+- /proc
+- rfork
+- namespaces (docker and other virtualization tech based on this
+  feature)
+- porter-duff compositing
+- CSP
+
+* Few parts of the computer
+- Terminal
+- CPU server
+- File server
+- Auth server
+
+* Cool things
+RDP/VNC can be implemented in few lines of code.
+

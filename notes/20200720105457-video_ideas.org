@@ -24,7 +24,10 @@
 - Replying emails and quoting
 - Downloading emails
 - Sending emails
+- Replying emails (Message-ID header) and threads
+- Signining and encrypting emails https://emailselfdefense.fsf.org/ru/workshops.html
 - Mailing lists
+- Importing ML history via mbox
 - Searching and processing emails
 - Mail workflows
 

@@ -1,0 +1,30 @@
+#+title: Mailing Lists vs GitHub-Like Tools
+
+Cons and pros of mailing list driven development in comparison with
+GitHub.
+
+Pros:
+- Persistancy/Immutability (comments to the code doesn't dissapear).
+- Mix of discussion and patches (No separation between issues, pull
+  requests and so on, changes incorporates in discussion).
+- Follow up contributions (everyone can propose changes in the same
+  thread, not only author). Even if original author is MIA.
+- Decentralization (no need to sign up, use your email and gpg for
+  identity in any project). You can participate on sr.ht project
+  without having a sr.ht account.
+- Autonomy (Possible to work offline).
+- You own flavour (use the tools you prefer, not one-for-all webUI).
+Cons:
+- Unfamiliarity and obscurity:
+  1. email requires learning even for developers with years of
+     experience.
+  2. Contribution process for different projects not unified and have
+     to be communicated somehow. (sr.ht can help with it).
+- Social proof (no github stars on mailing list).
+- Comprehensive bug list. (Solved by debbugs, Mumi, sr.ht)
+- Message history (mbox can be imported from archive)
+- CI (Tooling for running CI on patches from ML can be poor)
+- Spin up infra for a new project (Now easier with sr.ht)
+
+* Materials
+- https://begriffs.com/posts/2018-06-05-mailing-list-vs-github.html

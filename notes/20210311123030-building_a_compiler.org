@@ -1,0 +1,9 @@
+#+title: Building a Compiler
+
+An anchor for reference from materials related to compiler construction.
+
+
+http://worst.mitten.party/literate/ :: sample simple lang, written in
+typed racket.
+* Materials
+https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X

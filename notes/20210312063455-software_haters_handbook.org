@@ -1,0 +1,7 @@
+#+title: Software Haters Handbook
+- related :: [[file:20210215100016-the_unix_haters_handbook.org][The UNIX-HATERS handbook]]
+
+* Huge list of different quirks and problems
+- Text is non-polymorphic and not transmittable to new environment,
+  see [[file:20210312060304-polymorphic_links.org][Polymorphic Links]].
+

@@ -2,6 +2,7 @@
 
 Index of courses
 
+* Science
 | name                                                       | Progress | Subject        |     | Next lecture      |
 |------------------------------------------------------------+----------+----------------+-----+-------------------|
 | [[file:20201101193703-8_04_quantum_physics_i.org][8.04 Quantum Physics I]]                                     | 4/115    | Physics        | MIT | [[https://youtu.be/CR-eOhdxbes?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G][L1.5]]              |
@@ -13,3 +14,7 @@ Index of courses
 
 * Courses for some future maybe
 - MIT 6.824: Distributed Systems :: https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/playlists
+- Scheme course :: https://www.cs.utexas.edu/ftp/garbage/cs345/schintro-v14/schintro_toc.html
+
+* Life
+- Simple life-related courses in russian https://journal.tinkoff.ru/pro/

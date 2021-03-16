@@ -1,0 +1,11 @@
+#+title: Building a CPU
+
+An anchor for reference from materials related to CPU construction.
+
+* Materials
+https://www.amazon.com/Digital-Design-Computer-Architecture-Harris/dp/0123944244
+https://www.amazon.com/Digital-Design-Computer-Architecture-ARM/dp/0128000562
+https://cseweb.ucsd.edu/classes/wi20/cse140-b/Digital_Design_and_Computer_Architecture_2nd_edition.pdf
+
+
+https://www.amazon.com/Computer-Organization-Design-MIPS-Architecture/dp/0124077269

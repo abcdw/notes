@@ -1,4 +1,7 @@
-#+title: Building an operating system
+#+title: Building an Operating System
 #+roam_alias: "Building an OS"
 
 An anchor for reference from materials related to OS construction.
+
+- Building a FS
+https://wiki.c2.com/?OperatingSystemsDesignPrinciples
