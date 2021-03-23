@@ -1,0 +1,49 @@
+#+title: guix home: state
+#+roam_key: https://youtu.be/ZaXHtSKKoeg
+
+* Introduction
+** Prerquisities
+- Other ~guix home~ [[file:20210201172141-trop_in_streams_schedule.org][streams]]
+- [[file:20201201111723-stateless_operating_system.org][Stateless OS]] and the idea of config/state separation
+** Warning
+- the tool is highly experimental
+* State Lifecycle
+- init ::
+- modify 
+- sync :: pull, push, backup
+- archive/delete
+* Use Cases
+- Init or fetch dirictories with data
+- Copy files from backup server
+- Fetch mailboxes
+- Clone working projects repositories
+* Usage Example
+* Thanks
+- Xinglu Chen aka yoctocell
+- all the participants
+* Implementation Details
+** Shepherd Services and Actions
+- start & auto-start
+- init
+- sync
+** State Module
+** State Types
+- generic
+- git + config
+- rsync
+** Where to Implement state-TYPE?
+- In the state module
+- In tool module
+* Progress on ~guix home~
+** Services
+- ready :: shepherd, profile, files, symlink-manager, ssh
+- in-progress :: gnupg, git, mcron, generic, state
+- next :: bash, emacs, pass, isync, sway
+** Other Stuff
+- Started a discussion on [[https://www.mail-archive.com/guix-devel@gnu.org/msg56862.html][guix-devel]]
+* Future Work
+- Clean up & UX improvements
+- Documentation
+- Announcement for early adopters
+- Upstreaming to guix
+

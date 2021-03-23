@@ -1,0 +1,11 @@
+#+title: Investment Goals
+
+- related :: [[file:20200619115544-finances.org][Finances]]
+
+* Goals
+- safety
+- health
+- parents
+- children
+- trips & sport
+- projects

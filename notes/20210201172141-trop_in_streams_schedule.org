@@ -3,6 +3,7 @@
 * Schedule
 | name                                                    | date                   |
 |---------------------------------------------------------+------------------------|
+| [[file:20210323095452-guix_home_state.org][guix home: state]]                                        | <2021-03-23 Tue 18:00> |
 | [[file:20210309143541-guix_home_on_reconfigure_and_symlink_manager.org][guix home: on-reconfigure and symlink-manager]]           | <2021-03-09 Tue 18:00> |
 | [[file:20210222095150-guix_home_environment_variables_profiles_and_shepherd.org][guix home: Environment variables, Profiles and Shepherd]] | <2021-02-22 Mon 18:00> |
 | [[file:20210204115348-how_guix_home_works.org][How guix home works]]                                     | <2021-02-09 Tue 18:00> |

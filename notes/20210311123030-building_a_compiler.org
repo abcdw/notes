@@ -2,8 +2,9 @@
 
 An anchor for reference from materials related to compiler construction.
 
-
-http://worst.mitten.party/literate/ :: sample simple lang, written in
-typed racket.
+- [[https://begriffs.com/posts/2020-08-31-portable-stable-software.html][Tips for stable and portable software]] :: article about portability
+  of the software. Describes the life cycle of language development.
+- [[http://worst.mitten.party/literate/][Worst lang]] :: sample simple lang, written in typed racket.
 * Materials
-https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X
+- https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X
+- [[file:20201211235230-cs_6120_advanced_compilers_the_self_guided_online_course.org][CS 6120: Advanced Compilers: The Self-Guided Online Course]]
