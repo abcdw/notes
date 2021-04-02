@@ -1,0 +1,10 @@
+#+title: Darcs
+#+roam_key: http://darcs.net/
+
+[[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]]. Distributed version control system similar to Git, SVN, but
+focusing on patches. Known to be slow, that's one of the reasons why
+[[file:20210329192149-pijul.org][Pijul]] appeared.
+
+* Materials
+- https://darcsbook.acmelabs.space/ :: book about darcs
+- http://darcs.net/Theory :: Some notes on theory

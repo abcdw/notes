@@ -1,5 +1,6 @@
 #+title: guix home: state
 #+roam_key: https://youtu.be/ZaXHtSKKoeg
+#+roam_tags: Stream
 
 * Introduction
 ** Prerquisities

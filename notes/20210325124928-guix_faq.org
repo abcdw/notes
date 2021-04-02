@@ -1,0 +1,10 @@
+#+title: Guix FAQ
+
+A list of frequently asked question extracted from chats/mailing
+lists.
+
+* How to search for service or service's module?
+#+begin_src shell
+guix system search SOMETHING
+#+end_src
+

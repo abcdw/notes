@@ -1,0 +1,9 @@
+#+title: Pijul
+#+roam_key: https://pijul.org/
+
+VCS, with the same idea as in [[file:20210329191726-darcs.org][Darcs]], but with more performant
+implementation.
+
+* Materials
+- https://pijul.org/manual/theory.html :: pretty extensive explanation
+  of theory behind this VCS.

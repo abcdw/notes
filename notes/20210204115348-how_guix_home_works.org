@@ -1,5 +1,6 @@
 #+title: How guix home works
 #+roam_key: https://youtu.be/t3zRzQnarUI
+#+roam_tags: Stream
 
 * What and Why?
 - User packages

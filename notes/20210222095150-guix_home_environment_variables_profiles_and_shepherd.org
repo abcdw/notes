@@ -1,5 +1,6 @@
 #+title: guix home: Environment variables, Profiles and Shepherd
 #+roam_key: https://youtu.be/4lJaVzxO_Bs
+#+roam_tags: Stream
 
 * Introduction
 Discuss more high-level and conceptual structure of the tool than on

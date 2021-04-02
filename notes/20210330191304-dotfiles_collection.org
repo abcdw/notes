@@ -1,0 +1,3 @@
+#+title: Dotfiles Collection
+
+- [[https://git.sr.ht/~sokolov/dotfiles/tree/master][sr.ht/~sokolov]] :: emacs, sway, mako. Simple, minimalistic. Author of project-rg.

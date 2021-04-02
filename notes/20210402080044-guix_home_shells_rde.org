@@ -1,0 +1,3 @@
+#+title: guix home: shells, rde
+#+roam_tags: Stream
+#+roam_key: 
