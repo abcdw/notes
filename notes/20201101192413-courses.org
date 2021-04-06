@@ -3,20 +3,19 @@
 Index of courses
 
 * Science
-| name                                                       | Progress | Subject        |          | Next lecture      |
-|------------------------------------------------------------+----------+----------------+----------+-------------------|
-| [[file:20201101193703-8_04_quantum_physics_i.org][8.04 Quantum Physics I]]                                     | 4/115    | Physics        | MIT      | [[https://youtu.be/CR-eOhdxbes?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G][L1.5]]              |
-| [[file:20201101194654-topics_in_mathematics_with_applications_in_finance.org][Topics in Mathematics with Applications in Finance]]         | 1/24     | Finances, Math | MIT      | [[https://youtu.be/9YtmGy-wfE4?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR][2. Linear Algebra]] |
-| [[file:20201101195244-functional_programming_in_haskell_course.org][Functional Programming in Haskell Course]]                   | 54/238   | CS             | HSE      |                   |
-| [[file:20201211235230-cs_6120_advanced_compilers_the_self_guided_online_course.org][CS 6120: Advanced Compilers: The Self-Guided Online Course]] |          |                |          |                   |
-| [[file:20210310141945-build_a_modern_computer_from_first_principles_from_nand_to_tetris_project_centered_course.org][Build a Modern Computer]]                                    |          | CS             |          |                   |
-| [[file:20210330211344-human_behavioral_biology_course.org][Human Behavioral Biology Course]]                            | 1/25     | Biology        | Stanford |                   |
+| name                                               | Progress | Subject        |          | Next lecture               |
+|----------------------------------------------------+----------+----------------+----------+----------------------------|
+| [[file:20201101193703-8_04_quantum_physics_i.org][8.04 Quantum Physics I]]                             | 4/115    | Physics        | MIT      | [[https://youtu.be/CR-eOhdxbes?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G][L1.5]]                       |
+| [[file:20201101194654-topics_in_mathematics_with_applications_in_finance.org][Topics in Mathematics with Applications in Finance]] | 1/24     | Finances, Math | MIT      | [[https://youtu.be/9YtmGy-wfE4?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR][2. Linear Algebra]]          |
+| [[file:20201101195244-functional_programming_in_haskell_course.org][Functional Programming in Haskell Course]]           | 54/238   | CS             | HSE      |                            |
+| [[file:20210310141945-build_a_modern_computer_from_first_principles_from_nand_to_tetris_project_centered_course.org][Build a Modern Computer]]                            | 7/48     | CS             | HUJI     | [[https://www.coursera.org/learn/build-a-computer/lecture/Aqrh6/unit-1-3-logic-gates][Logic Gates]]                |
+| [[file:20210330211344-human_behavioral_biology_course.org][Human Behavioral Biology Course]]                    | 2/25     | Biology        | Stanford | [[https://youtu.be/oKNAzl-XN4I?list=PL848F2368C90DDC3D][3. Behavioral Evolution II]] |
 
 
 * Courses for some future maybe
 - MIT 6.824: Distributed Systems :: https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/playlists
 - Scheme course :: https://www.cs.utexas.edu/ftp/garbage/cs345/schintro-v14/schintro_toc.html
-
+- Compilers :: [[file:20201211235230-cs_6120_advanced_compilers_the_self_guided_online_course.org][CS 6120: Advanced Compilers: The Self-Guided Online Course]]
 
 * Life
 - Simple life-related courses in russian https://journal.tinkoff.ru/pro/

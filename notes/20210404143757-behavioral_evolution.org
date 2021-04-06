@@ -1,0 +1,85 @@
+#+title: Behavioral Evolution
+
+Mostly notes for lections from [[*Materials][Materials]] section.
+
+* Selections
+** Individual selection
+Trying to reproduce the gen as much as possible.
+
+#+begin_quote
+Sometimes a chicken is an egg's way of making eggs.
+#+end_quote
+*** Natural selection
+Keeping the traits, which helped to survive and reproduce in population.
+*** Sexual selection
+Increasing the amount of traits in population prefered by opposite
+sex. It can be very useless in terms of survival.
+
+** Kin selection
+Helps relatives (the same gen) to reproduce as much as possible, even
+in to the own detriment.
+
+** Reciprocal altruism
+
+*** Cheating and Cooperation
+Related to [[file:20210404144249-game_theory.org][Game Theory]].
+
+Tit for tat is one of the best long-term stratagies in most
+interactions. You start from cooperating, cheat if opponent cheated,
+but forgive him and continue cooperating if he started to do it
+again. But it vulnurable to noise (incorrect signal transmission).
+Check [[file:20210404150748-the_evolution_of_trust.org][The Evolution of Trust]] for interactive example of
+game and different stratagies.
+
+Forgiving TFT is a solution for the noise problem, but it's vulnurable
+to non-fogiving stratagies.
+
+TFT -> TFTWF after few rounds of cooperation solves both problems.
+
+[[https://www.lesswrong.com/posts/3rxMBRCYEmHCNDLhu/the-pavlov-strategy][Pavlov strategy]] can beat TFTWF.
+
+Vampire bats using TFT strategy, when cooperatively feeding all the
+kids of the group, they will stop feeding kids of one's mom if she
+doesn't bring the blood for all kids.
+
+The cool experiment with sticlkeback fish and mirrors. Cooperating and
+cheating with reflections showing TFT strategy.
+
+Gender-switching fish. Female pays more for act of reproduction. If in
+a pair one of the fishes being male for too long, the other one
+rejects to cooperate. TFT again.
+
+Lions prides don't do TFT. It can be a scary cat in the pride, which
+hides after the backs of others most of the time and don't get
+punished for that.
+
+Naked mole rats. There are a few big fat rats, which eats a lot and do
+nothing almost all the time, but during the rain the plug the entry to
+the tunnels. In real world we play many prisoner's dilemma games at
+the time.
+*
+|                        | Big guys     | Same as women           |
+|------------------------+--------------+-------------------------|
+| Aggression             | +++          | +                       |
+| Access to reproduction | 5% have kids | 95% have 2 kids         |
+| Sexual dimorphism      | +            | -                       |
+| What women wants       | Big          | Paternal                |
+| Parenting              | +            | +++                     |
+| Lifespan (male2female) | <            | =                       |
+| Twins                  | -            | +                       |
+| Female abandon kids    | -            | +                       |
+| Female cheating        | -            | +                       |
+| Spicies name           | Tournament   | Monogamous/Pair bonding |
+
+Originally most of the cultures allowed polygamy, however most of
+people were monogamous/pair bonding.
+
+* Noteable facts
+** We are better at detecting cheating than kindness.
+75% vs 25%.
+
+
+
+
+* Materials
+- [[https://youtu.be/Y0Oa4Lp5fLE][2. Behavioral Evolution]]

@@ -1,3 +1,40 @@
 #+title: guix home: shells, rde
 #+roam_tags: Stream
-#+roam_key: 
+#+roam_key: https://youtu.be/mNJ-SlTbFc8
+
+* Introduction
+- shells
+- rde
+* Shells History
+** Types
+- Unix shell
+- [[https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html][POSIX]] shell
+- Other shell and repl
+* Shell Configurations & Startup Process
+[[https://en.wikipedia.org/wiki/Unix_shell#Configuration_files][Configuration files]]
+** Modes
+- login/non-login
+- interactive/non-interactive
+- compatibility
+* guix home: Call for Early Adopters
+* rde
+** Problems of mainstream distros
+- Arch/Gentoo/LFS :: no reasonable defaults.
+- Manjaro/Ubuntu/Fedora :: not very flexible.
+- Almost all :: not reproducible.
+** Zsh
+*** Principles
+- Snappy
+- Emacsy
+- Self-contained
+*** Features
+- Prompt Theme
+- Search
+- Completion
+- Undo/Cancel Commands
+- ~C-c~ Behavior
+- Autosuggestions
+* Summary
+- Shell is an old, maybe ugly, but important mechanism.
+- You can try `guix home` soon.
+- Reproducibilty is cool.

@@ -1,3 +1,7 @@
 #+title: Human Behavioral Biology Course
 
+* Parts
+- [[file:20210404143757-behavioral_evolution.org][Behavioral Evolution]]
+
+* Materials
 - [[https://www.youtube.com/playlist?list=PL848F2368C90DDC3D][Human Behavioral Biology]], Stanford :: no prerequisites. by [[file:20210330205130-robert_morris_sapolsky.org][Robert Sapolsky]].

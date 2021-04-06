@@ -1,0 +1,5 @@
+#+title: The Evolution of Trust
+#+roam_key: https://ncase.me/trust/
+
+The game where you have to cooperate or cheat, allows to model
+different behavior strategies and find the optimal.
