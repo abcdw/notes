@@ -1,0 +1,28 @@
+#+title: Early Adopters Briefing
+
+* What is ~guix~
+* What is ~guix home~ and ~rde~
+* Guix, Channels, Profiles
+- ~/.config/guix/channels.scm
+- guix pull
+- ~/.config/guix/current
+- ~/.guix-profile
+- ~/.guix-home-environment/profile
+* cli Overview
+- search
+- build
+- reconfigure
+- switch/delete generations
+* Installation
+* Basic Configuration
+- guix system services https://youtu.be/BYDxJTh2wZU
+- home services https://youtu.be/t3zRzQnarUI
+* What we do next
+- 2-3 weeks of usage, issue reporting.
+- Maybe 1 or 2 intermediate calls.
+- Feedback thread!)
+* Questions & Troubleshooting
+* Contacts
+- https://lists.sr.ht/~abcdw/rde-discuss
+- @yoctocell
+- @abcdw, @andrewtropin

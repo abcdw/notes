@@ -1,0 +1,38 @@
+#+title: guix, channels and sudo
+
+The short answer is guix system reconfigure will fail without
+sudo, but it wouldn't make any difference if the user could modify
+files under /. For other subcommands it will make difference. The
+long answer is below:
+
+~root is /root in most cases.
+
+guix profile (~/.config/guix/current) is a profile, which contains
+only guix binary and other guile code provided by channels.
+
+user profile (~/.guix-profile) is a profile where your programs
+are installed by guix install or guix package -i.
+
+guix pull -> updates channels for current user using
+~/.config/guix/channels.scm and builds guix profile
+(~/.config/guix/current).
+
+sudo guix pull -> updates channels for root using
+~root/.config/guix/channels.scm and builds guix profile for root
+(~root/.config/guix/current).
+
+Every time you call guix utility ~/.config/guix/current/bin/guix
+is used. Even if you call it with sudo. It means that it always
+using channels obtained by guix pull, not sudo guix pull.
+
+guix install PACKAGE installs package in ~/.guix-profile.
+sudo guix install PACKAGE installs package in /root/.guix-profile,
+but it uses channels versions obtained by guix pull, because it
+uses guix from ~/.config/guix/current/bin/guix.
+
+guix search PACKAGE and sudo guix search PACKAGE look up for
+packages in ~/.config/guix/current and provides the same
+result. But if you login as a root and run guix search PACKAGE the
+result can be different from sudo guix search.
+
+Hope now it's a little clearer.

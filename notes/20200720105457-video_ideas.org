@@ -36,6 +36,7 @@
 - Why phone sucks (notifications, spying, distractions, etc)
 
 ** Guix FAQ series:
+- [[file:20210414080341-guix_channels_and_sudo.org][guix, channels and sudo]]
 - Difference between propagated, native and just inputs
 - How to submit patch to guix
 - Why docker sucks
@@ -45,6 +46,8 @@
 - How to partition storage.
 - How to install OS.
 - How to configure home.
+
+** The Missing Manual for your PC
 
 * RDE/Nix related
 - GNU starter kit (cool name for vid, can be an rde introduction or
