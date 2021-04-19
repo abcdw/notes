@@ -8,5 +8,6 @@
 - https://github.com/caisah/emacs.dz collection of emacs configurations of other people
 - Valeriy from Emacs tg group: https://github.com/xFA25E/dotfiles/blob/master/emacs/.config/emacs/init.el
 - https://github.com/a13/emacs.d literate, use-package, ru.
+- https://github.com/dakra/dmacs/blob/master/init.org very extensive literate config.
 * Links
 - https://github.com/emacs-tw/awesome-emacs list of packages grouped by lang/intention

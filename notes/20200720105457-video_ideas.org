@@ -38,6 +38,8 @@
 ** Guix FAQ series:
 - [[file:20210414080341-guix_channels_and_sudo.org][guix, channels and sudo]]
 - Difference between propagated, native and just inputs
+- When guix will be building from source code?
+** Other videas related to Guix
 - How to submit patch to guix
 - Why docker sucks
 

@@ -1,5 +1,7 @@
 #+title: Human Behavioral Biology Course
 
+Must see course for any conscious spicies. No prerequisits.
+
 * Parts
 - [[file:20210404143757-behavioral_evolution.org][Behavioral Evolution]]
 

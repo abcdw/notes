@@ -20,8 +20,56 @@ Helps relatives (the same gen) to reproduce as much as possible, even
 in to the own detriment.
 
 ** Reciprocal altruism
+You scratch my back, I scratch yours. Can appear by utilizing kin
+selection for a small isolated part of population to fix altruistic
+traits in gene and spread it later to the whole population
 
-*** Cheating and Cooperation
+** Killing for success
+When male substitutes current alpha-male.
+- Reduce a reproductive success of other male.
+- Make female ovulate (doesn't ovulate, when nursing kid)
+Doesn't have to kill, if the previous male was your relative.
+
+** Spontaneously aborts
+When another male substitute current alpha male, smell of new male
+causes female to misscarry a litter. It helps to reproduce female's
+genes, because it not necessary to spend resources on birth of an
+infant, who will be killed by the new male, female can save a lot of
+time and resources.
+
+In other species male can harass pregnant female to make her
+misscarry.
+
+Another solution is pseudo-estrus to pretend that an infant is a child
+of new male.
+
+** The older the woman the more defensive she is
+Young female doesn't want to get injured protecting her child. Older
+female doesn't have a lot of options to pass her gens.
+
+** The kidnapping
+The lower-ranking guy can cover himself with a kid of higher ranking
+guy in case of conflict.
+
+** Intersex competitiong
+Migrating males do not care about future reproductive success of
+female and their imprinting genes make fetal development more active,
+while female's imprinting genes make it slower to make it more safe
+for her and make it possible to get a chance to reproduce in the
+future.
+
+** Increase of female in population during crysis
+It less risky to give a birth to female.
+
+** Toxic sperm
+Some polyandry species have toxic sperm to reduce chances of other
+males to reproduce.
+
+** Puberty migration
+Males for baboons, females for chimps => Higher agression in baboon
+troops, higher probably of war for chimps, because their male cooperate.
+
+* Cheating and Cooperation
 Related to [[file:20210404144249-game_theory.org][Game Theory]].
 
 Tit for tat is one of the best long-term stratagies in most
@@ -78,8 +126,6 @@ people were monogamous/pair bonding.
 ** We are better at detecting cheating than kindness.
 75% vs 25%.
 
-
-
-
 * Materials
 - [[https://youtu.be/Y0Oa4Lp5fLE][2. Behavioral Evolution]]
+- [[https://youtu.be/oKNAzl-XN4I][3. Behavioral Evolution II]]

@@ -1,0 +1,12 @@
+#+title: Scheme tutorial feat. Guile, Guix and Gexps
+#+roam_key: https://youtu.be/SQAW5jfYSQ0
+
+* Introduction
+* Tooling and REPL
+* Basics of Values
+* Lists and Sexps
+* Quotes
+* Macros and Functions
+* Records
+* Gexps
+* Conclusion
