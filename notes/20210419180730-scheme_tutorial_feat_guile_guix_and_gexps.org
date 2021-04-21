@@ -2,11 +2,53 @@
 #+roam_key: https://youtu.be/SQAW5jfYSQ0
 
 * Introduction
-* Tooling and REPL
-* Basics of Values
-* Lists and Sexps
-* Quotes
-* Macros and Functions
-* Records
-* Gexps
+* Tools
+** Modules
+- LOAD_PATH
+** Interpreter and REPL
+- guile
+- geiser
+* Basic
+** Basics of Values
+- symbols
+- strings
+- booleans
+- keywords
+- numbers
+- characters
+** Sexps
+*** Pairs
+[[https://www.gnu.org/software/guile/manual/html_node/Pairs.html][6.6.8 Pairs]]
+*** Lists
+[[https://www.gnu.org/software/guile/manual/html_node/Lists.html][6.6.9 Lists]]
+*** Quotes
+[[https://www.gnu.org/software/guile/manual/html_node/Expression-Syntax.html][6.18.1.1 Expression Syntax]]
+- quote
+- unquote
+** Functions
+- or +
+- anonymous functions
+- optional and keyword arguments
+- high-order functions
+[[https://www.gnu.org/software/guile/manual/html_node/lambda_002a-and-define_002a.html][6.9.4.1 lambda* and define*]]
+** Lists 2
+[[https://www.gnu.org/software/guile/manual/html_node/List-Constructors.html][6.6.9.3 List Constructors]]
+- list
+- cons/cons*
+- append
+* Advanced
+** Macros
+** Quotes 2
+- quasi-quote
+- unqote
+- splice
+** Records
+https://www.gnu.org/software/guile/manual/html_node/SRFI_002d9-Records.html
+- getters  
+- inherit
+* Creating a Sample Config
+* Next
+** Pattern matching
+** Gexps
 * Conclusion
+

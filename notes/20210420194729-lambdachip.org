@@ -1,0 +1,4 @@
+#+title: LambdaChip
+#+roam_key: https://lambdachip.com/index/
+
+Controller pragrammable with Lisp/Scheme.
