@@ -1,0 +1,16 @@
+#+title: Guix Home Meetup #2
+
+* Manual
+https://guix-home.trop.in/Home-Configuration.html
+* Search
+#+begin_src shell
+guix home search env
+#+end_src
+* Action
+#+begin_src shell
+guix home build ./gnu/home/examples/minimal.tmpl
+#+end_src
+** Packages
+** Files
+** Zsh
+** Sway

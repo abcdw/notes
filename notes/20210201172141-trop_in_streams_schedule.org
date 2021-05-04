@@ -3,6 +3,7 @@
 * Schedule
 | name                                                    | date                   |
 |---------------------------------------------------------+------------------------|
+| [[file:20210504132812-quotes_and_gexps.org][Quotes and Gexps]]                                        | <2021-05-04 Tue 18:00> |
 | [[file:20210419180730-scheme_tutorial_feat_guile_guix_and_gexps.org][Scheme tutorial feat. Guile, Guix and Gexps]]             | <2021-04-20 Tue 18:00> |
 | [[file:20210402080044-guix_home_shells_rde.org][guix home: shells, rde]]                                  | <2021-04-06 Tue 18:00> |
 | [[file:20210323095452-guix_home_state.org][guix home: state]]                                        | <2021-03-23 Tue 18:00> |

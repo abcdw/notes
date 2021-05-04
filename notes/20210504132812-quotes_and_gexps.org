@@ -1,0 +1,21 @@
+#+title: Quotes and Gexps
+#+roam_tags: Stream
+#+roam_key: https://youtu.be/6JPHQJTlUIM
+
+* Introduction
+* Evaluation process
+https://www.gnu.org/software/guile/manual/html_node/Expression-Syntax.html#Expression-Syntax
+* Gexps
+** What the difference
+- Derivations/file-like objects to path
+- Carry the context
+** Where are they used? 
+- packages
+- scheme-file
+- shepherd actions
+- mcron jobs
+** Links
+- https://guix.gnu.org/manual/en/html_node/G_002dExpressions.html
+- https://guix.gnu.org/manual/en/html_node/Scheduled-Job-Execution.html
+- https://guix.gnu.org/manual/en/html_node/Shepherd-Services.html#Shepherd-Services
+* Conclusion
