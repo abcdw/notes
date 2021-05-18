@@ -1,0 +1,8 @@
+#+title: Tinkoff Pro Health
+#+roam_key: https://journal.tinkoff.ru/pro/health/
+
+Course about health care in Russia.
+
+* Choose Doc and Hospital
+* Check Medicines Effectivness
+[[file:20210518092001-russian_state_register_of_medicines.org][Russian State Register of Medicines]]

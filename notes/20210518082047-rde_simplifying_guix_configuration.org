@@ -1,0 +1,42 @@
+#+title: rde: Simplifying Guix configuration
+#+roam_key: https://youtu.be/6yrYWjjuIOs
+#+roam_tags: Stream
+
+* Introduction
+- Recap on service extension mechanism
+- rde concepts
+- Split OS into features
+* Guix System and Guix Home
+[[https://guix.gnu.org/manual/en/guix.html#Defining-Services][Service extension mechanism]]
+** Restrictions
+There is no way to access information about service DAG from outside
+the service-type (See [[https://lists.sr.ht/~abcdw/rde-devel/%3C87sg56g97i.fsf%40trop.in%3E][Polymorphic service extension mechanism]]).
+* rde
+** Disclaimer
+No warranty. Use on your own risk.
+** What?
+*** Configuration Framework
+- Features (values, home-services, system-services)
+- rde-config and helpers
+- Tools for instantiating rde-configs (maybe in the future).
+*** Not a Distro, but
+A set of features focused on:
+- Sway/Wayland
+- PipeWire
+- GnuPG
+- GNU Emacs and Applications on top of it
+** Why?
+- Abstract away internals
+- Make reasonable defaults
+- Split into manageable pieces
+- Bypass extension mechanism restrictions
+** rde Specificity
+- Single user oriented
+- No features order (can't use other feature's values to generate new values)
+* Practice
+* Conclusion
+- Features are easy to reason about.
+- One more level of abstraction can complicate things.
+- Not ultimately flexible, but still hackable.
+- Abstracted implementation details and reasonable defaults make it
+  easier for user to start with working configuration.

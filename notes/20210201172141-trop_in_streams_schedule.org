@@ -3,6 +3,7 @@
 * Schedule
 | name                                                    | date                   |
 |---------------------------------------------------------+------------------------|
+| [[file:20210518082047-rde_simplifying_guix_configuration.org][rde: Simplifying Guix configuration]]                     | <2021-05-18 Tue 18:00> |
 | [[file:20210504132812-quotes_and_gexps.org][Quotes and Gexps]]                                        | <2021-05-04 Tue 18:00> |
 | [[file:20210419180730-scheme_tutorial_feat_guile_guix_and_gexps.org][Scheme tutorial feat. Guile, Guix and Gexps]]             | <2021-04-20 Tue 18:00> |
 | [[file:20210402080044-guix_home_shells_rde.org][guix home: shells, rde]]                                  | <2021-04-06 Tue 18:00> |
@@ -19,6 +20,6 @@
 | [[file:20200930133033-nix_vs_guix.org][Nix vs Guix]]                                             | <2020-11-03 Tue 18:00> |
 | [[file:20201001084458-flakes_in_nix_3_0.org][Flakes in Nix 3.0]]                                       | <2020-10-20 Tue 18:00> |
 | [[file:20200922172424-building_reproducible_emacs_nix.org][Building reproducible Emacs (nix)]]                       | <2020-09-22 Tue 18:00> |
-| [[file:20200819120317-rde_better_than_virtualenv.org][RDE: Better than virtualenv]]                             | <2020-08-25 Tue 18:00> |
+| [[file:20200819120317-better_than_virtualenv.org][Better than virtualenv]]                                  | <2020-08-25 Tue 18:00> |
 | [[file:20200720094620-rde_managing_dotfiles.org][Almost Perfect Dotfiles Management w/ nix]]               | <2020-07-28 Tue 18:00> |
 

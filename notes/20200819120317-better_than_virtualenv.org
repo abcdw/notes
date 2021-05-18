@@ -1,6 +1,6 @@
-#+title: RDE: Better than virtualenv
+#+title: Better than virtualenv
 #+roam_tags: Stream
-#+roam_key: https://youtu.be/irPTtmP4x
+#+roam_key: https://youtu.be/irPTtmP4xuM
 
 * What we will do today
 We will create a reproducible development environment for python project with native dependencies.

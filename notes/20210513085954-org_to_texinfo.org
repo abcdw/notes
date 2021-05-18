@@ -1,0 +1,5 @@
+#+title: Org to TexInfo
+
+There is an example of documentation written in org mode, but scripts
+for converting it to texinfo is also provided.
+https://github.com/abo-abo/swiper/blob/master/doc/ivy.org

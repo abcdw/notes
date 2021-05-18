@@ -1,0 +1,7 @@
+#+title: Russian State Register of Medicines
+#+roam_key: https://grls.rosminzdrav.ru/Default.aspx
+
+Have information about all medicines.
+
+Took the information from:
+https://journal.tinkoff.ru/2-check-your-pills/
