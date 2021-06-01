@@ -1,0 +1,3 @@
+#+title: My Minimal Guix Configuration 2021-06-01
+
+

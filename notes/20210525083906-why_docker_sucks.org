@@ -1,0 +1,8 @@
+#+title: Why Docker Sucks
+
+It's not about containerization, but more about docker/other container
+solution as a way to create and maintain reproducible development
+environment.
+
+* Links
+- https://blog.replit.com/nix
