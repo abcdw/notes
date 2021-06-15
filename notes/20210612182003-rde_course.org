@@ -1,0 +1,43 @@
+#+title: rde Course
+* tmp
+** Managing notes:
+- How to [[https://telegra.ph/Kak-chitat-stati-i-byt-produktivnym-po-versii-Danlark-12-31][read]] articles
+- Fleeting/fast notes
+- Graph instead of hierarchy
+- Making publications
+- Bibliography
+- Synchronizing notes, even on mobile
+** Managing finances:
+- Theoretical background and vocabulary
+- Double entry bookkeeping
+- Managing budgets
+- Managing stocks
+** Managing emails:
+- How emails works
+- Replying emails and quoting
+- Downloading emails
+- Sending emails
+- Replying emails (Message-ID header) and threads
+- Signining and encrypting emails https://emailselfdefense.fsf.org/ru/workshops.html
+- Mailing lists
+- Importing ML history via mbox
+- Searching and processing emails
+- Mail workflows
+** Managing OS:
+- How to build custom iso.
+- How to partition storage.
+- How to install OS.
+- How to configure home.
+** General:
+- Managing contacts
+- Why phone sucks (notifications, spying, distractions, etc)
+
+* Emacs
+** Getting help
+** Modes
+** Keymaps
+** Hooks
+** Navigating
+* Emails
+* Gradual migration
+gexps, file-like objects, config syntax.

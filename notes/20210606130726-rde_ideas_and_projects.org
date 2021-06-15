@@ -1,0 +1,7 @@
+#+title: rde Ideas and Projects
+
+Ideas related to [[file:20200620141734-rde.org][rde]], [[file:20200620142517-guix.org][Guix]] and [[file:20200620141734-reproducible_development_environment.org][Reproducible Development Environment]] in
+general.
+
+* Project Ideas
+- [[http://nixbuild.net/][nixbuild.net]], but for Guix.

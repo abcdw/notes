@@ -1,0 +1,27 @@
+#+title: Guix Home Upstream Plan
+* The Goal
+To migrate Guix Home from rde repository to guix.
+
+* The Workflow
+- Most of the work is done against guix-home branch.
+- Complex changes goes as a patch to guix-devel@gnu.org first and
+  after review they get applied to guix-home.
+- Simple changes applied directly.
+- From time to time guix-home will be rebased on master.
+- Changes to upstream (gnu services) module for example are sent as a
+  patch against master, they do not go to guix-home to prevent future
+  merge conflicts on rebase.
+
+* The Plan
+- Merge all essential services first.
+  https://git.sr.ht/~abcdw/rde/tree/master/item/gnu/home.scm
+- Add cli https://git.sr.ht/~abcdw/rde/tree/master/item/guix/scripts/home.scm
+- Add basic test suite.
+- Add documentation (concept/about, configuration).
+- Add another home-service, add documentation for it, iterate.
+
+* Finalization
+- Merge guix-home to master.
+- Write a blog post to spread the word.
+- Enjoy the Guix Home!)
+  

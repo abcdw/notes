@@ -1,0 +1,46 @@
+#+title: Migrated to PipeWire, Screensharing in Wayland 
+
+* Introduction
+- PipeWire, D-Bus, xdp/xdpw
+- How to setup everything together
+- How to make setup persistent
+- How to send a patch
+* PipeWire
+** Featurs
+- Capture and playback of audio and video with minimal latency.
+- Real-time Multimedia processing on audio and video.
+- Multiprocess architecture to let applications share multimedia content.
+- Seamless support for PulseAudio, JACK, ALSA and GStreamer applications.
+- Sandboxed applications support.
+** Check
+#+begin_src shell
+aplay -L | head -n6
+alsamixer
+pactl info
+#+end_src
+** Components
+- pipewire
+- pipewire-media-session (routing, saving setting, etc)
+- pipewire-pulse
+- pw-jack
+* D-Bus
+** xdg-desktop-portal
+- xdg-desktop-portal-gtk
+- xdg-desktop-portal-wlr
+- xdg-desktop-portal-kde    
+* Screensharing
+[[https://www.reddit.com/r/swaywm/comments/nvxolv/screen_sharing_technicalities/][Components interaction]]
+** Demo
+https://mozilla.github.io/webrtc-landing/gum_test.html
+* Installation
+** Screensharing
+- Launch D-Bus with ~exec dbus-run-session sway~ for example
+- Start pipewire and pipewire-media-session
+- Profit!
+** Audio
+- Update ALSA's asoundrc
+- Launch pipewire-pulse
+- Use pw-jack to start JACK application
+** Persisting results
+* Making patches
+* Conclusion

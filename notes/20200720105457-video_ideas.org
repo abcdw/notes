@@ -1,6 +1,9 @@
 #+title: Video Ideas
 #+ROAM_TAGS: Marketing Idea
 - related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]], [[file:20200720101007-tropin_video_channel.org][TROPIN video channel]]
+* Presentation
+- Frequently change view
+- Plan questions for viewers ahead of talk
 * How to call videos
 - gnu changelog style :: guix: home: How to setup on foreign distro?
 - series style :: Managing finances s01e02: Double entry bookkeeping.
@@ -15,9 +18,7 @@
 * Other Ideas
 - [[file:20200720105819-cleanest_dotfiles_setup.org][Cleanest Dotfiles Setup]] video and reference to Luke Smith's
   https://www.youtube.com/watch?v=yy8RoDSdhIQ&t=319s
-
 - Implementing CI in few hours with [[file:20200620142517-guix.org][Guix]]
-
 - Creating a [[https://www.youtube.com/watch?v=rbasThWVb-c][snake game]] in five minutes. It's possible to show, how cool [[file:20200620141734-reproducible_development_environment.org][RDE]] is for developers.
 - Humor: [[https://youtu.be/pI5ToeZWP7s][Ref Vid]] How I read documentation (super fast scrolling wheel)
 - Installing linux without root partition [[file:20200731150359-nixos_tmpfs_as_root.org][NixOS: tmpfs as root]]
@@ -26,42 +27,6 @@
 * OS related topics
 - Plain text is fundamentally broken.
 * Video series plan
-** Managing notes:
-- How to [[https://telegra.ph/Kak-chitat-stati-i-byt-produktivnym-po-versii-Danlark-12-31][read]] articles
-- Fleeting/fast notes
-- Graph instead of hierarchy
-- Making publications
-- Bibliography
-- Synchronizing notes, even on mobile
-
-** Managing finances:
-- Theoretical background and vocabulary
-- Double entry bookkeeping
-- Managing budgets
-- Managing stocks
-
-** Managing emails:
-- How emails works
-- Replying emails and quoting
-- Downloading emails
-- Sending emails
-- Replying emails (Message-ID header) and threads
-- Signining and encrypting emails https://emailselfdefense.fsf.org/ru/workshops.html
-- Mailing lists
-- Importing ML history via mbox
-- Searching and processing emails
-- Mail workflows
-
-** Managing OS:
-- How to build custom iso.
-- How to partition storage.
-- How to install OS.
-- How to configure home.
-
-** General:
-- Managing contacts
-- Why phone sucks (notifications, spying, distractions, etc)
-
 ** Guix FAQ series:
 - [[file:20210414080341-guix_channels_and_sudo.org][guix, channels and sudo]]
 - Difference between propagated, native and just inputs
@@ -69,6 +34,4 @@
 ** Other videas related to Guix
 - How to submit patch to guix
 - Why docker sucks
-
-** The Missing Manual for your PC
 

@@ -1,0 +1,7 @@
+#+title: Building a House
+
+Notes for future myself on house construction.
+
+- Make everything is sturdy enough to held the weight of the body.
+- Prefer mechanical to innovative digital, it more reliable (random
+  beeping sound of oven).

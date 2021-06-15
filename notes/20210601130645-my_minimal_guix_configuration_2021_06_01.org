@@ -1,3 +1,11 @@
 #+title: My Minimal Guix Configuration 2021-06-01
+#+roam_tags: Stream
+#+roam_key: https://youtu.be/0OSU7u5cFCM
 
-
+* Introduction
+* System
+** Custom kernel
+* Home
+** Re-using values
+** Emacs
+* Conclusion

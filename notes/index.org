@@ -1,0 +1,12 @@
+# -*- mode: Org; org-confirm-elisp-link-function: nil; -*-
+#+title: Index
+
+* Work
+- [[elisp:(find-file "~/work/notes/todo.org")][Today tasks]]
+- [[file:~/work/rde][rde]]
+- Emacs Courses Plan/rde book [[file:20210612182003-rde_course.org][rde Course]]
+- [[file:20210201172141-trop_in_streams_schedule.org][trop.in streams schedule]]
+
+
+* Stuff to check out
+https://www.orgroam.com/manual.html
