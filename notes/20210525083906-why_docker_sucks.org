@@ -5,4 +5,6 @@ solution as a way to create and maintain reproducible development
 environment.
 
 * Links
-- https://blog.replit.com/nix
+- [[https://blog.replit.com/nix][replit migrating to Nix]]
+- https://lwn.net/Articles/786066/
+

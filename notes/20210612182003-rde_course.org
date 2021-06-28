@@ -1,43 +1,54 @@
 #+title: rde Course
-* tmp
-** Managing notes:
+#+STARTUP: content
+
+* General
+** Demistifying Unix Philosophy
+Cover basics of Unix philosophy, explain common mistakes and problems and
+show real composability
+* rde and features
+** Conceptual Overview
+** Initial configuration
+* Security
+** GnuPG/OpenPGP
+** Password Management
+* Managing Everything
+** Managing Notes
 - How to [[https://telegra.ph/Kak-chitat-stati-i-byt-produktivnym-po-versii-Danlark-12-31][read]] articles
 - Fleeting/fast notes
 - Graph instead of hierarchy
 - Making publications
 - Bibliography
 - Synchronizing notes, even on mobile
-** Managing finances:
+** Managing Finances
 - Theoretical background and vocabulary
 - Double entry bookkeeping
 - Managing budgets
 - Managing stocks
-** Managing emails:
+** Managing Emails
+*** Email Basics
 - How emails works
 - Replying emails and quoting
 - Downloading emails
 - Sending emails
 - Replying emails (Message-ID header) and threads
 - Signining and encrypting emails https://emailselfdefense.fsf.org/ru/workshops.html
+*** Mailing lists
 - Mailing lists
-- Importing ML history via mbox
+- Importing ML history via mbox/public-inbox
+*** Mailing workflows
 - Searching and processing emails
 - Mail workflows
-** Managing OS:
+** Managing OS
 - How to build custom iso.
 - How to partition storage.
 - How to install OS.
 - How to configure home.
-** General:
+** Managing Other Things
 - Managing contacts
 - Why phone sucks (notifications, spying, distractions, etc)
-
 * Emacs
 ** Getting help
 ** Modes
 ** Keymaps
 ** Hooks
 ** Navigating
-* Emails
-* Gradual migration
-gexps, file-like objects, config syntax.

@@ -3,6 +3,9 @@
 * Schedule
 | name                                                    | date                   |
 |---------------------------------------------------------+------------------------|
+| [[file:20210628073018-emacs_managing_emails_and_mailing_lists.org][Emacs: Managing Emails and Mailing Lists]]                | <2021-06-29 Tue 18:00> |
+| [[file:20210615073015-migrated_to_pipewire_screensharing_in_wayland.org][Migrated to PipeWire, Screensharing in Wayland]]          | <2021-06-15 Tue 18:00> |
+| [[file:20210601130645-my_minimal_guix_configuration_2021_06_01.org][My Minimal Guix Configuration 2021-06-01]]                | <2021-06-01 Tue 18:00> |
 | [[file:20210518082047-rde_simplifying_guix_configuration.org][rde: Simplifying Guix configuration]]                     | <2021-05-18 Tue 18:00> |
 | [[file:20210504132812-quotes_and_gexps.org][Quotes and Gexps]]                                        | <2021-05-04 Tue 18:00> |
 | [[file:20210419180730-scheme_tutorial_feat_guile_guix_and_gexps.org][Scheme tutorial feat. Guile, Guix and Gexps]]             | <2021-04-20 Tue 18:00> |

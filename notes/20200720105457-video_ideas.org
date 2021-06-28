@@ -7,7 +7,7 @@
 * How to call videos
 - gnu changelog style :: guix: home: How to setup on foreign distro?
 - series style :: Managing finances s01e02: Double entry bookkeeping.
-* Click-baity
+* Click-baity titles
 - Modern way to configure Emacs
 * RDE/Nix related
 - GNU starter kit (cool name for vid, can be an rde introduction or
@@ -33,5 +33,5 @@
 - When guix will be building from source code?
 ** Other videas related to Guix
 - How to submit patch to guix
-- Why docker sucks
+- [[file:20210525083906-why_docker_sucks.org][Why Docker Sucks]]
 

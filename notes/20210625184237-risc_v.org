@@ -1,0 +1,4 @@
+#+title: RISC-V
+
+* Interesting projects
+[[https://github.com/stnolting/neorv32][NEORV32]] - RISC-V SoC, FPGA, implemented in platform-independent VHDL
