@@ -1,0 +1,9 @@
+#+title: Backward Compatibility Solution
+#+roam_alias: "Code Deprecation Approach"
+
+It's possible to make the code to has an expiration date, it will make
+it unecessary to mark something as deprecated, just not re-sign/update
+expiration date.  It will be possible to make deprecation process much
+more natural and will allow not to keep legacy code for centuries.
+
+Similar mechanism is used for [[file:20200907134309-gnupg.org][gpg]] keys.

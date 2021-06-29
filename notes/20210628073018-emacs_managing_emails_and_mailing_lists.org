@@ -1,5 +1,36 @@
 #+title: Emacs: Managing Emails and Mailing Lists
 #+roam_tags: Stream
 
-
-notmuch, mbsync, public-inbox
+* Introduction
+* History
+** Mail structure
+- Header
+- Body
+** MUA/MSA/MTA/MRA/MDA
+MSA do initial mail processing and sending.
+** SMTP/POP/IMAP
+** Pictures
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Email.svg/1920px-Email.svg.png][Mail Delivery Overview]]
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/SMTP-transfer-model.svg/1920px-SMTP-transfer-model.svg.png][Mail Delivery Overview 2]]
+* Practice
+** Tools
+- mbsync (isync)
+- l2md
+- notmuch
+- Emacs
+** Reading
+- Get emails
+- Get more emails
+- Process them
+** Tagging
+- personal/work
+- inbox/todo
+- list/watch
+** Replying emails
+** Sending emails
+** Sending patches
+* Future
+- Configuration process
+- Working with attachments and html emails
+- Integrations with other applications
+- Mailing list development workflow
