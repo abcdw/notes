@@ -4,6 +4,7 @@
 * Presentation
 - Frequently change view
 - Plan questions for viewers ahead of talk
+- Show highlights of scientific papers on the topic
 * How to call videos
 - gnu changelog style :: guix: home: How to setup on foreign distro?
 - series style :: Managing finances s01e02: Double entry bookkeeping.

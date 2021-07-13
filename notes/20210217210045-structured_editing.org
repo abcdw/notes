@@ -2,3 +2,6 @@
 
 Opposite to line/character based editing. Can be used for structured
 data with predefined grammar, for example for [[file:20210217210237-lisp.org][Lisp]], json, etc.
+
+* Example implementations
+- [[https://git.sr.ht/~technomancy/anarres][anarres]] :: technomancy's structured editor for [[file:20210628203204-the_fennel_programming_language.org][fennel]] language.

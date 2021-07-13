@@ -1,0 +1,4 @@
+#+title: Video Preview Ideas
+
+* Good Examples
+[[https://youtu.be/If3GT8zSHfE][Clojure/north]] has nice previews, found on [[https://github.com/camsaul/methodical][methodical]] git repo.

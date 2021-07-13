@@ -2,5 +2,7 @@
 
 Funding ideas for [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] project.
 
-NLNet provides grants: https://nlnet.nl/propose/
-Tweag provides 12-week fellowship: https://www.tweag.io/blog/2020-07-28-os-fellowship/
+- NLNet provides grants: https://nlnet.nl/propose/
+- Other NLNet grants: https://NLnet.nl/foundation/network.html
+- Next Generation Internet grants: https://www.ngi.eu/opencalls
+- Tweag provides 12-week fellowship: [[https://www.tweag.io/blog/2020-07-28-os-fellowship/][fellowship blog post]]

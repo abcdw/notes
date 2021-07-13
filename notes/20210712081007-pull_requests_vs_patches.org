@@ -1,0 +1,133 @@
+#+title: Pull Requests vs Patches
+#+roam_key: https://youtu.be/XVe9SD3kSR0
+#+roam_tags: Stream
+
+* Introduction
+- Prerequisits and context.
+- Explain workflows.
+- Discuss technical details.
+- Compare.
+- Conlude.
+* Terminology
+- Discussion list :: mailing list.
+- Forge :: collaboration web site.
+- Merge request :: the same as pull request.
+* Important properties
+** Reliability
+- Work without network.
+- Work with partial availability.
+- Do not rely on trust for third-parties.
+** Attention/Concentration
+** Number of repetative actions
+** Privacy and Security
+- No tracking.
+- No spyware and ransomware.
+** Learning curve and setup complexity
+* Acquaintance
+** PR workflow
+*** Contributing
+**** Once
+- Setup mail account.
+- Setup gpg.
+- Setup ssh.
+**** Once per Forge
+- Sign up/Generate password.
+- Setup ssh/gpg keys.
+**** Once per Project
+- Fork the repo.
+- Clone it.
+- Setup upstream remote.
+**** Discussing Proposal
+- Create issue.
+- Discuss it lineary.
+**** Preparing and Submiting Changes
+- Pull from the upstream.
+- Create a local feature branch.
+- Commit changes.
+- Push to fork.
+- Open a browser, Create a PR and wait for reviews.
+- Check CI passes.
+- Link the discussion.
+  http://www.dalescott.net/wp-content/uploads/2012/09/centralized-github-4.png
+**** Interacting with reviewer
+- Read the comments.
+- Find the place in the code.
+- Apply changes.
+**** Cleanup
+- Remove local branch.
+- Remove remote branch.
+- Close issue.
+*** Accepting contribution
+**** Once per contributor
+- Add remote
+**** Reviewing changes
+- Review in browser or
+- Pull remote.
+- Jump back and force between IDE and browser, "syncronize" line and
+  post comments.
+** ML workflow
+*** Contributing
+**** Once
+- Setup mail account.
+- Setup gpg.
+- Setup mail client.
+**** Once per project
+- Clone the repository.
+**** Once per ML [optional]
+- Add it to the sync tool.
+**** Discussing/Reviewing/Submiting
+- Create a thread.
+- Reply to the message in a subthread.
+- Attach a patch or a few.
+*** Accepting contribution
+- Apply patch or a few.
+* Comparison
+** Communication and Review
+- Full-fledged dev tools vs Web-based text editor for
+  review. (Intermediate forge-dependent semi-IDE, which can be changed
+  anytime?)
+- Custom patch format vs Configurable commit deltas representation.
+- Complete [[notmuch-tree:thread:{tag:example}][thread]] vs Diverse issues/PRs/inline review comments.
+- Specialized threaded discussions vs Linear mixed list of comments.
+- Persistent durable discussion vs ephemeral commits and comments.
+- Possibility to interject and provide changes.
+- Easy to pick up and carry on a stale [[notmuch-tree:id:20210703165127.12316-1-brice@waegenei.re][changeset]].
+- Private discussion inside [[notmuch:id:87lf7x5lb5.fsf@gnu.org][subthread]].
+** CI/Testing
+** Offline work
+- Forum with all discussions and changes
+- Full-text search
+* Sample emails
+- [[notmuch-tree:thread:{tag:example}][Examples]] :: list of examples
+- [[notmuch-tree:id:20210613101538.10668-1-ludo@gnu.org][[bug#48696] [PATCH v2 0/4] Documenting...]] :: proper threading for v2
+* Problems of ML and Possible Solutions
+** Flexibility
+- Posibility to screw up the subject.
+- Reply to wrong subthread and/or recipients.
+- Inline and inline/attachment patches.
+** CI for patches in the thread
+Is this a real issue?
+- https://sourcehut.org/blog/2020-07-14-setting-up-ci-for-mailing-lists/
+** Unfamiliarity
+- Well-defined contribution guidlines
+- [[file:~/work/rde/rde/examples/abcdw/configs.scm::(feature-mail-settings][rde]]
+** Spam
+** Comprehensive list of issues
+- Part of the git
+- Part of the forge
+** Joining to ML later
+- [[https://public-inbox.org/README.html][public-inbox]]
+** Social-prove
+- Mirror on github?
+* Small Demo
+[[notmuch-tree:id:87y2akhiz1.fsf@trop.in][Email to guix-patches@gnu.org: [PATCH 0/4] Essential home services]]
+* Conclusion
+- The problems exist, but they are not blockers.
+- ML provides integrated experience.
+- Privacy and attention friendly.
+- Reliability and federated nature.
+- Flexible and really comfy.
+* Links
+- https://begriffs.com/posts/2018-06-05-mailing-list-vs-github.html
+- [[file:20210316080728-mailing_lists_vs_github_like_tools.org][Mailing Lists vs GitHub-Like Tools]]
+- [[https://web.archive.org/web/20180522180815/https://dpc.pw/blog/2017/08/youre-using-git-wrong/][You're Using Git Wrong]]

@@ -1,0 +1,9 @@
+#+title: Datalog
+
+A query langugae.
+
+* Related Links
+** Datafun: Functional Datalog
+https://dl.acm.org/doi/abs/10.1145/2951913.2951948
+** Project-m36
+https://github.com/agentm/project-m36/
