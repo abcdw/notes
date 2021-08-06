@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       3c940f25-3724-4a0c-8dd1-9b7f7031ddf4
+:ROAM_REFS: https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/
+:END:
 #+title: 18.S096 Topics in Mathematics with Applications in Finance
-#+roam_key: https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/
 
 youtube [[https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR][playlist]].

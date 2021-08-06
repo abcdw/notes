@@ -1,15 +1,18 @@
+:PROPERTIES:
+:ID:       f06d8261-efea-49e7-8544-56e48b0d4403
+:END:
 #+title: Ethical Software Collection
 
-[[file:20200907124550-free_libre_and_open_source_software.org][FOSS]] and federated/more ethical alternatives to unethical services and
+[[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FOSS]] and federated/more ethical alternatives to unethical services and
 applications.
 
 * Services
 | Unethical | Ethical              | Description of ethical solution.                                                                                                                    |
 |-----------+----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| twitter   | [[https://joinmastodon.org/][Mastodon]]             | Service for exchanging thoughts/news. Mastodon is a [[file:20201231114107-federated_architecture.org][federated]], client and server implementation is [[file:20200907124550-free_libre_and_open_source_software.org][FOSS]].                                            |
+| twitter   | [[https://joinmastodon.org/][Mastodon]]             | Service for exchanging thoughts/news. Mastodon is a [[id:aacae6d9-0342-45d2-b2d6-bb9a5455b92f][federated]], client and server implementation is [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FOSS]].                                            |
 | patreon   | [[https://en.liberapay.com/][Liberpay]]             | Reccurent donation platform. Liberpay is non-profit organization, source code is public.                                                            |
 | github    | [[https://sr.ht/][sr.ht]]                | Sourcehut is software forge, supports git and mercurial, perfectly usable without javascript, has mailing lists, ci, tracker. FSF forge [[https://libreplanet.org/wiki/FSF_2020_forge_evaluation][evaluation]]. |
-| instagram | [[https://pixelfed.org/][pixelfed]]             | [[file:20201231114107-federated_architecture.org][Federated]], open source photo sharing platform.                                                                                                      |
+| instagram | [[https://pixelfed.org/][pixelfed]]             | [[id:aacae6d9-0342-45d2-b2d6-bb9a5455b92f][Federated]], open source photo sharing platform.                                                                                                      |
 | youtube   | [[https://joinpeertube.org/][PeerTube]]             | p2p, federated video platform. Since 3.0 has streaming capabilities.                                                                                |
 | zoom      | [[https://meet.jit.si/][jitsi]], [[https://bigbluebutton.org/][BigBlueButton]] | Jitsi for fast calls, BBB for conferences/classes.                                                                                                  |
 | disqus    | [[ https://commento.io/][Commento]]             | Lightweight and privacy oriented comment solution. Source code is available.                                                                        |

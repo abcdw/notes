@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c93cdb19-52a6-4764-b98a-8ec8067efabe
+:END:
 #+title: Level of reproducibility
-- related :: [[file:20200620141734-reproducible_development_environment.org][Reproducible Development Environment]]
+- related :: [[id:7845ce2e-e349-405a-85bb-44a983ed4860][Reproducible Development Environment]]
 Shows how much of nixpkgs are reproducible: https://r13y.com/

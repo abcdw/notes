@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       d6999c99-68a8-4a9d-b914-fe04de1b6090
+:ROAM_REFS: https://github.com/alex/what-happens-when
+:END:
 #+title: What happens when...
-#+roam_key: https://github.com/alex/what-happens-when
 
 An answer to the question "What happens when you press enter in
 browser address bar".

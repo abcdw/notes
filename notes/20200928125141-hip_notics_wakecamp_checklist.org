@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6b770a62-92cb-49a8-9b5c-1c4dbf5cd0f6
+:END:
 #+title: Hip-Notics WakeCamp Checklist
 
 * Checklist

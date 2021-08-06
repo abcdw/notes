@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       8305203b-b4af-439b-9677-f7e291743339
+:END:
 #+title: Annotating books and articles with org-mode
-- related :: [[file:20200618173345-note_taking.org][Note-taking]]
+- related :: [[id:a293f298-61a4-4b67-844a-8aa6b3457130][Note-taking]]
 
 * Links
 - https://rgoswami.me/posts/org-note-workflow/

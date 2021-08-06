@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       f0aa3ab8-e539-47d0-8ad5-c3b616303642
+:END:
 #+title: Guix recipes
 
-- related :: [[file:20200620142517-guix.org][Guix]]
+- related :: [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]]
 
 The idea: A wrapper around ~guix environment~, which allows simple
 one-liners to test out things:

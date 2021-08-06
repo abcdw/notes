@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       95150ce0-09f9-430b-b397-024e49fe6e9c
+:ROAM_REFS: https://www.imdb.com/title/tt8367814/
+:END:
 #+title: The Gentlemen (2019)
-#+roam_key: https://www.imdb.com/title/tt8367814/
 Nice and very british movie, comedy. Filming and storytelling is unusual and
 very skilled. Atmosphere is awesome: pubs, sport costumes, interior. Charismatic
 right-hand man of the boss. Coach and his pupil are minor heroes, but they are

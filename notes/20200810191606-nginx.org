@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6e2efc60-cfdf-4c8c-b9fc-10ce15074917
+:ROAM_REFS: https://nginx.org/
+:ROAM_ALIASES: NGINX
+:END:
 #+title: nginx
-#+roam_alias: NGINX
-#+roam_key: https://nginx.org/

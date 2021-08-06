@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       92df6415-13a1-4b1b-80ac-2bd087b3da60
+:ROAM_REFS: https://lambdachip.com/index/
+:END:
 #+title: LambdaChip
-#+roam_key: https://lambdachip.com/index/
 
 Controller pragrammable with Lisp/Scheme.

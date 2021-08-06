@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       09da3bf0-6ee4-4d5a-8ba9-b6f65b9f6065
+:END:
+#+title: Games Collection
+
+https://www.gamingonlinux.com/ news portal about cool games.
+
+* Games
+- [[https://ihhub.github.io/fheroes2/][fheroes2]] - free remake of heroes2
+- [[https://sophieh.itch.io/sophies-safecracking-simulator][Sophie's Safecracking Simulator]] - lock picking practice.
+- https://melvoridle.com/ - idle RPG, available in browser.
+- [[https://store.steampowered.com/app/1564600/Blight/][Blight]] - survival game.

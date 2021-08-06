@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8f3ef9a2-5c78-49fc-a084-5a825789251c
+:ROAM_REFS: https://n4ru.it/perks
+:END:
 #+title: ThinkPad perks (corporate discounts)
-#+roam_key: https://n4ru.it/perks
-- related :: [[file:20200730193712-thinkpad.org][ThinkPad]]
+- related :: [[id:2bcad25e-8ccf-4421-b434-9d7e034c2067][ThinkPad]]

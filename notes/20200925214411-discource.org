@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       79b7fa60-81c9-42e9-ad13-7d62f24301e0
+:ROAM_REFS: https://www.discourse.org/
+:END:
 #+title: Discource
-#+roam_key: https://www.discourse.org/
 
 Modern open-source customizable forum platform. Used for many
 technical projects.
 
-Is it [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]]?
+Is it [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]]?

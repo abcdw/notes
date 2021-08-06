@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       8e66a25d-cfc1-4950-8b9b-f6ab9492c361
+:ROAM_REFS: https://www.gnu.org/gnu/about-gnu.html
+:END:
 #+title: GNU Operating System
-#+roam_key: https://www.gnu.org/gnu/about-gnu.html
 
 GNU's Not Unix.

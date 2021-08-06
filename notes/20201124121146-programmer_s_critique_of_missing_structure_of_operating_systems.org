@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       354ed6ba-a2b0-4cab-875e-7939c91c8d0b
+:ROAM_REFS: https://blog.rfox.eu/en/Programming/Programmers_critique_of_missing_structure_of_operating_systems.html
+:END:
 #+title: Programmer's critique of missing structure of operating systems
-#+roam_key: https://blog.rfox.eu/en/Programming/Programmers_critique_of_missing_structure_of_operating_systems.html
 
-- related :: [[file:20201124225036-what_happens_when.org][What happens when...]]
+- related :: [[id:d6999c99-68a8-4a9d-b914-fe04de1b6090][What happens when...]]
 
 Author of the article saw some shit. I'll write summary in strong
 statements, because I want so. It's for me to easily recall the

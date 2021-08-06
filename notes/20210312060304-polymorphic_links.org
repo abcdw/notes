@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       4ef510b9-41e9-4460-8dc8-e97f02a52de3
+:END:
 #+title: Polymorphic Links
-- related :: [[file:20210311123030-building_a_compiler.org][Building a Compiler]]
+- related :: [[id:a059e883-86c2-40c2-a1e1-b87a6118cae1][Building a Compiler]]
 
 Imaging you sending a link to line in the file in the project to your
 colleague: ~file:///home/bob/work/guix/file.scm:34~, but he keep this

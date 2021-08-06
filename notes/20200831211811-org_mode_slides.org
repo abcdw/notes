@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       02131975-9b8f-46d0-9018-0b4f9185c7c0
+:ROAM_REFS: https://github.com/takaxp/org-tree-slide
+:ROAM_ALIASES: org-tree-slide
+:END:
 #+title: Org-mode Slides
-#+roam_alias: org-tree-slide
-#+roam_key: https://github.com/takaxp/org-tree-slide
 
-Mode for making slides from [[file:20200717213713-org_mode.org][Org-mode]] buffers.
+Mode for making slides from [[id:c93727b8-4258-40e2-8714-af5a5c735744][Org-mode]] buffers.

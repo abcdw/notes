@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       eea64257-d93d-42d5-830d-311d9d413bd3
+:END:
 #+title: Building a House
 
 Notes for future myself on house construction.

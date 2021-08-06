@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       c380d4e6-572a-4166-ace9-fb86162f7970
+:END:
 #+title: rde
 
-Is a project helping to create [[file:20200620141734-reproducible_development_environment.org][Reproducible Development Environment]]s.
+Is a project helping to create [[id:7845ce2e-e349-405a-85bb-44a983ed4860][Reproducible Development Environment]]s.
 
 * Notes/Thoughts
 - There is a desire to make a special subsystem like flakes, which

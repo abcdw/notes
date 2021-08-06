@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       0d73a3d4-cb6f-4929-b14f-d7cc6a53d5e4
+:END:
 #+title: SSH tunnel as socks proxy
-- related :: [[file:20200907163757-secure_shell.org][SSH]]
+- related :: [[id:078a6a65-723b-4f30-98ec-b581a63a042c][SSH]]
 
 Making ~localhost:8123~ a socks proxy:
 #+BEGIN_SRC sh

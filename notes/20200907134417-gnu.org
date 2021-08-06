@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       2c40c22d-a761-4058-bd1d-4cd510c651bb
+:ROAM_REFS: https://www.gnu.org/gnu/gnu.html
+:END:
 #+title: GNU
-#+roam_key: https://www.gnu.org/gnu/gnu.html
 
-Will be referencing this page (at least for now) for both meanings: [[file:20200907135632-gnu_operating_system.org][GNU
-Operating System]] and [[file:20200907135648-gnu_project.org][GNU Project]].
+Will be referencing this page (at least for now) for both meanings: [[id:8e66a25d-cfc1-4950-8b9b-f6ab9492c361][GNU
+Operating System]] and [[id:bec33d12-11b2-481c-9626-d1dfe4aee25e][GNU Project]].

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       e24711fb-7b7c-473d-812b-715094106acf
+:ROAM_REFS: https://youtu.be/t3zRzQnarUI
+:END:
 #+title: How guix home works
-#+roam_key: https://youtu.be/t3zRzQnarUI
-#+roam_tags: Stream
+#+filetags: Stream
 
 * What and Why?
 - User packages

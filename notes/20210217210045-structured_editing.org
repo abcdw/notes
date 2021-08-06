@@ -1,7 +1,11 @@
+:PROPERTIES:
+:ID:       6b3de564-e6a3-4cba-ae58-b2bba5a6b815
+:END:
 #+title: Structured editing
 
 Opposite to line/character based editing. Can be used for structured
-data with predefined grammar, for example for [[file:20210217210237-lisp.org][Lisp]], json, etc.
+data with predefined grammar, for example for [[id:7533723d-e683-4113-9c6f-a41c784594e1][Lisp]], json, etc.
 
 * Example implementations
-- [[https://git.sr.ht/~technomancy/anarres][anarres]] :: technomancy's structured editor for [[file:20210628203204-the_fennel_programming_language.org][fennel]] language.
+- [[https://git.sr.ht/~technomancy/anarres][anarres]] :: technomancy's structured editor for [[id:f6c442a5-d853-45ec-8148-67c7734bd1cf][fennel]] language.
+- [[https://tylr.fun/][tylr]] :: [[https://twitter.com/dm_0ney/status/1414742742530498566][explanation]] is on twitter.

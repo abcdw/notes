@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       5d5ef851-d688-4857-9d2e-e5c575e8fc1c
+:ROAM_REFS: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+:END:
 #+title: XDG Base Directory Specification
-#+roam_key: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html

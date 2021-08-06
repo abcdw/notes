@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       bc4a6488-e71c-4dac-9ad7-d46f29ea8bbf
+:ROAM_REFS: http://super-memory.com/articles/sleep.htm
+:END:
 #+title: Good sleep, good learning, good life
-#+roam_key: http://super-memory.com/articles/sleep.htm
 
 Long-read about sleep, memory, learning and related topics with a
 focus on practical application, provides some well-established facts,

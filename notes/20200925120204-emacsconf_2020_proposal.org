@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       dbda175e-95d8-42ff-aebe-6e00c63b3406
+:END:
 #+title: EmacsConf 2020 Proposal
 
-- related :: [[file:20200816095244-emacs.org][Emacs]]
+- related :: [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]]
 
 Name:
 Andrew Tropin

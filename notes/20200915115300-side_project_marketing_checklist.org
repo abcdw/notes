@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d8edc6c1-8564-44e1-ab04-e25152f67a28
+:ROAM_REFS: https://github.com/portable-cto/side-project-marketing/blob/master/marketing-checklist.md
+:END:
 #+title: Side Project Marketing Checklist
-#+roam_key:  https://github.com/portable-cto/side-project-marketing/blob/master/marketing-checklist.md
-#+roam_tags: Marketing
+#+filetags: Marketing

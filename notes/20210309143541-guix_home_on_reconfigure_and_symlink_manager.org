@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       0a01de75-7fa9-4c68-b24b-93719e696083
+:ROAM_REFS: https://youtu.be/ZRQtCvo8MoM
+:END:
 #+title: guix home: on-reconfigure and symlink-manager
-#+roam_key: https://youtu.be/ZRQtCvo8MoM
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Introduction
 ** For newcommers

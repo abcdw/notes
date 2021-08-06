@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       58a68c5e-b648-4b4c-bd5a-5007e1ea0faf
+:END:
 #+title: Learning English
 
 Entry point for Learning English language related topics
@@ -6,7 +9,7 @@ Entry point for Learning English language related topics
 How to read transcriptions?
 
 * Capitalization
-[[file:20210224102856-capitalization_rules.org][Capitalization rules]]
+[[id:ac92c880-cb08-42fa-a0b8-24d861c7655f][Capitalization rules]]
 
 * Punctuation
 - [[https://www.thepunctuationguide.com/][The Punctuation Guide]]

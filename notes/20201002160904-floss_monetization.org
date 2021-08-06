@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       d9bcc7ab-e43b-4aa4-8e92-bd07d040dcaa
+:END:
 #+title: FLOSS monetization
-- related :: [[file:20200619115544-finances.org][Finances]]
+- related :: [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]]
 
 * Some options
 - donations via patreon, liberpay, etc
@@ -26,7 +29,7 @@
    expertise.
 
 * Links
-- https://youtu.be/2L1U2KpSgk8 :: Almost all monetization options for [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] project
+- https://youtu.be/2L1U2KpSgk8 :: Almost all monetization options for [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] project
 - [[https://braindump.rasen.dev/20200409124227][Open source business models]] :: a note by Alexey Shmalko
 - [[https://drewdevault.com/2021/03/03/To-make-money-in-FOSS-build-a-business.html][To make money in FOSS, build a business first]] :: post by Drew DeVault
 - https://blog.opencollective.com/funds-for-open-source/ :: ?

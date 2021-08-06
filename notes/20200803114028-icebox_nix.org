@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       98a3342d-eefb-4b0b-b5e9-a39b70e3c7a7
+:ROAM_REFS: https://github.com/icebox-nix/icebox
+:END:
 #+title: icebox-nix
-#+roam_key: https://github.com/icebox-nix/icebox
-[[file:20200727224003-nixos.org][NixOS]] configuration framework.
+[[id:6d118c14-fd0b-4573-ac34-944a217ae8d7][NixOS]] configuration framework.

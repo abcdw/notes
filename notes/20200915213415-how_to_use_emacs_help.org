@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       11cdb581-862a-4a84-bc0f-5d8ae52d3d8a
+:END:
 #+title: How to use Emacs help
 
-[[file:20200816095244-emacs.org][Emacs]] manual is great.
+[[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]] manual is great.
 
 ~C-h r~ to open emacs manual.
 

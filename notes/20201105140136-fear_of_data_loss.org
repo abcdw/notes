@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       2cc5d8a5-9af9-473b-b896-13ad4ec46a88
+:END:
 #+title: Fear of Data Loss
 
 In modern world you rarely know if the data is backed up/synced, is
 this folder is still necessary to exist or you can remove it.
 
-This fear can be overcomed with [[file:20200620141734-reproducible_development_environment.org][RDE]]:
+This fear can be overcomed with [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]]:
 - your OS and tools are reproducible
-- your data is separate from OS and under control of [[file:20201105140606-rde_cli.org][rde cli]] (you know
+- your data is separate from OS and under control of [[id:70fc1da0-53e3-454c-afb5-47daaf748769][rde cli]] (you know
   when it's synced/backed up)

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       62a0a04d-d8f1-4af4-aab0-04d7872190e7
+:END:
 #+title: English language questions
 
-- related :: [[file:20210125110806-learning_english.org][Learning English]]
+- related :: [[id:58a68c5e-b648-4b4c-bd5a-5007e1ea0faf][Learning English]]
 
 * Questions
 - How to say "you are welcome" in a different way?

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7533723d-e683-4113-9c6f-a41c784594e1
+:END:
 #+title: Lisp
 
 

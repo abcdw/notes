@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b8df439d-40e6-41bf-8273-9aabcf11aa15
+:END:
 #+title: Blog Examples Collection
 
 * Examples
@@ -7,7 +10,7 @@
 - https://lihebi.com/ :: home page of one student, minimalistic, but
   has good writings.
 - https://www.alexkehayias.com/essays/zettelkasten-setup/ :: note
-  taking and sharing workflow with [[file:20200816095244-emacs.org][Emacs]], org-roam, hugo and other
+  taking and sharing workflow with [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]], org-roam, hugo and other
   things.
 - https://drewdevault.com/ :: some posts available only via gemini.
 - http://okmij.org/ftp/ :: home page without any fancy css, well
@@ -16,10 +19,10 @@
 - https://rce.sh/ :: Danish Police Officer, geeky, but cool design of
   webpage
 - https://kl.wtf/ :: nice markdown like home page.
-- https://www.gwern.net :: found by a review for [[file:20210216215741-worm_parahumans_series.org][Worm (Parahumans
+- https://www.gwern.net :: found by a review for [[id:7178cb7a-8554-4a2a-a534-57d90fd13443][Worm (Parahumans
   series)]], has a changelog, subreddit, mailing list. Author do haskell
-  programming, has a relationship to [[file:20210216220841-lesswrong.org][LessWrong]] community blog.
-- https://www.ying-ish.com/essay/easy-hugo/ :: hugo, org mode, [[file:20200816095244-emacs.org][Emacs]].
+  programming, has a relationship to [[id:9daaec39-638d-4d78-a268-a6be03a92c28][LessWrong]] community blog.
+- https://www.ying-ish.com/essay/easy-hugo/ :: hugo, org mode, [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]].
 - https://www.saschawunderlich.de/notes/ :: Minimalistic look,
   Clojure, Emacs, Academia.
 

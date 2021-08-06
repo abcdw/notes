@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       a4a23aae-c528-4c63-85ed-a122f36b458b
+:ROAM_ALIASES: DNS
+:END:
 #+title: Domain Name System
-#+roam_alias: DNS

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f5b8101c-3c71-4427-8200-f6f50ee395bc
+:END:
 #+title: Penrose tiling
 
 One of aperiodic tilings.

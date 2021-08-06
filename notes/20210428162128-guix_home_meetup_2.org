@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       be3f4ccf-39c4-4368-b7b9-299ea47898e9
+:END:
 #+title: Guix Home Meetup #2
 
 * Manual

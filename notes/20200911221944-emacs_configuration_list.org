@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       e96a856c-9069-4f7a-a082-c59f339f97d8
+:END:
 #+title: Emacs Configuration Collection
-- related :: [[file:20200816095244-emacs.org][Emacs]]
+- related :: [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]]
 
 * Collection
 :PROPERTIES:

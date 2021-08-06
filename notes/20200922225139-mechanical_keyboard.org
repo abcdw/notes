@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       1a5b4369-c062-40d4-900d-0b12424e6b2f
+:END:
 #+title: Mechanical Keyboard
-- related :: [[file:20200922225107-ergonomics.org][Ergonomics]]
+- related :: [[id:c82f8b8c-237d-4371-b922-2f80cb7aa6e1][Ergonomics]]
 
 * Firmwares
 - https://zmkfirmware.dev/docs/

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7
+:END:
 #+title: Nix
 
 #+BEGIN_SRC shell
@@ -12,7 +15,7 @@ similiar dirs.
 - It allows to have multiple version of the same package in the system
 - To have packages, which depends on different versions of the same library
 - To have per project environments, similiar virtualenv for python, but for all
-  languages, see [[file:20200620141734-reproducible_development_environment.org][Reproducible Development Environment]].
+  languages, see [[id:7845ce2e-e349-405a-85bb-44a983ed4860][Reproducible Development Environment]].
 
 * Links
 - https://nixos.org/download.html

@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       239fc7ae-38b1-4ba6-bd6f-f58052d3dedd
+:ROAM_ALIASES: LUKS
+:END:
 #+title: Linux Unified Key Setup
-#+roam_alias: LUKS

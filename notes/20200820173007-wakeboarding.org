@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1a38b296-4e37-42c9-80cc-322831217c6f
+:END:
 #+title: Wakeboarding
 
-- related :: [[file:20210121130142-sport.org][Sport]]
+- related :: [[id:350a5ce2-a30e-4e3b-8c59-6b29f24be61e][Sport]]

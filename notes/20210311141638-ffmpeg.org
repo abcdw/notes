@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       112bfac0-bc8a-4076-84b7-cd69dff825a6
+:ROAM_REFS: https://www.ffmpeg.org/
+:END:
 #+title: ffmpeg
-#+roam_key: https://www.ffmpeg.org/
 
 Very flexible tool for manipulating audio and video streams.
 

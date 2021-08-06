@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       4f2f7e02-e934-4525-8404-7d4df54ed217
+:END:
 #+title: Finances
 
-[[file:20201201202632-ynab.org][YNAB]] - is simple approach for managing money.
+[[id:8f825ec0-afbc-45ff-a12b-259e2dcb3b86][YNAB]] - is simple approach for managing money.
 
 * What I can improve
 - Allocate money for retirement

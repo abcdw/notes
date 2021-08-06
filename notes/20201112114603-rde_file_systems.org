@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       877e731e-dab4-4ec3-acc9-f151419cf11f
+:END:
 #+title: rde file systems
 
-[[file:20201112114638-btrfs.org][Btrfs]] looks as a good candidate becasue it has snapshot capabilities,
-which can help implement [[file:20201112115141-erase_your_darlings.org][Erase your darlings]] like approach.
+[[id:7c5b8af3-f971-43c8-a0fc-b54b54261013][Btrfs]] looks as a good candidate becasue it has snapshot capabilities,
+which can help implement [[id:6f97ce50-ee99-48c8-b7fa-f5b2b9493ba2][Erase your darlings]] like approach.
 
 | destination                   | description                | /storage                    | partition  | sync  | init url             |
 |-------------------------------+----------------------------+-----------------------------+------------+-------+----------------------|

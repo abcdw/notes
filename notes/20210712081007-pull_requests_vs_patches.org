@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       80734097-5d8b-4b4d-b4ba-2ad13b8efbc9
+:ROAM_REFS: https://youtu.be/XVe9SD3kSR0
+:END:
 #+title: Pull Requests vs Patches
-#+roam_key: https://youtu.be/XVe9SD3kSR0
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Introduction
 - Prerequisits and context.
@@ -129,5 +132,5 @@ Is this a real issue?
 - Flexible and really comfy.
 * Links
 - https://begriffs.com/posts/2018-06-05-mailing-list-vs-github.html
-- [[file:20210316080728-mailing_lists_vs_github_like_tools.org][Mailing Lists vs GitHub-Like Tools]]
+- [[id:dfcb5d5d-e77a-4746-ba93-21223f8c3e2d][Mailing Lists vs GitHub-Like Tools]]
 - [[https://web.archive.org/web/20180522180815/https://dpc.pw/blog/2017/08/youre-using-git-wrong/][You're Using Git Wrong]]

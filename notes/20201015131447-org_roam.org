@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       f5774af1-8d49-4e16-b45a-cd493214cba9
+:ROAM_REFS: https://www.orgroam.com/
+:END:
 #+title: org-roam
-#+roam_key: https://www.orgroam.com/
 
-Nice [[file:20200816095244-emacs.org][Emacs]] package, which helps to do [[file:20200618173345-note_taking.org][Note-taking]] and
+Nice [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]] package, which helps to do [[id:a293f298-61a4-4b67-844a-8aa6b3457130][Note-taking]] and
 linking/backlinking.
 
 Inspired by Roam Research.

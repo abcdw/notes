@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       7ceca264-6085-403f-9c42-3e927b40c9cc
+:END:
 #+title: Literate Programming
 
 * Tags
-[[file:20200717213713-org_mode.org][Org mode]]
+[[id:c93727b8-4258-40e2-8714-af5a5c735744][Org mode]]
 * Content
 There are two options to work with source code:
 - tangling https://orgmode.org/manual/Extracting-Source-Code.html

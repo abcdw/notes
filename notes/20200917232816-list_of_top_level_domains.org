@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       9c715ae7-cc16-494f-9bb4-1baa81c6d9c3
+:ROAM_REFS: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+:END:
 #+title: List of Top-Level domains
-#+roam_key: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
 
-- related :: [[file:20200717165201-fqdn.org][FQDN]]
+- related :: [[id:e93af44a-9214-46e1-8895-b3ebab7beb6e][FQDN]]

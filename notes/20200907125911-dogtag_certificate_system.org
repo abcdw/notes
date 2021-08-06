@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       0100d430-784e-4bcc-af79-bcf824b2647c
+:ROAM_REFS: https://www.dogtagpki.org/
+:ROAM_ALIASES: Dogtag
+:END:
 #+title: Dogtag Certificate System
-#+roam_key: https://www.dogtagpki.org/
-#+roam_alias: Dogtag

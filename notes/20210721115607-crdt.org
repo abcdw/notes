@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       ef8e61ea-d0bd-4ff8-b050-245c6f70d7be
+:END:
+#+title: CRDT
+Conflict-free replicated data type

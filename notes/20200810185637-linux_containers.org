@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       1ef6068e-7a73-4957-ab8f-b74990104490
+:ROAM_ALIASES: LXC
+:END:
 #+title: Linux Containers
-#+roam_alias: LXC

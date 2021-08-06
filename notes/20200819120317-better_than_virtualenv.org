@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       0d9cb82b-5a1e-4e62-9c49-15a2a98b228b
+:ROAM_REFS: https://youtu.be/irPTtmP4xuM
+:END:
 #+title: Better than virtualenv
-#+roam_tags: Stream
-#+roam_key: https://youtu.be/irPTtmP4xuM
+#+filetags: Stream
 
 * What we will do today
 We will create a reproducible development environment for python project with native dependencies.
@@ -15,7 +18,7 @@ We will create a reproducible development environment for python project with na
 ** Virtualenv
 Doesn't provide:
 - Native dependencies
-- [[file:20200810221415-reproducibility.org][Reproducibility]]
+- [[id:60ff9de8-1a31-4128-9767-e901aba3ce1f][Reproducibility]]
 - Shared dependencies
 * Use cases
 ** Few projects with different deps

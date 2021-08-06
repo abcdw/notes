@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       1d8e7520-dee4-402e-9954-f02435a205cb
+:END:
 #+title: Emacs Cheatsheet
 
-- related :: [[file:20200816095244-emacs.org][Emacs]]
+- related :: [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]]
 
 My notes on useful keybindings.
 

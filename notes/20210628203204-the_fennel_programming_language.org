@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       f6c442a5-d853-45ec-8148-67c7734bd1cf
+:ROAM_REFS: https://fennel-lang.org
+:ROAM_ALIASES: fennel
+:END:
 #+title: The Fennel Programming Language
-#+roam_alias: fennel
-#+roam_key: https://fennel-lang.org
 
-Clojure-flavored [[file:20210217210237-lisp.org][lisp]] that compiles in Lua.
+Clojure-flavored [[id:7533723d-e683-4113-9c6f-a41c784594e1][lisp]] that compiles in Lua.
 
 https://sr.ht/~technomancy/fennel

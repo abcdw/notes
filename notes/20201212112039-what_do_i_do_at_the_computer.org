@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b3228a12-989b-4fb7-9241-70ebfb1249d2
+:END:
 #+title: What do I do at the computer
 
 - Task management

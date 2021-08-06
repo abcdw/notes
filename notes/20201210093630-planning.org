@@ -1,1 +1,4 @@
+:PROPERTIES:
+:ID:       5d27fd57-ff1c-4521-91e4-95d048e35a15
+:END:
 #+title: Planning

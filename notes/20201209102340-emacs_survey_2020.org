@@ -1,14 +1,17 @@
+:PROPERTIES:
+:ID:       cf081beb-fced-41a7-be85-288f74ebc296
+:ROAM_REFS: https://emacssurvey.org/2020/
+:END:
 #+title: Emacs Survey 2020
-#+roam_key: https://emacssurvey.org/2020/
 
-- related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]]
+- related :: [[id:bd871c6d-afe7-4b11-868c-f27ad8bc3b34][Marketing Channels]]
 
 * Summary
 :PROPERTIES:
 :ID:       314e958b-f5a2-400b-9b85-ba18592b7964
 :END:
 - magit is a most popular package.
-- [[file:20201209103311-reddit.org][Reddit]]'s r/Emacs has the widest Emacs community coverage.
+- [[id:e730c693-7526-4bd3-9f14-f212b63b0151][Reddit]]'s r/Emacs has the widest Emacs community coverage.
 - 1/3 of users have vi-style bindings.
 - Mail clients popularity order: mu4e, notmuch, other, gnus.
 - ivy, helm, ido, IDK, other, icomplete is order for completion.

@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       6e400db2-3c51-4e5c-a464-db5163b79f82
+:ROAM_REFS: https://kukuruku.co/post/the-collapse-of-the-unix-philosophy/
+:END:
 #+title: The Collapse of the UNIX Philosophy
-#+roam_key: https://kukuruku.co/post/the-collapse-of-the-unix-philosophy/
 
-- related :: [[file:20210215100016-the_unix_haters_handbook.org][The UNIX-HATERS handbook]]
+- related :: [[id:3ff1c93f-484a-4594-9f7b-b62b9d8f60ee][The UNIX-HATERS handbook]]
 
-A story about UNIX problems, originally written in Russian. [[file:20210203210847-the_rise_of_worse_is_better.org][The Rise
+A story about UNIX problems, originally written in Russian. [[id:61a49fe5-084d-4bcb-a9f9-853f4f35d34d][The Rise
 of Worse is Better]] is mentioned on the second page.
 
 * Links

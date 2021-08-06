@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       f042ba07-69fd-48c2-87c9-9b1d1e49c832
+:ROAM_REFS: https://emacsconf.org/2020/talks/17/
+:END:
 #+title: EmacsConf 2020 - 17 - Org-mode and Org-Roam for Scholars and Researchers - Noorah Alhasan
-#+roam_key: https://emacsconf.org/2020/talks/17/
 
-- related :: [[file:20200816095244-emacs.org][Emacs]]
+- related :: [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]]
 
 Cool researcher setup:
 - task management and inlinetasks

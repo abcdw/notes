@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       df9ea1e1-bd0c-4ae9-b52f-a3aec6fd6dd5
+:ROAM_REFS: https://flix.dev/
+:END:
+#+title: The Flix Programming Language
+
+The mix of Haskell and ML, has types, good pattern matching, [[id:f1d68055-a2dc-4748-abed-861c48c334a7][Datalog]]
+support and other nice things, can be useful to look at it while
+[[id:4d754bb3-3afc-4c14-bbcc-3aad16790a96][Building a Programming Language]].

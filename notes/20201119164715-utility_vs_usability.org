@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       29ae438f-080d-4e81-814d-baae3b0ff6b9
+:ROAM_REFS: https://drewdevault.com/2020/11/06/Utility-vs-usability.html
+:END:
 #+title: Utility vs Usability
-#+roam_key: https://drewdevault.com/2020/11/06/Utility-vs-usability.html
 
 Short article about Drew DeVault's approach for creating tools for
 programmers.

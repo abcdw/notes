@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       cf976a63-f0ed-43a4-bb50-7ba3f4278564
+:ROAM_ALIASES: "Robert Sapolsky" "Robert M. Sapolsky"
+:END:
 #+title: Robert Morris Sapolsky
-#+roam_alias: "Robert M. Sapolsky" "Robert Sapolsky"
 
 * Books
 https://www.goodreads.com/book/show/27777892-human-behavioral-biology

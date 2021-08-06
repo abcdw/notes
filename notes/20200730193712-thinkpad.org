@@ -1,1 +1,4 @@
+:PROPERTIES:
+:ID:       2bcad25e-8ccf-4421-b434-9d7e034c2067
+:END:
 #+title: ThinkPad

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       adc2850c-fb40-48d0-992d-afdb2055ff30
+:ROAM_REFS: https://youtu.be/Unzc731iCUY
+:END:
 #+title: How To Speak by Patrick Winston
-#+roam_key: https://youtu.be/Unzc731iCUY
 
 * The Rule of Engagement
 No phones, no laptops. It was a rule for his talk, but should work for

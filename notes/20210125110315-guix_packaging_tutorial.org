@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       a557af5c-65cc-40c5-9243-fae79d0f21ac
+:ROAM_REFS: https://youtu.be/R8DtPnP4eL8
+:END:
 #+title: Guix: Packaging tutorial
-#+roam_key: https://youtu.be/R8DtPnP4eL8
-#+roam_tags: Stream
+#+filetags: Stream
 
 * The problem
 * Guix environment

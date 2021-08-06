@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       d0f5123b-241f-42c1-abb5-58440710b52d
+:END:
 #+title: Cleanest Dotfiles Setup
-#+ROAM_TAGS: Video Idea
+#+filetags: Video Idea
 
-A 11 minutes video about dotfiles, [[file:20200723101317-home_manager.org][Home Manager]] and proper setup. Can be based
-on materials for [[file:20200720094620-rde_managing_dotfiles.org][RDE: Managing Dotfiles]].
+A 11 minutes video about dotfiles, [[id:f63ccbb4-7b07-4c88-befd-868c2800adb8][Home Manager]] and proper setup. Can be based
+on materials for [[id:3e445d03-17a8-4e86-aa32-f6c92c4c87e7][RDE: Managing Dotfiles]].
 
 - ~ls -a ~~ should be very clean
 - Pretty consistent theme with fancy icons and indicators

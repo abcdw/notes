@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       f0e57df7-3c12-4981-9ae3-f5187698d104
+:ROAM_REFS: https://arxiv.org/pdf/1707.00015.pdf
+:END:
 #+title: Deuce: A Lightweight User Interface for Structured Editing
-#+roam_key: https://arxiv.org/pdf/1707.00015.pdf
 
 Article about Deuce, structure-aware code editor. From brief overview
 I was able to find pretty nice refactoring capabilities.

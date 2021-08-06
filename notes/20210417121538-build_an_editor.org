@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       bf9dd0c2-c867-4469-80fb-780c4a957d84
+:END:
 #+title: Build an Editor
 
 Not a text editor of course.

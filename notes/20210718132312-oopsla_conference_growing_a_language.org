@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       f15cddff-0c2c-4d46-a393-b80b0f2d2969
+:ROAM_REFS: https://youtu.be/lw6TaiXzHAE
+:END:
+#+title: OOPSLA Conference: Growing a Language
+
+[[id:4d754bb3-3afc-4c14-bbcc-3aad16790a96][Building a Language]] start from a small language or make it big from
+the beginning?  When we start with a small language we can't say much
+at the start, we must first define more words, then we can speak what
+is in our mind.
+
+* Important thoughts
+- Instead of designing a thing, design a way of doing.
+- To make language sucessful, start small and make users grow with a
+  language.
+- Short words works well if we choose them well.
+* Spoiler
+During the talk the author uses only words with one syllable, until he
+defines the word.
+* Definitions
+Some of definitions, mentioned in the talk.
+- Vocabulary :: set of words.
+- Language :: vocab + set of rules what string of words might mean.
+- To Define :: tell what a word means and add it to your vocab and vocab
+  of each person who hears you.
+- To Program :: make up a list of things to do and choices to make to be
+  done by computer.
+- Program :: such a list.
+- Example :: is a thing of a set of things I put in front of you, to
+  show that some property shared between all things in the set.
+- Primitive :: something we can take as granted.
+  
+

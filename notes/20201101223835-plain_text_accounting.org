@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       68834793-b69d-43e0-b922-db35916ac233
+:ROAM_REFS: https://plaintextaccounting.org/#budgeting
+:END:
 #+title: Plain text accounting
-#+roam_key: https://plaintextaccounting.org/#budgeting
-- related :: [[file:20201101223912-ledger.org][ledger]]
+- related :: [[id:694b1aba-4199-4c2b-a588-d87ab4b89521][ledger]]
 
   List of good resources about plain text accounting:
   - Articles

@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       dd183d9b-ab2d-4b57-baf4-8efa2d303c8c
+:ROAM_REFS: https://youtu.be/jOPAYeVqdJQ
+:END:
 #+title: The next generation of contributors is not on IRC
-#+roam_key: https://youtu.be/jOPAYeVqdJQ
-#+roam_tags: Marketing
-- related :: [[file:20200925213216-interesting_numbers.org][Interesting Numbers]], [[file:20200720095647-marketing_channels.org][Marketing Channels]]
+#+filetags: Marketing
+- related :: [[id:86a8c89c-e6e3-4a67-b01e-92a92db63765][Interesting Numbers]], [[id:bd871c6d-afe7-4b11-868c-f27ad8bc3b34][Marketing Channels]]
 
-Talk about importance of other communication channels. Current [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]]
+Talk about importance of other communication channels. Current [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]]
 contributors can use many different resources to communicate. Contains
 some overall ideas about how communication with comunity should look
 like.
@@ -27,11 +30,11 @@ Estimated number of users 2020:
 
 Talk-recommended defaults for building new community:
 | sync        | -                          |
-| async       | [[file:20200925214411-discource.org][Discource]]                  |
+| async       | [[id:79b7fa60-81c9-42e9-ad13-7d62f24301e0][Discource]]                  |
 | Face 2 Face | Zoom                       |
 | News        | twitter & mail newsletters |
 
-Agree with [[file:20200925214411-discource.org][Discource]], but prefer [[file:20200925215145-jitsi.org][Jitsi]] for videoconferencing. Mail
+Agree with [[id:79b7fa60-81c9-42e9-ad13-7d62f24301e0][Discource]], but prefer [[id:8fe942a4-15b8-4d15-8157-f426f5f7f928][Jitsi]] for videoconferencing. Mail
 newsletters is also good, I'm curious how good mailing lists are?
 There are federated and ethical alternatives to twitter, but they have
 less number of users.

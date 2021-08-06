@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       989f2286-aedb-44b9-abbb-95ca3d08293d
+:ROAM_REFS: https://pijul.org/
+:END:
 #+title: Pijul
-#+roam_key: https://pijul.org/
 
-VCS, with the same idea as in [[file:20210329191726-darcs.org][Darcs]], but with more performant
+VCS, with the same idea as in [[id:65cd2c9b-27a5-4508-892b-df3bc9db0b6c][Darcs]], but with more performant
 implementation.
 
 * Materials

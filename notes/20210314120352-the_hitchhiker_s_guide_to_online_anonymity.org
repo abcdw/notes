@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       97d74e37-b21b-4e5b-b865-def585deb045
+:ROAM_REFS: https://anonymousplanet.org/
+:END:
 #+title: The Hitchhiker's Guide to Online Anonymity
-#+roam_key: https://anonymousplanet.org/
 
-- related :: [[file:20210314120543-cybersecurity.org][Cybersecurity]]
+- related :: [[id:1c02a646-e6aa-4207-ab44-612dfdf03f2f][Cybersecurity]]
   

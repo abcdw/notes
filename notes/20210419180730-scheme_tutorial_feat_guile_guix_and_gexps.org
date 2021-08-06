@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       f98634f0-dc12-4011-96c9-bf0b4d51fdb4
+:ROAM_REFS: https://youtu.be/SQAW5jfYSQ0
+:END:
 #+title: Scheme tutorial feat. Guile, Guix and Gexps
-#+roam_tags: Stream
-#+roam_key: https://youtu.be/SQAW5jfYSQ0
+#+filetags: Stream
 
 * Introduction
 * Tools

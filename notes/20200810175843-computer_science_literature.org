@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2fa57e7a-5b88-4ef3-b15c-71d0054d3ac1
+:END:
 #+title: Computer Science Literature
 
 * Operating systems

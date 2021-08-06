@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       896d4623-9ada-4ab5-af9a-3696ef90b1a1
+:ROAM_REFS: https://youtu.be/4-Ks_f8rQFA
+:END:
 #+title: gpg explained
-#+roam_key: https://youtu.be/4-Ks_f8rQFA
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Plan for today
 - Brief introduction
@@ -18,8 +21,8 @@ aka Public-key cryptography.
 - Create and sign other keys
 * Name confusion and a little history
 - PGP :: a software tool.
-- [[file:20200907140005-openpgp.org][OpenPGP]] :: a standard.
-- gpg or [[file:20200907134309-gnupg.org][GnuPG]] :: complete and free implementation of [[file:20200907140005-openpgp.org][OpenPGP]].
+- [[id:9353387c-bc3c-4c2f-8882-7ae5500bb9ca][OpenPGP]] :: a standard.
+- gpg or [[id:52b0eb9a-598c-4732-846f-654932eda0fd][GnuPG]] :: complete and free implementation of [[id:9353387c-bc3c-4c2f-8882-7ae5500bb9ca][OpenPGP]].
 * Is gpg ideal?
 * GPG key structure and capabilities
 https://rzetterberg.github.io/assets/yubikey-gpg-nixos/key-anatomy1.png

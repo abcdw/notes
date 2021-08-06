@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       0db60c0c-3e57-466c-b362-b7911fc0d04b
+:END:
 #+title: Funding FLOSS Project
 
-Funding ideas for [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] project.
+Funding ideas for [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] project.
 
 - NLNet provides grants: https://nlnet.nl/propose/
 - Other NLNet grants: https://NLnet.nl/foundation/network.html

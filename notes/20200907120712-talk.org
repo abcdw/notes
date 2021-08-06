@@ -1,1 +1,4 @@
+:PROPERTIES:
+:ID:       0631b3d3-4428-42cf-916b-6b3a4e5c4c9d
+:END:
 #+title: Talk

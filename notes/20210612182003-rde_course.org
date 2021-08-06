@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2bf76883-8db8-43b0-aa14-0c1cb7b48a92
+:END:
 #+title: rde Course
 #+STARTUP: content
 

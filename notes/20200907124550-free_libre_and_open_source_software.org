@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       714bc351-fe44-4f30-b5ac-49f3430d39cb
+:ROAM_REFS: https://www.gnu.org/philosophy/floss-and-foss.en.html
+:ROAM_ALIASES: "Libre Software" FOSS FLOSS
+:END:
 #+title: Free/Libre and Open Source Software
-#+roam_alias: FLOSS FOSS "Libre Software"
-#+roam_key: https://www.gnu.org/philosophy/floss-and-foss.en.html

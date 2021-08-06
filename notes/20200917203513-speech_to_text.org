@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       dcb3532f-5754-4d01-9ac2-21f2ed3fa184
+:END:
 #+title: Speech To Text
 

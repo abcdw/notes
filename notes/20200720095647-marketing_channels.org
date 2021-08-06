@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       bd871c6d-afe7-4b11-868c-f27ad8bc3b34
+:END:
 #+title: Marketing channels
-#+ROAM_TAGS: Marketing
+#+filetags: Marketing
 
 Prepare a dashboard before starting marketing campaign.
 
-Read this article: [[file:20200915115300-side_project_marketing_checklist.org][Side Project Marketing Checklist]]
+Read this article: [[id:d8edc6c1-8564-44e1-ab04-e25152f67a28][Side Project Marketing Checklist]]
 * Nice marketing ideas
 - Red bull marketing hackers: https://t.me/temno/2984
 * Possible channels
@@ -24,6 +27,6 @@ Read this article: [[file:20200915115300-side_project_marketing_checklist.org][S
  Same as irc, but a little more modern
 ** YouTube
  - Collaboration with DistroTube on NixOS distro topic. Collaboration guide (ru):
-   https://youtu.be/BkptnUewz4U, [[file:20200815231650-similar_video_channels.org][Similar Video Channels]], [[https://www.youtube.com/channel/UCnxk5BzZxRN7y3a1IqHhVlA][Pingvinus]].
+   https://youtu.be/BkptnUewz4U, [[id:18956800-ba5d-46cd-81a2-22990ca35e62][Similar Video Channels]], [[https://www.youtube.com/channel/UCnxk5BzZxRN7y3a1IqHhVlA][Pingvinus]].
 ** Conferences and meetups
  fprog, ClojuTRE, NixCon

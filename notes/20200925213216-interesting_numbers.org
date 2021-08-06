@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       86a8c89c-e6e3-4a67-b01e-92a92db63765
+:END:
 #+title: Interesting Numbers
 
 A shared place to link. A tag, which means that article has some

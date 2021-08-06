@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       0994c5e4-4eaa-4cc0-80ea-0796a37929df
+:END:
 #+title: Math Coolness
 
 List of interesting math ideas
-- [[file:20201004192933-penrose_tiling.org][Penrose tiling]]
+- [[id:f5b8101c-3c71-4427-8200-f6f50ee395bc][Penrose tiling]]

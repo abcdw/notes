@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       98d41ac2-b82b-43dd-81c5-b677dbb50b81
+:END:
 #+title: Nix Binary Cache
-- related :: [[file:20200620142500-nix.org][Nix]], [[file:20200727223629-nixpkgs.org][nixpkgs]], [[file:20200727224003-nixos.org][NixOS]], [[file:20200620141734-reproducible_development_environment.org][RDE]]
+- related :: [[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]], [[id:a3e6d101-f6cd-4519-84d1-6e005520bd26][nixpkgs]], [[id:6d118c14-fd0b-4573-ac34-944a217ae8d7][NixOS]], [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]]
 
   Allows to build artifacts only once and reuse them. Built a library for dev
   environment and reuse it on production/CI.

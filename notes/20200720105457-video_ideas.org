@@ -1,38 +1,49 @@
+:PROPERTIES:
+:ID:       0638b8e4-09b7-4aec-a4b2-4b133701bda8
+:END:
 #+title: Video Ideas
-#+ROAM_TAGS: Marketing Idea
-- related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]], [[file:20200720101007-tropin_video_channel.org][TROPIN video channel]]
+#+filetags: Marketing Idea
+
+- related :: [[id:bd871c6d-afe7-4b11-868c-f27ad8bc3b34][Marketing Channels]], [[id:b5677bd2-5c31-4471-9c2c-cb655cbd9f32][TROPIN video channel]]
+
+* Formats
+- [[id:8d03b6c6-b5d7-4126-b72e-8a44746b1f60][Shorts]] on some topic, small parts of workflow.
+- Pair programming.
+- Articles overview and discussion.
+- Stream preparation for stream.
 * Presentation
 - Frequently change view
 - Plan questions for viewers ahead of talk
 - Show highlights of scientific papers on the topic
-* How to call videos
+** How to call videos
 - gnu changelog style :: guix: home: How to setup on foreign distro?
 - series style :: Managing finances s01e02: Double entry bookkeeping.
-* Click-baity titles
+** Click-baity titles
 - Modern way to configure Emacs
-* RDE/Nix related
+* Topics
+** RDE/Nix related
 - GNU starter kit (cool name for vid, can be an rde introduction or
   something like that)
 - Docker problems.
 - ML pipeline in 5 minutes.
 - How to send patch to Guix.
-* Other Ideas
-- [[file:20200720105819-cleanest_dotfiles_setup.org][Cleanest Dotfiles Setup]] video and reference to Luke Smith's
+** Other Ideas
+- [[id:d0f5123b-241f-42c1-abb5-58440710b52d][Cleanest Dotfiles Setup]] video and reference to Luke Smith's
   https://www.youtube.com/watch?v=yy8RoDSdhIQ&t=319s
-- Implementing CI in few hours with [[file:20200620142517-guix.org][Guix]]
-- Creating a [[https://www.youtube.com/watch?v=rbasThWVb-c][snake game]] in five minutes. It's possible to show, how cool [[file:20200620141734-reproducible_development_environment.org][RDE]] is for developers.
+- Implementing CI in few hours with [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]]
+- Creating a [[https://www.youtube.com/watch?v=rbasThWVb-c][snake game]] in five minutes. It's possible to show, how cool [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]] is for developers.
 - Humor: [[https://youtu.be/pI5ToeZWP7s][Ref Vid]] How I read documentation (super fast scrolling wheel)
-- Installing linux without root partition [[file:20200731150359-nixos_tmpfs_as_root.org][NixOS: tmpfs as root]]
+- Installing linux without root partition [[id:2708f0d8-8f10-4541-8c34-5dd443e820eb][NixOS: tmpfs as root]]
 - Installing linux from VRAM
 - [[https://www.youtube.com/watch?v=GKviflL9XeI][Tiling Window Management and i3wm config additions]]
-* OS related topics
+** OS related topics
 - Plain text is fundamentally broken.
 * Video series plan
 ** Guix FAQ series:
-- [[file:20210414080341-guix_channels_and_sudo.org][guix, channels and sudo]]
+- [[id:c0253188-65c4-41f9-91e4-d77d17c4ff1e][guix, channels and sudo]]
 - Difference between propagated, native and just inputs
 - When guix will be building from source code?
 ** Other videas related to Guix
 - How to submit patch to guix
-- [[file:20210525083906-why_docker_sucks.org][Why Docker Sucks]]
+- [[id:5cb8684b-dcb0-4be4-8025-b3dff0555648][Why Docker Sucks]]
 

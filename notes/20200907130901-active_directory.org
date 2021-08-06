@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       1a34574c-e1fa-4e33-a954-fc7d64a568f1
+:ROAM_ALIASES: AD
+:END:
 #+title: Active Directory
-#+roam_alias: AD
 
-Microsoft's implementation of [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] with some additional features.
+Microsoft's implementation of [[id:fd2d401a-aac0-404e-b198-2a1fb42410b9][LDAP]] with some additional features.

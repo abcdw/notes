@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f2b6d45d-d5e2-4b3d-8e2d-4e95b0871c91
+:END:
 #+title: The SCARF model
 
 Model describes the way people socially interact. It has 5 domains,

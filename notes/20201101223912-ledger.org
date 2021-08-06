@@ -1,10 +1,13 @@
+:PROPERTIES:
+:ID:       694b1aba-4199-4c2b-a588-d87ab4b89521
+:ROAM_REFS: https://www.ledger-cli.org/
+:END:
 #+title: ledger
-#+roam_key: https://www.ledger-cli.org/
 
-One of the most popular [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] [[file:20201101223835-plain_text_accounting.org][Plain text accounting]] tool.
+One of the most popular [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] [[id:68834793-b69d-43e0-b922-db35916ac233][Plain text accounting]] tool.
 
-There are many different ways to manage [[file:20200619115544-finances.org][Finances]] with ledger, but one
-interesting approach is [[file:20201201202632-ynab.org][YNAB]].
+There are many different ways to manage [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]] with ledger, but one
+interesting approach is [[id:8f825ec0-afbc-45ff-a12b-259e2dcb3b86][YNAB]].
 
 Author of Elbank utility switched to ledger and wrote a small post
 about YNAB in ledger: [[https://emacs.cafe/ledger/emacs/ynab/budgeting/2018/06/12/elbank-ynab.html][Using Ledger for YNAB-like envelope budgeting]]

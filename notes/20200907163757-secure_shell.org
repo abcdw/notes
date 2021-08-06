@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       078a6a65-723b-4f30-98ec-b581a63a042c
+:ROAM_ALIASES: SSH
+:END:
 #+title: Secure Shell
-#+roam_alias: SSH

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       b1a87eea-3ed1-4f42-b486-3e8d9efa217e
+:END:
 #+title: Confirmation bias
 
 A tendency of people to look for information, which support their

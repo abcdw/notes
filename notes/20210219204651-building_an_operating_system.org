@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       1e0888dd-9c51-4a94-8a7c-7a1f500a16a2
+:ROAM_ALIASES: "Building an OS"
+:END:
 #+title: Building an Operating System
-#+roam_alias: "Building an OS"
 
 An anchor for reference from materials related to OS construction.
 

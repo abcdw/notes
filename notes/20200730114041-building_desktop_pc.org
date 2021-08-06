@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       e2843379-93f3-4226-a1d2-e8a78b558c1e
+:END:
 #+title: Building desktop PC
 - [[https://www.logicalincrements.com/][logicalincrements]] :: PC calcuraltor/constructor, good starting point.

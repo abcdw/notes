@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       2a8b9445-45da-4c68-82d0-0d93a9518641
+:END:
 #+title: Emacs: Managing Emails and Mailing Lists
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Introduction
 * History

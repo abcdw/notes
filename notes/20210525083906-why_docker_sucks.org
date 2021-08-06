@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       5cb8684b-dcb0-4be4-8025-b3dff0555648
+:END:
 #+title: Why Docker Sucks
 
 It's not about containerization, but more about docker/other container

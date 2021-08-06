@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       eed725a7-72df-4da2-b3fc-936347651480
+:ROAM_REFS: https://youtu.be/98EwejpIJzE
+:END:
 #+title: Flakes in nix 3.0
-#+roam_key: https://youtu.be/98EwejpIJzE
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Problems
   - Implicit inputs

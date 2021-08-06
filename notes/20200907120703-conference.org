@@ -1,1 +1,4 @@
+:PROPERTIES:
+:ID:       87ed5859-adbc-4bff-a819-c7b77c6a95da
+:END:
 #+title: Conference

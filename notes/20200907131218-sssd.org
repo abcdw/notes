@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       a10847f0-eef9-4eb8-864f-aad60f8112ae
+:ROAM_REFS: https://sssd.io/
+:END:
 #+title: SSSD
-#+roam_key: https://sssd.io/
 
-Allows to authenticate using for example [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] or [[file:20200907125150-kerberos_protocol.org][Kerberos]]. Have caching
+Allows to authenticate using for example [[id:fd2d401a-aac0-404e-b198-2a1fb42410b9][LDAP]] or [[id:d7970856-5029-41a0-977a-90f643a6929c][Kerberos]]. Have caching
 capabilities and pluggable backends for different account sources.

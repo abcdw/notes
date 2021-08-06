@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       bec33d12-11b2-481c-9626-d1dfe4aee25e
+:ROAM_REFS: https://www.gnu.org/gnu/thegnuproject.en.html
+:END:
 #+title: GNU Project
-#+roam_key: https://www.gnu.org/gnu/thegnuproject.en.html

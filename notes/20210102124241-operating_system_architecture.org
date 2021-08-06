@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       01781b2a-8c21-4fd7-8df6-5e50c6198f7b
+:END:
 #+title: Operating System Architecture
 
 List of references about OS arch:

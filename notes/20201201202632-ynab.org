@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       8f825ec0-afbc-45ff-a12b-259e2dcb3b86
+:END:
 #+title: YNAB
 
 You need a budget. Is an app + approach for managing personal
-[[file:20200619115544-finances.org][finances]].
+[[id:4f2f7e02-e934-4525-8404-7d4df54ed217][finances]].
 
 The book: https://www.youneedabudget.com/ynab-the-book/
 

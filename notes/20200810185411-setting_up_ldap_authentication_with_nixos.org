@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       9034723b-0049-428f-87f7-4580b365fe1f
+:ROAM_REFS: https://mt-caret.github.io/blog/posts/2020-07-25-ldap-client-with-nixos.html
+:END:
 #+title: Setting up LDAP Authentication with NixOS
-#+roam_key: https://mt-caret.github.io/blog/posts/2020-07-25-ldap-client-with-nixos.html
 
-Create [[file:20200727224003-nixos.org][NixOS]] container with [[file:20200810182522-lxd.org][LXD]]. The system uses [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] to authenticate users.
+Create [[id:6d118c14-fd0b-4573-ac34-944a217ae8d7][NixOS]] container with [[id:6d80dcc8-6666-41a7-982e-0d383de045c1][LXD]]. The system uses [[id:fd2d401a-aac0-404e-b198-2a1fb42410b9][LDAP]] to authenticate users.
 Some hacks are required for such setup to work: for example there is no
-~/bin/bash~ in [[file:20200727224003-nixos.org][NixOS]], but in [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] records loginShell is ~/bin/bash~.
-Also it setups [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] auth in [[file:20200810191606-nginx.org][nginx]].
+~/bin/bash~ in [[id:6d118c14-fd0b-4573-ac34-944a217ae8d7][NixOS]], but in [[id:fd2d401a-aac0-404e-b198-2a1fb42410b9][LDAP]] records loginShell is ~/bin/bash~.
+Also it setups [[id:fd2d401a-aac0-404e-b198-2a1fb42410b9][LDAP]] auth in [[id:6e2efc60-cfdf-4c8c-b9fc-10ce15074917][nginx]].

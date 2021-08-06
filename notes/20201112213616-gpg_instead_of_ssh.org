@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       077955fc-2ac2-46b5-be97-b9ebd23ea07e
+:END:
 #+title: GPG instead of SSH
 
 It is possible to use gpg-agent instead of ssh-agent and also it's

@@ -1,10 +1,13 @@
+:PROPERTIES:
+:ID:       fb9d19cf-5175-480f-a0ff-f671466d6c02
+:ROAM_REFS: https://nixos.wiki/wiki/Configuration_Collection
+:END:
 #+title: NixOS Configuration Collection
-#+roam_key: https://nixos.wiki/wiki/Configuration_Collection
 
 |                     | tags                                            | Link                            | description              |
 |---------------------+-------------------------------------------------+---------------------------------+--------------------------|
-| [[file:20200803113119-harry_ying.org][Harry Ying]]'s config | [[file:20200723101317-home_manager.org][Home Manager]], [[file:20200803112742-nix_flakes.org][flakes]], iso image, encrypted boot | https://github.com/LEXUGE/nixos |                          |
-| nixflk template     | [[file:20200723101317-home_manager.org][Home Manager]], [[file:20200803112742-nix_flakes.org][flakes]], template                  | https://github.com/nrdxp/nixflk | well-structured template |
+| [[id:eaa7fb7b-bc23-426d-b1a9-46cf8dbb8391][Harry Ying]]'s config | [[id:f63ccbb4-7b07-4c88-befd-868c2800adb8][Home Manager]], [[id:aa7b4d37-6474-48f9-b185-1c88369b0e9b][flakes]], iso image, encrypted boot | https://github.com/LEXUGE/nixos |                          |
+| nixflk template     | [[id:f63ccbb4-7b07-4c88-befd-868c2800adb8][Home Manager]], [[id:aa7b4d37-6474-48f9-b185-1c88369b0e9b][flakes]], template                  | https://github.com/nrdxp/nixflk | well-structured template |
 | Mic92               | krop                                            |                                 |                          |
-| [[https://github.com/bqv/nixrc/][bqv's nixrc]]         | [[file:20200803112742-nix_flakes.org][flakes]], [[file:20200816095244-emacs.org][Emacs]], [[file:20200620142517-guix.org][Guix]]                             | https://github.com/bqv/nixrc/   | Actively develpoed       |
+| [[https://github.com/bqv/nixrc/][bqv's nixrc]]         | [[id:aa7b4d37-6474-48f9-b185-1c88369b0e9b][flakes]], [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]], [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]]                             | https://github.com/bqv/nixrc/   | Actively develpoed       |
 

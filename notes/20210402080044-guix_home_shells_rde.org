@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       80578282-1801-471e-87d0-90cae84339c3
+:ROAM_REFS: https://youtu.be/mNJ-SlTbFc8
+:END:
 #+title: guix home: shells, rde
-#+roam_tags: Stream
-#+roam_key: https://youtu.be/mNJ-SlTbFc8
+#+filetags: Stream
 
 * Introduction
 - shells

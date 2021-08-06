@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d1d34cf5-3769-423e-8dfc-2ab93b3a03e1
+:ROAM_REFS: https://hal.inria.fr/inria-00555588/document
+:END:
+#+title: A comprehensive study of Convergent and Commutative Replicated Data Types (2011)
+
+- related :: [[id:ef8e61ea-d0bd-4ff8-b050-245c6f70d7be][CRDT]]

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       3555848f-82c1-4aa0-ac82-9839d2c6c5ee
+:END:
 #+title: rde Ideas and Projects
 
-Ideas related to [[file:20200620141734-rde.org][rde]], [[file:20200620142517-guix.org][Guix]] and [[file:20200620141734-reproducible_development_environment.org][Reproducible Development Environment]] in
+Ideas related to [[id:c380d4e6-572a-4166-ace9-fb86162f7970][rde]], [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]] and [[id:7845ce2e-e349-405a-85bb-44a983ed4860][Reproducible Development Environment]] in
 general.
 
 * Project Ideas

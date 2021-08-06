@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       0674c577-2198-46c0-8d95-edcfefa5de58
+:END:
+#+title: Smalltalk
+

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       aa7b4d37-6474-48f9-b185-1c88369b0e9b
+:ROAM_REFS: https://nixos.wiki/wiki/Flakes
+:ROAM_ALIASES: flakes
+:END:
 #+title: Nix Flakes
-#+roam_key: https://nixos.wiki/wiki/Flakes
-#+roam_alias: "flakes"
 
 * Links
 - https://github.com/tweag/rfcs/blob/flakes/rfcs/0049-flakes.md

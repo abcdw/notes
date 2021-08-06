@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       a92fc46b-e558-44dd-98e1-825e1942e09c
+:END:
 #+title: Fitness Exercises For Wakeboarding
-- related :: [[file:20200820173007-wakeboarding.org][Wakeboarding]]
+- related :: [[id:1a38b296-4e37-42c9-80cc-322831217c6f][Wakeboarding]]
 * Days
 ** Monday
 - yoga

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       7c5b8af3-f971-43c8-a0fc-b54b54261013
+:ROAM_REFS: https://btrfs.wiki.kernel.org/index.php/Main_Page
+:END:
 #+title: Btrfs
-#+roam_key: https://btrfs.wiki.kernel.org/index.php/Main_Page
 
 Pretty advanced COW filesystem with support of subvolumes, snapshots,
 raids and other features. Known to have some excessive fragmentation.

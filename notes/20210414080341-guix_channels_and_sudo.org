@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c0253188-65c4-41f9-91e4-d77d17c4ff1e
+:END:
 #+title: guix, channels and sudo
 
 The short answer is guix system reconfigure will fail without

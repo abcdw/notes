@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       40e8ac4b-da42-4d6e-a5dd-6a3b457ecfbe
+:ROAM_REFS: https://www.pldi21.org/prerecorded_hopl.11.html
+:END:
+#+title: A History of Clojure
+
+A talk and a paper about Clojure history.
+
+* Links
+- https://youtu.be/nD-QHbRWcoM
+- https://download.clojure.org/papers/clojure-hopl-iv-final.pdf

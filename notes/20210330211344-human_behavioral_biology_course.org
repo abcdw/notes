@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       4d7a426d-d609-440a-8c79-1147e674bbd5
+:END:
 #+title: Human Behavioral Biology Course
 
 Must see course for any conscious spicies. No prerequisits.
 
 * Parts
-- [[file:20210404143757-behavioral_evolution.org][Behavioral Evolution]]
+- [[id:c889b790-06d6-4066-a994-4cf2026de909][Behavioral Evolution]]
 
 * Materials
-- [[https://www.youtube.com/playlist?list=PL848F2368C90DDC3D][Human Behavioral Biology]], Stanford :: no prerequisites. by [[file:20210330205130-robert_morris_sapolsky.org][Robert Sapolsky]].
+- [[https://www.youtube.com/playlist?list=PL848F2368C90DDC3D][Human Behavioral Biology]], Stanford :: no prerequisites. by [[id:cf976a63-f0ed-43a4-bb50-7ba3f4278564][Robert Sapolsky]].

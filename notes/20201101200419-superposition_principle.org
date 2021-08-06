@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       05a011ae-5af2-47c5-acf5-35849765a341
+:END:
 #+title: Superposition principle
 
 The net repsonse caused by few stimulus is the sum of responses for

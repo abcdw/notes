@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       3efb3781-5efa-4037-8a95-abeec91292f4
+:END:
 #+title: YubiKey
 
 A security device for different purposes:
-- storing [[file:20200907140005-openpgp.org][pgp]] keys
+- storing [[id:9353387c-bc3c-4c2f-8882-7ae5500bb9ca][pgp]] keys
 - generating one-time passwords
 - doing 2 factor authentication
 
@@ -9,4 +12,4 @@ Also can be referenced as a smartcard.
 
 * Materials
 - https://github.com/drduh/YubiKey-Guide/blob/master/README.md
-- [[file:20200907134211-setting_up_gnupg_yubikey_on_nixos_for_ssh_authentication.org][Setting up GnuPG + Yubikey on NixOS for SSH authentication]]
+- [[id:f96cd00e-9f83-4320-8bac-9e74e804c254][Setting up GnuPG + Yubikey on NixOS for SSH authentication]]

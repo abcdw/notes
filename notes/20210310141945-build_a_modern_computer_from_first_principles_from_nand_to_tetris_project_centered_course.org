@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       b475c2c6-850b-44af-b957-6ef6186dd104
+:ROAM_REFS: https://www.coursera.org/learn/build-a-computer
+:END:
 #+title: Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)
-#+roam_key: https://www.coursera.org/learn/build-a-computer
 
 Nand -> Chip Set -> Hardware Platform -> Assembly -> VM -> OS ->
 Compiler -> Good Software
 
-Second part: [[file:20210310142059-build_a_modern_computer_from_first_principles_nand_to_tetris_part_ii_project_centered_course.org][Build a Modern Computer: Nand to Tetris Part II]]
+Second part: [[id:615fd3cb-72b9-4a4d-a0ed-d2af5f96c3a2][Build a Modern Computer: Nand to Tetris Part II]]

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       aacae6d9-0342-45d2-b2d6-bb9a5455b92f
+:END:
 #+title: Federated architecture
 
 The approach of creating system, which consist of few semi-autonmous

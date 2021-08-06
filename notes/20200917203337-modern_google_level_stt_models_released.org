@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       cd8718c8-b7f9-4214-97a9-6a8250e1797a
+:ROAM_REFS: https://habr.com/ru/post/519562/
+:END:
 #+title: Modern Google-level STT Models Released
-#+roam_key: https://habr.com/ru/post/519562/
 
-- related :: [[file:20200917203458-natural_language_processing.org][Natural Language Processing]], [[file:20200917203513-speech_to_text.org][Speech To Text]]
+- related :: [[id:4a11893b-1376-42f0-98f2-42423d6c4489][Natural Language Processing]], [[id:dcb3532f-5754-4d01-9ac2-21f2ed3fa184][Speech To Text]]

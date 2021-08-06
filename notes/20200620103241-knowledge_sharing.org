@@ -1,1 +1,4 @@
+:PROPERTIES:
+:ID:       7c3d12f1-1596-432e-b2d7-b0ba758430cb
+:END:
 #+title: Knowledge sharing

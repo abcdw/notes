@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       8fe942a4-15b8-4d15-8157-f426f5f7f928
+:ROAM_REFS: https://jitsi.org/
+:END:
 #+title: Jitsi
-#+roam_key: https://jitsi.org/
 
-[[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] video conferencing web app, similiar to Google Meet/Hangout.
+[[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] video conferencing web app, similiar to Google Meet/Hangout.

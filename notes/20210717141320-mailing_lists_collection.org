@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       e3ab81f9-67d5-4557-a54e-391ccdbad20c
+:END:
+#+title: Mailing Lists Collection
+
+* Tools
+[[id:66b1c0b6-d1e1-4908-8f50-826b70d3e031][Substack]]

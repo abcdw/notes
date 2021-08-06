@@ -1,1 +1,4 @@
+:PROPERTIES:
+:ID:       c82f8b8c-237d-4371-b922-2f80cb7aa6e1
+:END:
 #+title: Ergonomics

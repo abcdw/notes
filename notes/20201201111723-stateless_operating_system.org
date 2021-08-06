@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       badddb19-edbc-4584-90c2-580176480aa4
+:ROAM_REFS: https://youtu.be/2eN0R0f_RX0
+:ROAM_ALIASES: "Stateless OS"
+:END:
 #+title: Stateless Operating System
-#+roam_alias: "Stateless OS"
-#+roam_key: https://youtu.be/2eN0R0f_RX0
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Problems of undesired statefulness
 https://i.stack.imgur.com/JG9yA.png
@@ -48,7 +51,7 @@ Immutable OS + User programs with state
 Good practice.
 https://i.stack.imgur.com/JG9yA.png
 * Realistic workflow
-[[file:20201112114603-rde_file_systems.org][rde file systems]]
+[[id:877e731e-dab4-4ec3-acc9-f151419cf11f][rde file systems]]
 - ~[rde partition config.scm /device]~
 - ~[rde security-key init /device/partition]~
 - ~rde system init config.scm /device/partition~

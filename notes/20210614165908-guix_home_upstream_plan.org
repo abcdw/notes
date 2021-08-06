@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       37ba54fc-4362-4bc7-86b7-dc3bba46f24a
+:END:
 #+title: Guix Home Upstream Plan
 * The Goal
 To migrate Guix Home from rde repository to guix.

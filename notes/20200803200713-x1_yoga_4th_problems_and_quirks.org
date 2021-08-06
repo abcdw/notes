@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       47e85df6-e177-462e-9f8e-e730140d78bf
+:END:
 #+title: X1 Yoga 4th problems and quirks
-- related :: [[file:20200730193712-thinkpad.org][ThinkPad]]
+- related :: [[id:2bcad25e-8ccf-4421-b434-9d7e034c2067][ThinkPad]]
 
 * Battery/Power
 - Loud melody on startup

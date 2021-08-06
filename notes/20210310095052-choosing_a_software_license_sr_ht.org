@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       1d591472-8236-4b0f-bfec-6327875c4dc4
+:ROAM_REFS: https://man.sr.ht/license.md
+:END:
 #+title: Choosing a software license (sr.ht)
-#+roam_key: https://man.sr.ht/license.md
 
 Very simplified overview of OSS licenses.

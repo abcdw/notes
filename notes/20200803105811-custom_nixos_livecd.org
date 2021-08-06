@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       c4f26655-860a-472e-a92e-150d7a7902fb
+:ROAM_REFS: https://nixos.wiki/wiki/Creating_a_NixOS_live_CD
+:END:
 #+title: Custom NixOS LiveCD
-#+roam_key: https://nixos.wiki/wiki/Creating_a_NixOS_live_CD
-- related :: [[file:20200727224003-nixos.org][NixOS]]
+- related :: [[id:6d118c14-fd0b-4573-ac34-944a217ae8d7][NixOS]]
 
 Required modules for building LiveCD:
 #+BEGIN_SRC nix

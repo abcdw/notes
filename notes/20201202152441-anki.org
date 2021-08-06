@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       ae67bc72-782f-4344-a188-16e604ef3830
+:ROAM_REFS: https://apps.ankiweb.net/
+:END:
 #+title: Anki
-#+roam_key: https://apps.ankiweb.net/
 
-- related :: [[file:20200618173345-note_taking.org][Note-taking]]
+- related :: [[id:a293f298-61a4-4b67-844a-8aa6b3457130][Note-taking]]
 
 Cross plaftofrm app for maintaining flashcards for improved learning
 and remembering.

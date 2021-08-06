@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       5bad0080-e327-45f7-8f69-73762474ed67
+:END:
 #+title: Nix Lang
 
-- [[https://nixos.org/nixos/nix-pills/why-you-should-give-it-a-try.html][Nix Pills]] :: canonical [[file:20200620142500-nix.org][Nix]] and [[file:20200723102251-nix_lang.org][Nix Lang]] introduction.
-- [[https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55][Nix by example]] :: medium article about [[file:20200723102251-nix_lang.org][Nix Lang]], faced it few times.
+- [[https://nixos.org/nixos/nix-pills/why-you-should-give-it-a-try.html][Nix Pills]] :: canonical [[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]] and [[id:5bad0080-e327-45f7-8f69-73762474ed67][Nix Lang]] introduction.
+- [[https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55][Nix by example]] :: medium article about [[id:5bad0080-e327-45f7-8f69-73762474ed67][Nix Lang]], faced it few times.

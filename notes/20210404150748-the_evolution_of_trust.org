@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       7bc9cb52-d3bc-44d6-977e-9ede27589543
+:ROAM_REFS: https://ncase.me/trust/
+:END:
 #+title: The Evolution of Trust
-#+roam_key: https://ncase.me/trust/
 
 The game where you have to cooperate or cheat, allows to model
 different behavior strategies and find the optimal.

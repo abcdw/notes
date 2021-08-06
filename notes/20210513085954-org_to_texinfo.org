@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       65ddf9cd-391a-4828-9bb7-22ce5a2303bd
+:END:
 #+title: Org to TexInfo
 
 There is an example of documentation written in org mode, but scripts

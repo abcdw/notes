@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       a233c540-6ada-4641-a5df-9566a2bd8e18
+:ROAM_REFS: https://nixos.wiki/wiki/Module
+:END:
 #+title: NixOS modules
-#+roam_key: https://nixos.wiki/wiki/Module
 
 * Links
 - https://discourse.nixos.org/t/best-resources-for-learning-about-the-nixos-module-system/1177/4

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       c3e38af8-8a7c-4ca2-8758-e106f0129ef4
+:END:
 #+title: dm-crypt
 
 Transparent disk encryption subsystem in Linux kernel, part of Device Mapper infrastructure.
 
-Has few different frontends. [[file:20200810184152-cryptsetup.org][cryptsetup]] is one of them.
+Has few different frontends. [[id:e651645b-0ffa-479d-9251-f1815774b199][cryptsetup]] is one of them.

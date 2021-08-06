@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6d118c14-fd0b-4573-ac34-944a217ae8d7
+:END:
 #+title: NixOS
 
-[[file:20200620142500-nix.org][Nix]]-based GNU/Linux distribution.
+[[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]]-based GNU/Linux distribution.

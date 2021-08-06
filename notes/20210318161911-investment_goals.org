@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       d5f2c00a-0062-4866-bb3f-163d231bb417
+:END:
 #+title: Investment Goals
 
-- related :: [[file:20200619115544-finances.org][Finances]]
+- related :: [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]]
 
 * Goals
 - safety

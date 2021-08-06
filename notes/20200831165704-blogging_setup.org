@@ -1,13 +1,16 @@
+:PROPERTIES:
+:ID:       8b906eb5-0868-441f-941c-c8f8e47bd57c
+:END:
 #+title: Blogging Setup
 
-- related :: [[file:20201015093916-blogging.org][Blogging]]
+- related :: [[id:4367e118-aaff-45a8-a037-e32f95c9411e][Blogging]]
 
 * Concept
   :PROPERTIES:
   :ID:       b6d200fe-a610-48cb-b576-158e5777a72a
   :END:
-Do I want a [[file:20201001202853-gemini.org][Gemini]] support?
-I want to combine [[file:20200618173345-note_taking.org][Note-taking]] with blogging by publishing:
+Do I want a [[id:04803bd5-5355-44cd-bea2-dfd6db5a4283][Gemini]] support?
+I want to combine [[id:a293f298-61a4-4b67-844a-8aa6b3457130][Note-taking]] with blogging by publishing:
 - notes
 - graph of notes
 - feed of changes in the notes
@@ -20,4 +23,4 @@ how to make org-roam+org-publish setup works.
 
 org-roam [[https://org-roam.discourse.group/t/are-there-any-repositories-of-good-example-org-roam-files/530/11][discourse]] on publishing of digital garden.
 
-[[file:20201127130049-blog_examples_collection.org][Blog Examples Collection]] is a good reference for nice blog examples.
+[[id:b8df439d-40e6-41bf-8273-9aabcf11aa15][Blog Examples Collection]] is a good reference for nice blog examples.

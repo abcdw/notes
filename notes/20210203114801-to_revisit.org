@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       bfb6da98-b6fc-440f-9447-979af5fcfb97
+:END:
 #+title: To revisit
 
 There are some books, videos, courses worth to revisit and

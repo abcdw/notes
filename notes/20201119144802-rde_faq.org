@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       82308ce6-992b-43eb-950a-d01e9afc9779
+:END:
 #+title: rde FAQ
 * Why not just use docker?

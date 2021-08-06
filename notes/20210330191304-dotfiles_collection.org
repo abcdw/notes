@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7b7527bd-4639-4965-93dd-e047b132729f
+:END:
 #+title: Dotfiles Collection
 
 - [[https://git.sr.ht/~sokolov/dotfiles/tree/master][sr.ht/~sokolov]] :: emacs, sway, mako. Simple, minimalistic. Author of project-rg.

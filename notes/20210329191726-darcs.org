@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       65cd2c9b-27a5-4508-892b-df3bc9db0b6c
+:ROAM_REFS: http://darcs.net/
+:END:
 #+title: Darcs
-#+roam_key: http://darcs.net/
 
-[[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]]. Distributed version control system similar to Git, SVN, but
+[[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]]. Distributed version control system similar to Git, SVN, but
 focusing on patches. Known to be slow, that's one of the reasons why
-[[file:20210329192149-pijul.org][Pijul]] appeared.
+[[id:989f2286-aedb-44b9-abbb-95ca3d08293d][Pijul]] appeared.
 
 * Materials
 - https://darcsbook.acmelabs.space/ :: book about darcs

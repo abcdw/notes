@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       2af87cb1-f4cf-442a-a16d-d8681399715f
+:ROAM_REFS: https://www.port389.org
+:END:
 #+title: 389 Directory Server
-#+roam_key: https://www.port389.org
 
-Reliable, Performant and Scalable [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]] [[file:20200810185751-lightweight_directory_access_protocol.org][LDAP]] server implementation by [[file:20200907124413-red_hat.org][Red Hat]].
+Reliable, Performant and Scalable [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] [[id:fd2d401a-aac0-404e-b198-2a1fb42410b9][LDAP]] server implementation by [[id:2ed56960-f5cb-49e6-b215-782bdc3688bb][Red Hat]].

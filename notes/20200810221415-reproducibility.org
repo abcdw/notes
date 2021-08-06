@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       60ff9de8-1a31-4128-9767-e901aba3ce1f
+:END:
 #+title: Reproducibility
 
 Underestimated quality of a system/product.

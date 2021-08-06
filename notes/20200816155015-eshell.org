@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       37ca70d9-8f23-4eaa-bcac-1857e7d9bb97
+:END:
 #+title: Eshell
 
-Eshell is a [[file:20200816095244-emacs.org][Emacs]] shell. Has two parsers for sh-like and lisp syntax.
+Eshell is a [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]] shell. Has two parsers for sh-like and lisp syntax.
 
 * Buffers instead of Pipes
 Use buffers, Luke.

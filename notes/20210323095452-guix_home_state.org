@@ -1,11 +1,14 @@
+:PROPERTIES:
+:ID:       45abbbd2-fc04-453f-b2db-c5856310db3d
+:ROAM_REFS: https://youtu.be/ZaXHtSKKoeg
+:END:
 #+title: guix home: state
-#+roam_key: https://youtu.be/ZaXHtSKKoeg
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Introduction
 ** Prerquisities
-- Other ~guix home~ [[file:20210201172141-trop_in_streams_schedule.org][streams]]
-- [[file:20201201111723-stateless_operating_system.org][Stateless OS]] and the idea of config/state separation
+- Other ~guix home~ [[id:0fdb5c53-390f-4108-bf49-4e417cfe0296][streams]]
+- [[id:badddb19-edbc-4584-90c2-580176480aa4][Stateless OS]] and the idea of config/state separation
 ** Warning
 - the tool is highly experimental
 * State Lifecycle

@@ -1,12 +1,15 @@
+:PROPERTIES:
+:ID:       5e03d185-36c6-4445-b78f-de74b2a9fcac
+:END:
 #+title: Building a Computer
 
 An anchor for reference from materials related to computer construction.
 
-[[file:20210311122936-building_a_cpu.org][Building a CPU]]
-[[file:20210219204651-building_an_operating_system.org][Building an OS]]
-[[file:20210311123030-building_a_compiler.org][Building a Compiler]]
+[[id:bb74930f-9d2f-4330-8209-f67be8ebcac7][Building a CPU]]
+[[id:1e0888dd-9c51-4a94-8a7c-7a1f500a16a2][Building an OS]]
+[[id:a059e883-86c2-40c2-a1e1-b87a6118cae1][Building a Compiler]]
 
 * Materials
-[[file:20210311125343-from_nand_to_tetris.org][From Nand to Tetris]]
+[[id:81466f40-c7bf-4a39-9909-341d76a4a5f3][From Nand to Tetris]]
 https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=ed_oe_p
 https://www.ozon.ru/product/razrabotka-operatsionnoy-sistemy-i-kompilyatora-proekt-oberon-143242046/

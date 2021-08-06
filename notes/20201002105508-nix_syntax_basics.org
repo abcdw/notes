@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       ac561b12-d8dc-4faf-9aaf-ec1c5355057b
+:ROAM_REFS: https://youtu.be/5F-1Q3nk4Es
+:END:
 #+title: Nix syntax basics
-#+roam_key: https://youtu.be/5F-1Q3nk4Es
 #+PROPERTY: header-args :tangle ~/tmp/nix-syntax/example.nix
 
 * Intro

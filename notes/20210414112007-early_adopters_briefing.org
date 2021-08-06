@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       4e74fa09-a484-43eb-94ce-cf81ac26c51a
+:END:
 #+title: Early Adopters Briefing
 
 * What is ~guix~

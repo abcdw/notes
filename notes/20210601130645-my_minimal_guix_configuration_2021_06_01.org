@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       7b1231e9-3ae0-487e-b108-261b65f26dba
+:ROAM_REFS: https://youtu.be/0OSU7u5cFCM
+:END:
 #+title: My Minimal Guix Configuration 2021-06-01
-#+roam_tags: Stream
-#+roam_key: https://youtu.be/0OSU7u5cFCM
+#+filetags: Stream
 
 * Introduction
 * System

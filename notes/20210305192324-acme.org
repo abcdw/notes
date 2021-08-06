@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       f64cd625-be41-4c2f-91b6-6f5f53f03d93
+:ROAM_REFS: http://acme.cat-v.org/
+:ROAM_ALIASES: "The Acme User Interface for Programmers"
+:END:
 #+title: Acme
-#+roam_key: http://acme.cat-v.org/
-#+roam_alias: "The Acme User Interface for Programmers"
 
 The text editor, integrating development environment, ui
-platform. It's not extensible in the sense of [[file:20200816095244-emacs.org][Emacs]], doesn't have
+platform. It's not extensible in the sense of [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]], doesn't have
 themes, configurations, but it integrates with tools from the
 environment, which makes it very powerful.
 

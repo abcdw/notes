@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       ad769738-bb12-436e-98f5-9a68ad4eb33e
+:ROAM_REFS: https://youtu.be/2_e3kPJQ93s
+:END:
 #+title: Building reproducible Emacs (nix)
-#+roam_key: https://youtu.be/2_e3kPJQ93s
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Emacs configuration ~= System configuration
 - dired uses ls, grep.el uses grep

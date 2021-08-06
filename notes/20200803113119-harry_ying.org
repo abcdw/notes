@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       eaa7fb7b-bc23-426d-b1a9-46cf8dbb8391
+:END:
 #+title: Harry Ying
-Guy from [[file:20200727224003-nixos.org][NixOS]] telegram channel, author of [[file:20200803114028-icebox_nix.org][icebox-nix]].
+Guy from [[id:6d118c14-fd0b-4573-ac34-944a217ae8d7][NixOS]] telegram channel, author of [[id:98a3342d-eefb-4b0b-b5e9-a39b70e3c7a7][icebox-nix]].
 
 * Links
 - [[https://github.com/LEXUGE][github]]

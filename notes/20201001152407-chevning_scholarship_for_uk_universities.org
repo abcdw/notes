@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       4a4c1783-7382-4ee5-a825-73ca91115c13
+:ROAM_REFS: https://www.chevening.org/
+:END:
 #+title: Chevning Scholarship for UK Universities
-#+roam_key: https://www.chevening.org/
 
 Full cover for 1 year master program in any UK. Applicant must return
 to home country for 2 years.

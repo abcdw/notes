@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       81466f40-c7bf-4a39-9909-341d76a4a5f3
+:ROAM_REFS: https://www.nand2tetris.org/
+:END:
 #+title: From Nand to Tetris
-#+roam_key: https://www.nand2tetris.org/
 
-A course about [[file:20210311121935-building_a_computer.org][Building a Computer]].
+A course about [[id:5e03d185-36c6-4445-b78f-de74b2a9fcac][Building a Computer]].
 
 Consist of two parts:
-- [[file:20210310141945-build_a_modern_computer_from_first_principles_from_nand_to_tetris_project_centered_course.org][Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)]]
-- [[file:20210310142059-build_a_modern_computer_from_first_principles_nand_to_tetris_part_ii_project_centered_course.org][Build a Modern Computer from First Principles: Nand to Tetris Part II (project-centered course)]]
+- [[id:b475c2c6-850b-44af-b957-6ef6186dd104][Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course)]]
+- [[id:615fd3cb-72b9-4a4d-a0ed-d2af5f96c3a2][Build a Modern Computer from First Principles: Nand to Tetris Part II (project-centered course)]]

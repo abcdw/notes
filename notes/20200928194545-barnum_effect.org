@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d2ed5a5b-b43e-4aa1-b14b-837b0a6f094b
+:ROAM_REFS: https://en.wikipedia.org/wiki/Barnum_effect
+:ROAM_ALIASES: "Forer Effect"
+:END:
 #+title: Barnum Effect
-#+roam_alias: "Forer Effect"
-#+roam_key: https://en.wikipedia.org/wiki/Barnum_effect

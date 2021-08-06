@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       70fc1da0-53e3-454c-afb5-47daaf748769
+:END:
 #+title: rde cli
 
-Set of tools for managing [[file:20200620141734-reproducible_development_environment.org][RDE]] and keeping track of your data.
+Set of tools for managing [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]] and keeping track of your data.

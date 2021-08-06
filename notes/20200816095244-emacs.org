@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       e6ea3c52-b620-40e7-84ff-e0628afd5557
+:END:
 #+title: Emacs
 
 * Introductiory Resources
-** Great introduction to emacs https://youtu.be/FLjbKuoBlXs by [[file:20200831194605-protesilaos_stavrou.org][Protesilaos Stavrou]]
+** Great introduction to emacs https://youtu.be/FLjbKuoBlXs by [[id:94330c43-25f4-4a35-9f13-25c68be112a4][Protesilaos Stavrou]]
 ** http://emacsrocks.com/ Video series on various emacs features.
 
 * Things to do in emacs
@@ -12,4 +15,4 @@
   emacs is great.
 - Development :: great coding or exploring code experince, especially
   in EmacsLisp/Scheme/Clojure, working with git and so on.
-- Notes :: writing notes with [[file:20201015131447-org_roam.org][org-roam]] looks good and enjoyable.
+- Notes :: writing notes with [[id:f5774af1-8d49-4e16-b45a-cd493214cba9][org-roam]] looks good and enjoyable.

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       ce0d2529-a7d1-4f65-8e43-d1cba379ce8f
+:END:
 #+title: Guix Services and Shepherd
-#+roam_tags: Stream
 #+STARTUP: hidestars
+#+filetags: Stream
 
 * Knowledge assumptions
 - /gnu/store structure and notion of store item

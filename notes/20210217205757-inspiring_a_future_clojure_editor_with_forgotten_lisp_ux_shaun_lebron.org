@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       b662424e-8e77-434b-aa9f-96c528c6aa9d
+:ROAM_REFS: https://youtu.be/K0Tsa3smr1w
+:END:
 #+title: Inspiring a future Clojure editor with forgotten Lisp UX - Shaun Lebron
-#+roam_key: https://youtu.be/K0Tsa3smr1w
 
-A video telling about existing solution for [[file:20210217210045-structured_editing.org][structured editing]] with
+A video telling about existing solution for [[id:6b3de564-e6a3-4cba-ae58-b2bba5a6b815][structured editing]] with
 very nice demos.
 
 * Links

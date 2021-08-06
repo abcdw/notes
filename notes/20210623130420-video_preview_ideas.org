@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       cf5a07fe-71cc-410f-8915-37392a01c6ae
+:END:
 #+title: Video Preview Ideas
 
 * Good Examples

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       4ae30d4d-2459-475c-a758-da7615a10e00
+:END:
 #+title: Emacs Loading Process
-- related :: [[file:20200816095244-emacs.org][Emacs]]
+- related :: [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]]
   
 [[info:elisp#Startup Summary][Startup Summary]] covers most of the necessary information on startup process.
 
@@ -9,11 +12,11 @@ Interesting notes:
   ~emacs-init-time~.
 - autoloads creates a placeholder, which loads actual function on
   first call.
-- [[file:20200911211835-use_package.org][use-package]] has a lot of mechanisms to make package load as lazy as
+- [[id:0bd75f7e-a110-4803-b22c-83b5476ed1ef][use-package]] has a lot of mechanisms to make package load as lazy as
   possible.
 - Startup with plugged charger 2x faster
 
-Since version 27 use [[file:20200911125123-xdg_base_directory_specification.org][XDG Base Directory Specification]], scans (at least) for:
+Since version 27 use [[id:5d5ef851-d688-4857-9d2e-e5c575e8fc1c][XDG Base Directory Specification]], scans (at least) for:
 - ~~/.emacs~
 - ~~/.emacs.el~
 - ~~/.emacs.d/init.el~

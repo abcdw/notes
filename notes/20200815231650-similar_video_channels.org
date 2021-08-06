@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       18956800-ba5d-46cd-81a2-22990ca35e62
+:END:
 #+title: Similar Video Channels
-- related :: [[file:20200720095647-marketing_channels.org][Marketing Channels]]
+- related :: [[id:bd871c6d-afe7-4b11-868c-f27ad8bc3b34][Marketing Channels]]
 
 * Similiar channels
 - [[https://www.youtube.com/c/EngineerMan/][EngineerMan]] :: 300k subs, low number of views, boring previews, has video

@@ -1,1 +1,4 @@
+:PROPERTIES:
+:ID:       c93727b8-4258-40e2-8714-af5a5c735744
+:END:
 #+title: Org-mode

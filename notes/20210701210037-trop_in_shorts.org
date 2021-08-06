@@ -1,0 +1,29 @@
+:PROPERTIES:
+:ID:       8d03b6c6-b5d7-4126-b72e-8a44746b1f60
+:END:
+#+title: trop.in shorts
+
+* Presentation
+- Tease other topic at the end.
+* Topics
+** Emacs
+- future-history
+- How to make emacs fast
+- What is autoloads
+*** Editing
+- Rectangle selection
+- Basic hotkeys
+*** Info
+- Hotkeys explained
+** Git
+- commit hunk
+- interactive rebase
+- commit ammend/reword
+- git-link
+** Guix
+- propagated vs inputs vs native
+- When to sudo and when not?
+- How to add substitution servers to config?
+** Mails
+** General
+- Why I choose dvorak?

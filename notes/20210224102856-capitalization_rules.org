@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       ac92c880-cb08-42fa-a0b8-24d861c7655f
+:END:
 #+title: Capitalization rules
-#+roam_tags: English
+#+filetags: English
 ** General
 [[https://www.grammarly.com/blog/capitalization-rules/][Capitalization by grammarly]]
 

@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       b5317efd-d5a3-460c-a5a9-6f17ebb38fd3
+:ROAM_REFS: https://stackingthebricks.com/how-blogs-broke-the-web/
+:END:
 #+title: How the Blog Broke the Web
-#+roam_key: https://stackingthebricks.com/how-blogs-broke-the-web/
 
-- related :: [[file:20201015093916-blogging.org][Blogging]], [[file:20201015154734-the_web_is_broken.org][The Web is Broken]]
+- related :: [[id:4367e118-aaff-45a8-a037-e32f95c9411e][Blogging]], [[id:1bae29a6-ce8c-4a30-be69-0906d7dc7b9a][The Web is Broken]]
 
   Not a technical story about web transformation, from home pages to
   weblogs, about the appearing of CMSs like blog engines, facebook,
@@ -11,4 +14,4 @@
   In my own opinion, now it's much easier to shitpost a lot of
   nonsense and overall quality of the web content reduced radically.
   Probably the future of the intellectual internet (the internet
-  containing is [[file:20201001202853-gemini.org][Gemini]].
+  containing is [[id:04803bd5-5355-44cd-bea2-dfd6db5a4283][Gemini]].

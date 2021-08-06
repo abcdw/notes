@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       f71366ce-24d8-4d54-a9ee-536370fd14cf
+:ROAM_REFS: https://youtu.be/6JPHQJTlUIM
+:END:
 #+title: Quotes and Gexps
-#+roam_tags: Stream
-#+roam_key: https://youtu.be/6JPHQJTlUIM
+#+filetags: Stream
 
 * Introduction
 * Evaluation process

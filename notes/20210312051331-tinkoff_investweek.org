@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       1a44bc86-3cb1-4af4-aa84-405eb3c18821
+:ROAM_REFS: https://www.tinkoff.ru/invest/webinar/investweek
+:END:
 #+title: Tinkoff Investweek
-#+roam_key: https://www.tinkoff.ru/invest/webinar/investweek
 
 * Day 1
 https://youtu.be/vu5x1yQhtJw

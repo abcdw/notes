@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       1332763c-cbfb-4edf-a0fd-4bce4cfa6db7
+:END:
 #+title: List of triggers for recalling tasks
 
-- related :: [[file:20201210093630-planning.org][Planning]]
+- related :: [[id:5d27fd57-ff1c-4521-91e4-95d048e35a15][Planning]]
 
 * Health
 ** Medicine

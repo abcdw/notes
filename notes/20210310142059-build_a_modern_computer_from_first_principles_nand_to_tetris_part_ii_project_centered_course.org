@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       615fd3cb-72b9-4a4d-a0ed-d2af5f96c3a2
+:ROAM_REFS: https://www.coursera.org/learn/nand2tetris2
+:END:
 #+title: Build a Modern Computer from First Principles: Nand to Tetris Part II (project-centered course)
-#+roam_key: https://www.coursera.org/learn/nand2tetris2

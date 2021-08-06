@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       61a49fe5-084d-4bcb-a9f9-853f4f35d34d
+:ROAM_REFS: https://www.dreamsongs.com/RiseOfWorseIsBetter.html
+:END:
 #+title: The Rise of Worse is Better
-#+roam_key: https://www.dreamsongs.com/RiseOfWorseIsBetter.html
 
-- related :: [[file:20210203114801-to_revisit.org][To revisit]]
+- related :: [[id:bfb6da98-b6fc-440f-9447-979af5fcfb97][To revisit]]
 
 The article is about two approaches for design and implememntation:
 MIT/Stanford and New Jersey.

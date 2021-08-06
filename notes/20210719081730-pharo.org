@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c9af8cd4-9748-4fa6-96c4-8efda65a81f7
+:ROAM_REFS: https://pharo.org/
+:END:
+#+title: Pharo
+
+The [[id:0674c577-2198-46c0-8d95-edcfefa5de58][Smalltalk]]-like language and programming environment.

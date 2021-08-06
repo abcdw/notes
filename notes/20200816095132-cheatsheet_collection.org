@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       cb72daad-3df7-464d-9ac8-3d1302384423
+:END:
 #+title: Cheatsheet Collection
-- related :: [[file:20200816095244-emacs.org][Emacs]]
+- related :: [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]]
 
 * Emacs
 - [[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf][Emacs ref card]] from gnu.org

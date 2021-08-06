@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       e955d3d2-17a0-4971-a233-041d3bdf6805
+:END:
 #+title: YouTube alternatives
 
 - https://joinpeertube.org/

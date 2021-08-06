@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       9353387c-bc3c-4c2f-8882-7ae5500bb9ca
+:ROAM_REFS: https://www.ietf.org/rfc/rfc4880.txt
+:END:
 #+title: OpenPGP
-#+roam_key: https://www.ietf.org/rfc/rfc4880.txt
 
 https://www.openpgp.org/

@@ -1,28 +1,32 @@
+:PROPERTIES:
+:ID:       0fdb5c53-390f-4108-bf49-4e417cfe0296
+:END:
 #+title: trop.in streams schedule
 
 * Schedule
 | name                                                    | date                   |
 |---------------------------------------------------------+------------------------|
-| [[file:20210628073018-emacs_managing_emails_and_mailing_lists.org][Emacs: Managing Emails and Mailing Lists]]                | <2021-06-29 Tue 18:00> |
-| [[file:20210615073015-migrated_to_pipewire_screensharing_in_wayland.org][Migrated to PipeWire, Screensharing in Wayland]]          | <2021-06-15 Tue 18:00> |
-| [[file:20210601130645-my_minimal_guix_configuration_2021_06_01.org][My Minimal Guix Configuration 2021-06-01]]                | <2021-06-01 Tue 18:00> |
-| [[file:20210518082047-rde_simplifying_guix_configuration.org][rde: Simplifying Guix configuration]]                     | <2021-05-18 Tue 18:00> |
-| [[file:20210504132812-quotes_and_gexps.org][Quotes and Gexps]]                                        | <2021-05-04 Tue 18:00> |
-| [[file:20210419180730-scheme_tutorial_feat_guile_guix_and_gexps.org][Scheme tutorial feat. Guile, Guix and Gexps]]             | <2021-04-20 Tue 18:00> |
-| [[file:20210402080044-guix_home_shells_rde.org][guix home: shells, rde]]                                  | <2021-04-06 Tue 18:00> |
-| [[file:20210323095452-guix_home_state.org][guix home: state]]                                        | <2021-03-23 Tue 18:00> |
-| [[file:20210309143541-guix_home_on_reconfigure_and_symlink_manager.org][guix home: on-reconfigure and symlink-manager]]           | <2021-03-09 Tue 18:00> |
-| [[file:20210222095150-guix_home_environment_variables_profiles_and_shepherd.org][guix home: Environment variables, Profiles and Shepherd]] | <2021-02-22 Mon 18:00> |
-| [[file:20210204115348-how_guix_home_works.org][How guix home works]]                                     | <2021-02-09 Tue 18:00> |
-| [[file:20210125110315-guix_packaging_tutorial.org][Guix: Packaging tutorial]]                                | <2021-01-26 Tue 18:00> |
-| [[file:20210104134545-guix_services_and_shepherd.org][Guix Services and Shepherd]]                              | <2021-01-12 Tue 18:00> |
-| [[file:20201229121430-plans_for_2021.org][Plans for 2021]]                                          | <2020-12-29 Tue 18:00> |
-| [[file:20201229120945-installing_gnu_guix.org][Installing GNU Guix]]                                     | <2020-12-15 Tue 18:00> |
-| [[file:20201201111723-stateless_operating_system.org][Stateless OS]]                                            | <2020-12-01 Tue 18:00> |
-| [[file:20201116170301-gpg_explained.org][gpg explained]]                                           | <2020-11-17 Tue 18:00> |
-| [[file:20200930133033-nix_vs_guix.org][Nix vs Guix]]                                             | <2020-11-03 Tue 18:00> |
-| [[file:20201001084458-flakes_in_nix_3_0.org][Flakes in Nix 3.0]]                                       | <2020-10-20 Tue 18:00> |
-| [[file:20200922172424-building_reproducible_emacs_nix.org][Building reproducible Emacs (nix)]]                       | <2020-09-22 Tue 18:00> |
-| [[file:20200819120317-better_than_virtualenv.org][Better than virtualenv]]                                  | <2020-08-25 Tue 18:00> |
-| [[file:20200720094620-rde_managing_dotfiles.org][Almost Perfect Dotfiles Management w/ nix]]               | <2020-07-28 Tue 18:00> |
+| [[id:80734097-5d8b-4b4d-b4ba-2ad13b8efbc9][Pull Requests vs Patches]]                                | <2021-07-13 Tue 18:00> |
+| [[id:2a8b9445-45da-4c68-82d0-0d93a9518641][Emacs: Managing Emails and Mailing Lists]]                | <2021-06-29 Tue 18:00> |
+| [[id:41d8a265-921d-421c-96ab-b0ef38bc24c2][Migrated to PipeWire, Screensharing in Wayland]]          | <2021-06-15 Tue 18:00> |
+| [[id:7b1231e9-3ae0-487e-b108-261b65f26dba][My Minimal Guix Configuration 2021-06-01]]                | <2021-06-01 Tue 18:00> |
+| [[id:4da6e427-499c-4b5d-8431-86abcf393563][rde: Simplifying Guix configuration]]                     | <2021-05-18 Tue 18:00> |
+| [[id:f71366ce-24d8-4d54-a9ee-536370fd14cf][Quotes and Gexps]]                                        | <2021-05-04 Tue 18:00> |
+| [[id:f98634f0-dc12-4011-96c9-bf0b4d51fdb4][Scheme tutorial feat. Guile, Guix and Gexps]]             | <2021-04-20 Tue 18:00> |
+| [[id:80578282-1801-471e-87d0-90cae84339c3][guix home: shells, rde]]                                  | <2021-04-06 Tue 18:00> |
+| [[id:45abbbd2-fc04-453f-b2db-c5856310db3d][guix home: state]]                                        | <2021-03-23 Tue 18:00> |
+| [[id:0a01de75-7fa9-4c68-b24b-93719e696083][guix home: on-reconfigure and symlink-manager]]           | <2021-03-09 Tue 18:00> |
+| [[id:e60dce84-0f0c-4c0b-a7aa-457fd93b3ca3][guix home: Environment variables, Profiles and Shepherd]] | <2021-02-22 Mon 18:00> |
+| [[id:e24711fb-7b7c-473d-812b-715094106acf][How guix home works]]                                     | <2021-02-09 Tue 18:00> |
+| [[id:a557af5c-65cc-40c5-9243-fae79d0f21ac][Guix: Packaging tutorial]]                                | <2021-01-26 Tue 18:00> |
+| [[id:ce0d2529-a7d1-4f65-8e43-d1cba379ce8f][Guix Services and Shepherd]]                              | <2021-01-12 Tue 18:00> |
+| [[id:0546f087-1d8f-4247-a9c0-67fba7dc3669][Plans for 2021]]                                          | <2020-12-29 Tue 18:00> |
+| [[id:74d7b288-906a-4309-91ef-05109d19a63d][Installing GNU Guix]]                                     | <2020-12-15 Tue 18:00> |
+| [[id:badddb19-edbc-4584-90c2-580176480aa4][Stateless OS]]                                            | <2020-12-01 Tue 18:00> |
+| [[id:896d4623-9ada-4ab5-af9a-3696ef90b1a1][gpg explained]]                                           | <2020-11-17 Tue 18:00> |
+| [[id:b571e9f6-2f43-4ae5-b469-480a3c29b3a5][Nix vs Guix]]                                             | <2020-11-03 Tue 18:00> |
+| [[id:eed725a7-72df-4da2-b3fc-936347651480][Flakes in Nix 3.0]]                                       | <2020-10-20 Tue 18:00> |
+| [[id:ad769738-bb12-436e-98f5-9a68ad4eb33e][Building reproducible Emacs (nix)]]                       | <2020-09-22 Tue 18:00> |
+| [[id:0d9cb82b-5a1e-4e62-9c49-15a2a98b228b][Better than virtualenv]]                                  | <2020-08-25 Tue 18:00> |
+| [[id:3e445d03-17a8-4e86-aa32-f6c92c4c87e7][Almost Perfect Dotfiles Management w/ nix]]               | <2020-07-28 Tue 18:00> |
 

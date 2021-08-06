@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       4da6e427-499c-4b5d-8431-86abcf393563
+:ROAM_REFS: https://youtu.be/6yrYWjjuIOs
+:END:
 #+title: rde: Simplifying Guix configuration
-#+roam_key: https://youtu.be/6yrYWjjuIOs
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Introduction
 - Recap on service extension mechanism

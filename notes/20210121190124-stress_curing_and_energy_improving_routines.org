@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       69597261-953b-44e4-9d75-a2660c1976d3
+:END:
 #+title: Stress curing and energy improving routines
 
 - Enumerate (by speech or writing) very shortly, what is the reason of
   anexiety.
-- Improve the task in terms of [[file:20210121202640-the_scarf_model.org][The SCARF model]].
+- Improve the task in terms of [[id:f2b6d45d-d5e2-4b3d-8e2d-4e95b0871c91][The SCARF model]].
 - Acceptance test, which will show you that you reach the results.
 - Authorization of results (I opened mail, found improtant one, wrote
   the response, sent it).

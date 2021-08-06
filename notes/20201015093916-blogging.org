@@ -1,1 +1,4 @@
+:PROPERTIES:
+:ID:       4367e118-aaff-45a8-a037-e32f95c9411e
+:END:
 #+title: Blogging

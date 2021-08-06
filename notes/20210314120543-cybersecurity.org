@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       1c02a646-e6aa-4207-ab44-612dfdf03f2f
+:ROAM_ALIASES: "Cyber Security"
+:END:
 #+title: Cybersecurity
-#+roam_alias: "Cyber Security"

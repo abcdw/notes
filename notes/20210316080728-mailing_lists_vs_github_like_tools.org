@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       dfcb5d5d-e77a-4746-ba93-21223f8c3e2d
+:END:
 #+title: Mailing Lists vs GitHub-Like Tools
 
 Cons and pros of mailing list driven development in comparison with

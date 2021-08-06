@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       c889b790-06d6-4066-a994-4cf2026de909
+:END:
 #+title: Behavioral Evolution
 
 Mostly notes for lections from [[*Materials][Materials]] section.
@@ -70,13 +73,13 @@ Males for baboons, females for chimps => Higher agression in baboon
 troops, higher probably of war for chimps, because their male cooperate.
 
 * Cheating and Cooperation
-Related to [[file:20210404144249-game_theory.org][Game Theory]].
+Related to [[id:2e5e27be-9970-4b7b-9fe9-a2dfa4b3da03][Game Theory]].
 
 Tit for tat is one of the best long-term stratagies in most
 interactions. You start from cooperating, cheat if opponent cheated,
 but forgive him and continue cooperating if he started to do it
 again. But it vulnurable to noise (incorrect signal transmission).
-Check [[file:20210404150748-the_evolution_of_trust.org][The Evolution of Trust]] for interactive example of
+Check [[id:7bc9cb52-d3bc-44d6-977e-9ede27589543][The Evolution of Trust]] for interactive example of
 game and different stratagies.
 
 Forgiving TFT is a solution for the noise problem, but it's vulnurable

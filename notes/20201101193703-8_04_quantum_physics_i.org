@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       d5a4ff77-1455-40f4-8361-7762fa498920
+:ROAM_REFS: https://www.youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G
+:END:
 #+title: 8.04 Quantum Physics I
-#+roam_key: https://www.youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G
 
 [[https://www.youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G][8.04 Quantum Physics I]] - MIT course on quantum physics. Lections
 recordings available on youtube.

@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       74d7b288-906a-4309-91ef-05109d19a63d
+:ROAM_REFS: https://youtu.be/XOYirIzUlW8
+:END:
 #+title: Installing GNU Guix
-#+roam_key: https://youtu.be/XOYirIzUlW8
-#+roam_tags: Stream
+#+filetags: Stream
 * Summary
-Installation of GNU [[file:20200620142517-guix.org][Guix]] to encrypted [[file:20201112114638-btrfs.org][Btrfs]].
+Installation of GNU [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]] to encrypted [[id:7c5b8af3-f971-43c8-a0fc-b54b54261013][Btrfs]].
   
 

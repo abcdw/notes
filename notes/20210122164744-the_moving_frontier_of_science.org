@@ -1,4 +1,7 @@
-#+title: The moving frontier of science
+:PROPERTIES:
+:ID:       7052390f-46a1-4bb4-b7a0-c44b565446c9
+:END:
+#+title: The Moving Frontier of Science
 
 When you get some results, understand how something works you stay on
 the on the ground, which shows how much more you can explore now from

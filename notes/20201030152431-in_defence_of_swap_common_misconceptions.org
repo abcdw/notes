@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       0c23eb0a-8365-45a8-becd-f2880d996452
+:ROAM_REFS: https://chrisdown.name/2018/01/02/in-defence-of-swap.html
+:END:
 #+title: In defence of swap: common misconceptions
-#+roam_key: https://chrisdown.name/2018/01/02/in-defence-of-swap.html
 
 It's really hard to find a good article explaining purpose of swap, at
 the many places in the internet it described as an archaic mechanism

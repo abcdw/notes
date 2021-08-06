@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       70716ba0-519e-4126-b80a-a83246bd67a4
+:END:
 #+title: Guix Configuration Collection
 
 - https://github.com/krevedkokun/guix-config :: one-file config of

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c18d4677-abc1-4f15-90c7-de7786c91309
+:END:
+#+title: LISA21 - Computing Performance - On the Horizon
+#+roam: https://youtu.be/5nN1wjA_S30
+
+A good talk on virous computing performance aspects + some predictions
+by Brendan Gregg.

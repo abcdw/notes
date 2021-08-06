@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       7845ce2e-e349-405a-85bb-44a983ed4860
+:ROAM_ALIASES: rde
+:END:
 #+title: Reproducible Development Environment
-#+roam_alias: rde
 
-- related :: [[file:20200620142500-nix.org][Nix]], [[file:20200620142517-guix.org][Guix]]
+- related :: [[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]], [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]]
 
 * RDE
 In the future it won't make much sense to do video like that:
@@ -20,7 +23,7 @@ just few lines of config file.
 - Dev/system env separation :: System can be updated, without breaking project
   environment.
 - Simple :: Complex setup without complex setup process. In more details that
-  idea described in [[file:20200804113904-rde_pitch.org][RDE pitch]].
+  idea described in [[id:43d5571d-b926-4a40-a08b-dbcbff024837][RDE pitch]].
 
 ** Nice bonuses
 - Collaborate on env :: Developers can develop their development environment
@@ -29,7 +32,7 @@ just few lines of config file.
 - [[https://github.com/kalbasit/shabka/blob/master/doc/congruent.md][Declarative congruence]] is a system management method, which simplify the work
   with infrastructure.
 * Funny idea
-- rde.sh from [[file:20200717164909-cool_domain_names.org][Cool Domain Names]] can be a Reasonable Defaults, rather than RDE
+- rde.sh from [[id:a6b0e3c4-558c-4b27-80a0-ef506740ff25][Cool Domain Names]] can be a Reasonable Defaults, rather than RDE
 
 * Similar projects
 - https://idempotent-desktop.netlify.app/#docs

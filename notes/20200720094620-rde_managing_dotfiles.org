@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       3e445d03-17a8-4e86-aa32-f6c92c4c87e7
+:ROAM_REFS: https://youtu.be/CDzgNxoAlnA
+:END:
 #+title: Almost Perfect Dotfiles Management w/ nix, home-manager and flakes
-#+roam_tags: Stream
-#+roam_key: https://youtu.be/CDzgNxoAlnA
 #+STARTUP: fold
+#+filetags: Stream
 
-- related :: [[file:20200620141734-reproducible_development_environment.org][RDE]], [[file:20200803112742-nix_flakes.org][flakes]], [[file:20200620142500-nix.org][Nix]], [[file:20200723101317-home_manager.org][Home Manager]]
+- related :: [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]], [[id:aa7b4d37-6474-48f9-b185-1c88369b0e9b][flakes]], [[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]], [[id:f63ccbb4-7b07-4c88-befd-868c2800adb8][Home Manager]]
 
 * Announce
 ** ru
@@ -36,7 +39,7 @@ Maintainable developer setup with few machines and few projects.
 - Refactor and write documentation
 * Basic solution
 ** Dotfiles manager
-- [[file:20200804114500-dotfiles.org][Dotfiles]] (~/.vimrc, ~/.zshrc, etc)
+- [[id:c4916882-5ac3-4e1b-89ce-c2a02c96c1c5][Dotfiles]] (~/.vimrc, ~/.zshrc, etc)
 - git+stow/yadm
 ** Few Sample Problems
 - Package drifting

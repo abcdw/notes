@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       5fe18660-368d-484b-bd98-a4af483eb794
+:END:
 #+title: Wake Hut
-#+roam_tags: Idea
+#+filetags: Idea
 
 A place in the forest, near the lake with a beatiful house, sauna and arbor.
 

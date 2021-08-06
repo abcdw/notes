@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       d0e80e10-4762-4c2e-bd07-ff1c6d85acb9
+:END:
 #+title: 2020-01-01 Once a month
 
 * Highlights
-** First [[file:20200620141734-reproducible_development_environment.org][rde]] pitch.
+** First [[id:7845ce2e-e349-405a-85bb-44a983ed4860][rde]] pitch.

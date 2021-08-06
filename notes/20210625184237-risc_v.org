@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       ee3e30da-de51-4bce-96ec-2a59db98dbe3
+:END:
 #+title: RISC-V
 
 * Interesting projects

@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       b5677bd2-5c31-4471-9c2c-cb655cbd9f32
+:END:
 #+title: TROPIN video channel
-- related :: [[file:20200620141734-reproducible_development_environment.org][rde]]
+- related :: [[id:7845ce2e-e349-405a-85bb-44a983ed4860][rde]]
 
-- [[file:20210201172141-trop_in_streams_schedule.org][trop.in streams schedule]]
+- [[id:0fdb5c53-390f-4108-bf49-4e417cfe0296][trop.in streams schedule]]

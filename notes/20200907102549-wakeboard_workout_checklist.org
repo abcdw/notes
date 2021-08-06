@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       859c7992-e9a5-41a7-a1ad-3f31216b69a1
+:END:
 #+title: Wakeboard Workout Checklist
-- related :: [[file:20200907102629-checklists.org][Checklists]]
+- related :: [[id:580d732b-8d18-4506-86c2-e5c1e5bf0e4b][Checklists]]
 
 * Template
 ** Equipment

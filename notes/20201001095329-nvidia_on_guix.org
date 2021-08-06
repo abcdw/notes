@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       a791bcff-8aaf-487a-a407-e231df0f4260
+:END:
 #+title: NVIDIA on Guix
 
 It's possible to build NVIDIA drivers modules on Guix to use them for
-[[file:20201001095517-machine_learning.org][Machine Learning]].
+[[id:f450ea83-0428-4441-8891-f95ca72a0524][Machine Learning]].
 
 * Links
   :PROPERTIES:

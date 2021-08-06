@@ -1,1 +1,4 @@
+:PROPERTIES:
+:ID:       e93af44a-9214-46e1-8895-b3ebab7beb6e
+:END:
 #+title: FQDN

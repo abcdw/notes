@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a059e883-86c2-40c2-a1e1-b87a6118cae1
+:END:
 #+title: Building a Compiler
 
 An anchor for reference from materials related to compiler construction.
@@ -8,4 +11,4 @@ An anchor for reference from materials related to compiler construction.
 - [[https://vlang.io/][V]] lang :: example of simple and very pure language.
 * Materials
 - https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X
-- [[file:20201211235230-cs_6120_advanced_compilers_the_self_guided_online_course.org][CS 6120: Advanced Compilers: The Self-Guided Online Course]]
+- [[id:f9109ad4-dca8-4803-b036-cb2f9dc46b3c][CS 6120: Advanced Compilers: The Self-Guided Online Course]]

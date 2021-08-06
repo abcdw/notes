@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       e730c693-7526-4bd3-9f14-f212b63b0151
+:ROAM_REFS: https://www.reddit.com/
+:ROAM_ALIASES: reddit
+:END:
 #+title: Reddit
-#+roam_key: https://www.reddit.com/
-#+roam_alias: reddit
 
 One of the most popular web aggregators/forums. Among top-20 websites.

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       6d80dcc8-6666-41a7-982e-0d383de045c1
+:END:
 #+title: LXD
 
-New interface for [[file:20200810185637-linux_containers.org][Linux Containers]].
+New interface for [[id:1ef6068e-7a73-4957-ab8f-b74990104490][Linux Containers]].

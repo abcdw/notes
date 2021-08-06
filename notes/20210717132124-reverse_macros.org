@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       a5d7e082-209c-4836-b120-d45a669f79f8
+:END:
+#+title: Reverse Macros
+#+filetags: Idea
+
+Instead of using macros, which are hard to debug, it maybe better to
+use snippets + special representation/display of some parts of the
+code.  When (reverse-macro-mode) enabled you work concise and sugary
+code, when it disabled you work on "macro expanded" code.

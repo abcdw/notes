@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       f63ccbb4-7b07-4c88-befd-868c2800adb8
+:END:
 #+title: Home Manager
-A [[file:20200620142500-nix.org][Nix]] utility for managing dotfiles, xsessions and configs.
+A [[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]] utility for managing dotfiles, xsessions and configs.

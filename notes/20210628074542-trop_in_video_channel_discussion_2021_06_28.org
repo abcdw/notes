@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       ee5ad776-bc07-4d9d-91db-59c841271ba0
+:END:
+#+title: trop.in video channel discussion 2021-06-28
+
+* New formats
+- #emacstip/#rdetip/#guixtip
+- rde book
+* Possible improvements
+- More dynamic, moving camera angle
+- Full screen picture of me instead of code, when talking or showing
+  slides
+- Window on top of my the camera image
+* Possible inaccuracies
+- Boring previews (without face/not animated)
+- Non-personal description (It had to be done instead of I do smth)
+* Solutions
+- previews with large text at the middle
+

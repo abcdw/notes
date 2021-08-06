@@ -1,12 +1,16 @@
+:PROPERTIES:
+:ID:       a6b0e3c4-558c-4b27-80a0-ef506740ff25
+:END:
 #+title: Cool Domain Names
 * Tags
-[[file:20200717165201-fqdn.org][FQDN]], [[file:20200717165331-domain_name_registrants.org][Domain Name Registrants]]
+[[id:e93af44a-9214-46e1-8895-b3ebab7beb6e][FQDN]], [[id:a000a2eb-5af5-44c7-acdd-69d630748470][Domain Name Registrants]]
 
 * List
 - tr.pn :: url shortener tr.pn/peertube
-- tro.ly :: for trolls
+- tropin.tools/io/tech/app :: good for classpathes ~tools.tropin.clojure~
+- tropin.dev/so/sh :: other options
 - iwo.mc :: it works on my computer
-- rde.sh :: [[file:20200620141734-reproducible_development_environment.org][RDE]] tools or docs
+- rde.sh :: [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]] tools or docs
 - rr.sh :: Reproducible Research
 - guix.io :: Something guix related
 - guix.so/guix.sh :: looks like a library name

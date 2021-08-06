@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       43d5571d-b926-4a40-a08b-dbcbff024837
+:END:
 #+title: rde pitch
-- related :: [[file:20200620141734-reproducible_development_environment.org][RDE]]
+- related :: [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]]
 
 This file contains only thoughts about what can be possible with rde,
 not exect implementation description.
@@ -10,7 +13,7 @@ Alternative phrasing: I hate loosing all my work related to OS configuration.
 
 Every time I setup new device with OS, I have to solve a lot of small tricky
 problems, uninstall unecessary stuff, install required packages and so on.
-[[file:20200804114500-dotfiles.org][Dotfiles]] helps to persist some solutions, but they don't solve integration
+[[id:c4916882-5ac3-4e1b-89ce-c2a02c96c1c5][Dotfiles]] helps to persist some solutions, but they don't solve integration
 issues (package installation, inter-app dependencies).
 
 Sample problems:
@@ -23,7 +26,7 @@ quite, it highly depends on the environment.
 With rde it's more likely to be truth, because the environment will be
 reproducible, hence the solution too.
 ** Complex setups not a problem
-With [[file:20200810221415-reproducibility.org][Reproducibility]] you can easily share your setup for the project with
+With [[id:60ff9de8-1a31-4128-9767-e901aba3ce1f][Reproducibility]] you can easily share your setup for the project with
 another person without forcing him to install and configure all the tricky
 dependencies.
 

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       580d732b-8d18-4506-86c2-e5c1e5bf0e4b
+:END:
 #+title: Checklists
 
 * Sport
-- [[file:20200907102549-wakeboard_workout_checklist.org][Wakeboard Workout Checklist]]
-- [[file:20200928125141-hip_notics_wakecamp_checklist.org][Hip-Notics WakeCamp Checklist]]
-- [[file:20210201122619-elbrus_snowboard_checklist.org][Elbrus snowboard checklist]]
+- [[id:859c7992-e9a5-41a7-a1ad-3f31216b69a1][Wakeboard Workout Checklist]]
+- [[id:6b770a62-92cb-49a8-9b5c-1c4dbf5cd0f6][Hip-Notics WakeCamp Checklist]]
+- [[id:b29d1ca4-a29e-4999-8da3-2e58c6a35b68][Elbrus snowboard checklist]]

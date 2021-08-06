@@ -1,7 +1,10 @@
+:PROPERTIES:
+:ID:       68c06f8f-3987-4fc5-897f-77a4a433d7b4
+:ROAM_REFS: https://obsproject.com/
+:END:
 #+title: OBS Studio
-#+roam_key: https://obsproject.com/
 
-- related :: [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]]
+- related :: [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]]
 
 Broadcasting and recording software. Suitable for streams/technical
 demos and many other use cases.

@@ -1,5 +1,13 @@
+:PROPERTIES:
+:ID:       535942ce-0b54-468d-af9d-5937642cf717
+:ROAM_REFS: https://arxiv.org/pdf/2008.06030.pdf
+:END:
 #+title: On the design of text editors
-#+roam_key: https://arxiv.org/pdf/2008.06030.pdf
-- related :: [[file:20200816095244-emacs.org][Emacs]], [[file:20201207110349-usability.org][Usability]], [[file:20200922225107-ergonomics.org][Ergonomics]]
+- related :: [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]], [[id:b3a28d6b-71d4-4b8b-b4f2-5ce52466b6c4][Usability]], [[id:c82f8b8c-237d-4371-b922-2f80cb7aa6e1][Ergonomics]]
 
-*  TODO read the article
+There are not so many specific tips, but there are links to some good
+article.
+
+Margins and line spacing increase readability.  Abuse of Typography
+and Colorization can reduce comprehension.
+

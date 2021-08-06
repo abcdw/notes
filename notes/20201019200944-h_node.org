@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       27ed1ae2-d1a8-4733-b91b-8a21d5207164
+:ROAM_REFS: https://h-node.org/
+:ROAM_ALIASES: "Libre Hardware"
+:END:
 #+title: h-node
-#+roam_alias: "Libre Hardware"
-#+roam_key: https://h-node.org/
 
-- related :: [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]], [[file:20201019201033-free_software_foundation.org][FSF]]
+- related :: [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]], [[id:350bc224-9b88-43bf-8f22-15c90f83c6d0][FSF]]
 
 Wiki containing information about hardware working with free/libre
 operating systems.

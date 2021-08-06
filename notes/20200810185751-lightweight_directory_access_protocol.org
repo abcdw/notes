@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       fd2d401a-aac0-404e-b198-2a1fb42410b9
+:ROAM_ALIASES: LDAP
+:END:
 #+title: Lightweight Directory Access Protocol
-#+roam_alias: LDAP

@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       2ed56960-f5cb-49e6-b215-782bdc3688bb
+:ROAM_REFS: https://www.redhat.com
+:END:
 #+title: Red Hat
-#+roam_key: https://www.redhat.com

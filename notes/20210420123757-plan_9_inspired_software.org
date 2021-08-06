@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       7f1a881a-20a5-4a8a-ab1f-2c152f20d6af
+:END:
 #+title: Plan 9 Inspired Software
 
 https://asyncial.github.io/plan-9-linux/

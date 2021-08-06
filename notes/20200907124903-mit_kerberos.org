@@ -1,4 +1,7 @@
+:PROPERTIES:
+:ID:       bd0a2f2a-7952-4bf1-b035-f9e18ef222ba
+:ROAM_REFS: https://kerberos.org
+:END:
 #+title: MIT Kerberos
-#+roam_key: https://kerberos.org
 
-A reference implementation of [[file:20200907125150-kerberos_protocol.org][Kerberos Protocol]].
+A reference implementation of [[id:d7970856-5029-41a0-977a-90f643a6929c][Kerberos Protocol]].

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8b05035e-9d8d-429f-bad6-d3c42e79a7ac
+:END:
 #+title: DOOM game
 
 Old school first-person shooter.

@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       d7970856-5029-41a0-977a-90f643a6929c
+:ROAM_ALIASES: Kerberos
+:END:
 #+title: Kerberos Protocol
-#+roam_alias: Kerberos

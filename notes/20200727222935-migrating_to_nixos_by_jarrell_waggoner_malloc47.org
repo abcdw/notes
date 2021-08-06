@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       06bc85f1-5ea3-45d8-a6e9-09e8bd1a88b6
+:ROAM_REFS: https://www.malloc47.com/migrating-to-nixos/
+:END:
 #+title: Migrating to NixOS by Jarrell Waggoner (malloc47)
-#+roam_key: https://www.malloc47.com/migrating-to-nixos/
 
 Good introduction to main NixOS features:
-- [[file:20200620142500-nix.org][Nix]], [[file:20200723102251-nix_lang.org][Nix Lang]], nix-shell, [[file:20200620141734-reproducible_development_environment.org][RDE]]
-- [[file:20200727223629-nixpkgs.org][nixpkgs]], AttributeSets, [[file:20200727223231-fhs.org][FHS]]
-- [[file:20200727224003-nixos.org][NixOS]], Declarative configuration, [[file:20200727224254-nixos_modules.org][NixOS modules]]
-- [[file:20200723101317-home_manager.org][Home Manager]], Dotfiles
+- [[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]], [[id:5bad0080-e327-45f7-8f69-73762474ed67][Nix Lang]], nix-shell, [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]]
+- [[id:a3e6d101-f6cd-4519-84d1-6e005520bd26][nixpkgs]], AttributeSets, [[id:d614ca71-4d7e-463f-821a-29a44da8ec6d][FHS]]
+- [[id:6d118c14-fd0b-4573-ac34-944a217ae8d7][NixOS]], Declarative configuration, [[id:a233c540-6ada-4641-a5df-9566a2bd8e18][NixOS modules]]
+- [[id:f63ccbb4-7b07-4c88-befd-868c2800adb8][Home Manager]], Dotfiles
 - Layout of nixos configuration https://github.com/malloc47/config

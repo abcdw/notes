@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       abf29256-3164-4a2f-bb7f-f64ac9074845
+:ROAM_REFS: https://musclewiki.com/
+:END:
 #+title: MucleWiki
-#+roam_key: https://musclewiki.com/
 
-- related :: [[file:20210121130142-sport.org][Sport]]
+- related :: [[id:350a5ce2-a30e-4e3b-8c59-6b29f24be61e][Sport]]
   
 Site with list of exercises for specific muscle group.

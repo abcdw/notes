@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       0bd75f7e-a110-4803-b22c-83b5476ed1ef
+:ROAM_REFS: https://github.com/jwiegley/use-package
+:END:
 #+title: use-package
-#+roam_key: https://github.com/jwiegley/use-package
 
-Allows to make [[file:20200816095244-emacs.org][Emacs]] package configuration declarative. Also,
+Allows to make [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]] package configuration declarative. Also,
 automatically defers loading of a lot of things, which improves
 startup time.

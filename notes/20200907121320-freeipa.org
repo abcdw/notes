@@ -1,18 +1,21 @@
+:PROPERTIES:
+:ID:       b4ee7d9f-cf29-4f91-b820-b8cd24db9aea
+:ROAM_REFS: https://www.freeipa.org/
+:END:
 #+title: FreeIPA
-#+roam_key: https://www.freeipa.org/
-- related :: [[file:20200907121952-secret_managmement_and_provisioning.org][Secret Managmement and Provisioning]]
+- related :: [[id:e32f2790-dd65-416b-8bfe-81a288464cb2][Secret Managmement and Provisioning]]
 
 * Description
 Integrated security infromation management solution.
 
 Provides:
-- [[file:20200907122242-389_directory_server.org][389 Directory Server]]
-- [[file:20200907124903-mit_kerberos.org][MIT Kerberos]]
-- [[file:20200907125911-dogtag_certificate_system.org][Dogtag Certificate System]]
-- [[file:20200907125357-bind.org][BIND DNS Server]]
-- [[file:20200907131014-network_time_protocol.org][Network Time Protocol]]
+- [[id:2af87cb1-f4cf-442a-a16d-d8681399715f][389 Directory Server]]
+- [[id:bd0a2f2a-7952-4bf1-b035-f9e18ef222ba][MIT Kerberos]]
+- [[id:0100d430-784e-4bcc-af79-bcf824b2647c][Dogtag Certificate System]]
+- [[id:af363e3d-106b-40e1-b8c6-47393a22f94d][BIND DNS Server]]
+- [[id:30532f5e-11aa-4398-aed5-04fa0567f4e0][Network Time Protocol]]
 - JSON/XML RPC
 - CLI/Web UI
-- Integration with [[file:20200907130901-active_directory.org][Active Directory]]
+- Integration with [[id:1a34574c-e1fa-4e33-a954-fc7d64a568f1][Active Directory]]
 
-Plays nicely with [[file:20200907131218-sssd.org][SSSD]].
+Plays nicely with [[id:a10847f0-eef9-4eb8-864f-aad60f8112ae][SSSD]].

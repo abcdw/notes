@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       bb74930f-9d2f-4330-8209-f67be8ebcac7
+:END:
 #+title: Building a CPU
 
 An anchor for reference from materials related to CPU construction.

@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       e584d0e0-5b80-4da3-8db5-19773783f06a
+:ROAM_REFS: https://stepik.org/course/75/syllabus
+:END:
 #+title: Functional Programming in Haskell Course
-#+roam_key: https://stepik.org/course/75/syllabus

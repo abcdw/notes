@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       0546f087-1d8f-4247-a9c0-67fba7dc3669
+:ROAM_REFS: https://youtu.be/di-jllXHjRs
+:END:
 #+title: Plans for 2021
-#+roam_key: https://youtu.be/di-jllXHjRs
-#+roam_tags: Stream
+#+filetags: Stream
 
 * What we do today?
   Plans for the future.

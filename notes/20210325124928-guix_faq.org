@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       d32f0039-9867-4658-ba25-5b24d8fbb572
+:END:
 #+title: Guix FAQ
 
 A list of frequently asked question extracted from chats/mailing

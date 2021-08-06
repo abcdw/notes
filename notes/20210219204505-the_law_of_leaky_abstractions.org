@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       92ce530b-532e-4657-abf7-5b0e366ccf97
+:ROAM_REFS: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
+:END:
 #+title: The Law of Leaky Abstractions
-#+roam_key: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
 
 Abstractions leaks and there are many examples:
 
@@ -15,7 +18,7 @@ dirty hacks, they will hit you or someone, who use those abstractions
 very hard and will force you or someone to make much obscure
 abstractions to "fix" them, which will also leak and hit even harder.
 
-[[file:20210219204651-building_an_operating_system.org][Building an operating system]] is an important part of making underlying
+[[id:1e0888dd-9c51-4a94-8a7c-7a1f500a16a2][Building an operating system]] is an important part of making underlying
 levels simple and clean. It should reduce the impact of leaking
 abstractions. Currently, poorly designed OSes hits us on every level of
 software development.

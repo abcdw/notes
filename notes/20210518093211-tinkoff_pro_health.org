@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       753a3726-5db5-4fe2-bc23-57ad2618e2a1
+:ROAM_REFS: https://journal.tinkoff.ru/pro/health/
+:END:
 #+title: Tinkoff Pro Health
-#+roam_key: https://journal.tinkoff.ru/pro/health/
 
 Course about health care in Russia.
 
 * Choose Doc and Hospital
 * Check Medicines Effectivness
-[[file:20210518092001-russian_state_register_of_medicines.org][Russian State Register of Medicines]]
+[[id:dd47adc7-8764-4bf3-9736-74f16d557566][Russian State Register of Medicines]]

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       dd47adc7-8764-4bf3-9736-74f16d557566
+:ROAM_REFS: https://grls.rosminzdrav.ru/Default.aspx
+:END:
 #+title: Russian State Register of Medicines
-#+roam_key: https://grls.rosminzdrav.ru/Default.aspx
 
 Have information about all medicines.
 

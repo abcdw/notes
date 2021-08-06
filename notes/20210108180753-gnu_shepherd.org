@@ -1,10 +1,13 @@
+:PROPERTIES:
+:ID:       f442e850-79ec-434d-9bbd-dc3556341e51
+:ROAM_REFS: https://www.gnu.org/software/shepherd/
+:ROAM_ALIASES: "GNU dmd"
+:END:
 #+title: GNU Shepherd
-#+roam_key: https://www.gnu.org/software/shepherd/
-#+roam_alias: "GNU dmd"
 
-Is a daemon manager and init system. Used as PID1 in [[file:20200620142517-guix.org][Guix]].
+Is a daemon manager and init system. Used as PID1 in [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]].
 
 Can be used in user space. The are few ways to autostart it:
 - using ~~/.profile~ or similar mechanism
-- using [[file:20210108181213-pam.org][PAM]], similar to [[https://www.freedesktop.org/software/systemd/man/pam_systemd.html][pam_systemd]] (not implemented yet)
+- using [[id:bee6fb55-f0b3-400b-9f16-c2448c154b99][PAM]], similar to [[https://www.freedesktop.org/software/systemd/man/pam_systemd.html][pam_systemd]] (not implemented yet)
 - using lingering-shepherd-service-type (not implmented yet)

@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       04803bd5-5355-44cd-bea2-dfd6db5a4283
+:END:
 #+title: Gemini
 
 Protocol somewhere between gopher and http

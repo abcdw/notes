@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       1e73e898-563c-4fcb-9910-4fe1b786fa66
+:END:
 #+title: rde emacs config
 Don't make setup flexible, just one opinionated config option.
 precfg.org-roam doesn't depend on precfg.org, but depends on org package
@@ -23,7 +26,7 @@ This configuration with all features disabled should do nothing, but enabling
 features should provide close to vanilla, but reasonable configuration of some
 packages, install system dependencies, providing secrets.
 
-Don't need to care about [[file:20200816095244-emacs.org][Emacs]] and package versions, because this
+Don't need to care about [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]] and package versions, because this
 emacs distribution shipped with emacs and packages.
 ** Keybinding idea
 Stick to vanilla keys as much as possible, use ~s-~ for frequently used commands.

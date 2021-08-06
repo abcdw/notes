@@ -1,9 +1,12 @@
+:PROPERTIES:
+:ID:       52b0eb9a-598c-4732-846f-654932eda0fd
+:ROAM_REFS: https://gnupg.org/
+:ROAM_ALIASES: gpg
+:END:
 #+title: GnuPG
-#+roam_key: https://gnupg.org/
-#+roam_alias: gpg
-- related :: [[file:20200907134417-gnu.org][GNU]]
+- related :: [[id:2c40c22d-a761-4058-bd1d-4cd510c651bb][GNU]]
 
-Complete and free implementation of [[file:20200907140005-openpgp.org][OpenPGP]] as defined by [[https://www.ietf.org/rfc/rfc4880.txt][RFC4880]].
+Complete and free implementation of [[id:9353387c-bc3c-4c2f-8882-7ae5500bb9ca][OpenPGP]] as defined by [[https://www.ietf.org/rfc/rfc4880.txt][RFC4880]].
 
 * Links
 - https://wiki.debian.org/Subkeys :: Good explanation why subkeys are

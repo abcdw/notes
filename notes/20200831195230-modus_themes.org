@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       af3760f1-acd4-4e1a-bbda-132f4bd9004e
+:END:
 #+title: Modus Themes
 
-Accessible color themes for [[file:20200816095244-emacs.org][Emacs]], with good contrast ratio.
+Accessible color themes for [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]], with good contrast ratio.

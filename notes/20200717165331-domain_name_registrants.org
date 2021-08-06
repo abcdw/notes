@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       a000a2eb-5af5-44c7-acdd-69d630748470
+:END:
 #+title: Domain Name Registrants
 
 * List of decent

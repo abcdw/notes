@@ -1,2 +1,5 @@
+:PROPERTIES:
+:ID:       9daaec39-638d-4d78-a268-a6be03a92c28
+:ROAM_REFS: https://www.lesswrong.com/
+:END:
 #+title: LessWrong
-#+roam_key: https://www.lesswrong.com/

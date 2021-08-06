@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       f489674b-dec6-4bdd-babf-241409e17fb9
+:END:
 #+title: guix home FAQ
 
 * Can you use it on foreign distro?

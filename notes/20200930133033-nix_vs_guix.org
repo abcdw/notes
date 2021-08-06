@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       b571e9f6-2f43-4ae5-b469-480a3c29b3a5
+:ROAM_REFS: https://youtu.be/S9V-pcTrdL8
+:END:
 #+title: Nix vs Guix
-#+roam_key: https://youtu.be/S9V-pcTrdL8
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Some notes
 - We are not aware of a lot of GNU software available to us.

@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       350bc224-9b88-43bf-8f22-15c90f83c6d0
+:ROAM_REFS: https://www.fsf.org/
+:ROAM_ALIASES: FSF
+:END:
 #+title: Free Software Foundation
-#+roam_alias: FSF
-#+roam_key: https://www.fsf.org/
 
 Non-profit organization, which helps to defend user freedoms and
-develop [[file:20200907124550-free_libre_and_open_source_software.org][FLOSS]].
+develop [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]].

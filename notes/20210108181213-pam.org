@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       bee6fb55-f0b3-400b-9f16-c2448c154b99
+:ROAM_REFS: http://www.linux-pam.org/
+:ROAM_ALIASES: "Pluggable Authentication Modules"
+:END:
 #+title: PAM
-#+roam_alias: "Pluggable Authentication Modules"
-#+roam_key: http://www.linux-pam.org/
 
 

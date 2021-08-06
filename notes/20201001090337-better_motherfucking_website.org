@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       959cde28-7d5b-4ef3-856f-817a7a6ad0ff
+:ROAM_REFS: http://bettermotherfuckingwebsite.com/
+:END:
 #+title: Better Motherfucking Website
-#+roam_key: http://bettermotherfuckingwebsite.com/
-- related :: [[file:20200831165704-blogging_setup.org][Blogging Setup]]
+- related :: [[id:8b906eb5-0868-441f-941c-c8f8e47bd57c][Blogging Setup]]
 
 Few tips on how to make a website readable.

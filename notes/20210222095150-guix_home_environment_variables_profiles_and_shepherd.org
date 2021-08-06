@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       e60dce84-0f0c-4c0b-a7aa-457fd93b3ca3
+:ROAM_REFS: https://youtu.be/4lJaVzxO_Bs
+:END:
 #+title: guix home: Environment variables, Profiles and Shepherd
-#+roam_key: https://youtu.be/4lJaVzxO_Bs
-#+roam_tags: Stream
+#+filetags: Stream
 
 * Introduction
 Discuss more high-level and conceptual structure of the tool than on

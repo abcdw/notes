@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       30532f5e-11aa-4398-aed5-04fa0567f4e0
+:ROAM_REFS: https://www.ntp.org/
+:ROAM_ALIASES: NTP
+:END:
 #+title: Network Time Protocol
-#+roam_alias: NTP
-#+roam_key: https://www.ntp.org/
 
 A network protocol for time syncronization.

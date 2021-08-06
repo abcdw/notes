@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       2e5e27be-9970-4b7b-9fe9-a2dfa4b3da03
+:END:
 #+title: Game Theory
 
-[[file:20210404150748-the_evolution_of_trust.org][The Evolution of Trust]]
+[[id:7bc9cb52-d3bc-44d6-977e-9ede27589543][The Evolution of Trust]]

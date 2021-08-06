@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       a293f298-61a4-4b67-844a-8aa6b3457130
+:END:
 #+title: Note-taking
-- related :: [[file:20200620103241-knowledge_sharing.org][Knowledge sharing]]
+- related :: [[id:7c3d12f1-1596-432e-b2d7-b0ba758430cb][Knowledge sharing]]
 
 - Not nly the process of taking notes, but also externalization of
   thinking process.

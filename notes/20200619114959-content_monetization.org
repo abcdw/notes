@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       b0d17854-0183-4eb9-9b2f-0f782c0a155d
+:END:
 #+title: Content monetization
-- related :: [[file:20200619115544-finances.org][Finances]]
+- related :: [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]]
 
 * Obvious options
 - donations via patreon, liberpay, etc

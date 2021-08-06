@@ -1,8 +1,11 @@
+:PROPERTIES:
+:ID:       2708f0d8-8f10-4541-8c34-5dd443e820eb
+:ROAM_REFS: https://elis.nu/blog/2020/05/nixos-tmpfs-as-root/
+:END:
 #+title: NixOS: tmpfs as root
-#+roam_key: https://elis.nu/blog/2020/05/nixos-tmpfs-as-root/
-- related :: [[file:20200727224003-nixos.org][NixOS]], [[file:20200620141734-reproducible_development_environment.org][RDE]]
+- related :: [[id:6d118c14-fd0b-4573-ac34-944a217ae8d7][NixOS]], [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]]
 
-[[file:20200727224003-nixos.org][NixOS]] can work only with ~/boot~ and ~/nix/store~ present.
+[[id:6d118c14-fd0b-4573-ac34-944a217ae8d7][NixOS]] can work only with ~/boot~ and ~/nix/store~ present.
 
 The article explains the way to install system on tmpfs instead of physical
 volume.

@@ -1,5 +1,8 @@
+:PROPERTIES:
+:ID:       08f0f4aa-21b1-44e7-bec6-d9cdc3313519
+:ROAM_REFS: https://guix.gnu.org/
+:ROAM_ALIASES: Guix
+:END:
 #+title: GNU Guix
-#+roam_key: https://guix.gnu.org/
-#+roam_alias: Guix
 
 Free operating system and package manager.

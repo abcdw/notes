@@ -1,6 +1,9 @@
+:PROPERTIES:
+:ID:       6934f438-caef-40b1-a754-942ec44d9ee8
+:ROAM_REFS: https://akrl.sdf.org/gccemacs.html
+:END:
 #+title: gccemacs
-#+roam_key: https://akrl.sdf.org/gccemacs.html
 
-Previously [[file:20200816095244-emacs.org][Emacs]] fork, now it's feature flag, which allows to compile
+Previously [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]] fork, now it's feature flag, which allows to compile
 elisp to native code. It can rapidly improve perfomance and reduce the
 need to write C code.
