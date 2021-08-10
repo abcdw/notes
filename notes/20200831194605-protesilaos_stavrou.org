@@ -4,5 +4,6 @@
 #+title: Protesilaos Stavrou
 
 Man doing philosophy, writing, politics and many other things. Being
-non-programmer he knows [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]] and elisp pretty well, maintaining his [[id:7ceca264-6085-403f-9c42-3e927b40c9cc][literate]]
-[[https://protesilaos.com/dotemacs/][configuration]], author of [[id:af3760f1-acd4-4e1a-bbda-132f4bd9004e][Modus Themes]]. Has a youtube [[https://www.youtube.com/channel/UC0uTPqBCFIpZxlz_Lv1tk_g][channel]] and [[https://protesilaos.com/][blog/website]].
+non-programmer he knows [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]] and elisp pretty well, maintaining his
+[[id:7ceca264-6085-403f-9c42-3e927b40c9cc][literate]] [[https://protesilaos.com/dotemacs/][configuration]], also, he is an author of [[id:af3760f1-acd4-4e1a-bbda-132f4bd9004e][Modus Themes]]. Has a
+youtube [[https://www.youtube.com/channel/UC0uTPqBCFIpZxlz_Lv1tk_g][channel]] and [[https://protesilaos.com/][blog/website]].

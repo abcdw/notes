@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       8d03b6c6-b5d7-4126-b72e-8a44746b1f60
 :END:
-#+title: trop.in shorts
+#+title: trop.in Shorts
 
 * Presentation
 - Tease other topic at the end.

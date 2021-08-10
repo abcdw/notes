@@ -4,15 +4,49 @@
 #+title: The Modern Emacs
 
 * Introduction
+We cover the needs of power users and porfessionals, who spent a lot
+of time editing text
+* Ideas
+There is no easy way, we have to learn and practice things to become
+efficient and productive with it.  It's especially true for any
+non-trivial tools.
+
+Important properties:
+- Explorability
+- Extensibility
+- Reliability
+- Perfomance
 
 * My Way
-** Complains
-- Slow
-- Ugly
+*Most important check points.*
+- vim :: ~10y, modal editing, partially extensible and explorable.
+- Spacemacs :: ~3y, works out of the box, but with performance,
+  conistence and explorability penalty.
+- custom config :: ~1y, good learning experience, reasonable perf.
+- doom emacs :: <1y, good OOTB and performance, small inconsistencies
+  and conflicts with built-in functionality, lack of integration with
+  OS/PM.
+- vanilla emacs :: <1y, poor OOTB, great learning experience,
+  extensible, explorable, performant.
+- rde emacs :: sane OOTB, reliable, performant, well-os-integrated,
+  extensible and almost explorable, plays well with built-ins.
+
+*The approach shift*.
+Give me more -> Give me less.
+* Building Working Environment approach
+- Reproducible
+- Minimalistic
+- Consistent
+- Offline-friendly
 * Hotkeys and Modal Editing
 ** Vanilla
 - Double tap
 * Color Scheme
+* Explorability
+- ~find-library~
+- ~C-h f~
+- ~C-h v~
+- ~C-h r i~
 * Completion
 
 * Future Steps

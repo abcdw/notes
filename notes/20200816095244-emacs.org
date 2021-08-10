@@ -7,7 +7,7 @@
 ** Great introduction to emacs https://youtu.be/FLjbKuoBlXs by [[id:94330c43-25f4-4a35-9f13-25c68be112a4][Protesilaos Stavrou]]
 ** http://emacsrocks.com/ Video series on various emacs features.
 
-* Things to do in emacs
+* Things to do in Emacs
 :PROPERTIES:
 :ID:       b7b663d7-036d-42d9-bde1-b7e3e2b8396a
 :END:

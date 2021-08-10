@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       cb833ba0-562d-4d80-9b8d-1c2d85d63530
+:END:
+#+title: Interesting Research Topics
+
+
+* Fields
+** Quantum Programming
+** OS Design

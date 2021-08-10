@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       0fdb5c53-390f-4108-bf49-4e417cfe0296
 :END:
-#+title: trop.in streams schedule
+#+title: trop.in Streams Schedule
 
 * Schedule
 | name                                                    | date                   |
