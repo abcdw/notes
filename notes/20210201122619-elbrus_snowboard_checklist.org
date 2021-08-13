@@ -66,9 +66,6 @@
 - [ ] Download offline maps
 - [ ] Internetional simcard and check balance
 ** Other
-:PROPERTIES:
-:ID:       2eaa662c-7862-4a6c-8756-ec08cdc35dcd
-:END:
 - [X] Suncream
 - [X] Toothbrush
 - [X] Desodorant

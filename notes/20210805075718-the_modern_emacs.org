@@ -4,8 +4,14 @@
 #+title: The Modern Emacs
 
 * Introduction
-We cover the needs of power users and porfessionals, who spent a lot
-of time editing text
+- How to handle it?
+- What's it?
+- The reasons to use and avoid.
+- How to approach Emacs, how to start and proceed?
+
+Talking about the needs of power users and porfessionals, who spent a
+lot of time editing text.
+
 * Ideas
 There is no easy way, we have to learn and practice things to become
 efficient and productive with it.  It's especially true for any
@@ -14,40 +20,91 @@ non-trivial tools.
 Important properties:
 - Explorability
 - Extensibility
+- Consistency
 - Reliability
 - Perfomance
+  
+* Text-Oriented Interfaces
+Maybe make something better?)
 
+* What is Emacs?
+- Dynamic Interpretation Environment.
+- Graphical Toolkit.
+- Ecosystem (Tools, Packages, Snippets and Distributed Expertice).
+  
+* Reasons to Use Emacs
+- Free and Open Source Software.
+- It doesn't get in your way, has a good-enough extension language.
+- Mature software with a lot of legacy.
+- Unified consistent interface for all the tools.
+  
 * My Way
 *Most important check points.*
-- vim :: ~10y, modal editing, partially extensible and explorable.
+
+- Vim :: ~10y, modal editing, partially extensible and explorable.
 - Spacemacs :: ~3y, works out of the box, but with performance,
-  conistence and explorability penalty.
-- custom config :: ~1y, good learning experience, reasonable perf.
-- doom emacs :: <1y, good OOTB and performance, small inconsistencies
+  conistency and explorability penalty.
+- Custom Config :: ~1y, good learning experience, reasonable perf.
+- Doom Emacs :: <1y, good OOTB and performance, small inconsistencies
   and conflicts with built-in functionality, lack of integration with
   OS/PM.
-- vanilla emacs :: <1y, poor OOTB, great learning experience,
+- Vanilla Emacs :: <1y, poor OOTB, great learning experience,
   extensible, explorable, performant.
-- rde emacs :: sane OOTB, reliable, performant, well-os-integrated,
-  extensible and almost explorable, plays well with built-ins.
+- rde Emacs :: sane OOTB, reliable, performant, well-os-integrated,
+  extensible and almost explorable, plays nicely with built-ins.
 
 *The approach shift*.
-Give me more -> Give me less.
-* Building Working Environment approach
-- Reproducible
-- Minimalistic
+
+Yes, I need it, give me more ->
+Meet a few times, research, solve, practice, persist if necessary.
+
+* COMMENT Questions
+Take a breath.
+
+* Building Working Environment Principles
+- Reproducible -> Reliable
+- Offline-friendly/Local-first
 - Consistent
-- Offline-friendly
+- Minimalistic and Attention-friendly
+- Extensible and Explorable
+  
+* Appearance
+[[https://arxiv.org/abs/2008.06030][On the design of text editors]]
+- Light hight-contrast colorscheme :: good for eyes, good for work.
+- Minimalistic UI :: better for attention.
+- [[file:~/dl/2008.06030.pdf::%PDF-1.5][Margins, Fonts, Colorization, Typesettings]] :: gives better readability.
+
 * Hotkeys and Modal Editing
-** Vanilla
-- Double tap
-* Color Scheme
+- Vanilla
+- Evil
+  
+* COMMENT Answering Questions
+Take a sip.
+
 * Explorability
-- ~find-library~
+- ~C-h k~
 - ~C-h f~
 - ~C-h v~
+- ~C-h S~
 - ~C-h r i~
-* Completion
+- ~M-x find-library RET~
+- ~M-x which-key RET~
+  
+* Completion and Search
+When you work with huge amounts of text, lists and other data,
+completion is really helpful.
 
+- isearch/occur/grep
+- vertico
+- marginalia
+- mini-frame
+- embark
+  
 * Future Steps
-- Native Compilation
+- Native Compilation :: for better performance.
+- Mode-line improvements :: for less distraction.
+- Different Fonts :: for reading-oriented buffers.
+* Materials
+- ~M-x help-with-tutorial~
+- ~M-x info-emacs-manual~
+- https://www.masteringemacs.org/
