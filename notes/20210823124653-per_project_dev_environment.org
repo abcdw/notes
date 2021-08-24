@@ -1,0 +1,67 @@
+:PROPERTIES:
+:ID:       65d096bd-7438-4b25-af01-e7da37aafade
+:END:
+#+title: Per-Project Dev Environment
+#+filetags: Stream
+
+* Introduction
+The goal is to get all necessary stuff set and ready to use for each
+project without interfering with other projects and the operating system.
+
+The environment should be easy to share and must be the same for
+different people/deploys/hosts.
+
+* The Twelve-Factor App
+https://12factor.net/
+
+A set of practices for developing SaaS.
+
+- Minimize new engineer introduction cost.
+- Improve portability between OSes.
+- Simplify the deployement.
+- Minimize divergence between development and production.
+- Scale up without significant changes to tooling, architecture, or
+  development practice.
+* Environment Parts
+- Dependencies (libraries, external apps)
+- Tools (compiler, linter, clients, etc)
+- Environment Variables
+* Dependencies and Tools
+Never rely on implicit existence of system-wide packages.
+
+Only a dependency manager is a prerequisites.
+* Configs (Environment Variables)
+Strict separation of config from code. Config varies substantially
+across deploys, code does not.
+
+- Credentials.
+- App settings.
+- Other services locators.
+* Backing Services
+Queue/Database/API.
+
+Not covering this stuff today.
+* Environment Gap
+- Time :: between implementation and delivery.
+- Personnel :: various roles have different tools and backgrounds.
+- Tools :: libraries can differ between hosts/deploys.
+
+It affects not only developers and admins, but also users.
+* Demo
+** Tools
+- [[https://direnv.net/][direnv]]
+- [[https://guix.gnu.org/manual/en/html_node/Invoking-guix-environment.html][guix environment]]
+- gpg
+** Demo Project
+- secrets
+- pytorch
+- reproducibility
+- leiningen
+* Problems
+- ~M-x man~
+- ~M-x info~
+- Higher startup time
+* Summary
+- Can work on several projects effortlessly.
+- Can share the dev environment precisely.
+- Can deliver software faster.

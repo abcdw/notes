@@ -6,6 +6,8 @@
 * Schedule
 | name                                                    | date                   |
 |---------------------------------------------------------+------------------------|
+| [[id:65d096bd-7438-4b25-af01-e7da37aafade][Per-Project Dev Environment]]                             | <2021-08-24 Tue 18:00> |
+| [[id:95f5c8a7-007a-4b0c-b3c7-c971d0346b98][The Modern Emacs]]                                        | <2021-08-10 Tue 18:00> |
 | [[id:80734097-5d8b-4b4d-b4ba-2ad13b8efbc9][Pull Requests vs Patches]]                                | <2021-07-13 Tue 18:00> |
 | [[id:2a8b9445-45da-4c68-82d0-0d93a9518641][Emacs: Managing Emails and Mailing Lists]]                | <2021-06-29 Tue 18:00> |
 | [[id:41d8a265-921d-421c-96ab-b0ef38bc24c2][Migrated to PipeWire, Screensharing in Wayland]]          | <2021-06-15 Tue 18:00> |

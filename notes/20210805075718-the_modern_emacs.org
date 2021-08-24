@@ -100,10 +100,12 @@ completion is really helpful.
 - mini-frame
 - embark
   
-* Future Steps
+* Further Possible Improvements
 - Native Compilation :: for better performance.
-- Mode-line improvements :: for less distraction.
+- Mode-line Improvements :: for less distraction.
 - Different Fonts :: for reading-oriented buffers.
+- Welcome Screen :: for better explorability and novice friendliness.
+
 * Materials
 - ~M-x help-with-tutorial~
 - ~M-x info-emacs-manual~
