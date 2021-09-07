@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       d0311574-3528-49fb-95a5-2233b2b371a9
+:END:
+#+title: Not Very Advanced Git
+
+* Introduction
+Expectations: Intermediate level of Git knowledge.
+
+The Goal: To make git operations intentional, thinkful and fearless.
+https://miro.medium.com/max/660/1*0o9GZUzXiNnI4poEvxvy8g.png
+
+* The Approach
+The VCS isn't just a tool for storing few versions of the project, but
+a part of software development process.
+
+https://chris.beams.io/posts/git-commit/
+
+* Status and History
+https://miro.medium.com/max/1400/1*zw0bLFWkaAP2QPfhxkoDEA.png
+
+Worktree (Untracked + Unstaged)
+Index (Staged)
+Repository (Committed)
+
+- j
+- imenu
+
+** Exchange and Share
+- Remotes
+- Pull and Fetch
+** Review and Blame
+- Diff
+  + ~magit-diff-toggle-refine-hunk~ :: Show changes inside hunk.
+- Log
+- Blame
+* Commit and Rewrite
+- Stash :: Temporary hiding or saving changes.
+- Commit :: Persisiting changes.
+  + Hunks
+  + Extend
+  + Reword
+  + Ammend
+  + Squash
+  + Fixup
+  + transient git gutter
+- Branch :: Switching between changesets.
+- Revert :: Creating new commits with discards changes.
+- Reset :: Removing commits and changes.
+- Rebase :: Rewriting the history.
+
+* Conclusion
+Hope the Git is less magical for you now.
+
+* Links
+- [[https://ohshitgit.com/][Oh Shit, Git!?!]]
+- [[https://medium.com/hackernoon/https-medium-com-zspajich-understanding-git-data-model-95eb16cc99f5][Understanding Git]]
+- [[https://gist.github.com/fajrif/1042446/2234253fd97323df7a93daebc66ae7a0fe6cf3af][Just a list of some git commands]]

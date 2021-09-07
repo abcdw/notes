@@ -13,12 +13,16 @@
 *** Editing
 - Rectangle selection
 - Basic hotkeys
+- Emacs Undo explained
+- Undo in region
+*** Org
+- Encrypting sections with ~:crypt:~
 *** Info
 - Hotkeys explained
 ** Git
 - commit hunk
 - interactive rebase
-- commit ammend/reword
+- commit ammend/reword/fixup
 - git-link
 ** Guix
 - propagated vs inputs vs native

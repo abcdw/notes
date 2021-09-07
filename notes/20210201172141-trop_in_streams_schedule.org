@@ -6,6 +6,8 @@
 * Schedule
 | name                                                    | date                   |
 |---------------------------------------------------------+------------------------|
+| Pijul internals?                                        |                        |
+| [[id:d0311574-3528-49fb-95a5-2233b2b371a9][Not Very Advanced Git]]                                   | <2021-09-07 Tue 18:00> |
 | [[id:65d096bd-7438-4b25-af01-e7da37aafade][Per-Project Dev Environment]]                             | <2021-08-24 Tue 18:00> |
 | [[id:95f5c8a7-007a-4b0c-b3c7-c971d0346b98][The Modern Emacs]]                                        | <2021-08-10 Tue 18:00> |
 | [[id:80734097-5d8b-4b4d-b4ba-2ad13b8efbc9][Pull Requests vs Patches]]                                | <2021-07-13 Tue 18:00> |
