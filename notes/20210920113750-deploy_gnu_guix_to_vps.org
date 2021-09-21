@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       d7739104-da63-4206-b0ff-f4fa04039f0d
+:END:
+#+title: Deploy GNU Guix to VPS
+#+filetags: :Stream:
+
+* Introduction
+* Base System
+#+begin_src shell
+apt update -y && apt install guix -y
+guix pull
+GUIX_PROFILE="/root/.config/guix/current"
+. "$GUIX_PROFILE/etc/profile"
+ifconfig
+route -n
+cd /ssh:root@IP:/root
+cp ~/guix ./ -r
+cd guix
+guix system build ./base.scm
+./init.sh
+guix system reconfigure ./base.scm
+#+end_src
+* ~guix deploy~

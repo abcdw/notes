@@ -8,3 +8,5 @@ An anchor for reference from materials related to OS construction.
 
 - Building a FS
 https://wiki.c2.com/?OperatingSystemsDesignPrinciples
+
+[[http://web.stanford.edu/class/cs240/][Advanced Topics in Operating Systems (CS240 Stanford)]]

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       d4b521e4-0912-42c9-9ecf-9c4382636157
+:END:
+#+title: Restreaming with FFmpeg
+
+
+* Links
+- [[https://obsproject.com/forum/resources/obs-studio-stream-to-multiple-platforms-or-channels-at-once.932/][OBS Studio: Stream to multiple platforms or channels at once]]
+- [[https://github.com/obsproject/obs-studio/blob/master/plugins/rtmp-services/data/services.json][Ingest Servers]]
+- [[https://opensource.com/article/19/1/basic-live-video-streaming-server][Create your own video streaming server with Linux]]
+- [[https://wiki.pantherx.org/Installation-digital-ocean/][Install GNU Guix On Digital Ocean]]
+- [[https://stumbles.id.au/getting-started-with-guix-deploy.html][Getting started with Guix deploy]]
+- [[https://guix.gnu.org/manual/en/html_node/Invoking-guix-deploy.html][Invoking guix deploy]]
