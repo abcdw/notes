@@ -5,7 +5,13 @@
 #+filetags: :Stream:
 
 * Introduction
-* Base System
+1. Get Guix System on VPS.
+2. Configure it with ~guix deploy~.
+3. Configure NGINX.
+
+* Converting Ubuntu to Guix System
+Prerequisits is a VPS and SSH access.
+
 #+begin_src shell
 apt update -y && apt install guix -y
 guix pull
@@ -17,7 +23,22 @@ cd /ssh:root@IP:/root
 cp ~/guix ./ -r
 cd guix
 guix system build ./base.scm
-./init.sh
+
+mv /etc /old-etc
+mkdir /etc
+cp -r /old-etc/{passwd,group,shadow,gshadow,mtab,guix} /etc/
+
 guix system reconfigure ./base.scm
 #+end_src
+
 * ~guix deploy~
+[[https://guix.gnu.org/manual/en/guix.html#Invoking-guix-deploy][Invoking guix deploy]].
+
+* Restreaming with NGINX
+* Restart on Deploy?
+* Conclusion
+* Links
+- https://stumbles.id.au/getting-started-with-guix-deploy.html
+- https://guix.gnu.org/manual/en/guix.html#Invoking-guix-deploy
+- https://github.com/benwilber/boltstream
+- https://obsproject.com/forum/resources/obs-studio-stream-to-multiple-platforms-or-channels-at-once.932/
