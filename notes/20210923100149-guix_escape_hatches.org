@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       f6b05f22-746c-4d78-bba2-61a8706c6609
+:END:
+#+title: Guix Escape Hatches
+#+filetags: :Stream:
+
+* Introduction
+SCHEDULED: <2021-10-05 Tue>
+What to do if you think that there are not enough packages in GNU Guix? 
+How to install and use software, which is not available in Guix repo.
+
+* Is the Number of Packages Really That Small?
+https://repology.org/
+
+Who does better?
+
+* Why it is not in Guix Repo?
+- Licensing :: weak condition.
+- Boostrapping :: strong technical condition.
+- Guix is Young :: founded in 2012. [[https://upload.wikimedia.org/wikipedia/commons/8/8c/Linux_Distribution_Timeline_Dec._2020.svg][Linux Distro Timeline]].
+
+Sometimes understanding the background, technical details and
+adjusting the expectations can solve the problem.
+
+* How to Handle it?
+- Use packaged software.
+- Use apropriate hardware.
+- Additional [[http://guix.gnu.org/en/manual/devel/en/guix.html#Channels][channels]] and substitutes.
+- Package it.
+- [[http://guix.gnu.org/en/manual/devel/en/guix.html#index-nix_002dservice_002dtype][Nix]] package manager.
+- Docker.
+  
+* Practice
+
+Add a nix-service-type.
+
+#+begin_src shell
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+nix-channel --update
+source /run/current-system/profile/etc/profile.d/nix.sh
+nix-shell -p nixUnstable
+nix --extra-experimental-features 'nix-command flakes' shell nixpkgs#hello
+#+end_src
+
+** TODO Add experimental features to config
+https://nixos.wiki/wiki/Flakes#Non-NixOS
+* Conclusion
+- Guix is already quite good.
+- There are escape hatches.
+- You can make Guix even better.
