@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       070a6b4b-39ef-4233-8a83-753ca2a4a8bd
+:END:
+#+title: guix shell: Overview
+#+filetags: :Stream:
+
+* Introduction
+SCHEDULED: <2021-11-16 Tue>
+* What ~guix shell~ is?
+- universal virtualenv
+- successor of ~guix environment~
+* Differences with ~guix environment~
+** ad-hoc by default
+** Support for guix.scm and manifest.scm
+- ~guix shell~ automatically loads them if no arguments provided.
+** Caching
+#+begin_src shell
+guix shell -- make
+#+end_src
+* Links
+- https://guix.gnu.org/en/blog/2021/from-guix-environment-to-guix-shell/

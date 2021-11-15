@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7225e4cc-6198-4d85-8328-749b796fda1e
+:END:
+#+title: Installing Guix on Raspberry Pi
+#+filetags: :Stream:
+
+* Links
+- https://www.mail-archive.com/help-guix@gnu.org/msg12570.html

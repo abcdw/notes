@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7710f96f-d4bb-41d8-9750-027d5e9da763
+:END:
+#+title: Functional Operating Systems @ London Clojurians
+
+* Links
+- [[https://christine.website/talks/nixos-pain-2021-11-10][How Nix and NixOS Get So Close to Perfect]] :: talk to get inspiration from.

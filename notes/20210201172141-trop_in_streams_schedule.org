@@ -6,6 +6,7 @@
 * Schedule
 | name                                                    | date                   |
 |---------------------------------------------------------+------------------------|
+| [[id:070a6b4b-39ef-4233-8a83-753ca2a4a8bd][guix shell: Overview]]                                    | <2021-11-16 Tue 18:00> |
 | [[id:f6b05f22-746c-4d78-bba2-61a8706c6609][Guix Escape Hatches]]                                     | <2021-10-05 Tue 18:00> |
 | [[id:d7739104-da63-4206-b0ff-f4fa04039f0d][Deploy GNU Guix to VPS]]                                  | <2021-09-21 Tue 18:00> |
 | [[id:d0311574-3528-49fb-95a5-2233b2b371a9][Not Very Advanced Git]]                                   | <2021-09-07 Tue 18:00> |
