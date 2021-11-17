@@ -1,21 +1,71 @@
 :PROPERTIES:
 :ID:       070a6b4b-39ef-4233-8a83-753ca2a4a8bd
+:ROAM_REFS: https://youtu.be/UMCHuHSlVWk
 :END:
 #+title: guix shell: Overview
 #+filetags: :Stream:
 
 * Introduction
 SCHEDULED: <2021-11-16 Tue>
+- Overview of ~guix shell~.
+- Comparison with ~guix environment~ and ~virtualenv~.
+- Practical example and integration with [[https://direnv.net/][direnv]].
+- [[id:65d096bd-7438-4b25-af01-e7da37aafade][Per-Project Dev Environment]].
 * What ~guix shell~ is?
-- universal virtualenv
-- successor of ~guix environment~
+- The tool for trying out software.
+- The tool for spinning up development environments.
+- Universal virtualenv.
+- The tool for making isolated environments.
+- Successor of ~guix environment~.
 * Differences with ~guix environment~
 ** ad-hoc by default
 ** Support for guix.scm and manifest.scm
 - ~guix shell~ automatically loads them if no arguments provided.
+- Difference between guix.scm and manifest.scm.
+- Show ~~/tmp/htop~ example
+** Composable switches
 ** Caching
 #+begin_src shell
 guix shell -- make
 #+end_src
+* Examples
+** Trying out a Package
+#+begin_src shell
+guix shell htop -- htop
+#+end_src
+** Executing in Isolated Environment
+#+begin_src shell
+guix shell htop --preserve=$ --container
+#+end_src
+** Preventing Garbage Collection
+#+begin_src shell
+guix shell htop -r ./persistent-profile
+guix gc --list-roots
+#+end_src
+** Reproducible Development Environment
+#+begin_src shell
+guix describe -f channels > ./channels.scm
+guix time-machine -C ./channels.scm -- shell
+#+end_src
+* How to Integrate it with direnv?
+#+begin_src shell :results verbatim
+guix shell python python-numpy --search-paths
+#+end_src
+
+#+RESULTS:
+: export PATH="/gnu/store/lk53yz7cgj6kgw1m82mfs0843j3bgpn5-profile/bin${PATH:+:}$PATH"
+: export PYTHONPATH="/gnu/store/lk53yz7cgj6kgw1m82mfs0843j3bgpn5-profile/lib/python3.8/site-packages${PYTHONPATH:+:}$PYTHONPATH"
+
+[[file:~/work/rde/rde/features/shellutils.scm::(simple-service][features/shellutils.scm]]
+* Questions
+- Other tools for making dev environments.
+- What to do with dev-time dependencies?
+* Conclusion
+- Universal, fast, feature rich, well-integrating and user-friendly tool.
+- We can make it ultimate by providing additional APIs for generating
+  packages.
 * Links
 - https://guix.gnu.org/en/blog/2021/from-guix-environment-to-guix-shell/
+- https://guix.gnu.org/manual/devel/en/html_node/Invoking-guix-package.html#index-manifest
+- https://guix.gnu.org/manual/devel/en/html_node/Invoking-guix-shell.html#Invoking-guix-shell
+- https://github.com/direnv/direnv/blob/master/stdlib.sh

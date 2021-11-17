@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       d0311574-3528-49fb-95a5-2233b2b371a9
+:ROAM_REFS: https://youtu.be/tPp1dQ8y9jM
 :END:
 #+title: Not Very Advanced Git
+#+filetags: :Stream:
 
 * Introduction
 Expectations: Intermediate level of Git knowledge.
