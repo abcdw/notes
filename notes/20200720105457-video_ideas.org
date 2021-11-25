@@ -31,7 +31,8 @@
 - [[id:d0f5123b-241f-42c1-abb5-58440710b52d][Cleanest Dotfiles Setup]] video and reference to Luke Smith's
   https://www.youtube.com/watch?v=yy8RoDSdhIQ&t=319s
 - Implementing CI in few hours with [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]]
-- Creating a [[https://www.youtube.com/watch?v=rbasThWVb-c][snake game]] in five minutes. It's possible to show, how cool [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]] is for developers.
+- Creating a [[https://www.youtube.com/watch?v=rbasThWVb-c][snake game]] in five minutes. It's possible to show, how
+  cool [[id:7845ce2e-e349-405a-85bb-44a983ed4860][RDE]] is for developers.
 - Humor: [[https://youtu.be/pI5ToeZWP7s][Ref Vid]] How I read documentation (super fast scrolling wheel)
 - Installing linux without root partition [[id:2708f0d8-8f10-4541-8c34-5dd443e820eb][NixOS: tmpfs as root]]
 - Installing linux from VRAM

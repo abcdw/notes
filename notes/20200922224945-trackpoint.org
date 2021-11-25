@@ -6,4 +6,4 @@
 - related :: [[id:c82f8b8c-237d-4371-b922-2f80cb7aa6e1][Ergonomics]]
 
 Pretty nice implementation
-- TrackPoint [[ https://github.com/rinx/trackpoint-iris][implementation]] of trackpoint for Iris [[id:1a5b4369-c062-40d4-900d-0b12424e6b2f][Mechanical Keyboard]]
+- TrackPoint [[https://github.com/rinx/trackpoint-iris][implementation]] of trackpoint for Iris [[id:1a5b4369-c062-40d4-900d-0b12424e6b2f][Mechanical Keyboard]]

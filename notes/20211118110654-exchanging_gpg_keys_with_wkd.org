@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       5afedcba-de0c-4d8b-acad-56752eea3bdd
+:END:
+#+title: Exchanging GPG Keys with WKD
+
+There is a way to automatically retrieve a public key for email
+address on custom domain.
+
+* Links
+- https://www.uriports.com/blog/setting-up-openpgp-web-key-directory/
+- https://metacode.biz/openpgp/web-key-directory

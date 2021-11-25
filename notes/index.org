@@ -5,8 +5,8 @@
 #+title: Index
 
 * Work
-- Emacs Courses Plan/rde book [[file:../../../.local/share/Trash/files/20210612182003-rde_coursee.org][rde Course]]
 - [[id:0fdb5c53-390f-4108-bf49-4e417cfe0296][trop.in streams schedule]]
+- [[https://sr.ht/~abcdw/rde][rde]]
 
 
 * Stuff to check out

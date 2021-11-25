@@ -15,7 +15,7 @@ applications.
 | instagram | [[https://pixelfed.org/][pixelfed]]             | [[id:aacae6d9-0342-45d2-b2d6-bb9a5455b92f][Federated]], open source photo sharing platform.                                                                                                      |
 | youtube   | [[https://joinpeertube.org/][PeerTube]]             | p2p, federated video platform. Since 3.0 has streaming capabilities.                                                                                |
 | zoom      | [[https://meet.jit.si/][jitsi]], [[https://bigbluebutton.org/][BigBlueButton]] | Jitsi for fast calls, BBB for conferences/classes.                                                                                                  |
-| disqus    | [[ https://commento.io/][Commento]]             | Lightweight and privacy oriented comment solution. Source code is available.                                                                        |
+| disqus    | [[https://commento.io/][Commento]]             | Lightweight and privacy oriented comment solution. Source code is available.                                                                        |
 
 
 * Links

@@ -4,6 +4,7 @@
 :END:
 #+title: Pull Requests vs Patches
 #+filetags: Stream
+#+OPTIONS: broken-links:mark
 
 * Introduction
 - Prerequisits and context.

@@ -2,9 +2,18 @@
 :ID:       0fdb5c53-390f-4108-bf49-4e417cfe0296
 :END:
 #+title: trop.in Streams Schedule
+* To Schedule
+| Draft Name                     | Possible Date          |
+|--------------------------------+------------------------|
+| Clojure Dev Environment        | <2021-11-30 Tue 18:00> |
+| Guile Dev Environment          | <2021-12-14 Tue 18:00> |
+| Building a Custom Kernel       | <2021-12-28 Tue 18:00> |
+| Installing Guix on Rasberry Pi | <2022-01-11 Tue 18:00> |
+| My Hardware Overview           | <2022-01-25 Tue 18:00> |
+| Using native-comp Emacs        | <2022-02-08 Tue 18:00> |
 
 * Schedule
-| name                                                    | date                   |
+| Name                                                    | Date                   |
 |---------------------------------------------------------+------------------------|
 | [[id:070a6b4b-39ef-4233-8a83-753ca2a4a8bd][guix shell: Overview]]                                    | <2021-11-16 Tue 18:00> |
 | [[id:f6b05f22-746c-4d78-bba2-61a8706c6609][Guix Escape Hatches]]                                     | <2021-10-05 Tue 18:00> |

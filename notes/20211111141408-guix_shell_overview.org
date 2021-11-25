@@ -56,7 +56,7 @@ guix shell python python-numpy --search-paths
 : export PATH="/gnu/store/lk53yz7cgj6kgw1m82mfs0843j3bgpn5-profile/bin${PATH:+:}$PATH"
 : export PYTHONPATH="/gnu/store/lk53yz7cgj6kgw1m82mfs0843j3bgpn5-profile/lib/python3.8/site-packages${PYTHONPATH:+:}$PYTHONPATH"
 
-[[file:~/work/rde/rde/features/shellutils.scm::(simple-service][features/shellutils.scm]]
+[[file:~/work/abcdw/rde/rde/features/shellutils.scm::(simple-service][features/shellutils.scm]]
 * Questions
 - Other tools for making dev environments.
 - What to do with dev-time dependencies?
