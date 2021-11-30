@@ -55,20 +55,15 @@ It will be possible to introspect a binary data as it would be a json.
 The other nice property of such approach is an abitility to attach
 documentation and other metadata to data.
 * Communication
-:PROPERTIES:
-:ID:       7e48f0b7-4fd0-4619-a643-bdc503def6e0
-:END:
 Why we still communicate with bytes, when we can transfer structured
 data? ZeroMQ a step in right direction.
+
 * Logs
 Should be solved by OS, not developers of every application. Other
 info about log in [[id:294f886d-188a-4173-a9bc-b21b020e3632][Filesystems]] section.
 
 Sending structured messages to syslog services is a possible solution.
 * For future
-:PROPERTIES:
-:ID:       296c240a-ae11-4ba0-ba7b-2a1af0729472
-:END:
 I see a problem of bootstrapping. It's not clear where to start to
 break a dependency circle: components of the system kinda depends on
 each other. Probably a FS is a good starting point, can be implemnted

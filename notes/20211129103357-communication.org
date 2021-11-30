@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a3e13fe7-78fc-4a02-a229-1884ab173f38
+:END:
+#+title: Communication
+
+An anchor node for communication related references.

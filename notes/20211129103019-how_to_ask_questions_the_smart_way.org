@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       aaa513de-9ae2-4332-abeb-d05a98819ea1
+:ROAM_REFS: http://www.catb.org/~esr/faqs/smart-questions.html
+:END:
+#+title: How To Ask Questions The Smart Way
+
+- related :: [[id:a3e13fe7-78fc-4a02-a229-1884ab173f38][Communication]]

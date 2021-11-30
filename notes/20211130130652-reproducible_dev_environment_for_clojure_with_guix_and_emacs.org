@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       f1a693ce-02d5-4f8b-b4ff-01284ebcf662
+:END:
+#+title: Reproducible Dev Environment for Clojure with Guix and Emacs
+
+
+* Introduction
+The Goal is to make a development environment (for Clojure project),
+which can be shared with another person or the whole team with minimal
+effort.  Not the ideal, but at least good enough, so we can improve it
+later.
+* Parts of Dev Environment
+- Compiler/Interpreter/VM/lang PM?.
+- IDE/Code Editor and language specific plugins.
+- Auxiliary Tools (psql, linter, make).
+* What we Need Upfront?
+** Guix
+Any version.
+*** ~guix shell~
+** ~direnv~
+The place, where reproducibility leaks a little (the tool should be
+installed outside of dev environment).
+
+Configured with ~.envrc~.
+* Why not Docker?
+- Expensive to extend the image.
+- Hard to GUI.
+- Hard to integrate with IDE.
+- Dockerfile not reproducible.
+* Clojure, JVM and Packages
+** Guix Channels
+** mvn
+Technically the reproducibilty can leak here.  Especially true for
+~-SNAPSHOT~ versions.
+* Reproducibility
+** ~channels-lock.scm~
+* Aux Tools
+psql, make, whatever.
+
+Should be controlable by env vars.
+** Sharing secrets
+It's a separate question.
+* Emacs and CIDER
+The trickiest part.
+
+Features to check:
+- clojuredoc.
+- go to definition.
+* Emacs Configuration as a Package
+* Trick with Env Variables
+Get different envs from one ~guix.scm~.
+* What to Do Next?
+Deploy the same versions of packages to production with ~guix pack~ or
+~guix deploy~.
+* Conclusion
+- Making a reproducible env isn't that hard (at least almost
+  reproducible).
+- Reproducibility slightly leaks.
+- With guix we can easily go from dev env to prod/deploy env.
