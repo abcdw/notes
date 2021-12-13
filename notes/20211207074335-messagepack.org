@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       486dc483-fdda-4a2e-a82f-b2d3326ac7a3
+:ROAM_REFS: https://msgpack.org
+:END:
+#+title: MessagePack
+
+Binary serialization format, which can store json-like data.

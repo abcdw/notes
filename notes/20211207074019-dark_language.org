@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       93af2db1-c393-4681-952d-6e73067dd64c
+:ROAM_REFS: https://darklang.com/
+:END:
+#+title: Dark Language
+
+Almost no code, no infra, no files programming language.

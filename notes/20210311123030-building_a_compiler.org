@@ -10,6 +10,10 @@ An anchor for reference from materials related to compiler construction.
 - [[http://worst.mitten.party/literate/][Worst lang]] :: sample simple lang, written in typed racket.
 - [[https://vlang.io/][V]] lang :: example of simple and very pure language.
 - [[id:f6c442a5-d853-45ec-8148-67c7734bd1cf][The Fennel Programming Language]] :: Clojure-like lisp based on Lua.
+- [[id:19c899d2-a86e-4953-bd44-5782ca159d77][Unison Language]] :: content-addressed and immutable code.
+- [[id:93af2db1-c393-4681-952d-6e73067dd64c][Dark Language]] :: doesn't have files.
+- [[id:486dc483-fdda-4a2e-a82f-b2d3326ac7a3][MessagePack]] :: binary serialization format.
+
 * Materials
 - https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X
 - [[id:f9109ad4-dca8-4803-b036-cb2f9dc46b3c][CS 6120: Advanced Compilers: The Self-Guided Online Course]]

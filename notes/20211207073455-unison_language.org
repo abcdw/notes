@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       19c899d2-a86e-4953-bd44-5782ca159d77
+:ROAM_REFS: https://www.unisonweb.org
+:END:
+#+title: Unison Language
+
+Functional content-addressed programming language.
+
+[[https://t.me/dev_rasen/17][Post about Unison lang]] by Alexey Shmalko.
+

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       f761d9aa-aa1d-4f15-a2d2-d25f63156895
+:END:
+#+title: Awesome Guix Channels
+
+- https://github.com/babariviere/guix-emacs :: auto-generated melpa packages.
