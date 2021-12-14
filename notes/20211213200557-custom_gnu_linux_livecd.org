@@ -4,3 +4,49 @@
 #+title: Custom GNU/Linux LiveCD
 
 * Introduction
+Keyboard layout, specific packages, files and services.
+- Obtaining tools and generating image.
+- Exploring customization possibilities.
+- Practice with rde.
+* Guix
+- Declarative.
+- Reproducible.
+- Simple.
+- Available.
+
+On debian and derivatives:
+#+begin_src shell
+sudo apt install guix
+guix pull
+#+end_src
+
+* Generating an ISO Image
+As simple as
+#+begin_src shell
+guix system image -t iso9660 -e '(@ (gnu system install) installation-os)'
+#+end_src
+
+If you have a local copy of Guix sources.
+#+begin_src shell
+cd ~/work/gnu/guix
+guix system build gnu/system/install.scm
+guix system image -t iso9660 gnu/system/install.scm
+#+end_src
+
+* Testing It
+Make sure the user is in kvm group. ~C-M-g~ to grab/ungrab input devices.
+
+#+begin_src shell
+qemu-system-x86_64 -enable-kvm -boot d -m 4096 -cdrom image.iso
+#+end_src
+* Exploring Internals
+* Customizing the Image
+** Custom channels
+** Building image with rde
+* Future Work
+- Implement guix-home-service-type.
+- Provide pre-configured images.
+* Conclusion
+- The right way is much easier in long run.
+* Links
+- https://github.com/SystemCrafters/guix-installer
