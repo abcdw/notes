@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       942cf3b8-ea3b-4c9f-98a4-89d8cf23926a
+:END:
+#+title: Small Christmas Stream
+#+filetags: :Stream:
+
+* Introduction
+Some ideas on my mind.
+
+* GNU Guix and Guix Home
+- FSF approved Distribution and Package manager.
+- Gaining Popularity (#guix, content, chats).
+- [[https://guix.gnu.org/en/blog/2021/the-big-change/][Improving]] and [[https://repology.org/][Growing]].
+
+** Plans and Wishes
+- ~guix-home-service-type~ and more home services upstreamed.
+- Channels dependencies and better management ~guix pull~.
+- More ~guix deploy~ and self-hosted.  Better RISC-V and ARM support.
+- Participate in Guix project more actively?
+- Decentralized substitutes distribution. [[https://issues.guix.gnu.org/52555][issues.guix.gnu.org/52555]]
+
+* rde 
+** Already
+- Sane GNU/Linux operating system.
+- All the niceties of Guix System and Guix Home.
+- Wayland with Sway/PipeWire/WirePlumber.
+- GNU Emacs, pgtk, native-comp, vanilla flavor, completion.
+- Mails, Mailing lists, IRC, git.
+- Org, Markdown, PDFs, Notes/Knowledgebase.
+** More Ideas
+- State Management, secrets/contacts/calendars.
+- Manual, Live Image and first release.
+- Per-language rde features.
+- More everyday features and plenty of work on existing.
+
+* General
+Free and open standards ecosystem and decentralization.
+- Better git/patch/email integration and streamlined workflow.
+- IRC, IPFS, ActivityPub, etc.
+- ML archives [[https://public-inbox.org/README.html][via git]] for SourceHut.
+
+Programming Languages and Operating Systems.
+- 20 langauges challenge.
+- Small RISC-V OS project (lang, fs, vcs).
+
+* Acknowledgments
+- Xinglu Chen :: [[https://yoctocell.xyz/][yoctocell.xyz]]
+- Protesilaos Stavrou :: [[https://protesilaos.com/][protesilaos.com]]
+- Ludovic Courtes :: [[https://fosstodon.org/web/@civodul@toot.aquilenet.fr][@civodul@toot.aquilenet.fr]]
+- Oleg Pykhalov :: [[https://github.com/wigust][github.com/wigust]]
+- Drew DeVault :: [[https://drewdevault.com/][drewdevault.com]]
+
+* Questions
+* Conclusion
+Don't afraid to do a cool stuff, you can make someones life better
+without even knowing it.

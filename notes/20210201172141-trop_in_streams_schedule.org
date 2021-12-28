@@ -5,7 +5,6 @@
 * To Schedule
 | Draft Name                        | Possible Date          |
 |-----------------------------------+------------------------|
-| Building a Custom Linux LiveCD    | <2021-12-14 Tue 18:00> |
 | Building a Custom Kernel for Guix | <2021-12-28 Tue 18:00> |
 | [[id:7225e4cc-6198-4d85-8328-749b796fda1e][Installing Guix on Raspberry Pi]]   | <2022-01-11 Tue 18:00> |
 | My Hardware Overview              | <2022-01-25 Tue 18:00> |
@@ -16,7 +15,9 @@
 * Schedule
 | Name                                                         | Date                   |
 |--------------------------------------------------------------+------------------------|
-| [[id:f1a693ce-02d5-4f8b-b4ff-01284ebcf662][Reproducible Dev Environment for Clojure with Guix and Emacs]] | <2021-11-30 Tue 18:00>                       |
+| [[id:942cf3b8-ea3b-4c9f-98a4-89d8cf23926a][Small Christmas Stream]]                                       | <2021-12-28 Tue 18:00> |
+| [[id:b8446fe3-94b1-4531-9df1-915c8ccea456][Custom GNU/Linux LiveCD]]                                      | <2021-12-14 Tue 18:00> |
+| [[id:f1a693ce-02d5-4f8b-b4ff-01284ebcf662][Reproducible Dev Environment for Clojure with Guix and Emacs]] | <2021-11-30 Tue 18:00> |
 | [[id:070a6b4b-39ef-4233-8a83-753ca2a4a8bd][guix shell: Overview]]                                         | <2021-11-16 Tue 18:00> |
 | [[id:f6b05f22-746c-4d78-bba2-61a8706c6609][Guix Escape Hatches]]                                          | <2021-10-05 Tue 18:00> |
 | [[id:d7739104-da63-4206-b0ff-f4fa04039f0d][Deploy GNU Guix to VPS]]                                       | <2021-09-21 Tue 18:00> |

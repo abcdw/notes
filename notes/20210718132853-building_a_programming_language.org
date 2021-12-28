@@ -3,3 +3,7 @@
 :END:
 #+title: Building a Programming Language
 
+Read the book about programming languages
+https://dmkpress.com/catalog/computer/programming/978-5-94074-539-6/
+https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/
+https://pragprog.com/titles/7lang/seven-more-languages-in-seven-weeks/

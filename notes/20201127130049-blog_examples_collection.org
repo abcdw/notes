@@ -25,6 +25,7 @@
 - https://www.ying-ish.com/essay/easy-hugo/ :: hugo, org mode, [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]].
 - https://www.saschawunderlich.de/notes/ :: Minimalistic look,
   Clojure, Emacs, Academia.
+- https://blog.aaronbieber.com/ :: Nice, simple, author uses org.
 
 * Setup guides
 - https://othacehe.org/hosting-a-blog-using-only-scheme.html

@@ -1,0 +1,71 @@
+:PROPERTIES:
+:ID:       d0b58561-95a7-4f52-9e53-a4436b61bbaa
+:END:
+#+title: Turkish Rocks Climbing Trip Checklist
+* Checklist
+** Equipment
+- [ ] Slippers
+- [ ] Towel
+- [ ] Swimming shorts
+- [ ] Swimming trunks
+- [ ] Helmet
+- [ ] Toolkit
+** Dry and warm clothes
+- [ ] 5x Pants
+- [ ] 5x Socks pairs
+- [ ] 5x T-shirts
+- [ ] Jacket
+- [ ] Fleece
+- [ ] Hoodie
+- [ ] Rush guard and trousers
+- [ ] Trousers
+** Gear
+*** Other gear
+- [ ] Phone
+- [ ] Type C cable
+- [ ] Laptop
+- [ ] Laptop charger
+- [ ] Power bank
+** Important things
+- [ ] Driver license
+- [ ] Passport
+- [ ] COVID [[https://cdn.pobeda.aero/media/email/2020/rospotreb/toturkey.pdf][Form]]
+- [ ] Home keys
+- [ ] Money
+- [ ] Allergy and asthma pills and inhalers
+** Other stuff
+- [ ] Download offline maps
+- [ ] Internetional simcard and check balance
+** Other
+- [ ] Suncream
+- [ ] Handcream
+- [ ] Toothbrush
+- [ ] Desodorant
+- [ ] Nail clipper
+- [ ] Trimmer
+- [ ] Food containers
+- [ ] Wrist band
+- [ ] Sunglasses
+
+#+begin_example
+Снаряга
+1) веревка ( 70м)
+2) оттяжки ( 15шт мин)
+3) тапки скалолазные
+4) магнезия
+5) пластырь обычный
+6) фонарик налобный
+7) очки для страховки
+8) сумка для веревки ( ковер)
+9) рапид винтовой дешевый ( чтобы в случае чего спуститься и не
+тратить оттяжку)
+
+Шмот
+1) пуховка - там будет до +8гр, может быть холодно на страховке
+2) кросы\трекингивое ботинки, как удобно
+3) Дождевик\ветровка
+4) перчатки
+5) шапка
+6) плавки - поедем купаться
+7) флиска
+#+end_example
