@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       35d249ba-10c2-4358-83a5-0ff82486a802
+:ROAM_REFS: https://git.sr.ht/~sircmpwn/fosspay
+:END:
+#+title: fosspay
+
+[[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] self-hosted donation platform.

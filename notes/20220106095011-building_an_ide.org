@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5b63cad5-63ba-40cb-81fd-1b1b0744bfc9
+:END:
+#+title: Building an IDE
+
+- https://liveprog.org/ :: The conference on UX and PLs.  Can be
+  inspiring for IDEs.

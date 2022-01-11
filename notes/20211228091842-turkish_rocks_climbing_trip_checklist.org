@@ -4,48 +4,46 @@
 #+title: Turkish Rocks Climbing Trip Checklist
 * Checklist
 ** Equipment
-- [ ] Slippers
-- [ ] Towel
-- [ ] Swimming shorts
-- [ ] Swimming trunks
-- [ ] Helmet
-- [ ] Toolkit
+- [X] Slippers
+- [X] Towel
+- [X] Swimming trunks
+- [X] Helmet
+- [X] Toolkit
+- [X] Trousers
 ** Dry and warm clothes
-- [ ] 5x Pants
-- [ ] 5x Socks pairs
-- [ ] 5x T-shirts
-- [ ] Jacket
-- [ ] Fleece
-- [ ] Hoodie
-- [ ] Rush guard and trousers
-- [ ] Trousers
+- [X] 5x Pants
+- [X] 5x Socks pairs
+- [X] 5x T-shirts
+- [X] Jacket
+- [X] Fleece
+- [X] Hoodie
+- [X] Trousers
 ** Gear
 *** Other gear
-- [ ] Phone
-- [ ] Type C cable
-- [ ] Laptop
-- [ ] Laptop charger
-- [ ] Power bank
+- [X] Phone
+- [X] Type C cable
+- [X] Laptop
+- [X] Laptop charger
+- [X] Power bank
 ** Important things
-- [ ] Driver license
-- [ ] Passport
+- [X] Driver license
+- [X] Passport
 - [ ] COVID [[https://cdn.pobeda.aero/media/email/2020/rospotreb/toturkey.pdf][Form]]
-- [ ] Home keys
-- [ ] Money
-- [ ] Allergy and asthma pills and inhalers
+- [X] Home keys
+- [X] Money
+- [X] Allergy and asthma pills and inhalers
 ** Other stuff
 - [ ] Download offline maps
-- [ ] Internetional simcard and check balance
+- [X] Internetional simcard and check balance
 ** Other
 - [ ] Suncream
-- [ ] Handcream
-- [ ] Toothbrush
-- [ ] Desodorant
-- [ ] Nail clipper
+- [X] Handcream
+- [X] Toothbrush
+- [X] Desodorant
+- [X] Nail clipper
 - [ ] Trimmer
-- [ ] Food containers
-- [ ] Wrist band
-- [ ] Sunglasses
+- [X] Wrist band
+- [X] Sunglasses
 
 #+begin_example
 Снаряга

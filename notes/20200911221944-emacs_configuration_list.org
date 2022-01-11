@@ -5,14 +5,13 @@
 - related :: [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]]
 
 * Collection
-:PROPERTIES:
-:ID:       f19c9617-7663-4941-a36a-a9ce071e2d18
-:END:
-- https://github.com/caisah/emacs.dz collection of emacs configurations of other people
-- https://github.com/a13/emacs.d literate, use-package, ru.
-- https://github.com/dakra/dmacs/blob/master/init.org very extensive literate config.
+- [[https://github.com/caisah/emacs.dz][emacs.dz]] collection of emacs configurations of other people.
+- [[https://github.com/a13/emacs.d][a13/emacs.d]] literate, use-package, ru.
+- [[https://github.com/dakra/dmacs/blob/master/init.org][dakra/dmacs]] very extensive literate config.
 - https://w96k.ru/emacs.html minimalistic and clean.
-- https://github.com/xFA25E/nixpkgs-config/blob/master/emacs/init.el old-schoolish
-- https://protesilaos.com/emacs/dotemacs Prot's emacs config
+- [[https://github.com/xFA25E/nixpkgs-config/blob/master/emacs/init.el][xFA25E/init.el]] old-schoolish.
+- https://protesilaos.com/emacs/dotemacs Prot's emacs config.
+- [[http://sriramkswamy.github.io/dotemacs/][sriramkswamy/dotemacs]] well-written literate config, with links to
+  resources for learning.
 * Links
-- https://github.com/emacs-tw/awesome-emacs list of packages grouped by lang/intention
+- [[https://github.com/emacs-tw/awesome-emacs][emacs-tw/awesome-emacs]] list of packages grouped by lang/intention

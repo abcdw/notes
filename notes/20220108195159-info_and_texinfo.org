@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       d46031a4-6989-4867-91eb-80452eea3f63
+:END:
+#+title: Info and Texinfo
+#+filetags: :Stream:
+
+* Introduction
+* Info
+** Terminology
+[[info:info#Top][info#Top]]
+- [[help:Info-directory-list][Directory]].
+- Nodes.
+- Index.
+- Menus.
+** Navigation
+- ~M-x~ ~info-apropos~ :: Search for a string in all indecies.
+- ~g~ :: Go to node, even external one.
+- ~i / T~ :: Lookup index, TOC.
+- ~C-s~ :: isearch throught the manual.
+- ~m~ or ~1 .. 9~ :: Pick menu item.
+- ~f~ :: Follow reference.
+- ~SPC / DEL~ :: Scroll up/down.
+- ~n / p~ or ~[ / ]~ :: Navigating nodes.
+- ~^ < d~ :: Up, Top, Dir.
+- ~l / r~ ::  Navigating history.
+- ~M-n / C-u~ :: Open node in a separate info buffer.
+** Examples
+- ~M-x~ ~info-apropos~ ~RET~ ~string~ ~RET~ ~m~ ~elisp~ :: Whoosh.
+- ~g~ ~(elisp)~ :: Going to the node of another info file.
+- ~T f~ :: TOC with completion.
+- ~T M-g o~ :: Navigating by first level nodes of the TOC.
+- ~C-u m~ :: Open in a new buffer.
+* Texinfo
+* Conclusion
+- Relatively easy to write.
+- Actually nice to explore.
+- Offline friendly.

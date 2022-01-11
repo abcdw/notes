@@ -33,3 +33,7 @@
 - [[https://braindump.rasen.dev/20200409124227][Open source business models]] :: a note by Alexey Shmalko
 - [[https://drewdevault.com/2021/03/03/To-make-money-in-FOSS-build-a-business.html][To make money in FOSS, build a business first]] :: post by Drew DeVault
 - https://blog.opencollective.com/funds-for-open-source/ :: ?
+- [[https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html][A New Future for GnuPG]] :: GnuPG has an income from commercial
+  contracts, which is enough to sustain the work on the project
+  without donations.
+- [[id:35d249ba-10c2-4358-83a5-0ff82486a802][fosspay]] :: self-hosted donation platform.
