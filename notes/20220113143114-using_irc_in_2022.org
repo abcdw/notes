@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       490ec763-0b0b-4aab-9821-e925a10affbe
+:END:
+#+title: Using IRC in 2022
+#+filetags: :Stream:
+
+Have intro to IRC and sets expectations.
+https://nixfaq.org/2020/08/what-is-znc-why-is-it-the-most-popular-irc-bouncer.html
+
+https://sgfault.com/2018/07/28/irc-bouncer-setup.html

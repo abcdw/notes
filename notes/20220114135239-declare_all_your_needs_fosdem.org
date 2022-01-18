@@ -1,0 +1,90 @@
+:PROPERTIES:
+:ID:       a9d76bc9-09da-47aa-b1b1-da547335c171
+:END:
+#+title: Declare All Your Needs @ FOSDEM
+
+Talk for [[id:c5509724-2aa7-4575-a565-e14457fe4998][FOSDEM]] 2022 conference.
+
+* Introduction
+Hello and welcome everyone.  I'm glad to see you here at FOSDEM 2022.
+
+As some of you maybe already know, I'm passioned about programming
+languages and operating systems and today we will lightly touch on
+both of these worlds.  We will talk about FP, DP and their application
+in the area of Operating Systems.  For the purpose of the simplicity we
+won't be discussing the deployement of huge clusters, we will imagine
+that we have just a few computers at home that we need to manage, for
+the more advanced use cases everything should scale fine.
+* Functional Programming
+- Functions :: in mathematical sense.
+- Values :: number, strings, abstract data types.
+- State :: a mutable objects, which store results.
+
+State disease vs explicit state.
+
+** How it relates the topic?
+- Can config files be considered as a state?
+- Is package installation changes the state?
+  
+The package is a pseudo-pure function of its inputs: ~f(inputs)~.
+[[file:/gnu/store/pkgbwn20mm9par8871pa2rz5ahdcphyn-guix-module-union/share/guile/site/3.0/gnu/packages/wm.scm::(define-public sway][guix edit sway]]. ~GNU Guix~.
+
+Operating system is a result of function taking two arguments: system
+config and package tree. ~g(config, packages)~.  Basically it's a
+folder, which contains symlinks to other packages in the store +
+activation script.  Generations.  ~Guix Sytem~.
+
+Home enviroment (dotfiles + user installed applications) is also a
+function of two arguments. ~h(home-config, packages)~. ~Guix Home~.
+
+State will reside in ~/var~ and ~/home/$USER~.
+* How we usually setup a fresh machine?
+** After system installion steps
+- ~apt install $wm~.
+- Copy template wm config to apropriate place and edit it.
+- ~apt install $terminal~.
+- Create a terminal config.
+- Add keybinding to the wm config.
+- ~apt install $editor~.
+- Create an editor config.
+- Set $EDITOR in your shell config.
+- Install font.
+- Create a fontconfig.
+- Set font in wm config.
+- Set font in terminal config.
+- Set font in editor config.
+- ~apt update~.
+- ...
+
+The whole point of this list is to demonstrate why imperative approach
+can be problematic.  Every new item depends on ALL previous.  The
+state is spread all over the system.
+
+What if you need to change something a few years later?
+* Declarative Programming
+It's relatively easy to build a DP on top of FP.
+
+** Manifest
+- I want a cool wm.
+- I want a great terminal, which should be a default.
+- I want a wonderful editor.
+- I want an awesome font, which will be used across all apps.
+
+Neat, right?)
+This is a difference between ad hoc and persistent solutions.
+* What we can do?
+Applying the ideas from FP we can:
+- Build OSes and HEes in reproducible way.
+- Rollback and switch generations.
+- Deploy to remote machines.
+- Declare all our needs and much more.
+* About
+I'm Andrew Tropin.
+- abcdw
+- andrew [-at-] trop.in
+- [[https://trop.in/contact][trop.in/contact]]
+* Links
+- https://guix.gnu.org/
+- https://guix.gnu.org/en/manual/devel/en/guix.html#System-Configuration
+- https://guix.gnu.org/en/manual/devel/en/guix.html#Home-Configuration
+- https://sr.ht/~abcdw/rde/

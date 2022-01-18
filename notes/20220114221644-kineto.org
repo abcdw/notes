@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       c8ffa928-d34b-4820-b26b-b2b6457eb3b5
+:ROAM_REFS: https://sr.ht/~sircmpwn/kineto
+:END:
+#+title: kineto
+
+HTTP proxy to [[id:04803bd5-5355-44cd-bea2-dfd6db5a4283][Gemini]].  Allows to serve gemini content via http.

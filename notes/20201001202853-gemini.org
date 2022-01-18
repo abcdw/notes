@@ -3,4 +3,5 @@
 :END:
 #+title: Gemini
 
-Protocol somewhere between gopher and http
+Protocol somewhere between gopher and http.
+
