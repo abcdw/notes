@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       62a0a04d-d8f1-4af4-aab0-04d7872190e7
 :END:
-#+title: English language questions
+#+title: English Language Questions
 
 - related :: [[id:58a68c5e-b648-4b4c-bd5a-5007e1ea0faf][Learning English]]
 
@@ -9,5 +9,5 @@
 - How to say "you are welcome" in a different way?
 - Video ideas, lunch boxes
 - it will sell more easily :: The simple and effective phrase, with
-  just few words. она продаста намного проще.
+  just a few words. она продаста намного проще.
 - "Adds SSH_AUTH_SOCK variable to user's environment." or add?

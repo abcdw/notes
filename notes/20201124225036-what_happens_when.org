@@ -2,7 +2,7 @@
 :ID:       d6999c99-68a8-4a9d-b914-fe04de1b6090
 :ROAM_REFS: https://github.com/alex/what-happens-when
 :END:
-#+title: What happens when...
+#+title: What Happens When...
 
 An answer to the question "What happens when you press enter in
 browser address bar".
@@ -11,4 +11,3 @@ In-depth explanation of all events occuring during this process. (have
 examples for few different OSes).
 
 [[file:20201124121146-programmer_s_critique_of_missing_structure_of_operating_systems.org::*Filesystems][Filesystems]]
-[[id:7e48f0b7-4fd0-4619-a643-bdc503def6e0][Communication]]

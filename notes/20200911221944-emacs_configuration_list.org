@@ -13,5 +13,7 @@
 - https://protesilaos.com/emacs/dotemacs Prot's emacs config.
 - [[http://sriramkswamy.github.io/dotemacs/][sriramkswamy/dotemacs]] well-written literate config, with links to
   resources for learning.
+- https://git.kyleam.com/emacs.d/tree/init.el use-package, org,
+  modus, notmuch, git annex, ivy.
 * Links
 - [[https://github.com/emacs-tw/awesome-emacs][emacs-tw/awesome-emacs]] list of packages grouped by lang/intention

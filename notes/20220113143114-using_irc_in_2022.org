@@ -4,7 +4,79 @@
 #+title: Using IRC in 2022
 #+filetags: :Stream:
 
-Have intro to IRC and sets expectations.
-https://nixfaq.org/2020/08/what-is-znc-why-is-it-the-most-popular-irc-bouncer.html
+* Introduction
+- Why?
+- IRC basics.
+- Persistent connection.
+* History
+The magic happens on mailing lists and IRC.
+Light-weight synchronous group communication with federated
+architecture.
 
-https://sgfault.com/2018/07/28/irc-bouncer-setup.html
+Improve my own user experience, find a place for ~#rde~ and share the
+knowledge with you.
+* Terminology
+- Network
+- Server
+- Channel
+
+Resources:
+- [[https://www.irchelp.org/faq/new2irc.html][irchelp.org/faq/new2irc.html]] :: IRC Prelude, for people new to IRC.
+* Getting Help
+- [[https://www.irchelp.org/faq/][irchelp.org/faq/]] :: list of available learning resources.
+- ~C-h i m ERC~
+- ~/help~ :: list of ERC commands.
+- [[https://www.irchelp.org/faq/irctutorial.html][irchelp.org/faq/irctutorial.html]] :: getting started.
+* Connecting
+- ~erc-server-select~ or ~erc-tls~ :: connect to server.
+- ~/links~ :: get a list of servers in the network.
+- ~/server~ :: switching to specific server.
+- ~/quit~ :: self-explanatory.
+Resources:
+- [[https://www.irchelp.org/networks/popular.html][irchelp.org/networks/popular.html]] :: list of popular IRC nets.
+- [[https://www.irchelp.org/networks/][irchelp.org/networks/]] :: TBD.
+* Working with Channels
+- ~/list~ :: get a list of public channels.
+- ~/list keyword~ :: filter by a keyword.
+- [[https://www.irchelp.org/chanlist/][irchelp.org/chanlist/]] :: has links to channel web searches.
+- ~C-c C-j~, ~/j <channel>~, ~/join <channel>~ :: join or create the channel.
+- ~C-u C-c C-b~ :: switch to ERC buffer.
+- ~/part~, ~/leave~ :: leave current or specific ~<channel>~.
+- ~/part detach~ :: bouncer let your IRC client think you are not joined
+  to the channel.
+* Looking Around
+- ~C-c C-n~, ~/names~ :: list of participants.
+- ~/whois~ :: get the information about person.
+- ~/away <message>~ :: inform that you are away.
+- ~/ping~ :: check the connection, nickname or all on the channel.
+- https://libera.chat/guides/cloaks :: allows to hide connection details.
+* Chatting with a Person
+- ~/notify <nickname>~ :: notifies, when a person joined.
+- ~/msg <nickname>~ :: send a personal message.
+- ~/query <nickname>~ :: same, but create a separate buffer.
+- ~/dcc chat <nickname>~ :: establish a direct connection.
+- ~/msg =<nickname>~ :: send a personal message via dcc.
+* Exchanging Files
+- ~/dcc send <nickname> file.ext~ :: send.
+- ~/dcc get <nickname>~ :: recieve.
+* Registration
+https://libera.chat/guides/registration
+https://libera.chat/guides/creatingchannels
+* Managing Channels
+- ~/topic~
+- ~/kick~
+- ~/mode #demo -i+tnk password~
+* Bouncer
+https://soju.im/doc/soju.1.html#IRC_SERVICE
+https://git.sr.ht/~emersion/soju/tree/master/item/contrib/clients.md
+https://man.sr.ht/chat.sr.ht/quickstart.md
+
+https://wiki.znc.in/ZNC
+* Bitlbee
+A gateway to other protocols.
+* Links
+- https://nixfaq.org/2020/08/what-is-znc-why-is-it-the-most-popular-irc-bouncer.html
+- https://sgfault.com/2018/07/28/irc-bouncer-setup.html
+- https://www.irchelp.org/
+- https://www.irchelp.org/faq/new2irc.html
+- https://drewdevault.com/2021/07/03/How-does-IRC-federate.html

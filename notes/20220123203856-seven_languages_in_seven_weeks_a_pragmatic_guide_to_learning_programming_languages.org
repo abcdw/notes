@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       2a2aaa7f-fab9-4451-9297-4e196fcce35c
+:END:
+#+title: Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages
+
