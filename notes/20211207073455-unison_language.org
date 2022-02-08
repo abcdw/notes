@@ -8,3 +8,4 @@ Functional content-addressed programming language.
 
 [[https://t.me/dev_rasen/17][Post about Unison lang]] by Alexey Shmalko.
 
+[[https://youtu.be/gCWtkvDQ2ZI][Unison: a new distributed programming language]] video on yt.

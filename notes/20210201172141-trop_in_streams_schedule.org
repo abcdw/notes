@@ -3,18 +3,21 @@
 :END:
 #+title: trop.in Streams Schedule
 * To Schedule
-| Draft Name                        | Possible Date |
-|-----------------------------------+---------------|
-| Building a Custom Kernel for Guix |               |
-| [[id:7225e4cc-6198-4d85-8328-749b796fda1e][Installing Guix on Raspberry Pi]]   |               |
-| My Hardware Overview              |               |
-| Using native-comp Emacs           |               |
-| Guile Dev Environment             |               |
-| Using IRC in 2022                 |               |
+| Draft Name                                 | Possible Date |
+|--------------------------------------------+---------------|
+| rde: Getting Strated and How to Contribute |               |
+| Building a Custom Kernel for Guix          |               |
+| [[id:7225e4cc-6198-4d85-8328-749b796fda1e][Installing Guix on Raspberry Pi]]            |               |
+| My Hardware Overview                       |               |
+| Using native-comp Emacs                    |               |
+| Guile Dev Environment                      |               |
+| Using IRC in 2022                          |               |
 
 * Schedule
 | Name                                                         | Date                   |
 |--------------------------------------------------------------+------------------------|
+| [[id:7da1171c-6756-4a39-ac8f-b6faf5f5ea75][sway: Workflow and Configuration]]                             | <2022-02-08 Tue 18:00> |
+| [[id:490ec763-0b0b-4aab-9821-e925a10affbe][Using IRC in 2022]]                                            | <2022-01-25 Tue 18:00> |
 | [[id:d46031a4-6989-4867-91eb-80452eea3f63][Info and Texinfo]]                                             | <2022-01-11 Tue 18:00> |
 | [[id:942cf3b8-ea3b-4c9f-98a4-89d8cf23926a][Small Christmas Stream]]                                       | <2021-12-28 Tue 18:00> |
 | [[id:b8446fe3-94b1-4531-9df1-915c8ccea456][Custom GNU/Linux LiveCD]]                                      | <2021-12-14 Tue 18:00> |

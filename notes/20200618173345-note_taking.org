@@ -12,3 +12,4 @@
 
 * Links
 - https://takesmartnotes.com/
+- https://jethrokuan.github.io/org-roam-guide/ :: [[id:f5774af1-8d49-4e16-b45a-cd493214cba9][org-roam]] guide.

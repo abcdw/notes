@@ -19,6 +19,6 @@ Index of courses
 - MIT 6.824: Distributed Systems :: https://www.youtube.com/channel/UC_7WrbZTCODu1o_kfUMq88g/playlists
 - Scheme course :: https://www.cs.utexas.edu/ftp/garbage/cs345/schintro-v14/schintro_toc.html
 - Compilers :: [[id:f9109ad4-dca8-4803-b036-cb2f9dc46b3c][CS 6120: Advanced Compilers: The Self-Guided Online Course]]
-
+- CS Courses :: https://github.com/ForrestKnight/open-source-cs
 * Life
 - Simple life-related courses in russian https://journal.tinkoff.ru/pro/
