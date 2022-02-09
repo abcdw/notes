@@ -6,4 +6,5 @@
 * Sport
 - [[id:859c7992-e9a5-41a7-a1ad-3f31216b69a1][Wakeboard Workout Checklist]]
 - [[id:6b770a62-92cb-49a8-9b5c-1c4dbf5cd0f6][Hip-Notics WakeCamp Checklist]]
-- [[id:b29d1ca4-a29e-4999-8da3-2e58c6a35b68][Elbrus snowboard checklist]]
+- [[id:b29d1ca4-a29e-4999-8da3-2e58c6a35b68][Elbrus Snowboard Checklist]]
+- [[id:7d6f651f-d79a-4b84-96fe-7e8c50662a96][Snowboard Trip Checklist]]

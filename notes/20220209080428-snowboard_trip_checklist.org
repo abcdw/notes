@@ -1,0 +1,82 @@
+:PROPERTIES:
+:ID:       7d6f651f-d79a-4b84-96fe-7e8c50662a96
+:END:
+#+title: Snowboard Trip Checklist
+
+* Checklist
+** Equipment
+- [X] Helmet
+- [X] Snowboard
+- [X] Boots
+- [X] Jacket
+- [X] Pants
+- [X] Knee protectors
+- [X] Impact shorts
+- [X] 2x Fleece turtleneck
+- [X] 1.5x Underwear (pants + turtleneck)
+- [X] 3x Snowboard Socks
+- [X] Backpack
+- [X] Toolkit
+- [X] Buff
+- [X] Balaclava
+- [X] 2x Mask
+** Dry and warm clothes
+- [X] Slippers
+- [X] Towel
+- [X] 7x Boxers
+- [X] 7x Socks pairs
+- [X] 1x Warm Socks
+- [X] 7x T-shirts
+- [X] Jacket
+- [X] Hoodie
+- [X] Trousers/Jeans
+** Gear
+*** Radio
+- [X] 3x Radio and chargers
+*** GoPro gear
+- [ ] GoPro 7 Black
+- [ ] SanDisk Extreme 256gb
+- [ ] GoPro handle
+- [ ] Suck mount
+- [ ] Helmet mount
+- [ ] Mouth mount
+- [ ] GoPro type-c cable
+- [ ] GoPro batteries
+*** Camera gear
+- [ ] Camera
+- [ ] Memory cards
+- [ ] Batteries
+- [ ] Tripod
+- [ ] Card reader
+- [ ] Micro USB cable
+*** Other gear
+- [X] Phone
+- [X] Type C cable
+- [X] Laptop
+- [X] Laptop charger
+- [X] Ebook
+- [X] Power bank
+- [X] Shoes warmers
+** Important things
+- [X] Driver license
+- [X] Passport
+- [X] COVID [[https://cdn.pobeda.aero/media/email/2020/rospotreb/toturkey.pdf][Form]]
+- [X] Home keys
+- [X] Money
+** Medications
+- [X] First Aid Kit
+- [X] Allergy and asthma pills and inhalers
+** Other
+- [ ] Suncream
+- [X] Toothbrush
+- [X] Desodorant
+- [X] Nail clipper
+- [ ] Trimmer
+- [X] Wrist band
+- [X] Sunglasses
+- [X] Board games
+
+* Films to download
+- [ ] Гарри Поттер
+- [ ] Пластелин Овец
+

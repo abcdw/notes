@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       7da1171c-6756-4a39-ac8f-b6faf5f5ea75
+:END:
+#+title: sway: Workflow and Configuration
+
+* Introduction
+- My window management WF.
+- About Sway, why and what it covers.
+- How it configured.
+
+* Workflow
+- Focus on one thing.
+- Sometimes secondary apps can be useful.
+- Multi-monitor setup is overrated.
+
+External WM is not that integrated: dired patches example.
+
+Usual project workflow:
+- magit-diff/magit-status
+* IRC chat, matrix bridge
+- #tropin and #rde at libera.chat
+- https://libera.chat/guides/faq#can-i-connect-with-matrix
+  
+* About Sway and Why Sway?
+- Lightweight.
+- Cleaner architecture design.
+- Less glitchy.
+
+* Configuration
+* Conclusion
+- It would be cool to have an integrated DE.
+- We can mimic a fraction of its power.
+

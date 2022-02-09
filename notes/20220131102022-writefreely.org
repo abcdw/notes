@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       162095a1-4fca-4793-8f46-1657d6b4261f
+:ROAM_REFS: https://writefreely.org/
+:END:
+#+title: WriteFreely
+
+is a self-hosted blogging platform supporting ActivityPub, so mastodon
+user can subscribe to it.

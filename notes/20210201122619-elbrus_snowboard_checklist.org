@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       b29d1ca4-a29e-4999-8da3-2e58c6a35b68
 :END:
-#+title: Elbrus snowboard checklist
+#+title: Elbrus Snowboard Checklist
 * Checklist
 ** Equipment
 - [X] Helmet
