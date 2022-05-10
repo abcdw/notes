@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       5f9254e9-1978-4774-9152-1043a4d55a42
+:END:
+#+title: rde: wm: Add waybar.
+
+* Introduction
+- Guix Home Services.
+- JSON and CSS serialization.
+- rde Features.
+  
+* Waybar
+https://github.com/Alexays/Waybar/wiki/Configuration
+
+- configuration
+- extensions
+  
+* Formats Serialization
+- JSON
+- CSS
+  
+* ~feature-waybar~
+
+* Conclusion
+- Make love, not war.
+
+

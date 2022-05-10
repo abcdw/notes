@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       e4867083-fc55-4101-bb15-01eeebd673f8
+:END:
+#+title: Yggdrasil Network
+
+* Links
+- https://howto.yggno.de/start :: ru wiki.
+- https://habr.com/ru/post/547250/ :: ru article.
+- https://yggdrasil-network.github.io/about.html :: official homepage.
+- https://www.privacytools.io/

@@ -24,3 +24,5 @@ org-roam [[https://org-roam.discourse.group/t/are-there-any-repositories-of-good
 [[id:b8df439d-40e6-41bf-8273-9aabcf11aa15][Blog Examples Collection]] is a good reference for nice blog examples.
 
 [[id:162095a1-4fca-4793-8f46-1657d6b4261f][WriteFreely]] is a self
+
+[[https://joelchrono12.xyz/blog/how-to-add-mastodon-comments-to-jekyll-blog/][How to add comments to Jekyll blog (2022)]]

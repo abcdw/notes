@@ -1,0 +1,26 @@
+:PROPERTIES:
+:ID:       386c8a45-8266-4518-9228-0cf69e836cf3
+:END:
+#+title: rde: Per-project features.
+#+filetags: :Stream:
+
+
+* Introduction
+A new rde feature and development of ideas from [[id:070a6b4b-39ef-4233-8a83-753ca2a4a8bd][guix shell: Overview]],
+[[id:65d096bd-7438-4b25-af01-e7da37aafade][Per-Project Dev Environment]].
+* rde Feature
+* ~guix shell~
+#+begin_src shell
+guix time-machine -C ./channels-lock.scm -- shell -D -f guix.scm \
+--rebuild-cache -- emacs
+#+end_src
+* Feature Migration
+#+begin_src shell
+GUILE_LOAD_PATH=~/work/abcdw/rde guix shell -D -f guix.scm \
+--pure -E '.*_DISPLAY' -E 'XDG.*' --rebuild-cache -- emacs -q
+#+end_src
+* Conclusion
+- WIP, but already usable.
+- A balance between complete reproducibility and convinience by default.
+- Pure mode.
+- Easy migration between personal and per-project setup.

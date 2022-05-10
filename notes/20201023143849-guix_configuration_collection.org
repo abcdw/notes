@@ -14,3 +14,5 @@
 - https://git.sr.ht/~yaca/.dotfiles/tree/master :: wayland, stow
 - https://github.com/alezost/config/blob/master/config.scm :: has
   examples of cli arguments parsing, state management.
+- https://git.sr.ht/~troels/dotfiles/tree/master/item/.config :: Not
+  guix, but minimalistic and clean.

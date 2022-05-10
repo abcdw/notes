@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       23c77c7c-fc41-4a36-bd00-0d2679ae3e04
+:ROAM_REFS: https://njal.la/
+:END:
+#+title: Njalla
+
+Domain registrator and VPS provider accepting differrent payment
+methods including crypto.

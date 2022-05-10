@@ -1,0 +1,107 @@
+:PROPERTIES:
+:ID:       51554478-e991-4d1e-afd7-2443e010f2f1
+:END:
+#+OPTIONS: tex:t
+#+title: Very much internet
+#+filetags: :Stream:
+
+* Introduction
+- Theoretical knowledge on Networking, VPN, IPv4, IPv6, NAT, DNS.
+- socks5 mini-tutorial.
+- Yggdrasil.
+- I2P.
+- Tutorial for Android.
+
+* Networking
+** Domain, DNS, IP address and subnet
+*** Domain
+[[https://fsf.org][fsf.org]]
+
+*** IPv4
+$2^{32} = 4294967296$
+
+*** IPv6
+$2^{128} \approx 3.4 \times 10^{38}$
+
+$6.5 \times 10^{23}$ per square meter of the Earth.
+
+** Proxy
+squid, privoxy, tinyproxy, nginx, shadowsocks, ssh tunnel.
+
+https://guix.gnu.org/
+http://141.80.181.40/
+
+Reverse proxy:
+http://guix.trop.in
+http://167.172.37.172/
+[[http://\[204:cbf:3e07:e67a:424f:93bc:fc5c:b3dc\]/][http://[204:cbf:3e07:e67a:424f:93bc:fc5c:b3dc]/]]
+
+One of the easiest ways to change exit location is a forward proxy.
+
+#+begin_src shell
+ssh -fND 8123 USER@IP_OR_HOST
+#+end_src
+
+The connection is unstable*.
+
+** LAN, NAT, Gateway
+Local Area Network.
+
+Network Address Translation.
+
+https://ciscolearning.ru/wp-content/themes/gurkin33/img/router/nat_2.png
+https://ciscolearning.ru/wp-content/themes/gurkin33/img/router/nat_3.png
+
+** VPN
+Virtual Private Network.
+
+Funny pictures:
+https://itbukva.com/images/articles/111/e4b9869a881d0bbbbb515149e840040d.png
+
+* Yggdrasil
+Routing application and self-healing overlay mesh network.
+https://howto.yggno.de/
+
+https://yggdrasil.hz13.net/wp-content/uploads/2020/04/Yggdrasil-Network-Diagram-1.png
+https://habrastorage.org/r/w1560/webt/12/et/is/12etisclacxvnt48adxkdka2cmq.png
+
+https://yggdrasil-network.github.io/services.html
+
+** What's cool about ygg?
+- Zeroconfig.
+- Flexible routing, which makes a connection blocking-prone.
+- Stable white IP, which can migrate to different physical location.
+- E2E encrypted.
+- Decentralized.
+- Fast.
+
+* I2P
+In case you are very shy and don't want to ask a question about a
+feature in your favorite programming language in a public chat.
+
+- Almost impossible to track traffic flow.
+- Very much encrypted.
+- Decentralized.
+- Slow.
+
+* F-Droid
+https://f-droid.org/
+
+Catalogue of FOSS (Free and Open Source Software) applications for
+Android.
+
+- FOSS properties :: run, study, improve, redistribute.
+
+A tool for decentralized application exchange: SD card, wifi,
+bluetooth, repository mirrors.
+
+* Tutorial
+** Yggdrasil
+** I2Pd
+* Questions and Future
+- Scalability?
+- More in-depth topics, like DNS for ygg
+- self-hosted proxy/VPN setup
+* Conclusion
+- Use and create technologies that respect your freedom and do not
+require trust.

@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       bb5823bd-c86c-4264-a2d5-031109040e5a
+:END:
+#+title: Reliable Internet
+
+[[https://itdcp.cc/the-resilience-of-the-internet-in-ukraine-ru/][Устойчивость Интернета в Украине]].
+
+https://decentnet.github.io/
+
+* mobile
+yggdrasil
+i2pd
+text editor
+* Why ygg?
+- stable white IP, which can migrate to different physical location.

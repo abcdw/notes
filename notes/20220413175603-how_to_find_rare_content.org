@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       afd8d7f1-def9-4823-b224-b8859c905e8c
+:END:
+#+title: How to Find Rare Content
+
+https://habr.com/ru/post/318400/
+
+Article about usenet, bittorrent, dc++, IRC DCC, etc

@@ -54,7 +54,7 @@ Can we do it [[https://github.com/kalbasit/shabka/blob/master/doc/congruent.md][
 - Time?
   
 The package is a pseudo-pure function of its inputs: ~f(inputs)~.
-[[file:/gnu/store/pkgbwn20mm9par8871pa2rz5ahdcphyn-guix-module-union/share/guile/site/3.0/gnu/packages/wm.scm::(define-public sway][guix edit sway]]. ~guix build~, ~guix shell~. ~GNU Guix~.
+~guix edit sway~. ~guix build~, ~guix shell~. ~GNU Guix~.
 
 Operating system is a result of function taking two arguments: system
 config and package tree. ~g(config, packages)~.  Basically it's a

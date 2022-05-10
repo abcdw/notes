@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       6fe3ebfa-4a36-4071-817e-3be3d315bb04
+:END:
+#+title: Freenet Project
+
+- related :: [[id:413529be-ddc9-4096-b7ea-584153867b67][Privacy]], [[id:ec64511e-a987-4819-b0d5-609299d4d835][IPFS]]
+
+pioneering anonymous peer-to-peer distributed data store

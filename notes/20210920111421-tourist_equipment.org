@@ -2,7 +2,18 @@
 :ID:       c68bfd42-b2eb-4332-93d9-5a31e1aeda42
 :END:
 #+title: Tourist Equipment
-
+* First Equipment
+- Trekking boots
+- Backpack
+- Tent
+- Sleeping bag
+- Sleeping mat
+- Flashlight
+- Membran jacket
+- Gas burner
+- Trekking poles
+- Water filter
+- Knife
 * Camping Tent
 - [[https://www.naturehike.com/products/naturehike-vik-series-970g-ultralight-15d-nylon-single-tent-nh18w001-k?variant=36760140349594][Naturehike VIK-1]]. 1.6kg
 

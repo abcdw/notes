@@ -74,7 +74,7 @@ Take a breath.
 [[https://arxiv.org/abs/2008.06030][On the design of text editors]]
 - Light hight-contrast colorscheme :: good for eyes, good for work.
 - Minimalistic UI :: better for attention.
-- [[file:~/dl/2008.06030.pdf::%PDF-1.5][Margins, Fonts, Colorization, Typesettings]] :: gives better readability.
+- Margins, Fonts, Colorization, Typesettings :: gives better readability.
 
 * Hotkeys and Modal Editing
 - Vanilla

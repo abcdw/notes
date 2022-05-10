@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       33b13b8c-d7d5-4afd-aea5-8fea230b2a31
+:ROAM_REFS: https://en.wikipedia.org/wiki/Chaos_Computer_Club
+:END:
+#+title: Chaos Computer Club
+
+CCC is Europe's largest association of hackers.  It advocates freedom
+of information, transparency in goverment and human right to
+communication.

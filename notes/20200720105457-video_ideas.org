@@ -11,6 +11,8 @@
 - Pair programming.
 - Articles overview and discussion.
 - Stream preparation for stream.
+** Music
+https://youtu.be/hfunIeGH57s
 * Presentation
 - Frequently change view
 - Plan questions for viewers ahead of talk

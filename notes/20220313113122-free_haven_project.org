@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       2051a2c1-f033-4362-884b-6373167211ae
+:END:
+#+title: Free Haven Project
+
+- related :: [[id:413529be-ddc9-4096-b7ea-584153867b67][Privacy]]
+
+A project for anonymous scientific papers publication.
+
+Has a collection of papers on related topics.
+https://www.freehaven.net/anonbib/topic.html

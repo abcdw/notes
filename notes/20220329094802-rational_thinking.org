@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       cbaf300e-06d5-45f6-bdab-9d6717fe38da
+:END:
+#+title: Rational Thinking
+
+https://rationalwiki.org/

@@ -27,7 +27,7 @@ State disease vs explicit state.
 - Is package installation changes the state?
   
 The package is a pseudo-pure function of its inputs: ~f(inputs)~.
-[[file:/gnu/store/pkgbwn20mm9par8871pa2rz5ahdcphyn-guix-module-union/share/guile/site/3.0/gnu/packages/wm.scm::(define-public sway][guix edit sway]]. ~GNU Guix~.
+~guix edit sway~. ~GNU Guix~.
 
 Operating system is a result of function taking two arguments: system
 config and package tree. ~g(config, packages)~.  Basically it's a

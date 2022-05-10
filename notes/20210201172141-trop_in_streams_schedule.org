@@ -2,20 +2,26 @@
 :ID:       0fdb5c53-390f-4108-bf49-4e417cfe0296
 :END:
 #+title: trop.in Streams Schedule
+
+#+begin_src elisp
+(face-remap-add-relative 'default :weight 'bold)
+(face-remap-add-relative 'default :weight 'bold :inherit 'org-verbatim)
+#+end_src
+
 * To Schedule
-| Draft Name                                 | Possible Date |
-|--------------------------------------------+---------------|
-| rde: Getting Strated and How to Contribute |               |
-| Building a Custom Kernel for Guix          |               |
-| [[id:7225e4cc-6198-4d85-8328-749b796fda1e][Installing Guix on Raspberry Pi]]            |               |
-| My Hardware Overview                       |               |
-| Using native-comp Emacs                    |               |
-| Guile Dev Environment                      |               |
-| Using IRC in 2022                          |               |
+| Draft Name                        | Possible Date |
+|-----------------------------------+---------------|
+| rde: How to Fork                  |               |
+| Building a Custom Kernel for Guix |               |
+| [[id:7225e4cc-6198-4d85-8328-749b796fda1e][Installing Guix on Raspberry Pi]]   |               |
+| My Hardware Overview              |               |
+| Using native-comp Emacs           |               |
+| Guile Dev Environment             |               |
 
 * Schedule
 | Name                                                         | Date                   |
 |--------------------------------------------------------------+------------------------|
+| [[id:386c8a45-8266-4518-9228-0cf69e836cf3][rde: Per-project features.]]                                   | <2022-05-10 Tue 16:00> |
 | [[id:7da1171c-6756-4a39-ac8f-b6faf5f5ea75][sway: Workflow and Configuration]]                             | <2022-02-08 Tue 18:00> |
 | [[id:490ec763-0b0b-4aab-9821-e925a10affbe][Using IRC in 2022]]                                            | <2022-01-25 Tue 18:00> |
 | [[id:d46031a4-6989-4867-91eb-80452eea3f63][Info and Texinfo]]                                             | <2022-01-11 Tue 18:00> |

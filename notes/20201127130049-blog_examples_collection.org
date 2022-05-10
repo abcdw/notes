@@ -26,6 +26,10 @@
 - https://www.saschawunderlich.de/notes/ :: Minimalistic look,
   Clojure, Emacs, Academia.
 - https://blog.aaronbieber.com/ :: Nice, simple, author uses org.
+- https://yarmo.eu/ :: minimalistic site from keyoxide founder, liked
+  /now page.
+- https://nikhilthota.com/ :: Engaging, has travel, second brain and
+  other sections.
 
 * Setup guides
 - https://othacehe.org/hosting-a-blog-using-only-scheme.html

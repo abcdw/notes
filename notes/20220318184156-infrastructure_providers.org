@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       a2528ac7-f7f6-406f-8ac3-f08abca02d1c
+:END:
+#+title: Infrastructure Providers
+
+ygg/tor/i2p, чтобы не отлететь от случайных или намеренных блокировок.
+
+https://bitcoin-vps.com/
+
+| name        | domains       | email  | VPS | Dedicated     | price   | ygg/tor/i2p  | crypto     |
+|-------------+---------------+--------+-----+---------------+---------+--------------+------------|
+| [[https://flokinet.is][flokinet.is]] | a lot of TLDs | -      | +   | + collocation | higher  | tor-friendly | [[https://flokinet.is/paymentmethods.php][many]]       |
+| [[https://porkbun.com][porkbun.com]] | +             | 2$/m   | -   | -             | low     | -            | [[https://porkbun.com/support/payment_options][some]]       |
+| gandi.net   | +             | 5 free | +   | -             |         | ?            | [[https://docs.gandi.net/en/billing/means_of_payment/bitcoin.html][BitPay]]     |
+| vultr.com   |               |        | +   | +             | medium  |              | [[https://www.vultr.com/resources/faq/#billingpayments][BitPay]]     |
+| hetzner.com | +, expensive  | ?      | +   | + collocation | verylow | allowed      |            |
+| incognet.io | some          | -      | +   | -             | low     | + + +        | [[https://portal.incognet.io/knowledgebase/20/What-payment-methods-do-you-accept.html][many]], cash |
+
