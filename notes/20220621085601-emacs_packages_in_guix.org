@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       1a27280b-b340-4690-b46b-838280a4365f
+:END:
+#+title: Emacs packages in Guix
+#+filetags: :Stream:
+
+* Introduction
+Packages history.
+
+Startup Process of Emacs.
+[[info:emacs#Init File][Emacs Init File]]
+- init.el
+- default.el
+- site-start.el
+
+EMACSLOADPATH
+load-path
+
+* ~package.el~
+Built-in package manager.
+
+#+begin_quote
+- Download.  Fetching the package from ELPA.
+- Install.  Untar the package, or write the .el file, into
+  ~/.emacs.d/elpa/ directory.
+- Autoload generation.
+- Byte compile.  Currently this phase is done during install,
+  but we may change this.
+- Activate.  Evaluate the autoloads for the package to make it
+  available to the user.
+- Load.  Actually load the package and run some code from it.
+#+end_quote
+
+list-packages
+
+#+begin_src emacs-lisp
+M-x find-library
+#+end_src
+
+* Packaging Emacs Packages
+Why?
+
+awscli-capf, transmission, ripgrep, etc.
+
+https://github.com/babariviere/guix-emacs
+
+* Guix Emacs
+guix-emacs.el
+
+* Alternative Package Managers
+
+* A Fancy Way to Configure Emacs
+** Demo
+Example with requires configuration-appearance and other features.
+
+* Conclusion
+- Emacs packages are not always only an elisp code.
+- Manual packaging allows to escape runtime problems.
+- Guix probably one of the best package managers for Emacs.
