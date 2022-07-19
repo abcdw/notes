@@ -5,6 +5,8 @@
 - related :: [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]]
 
 * Collection
+- [[https://github.com/DiamondBond/emacs/blob/master/config.org][DiamondBond/emacs]] literate, mu, lsp-mode, vertico and friends,
+  optimized.
 - [[https://alhassy.github.io/emacs.d/][alhassy/emacs.d]] beautiful literate config with cheatsheet and
   workflow description.
 - [[https://github.com/dakra/dmacs/blob/master/init.org][dakra/dmacs]] very extensive literate config.

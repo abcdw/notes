@@ -7,3 +7,4 @@
 * Links
 - https://www.mail-archive.com/help-guix@gnu.org/msg12570.html
 - https://issues.guix.gnu.org/48314
+- https://git.pantherx.org/development/hardware/raspberry

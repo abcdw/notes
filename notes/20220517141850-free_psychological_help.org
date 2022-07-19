@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f326eb49-62e7-4492-bf80-41a07f57f843
+:END:
+#+title: Free Psychological Help
+
+- related :: [[id:168cbe94-f3a4-4ac0-b88b-537d64a18c6b][Psychology]], [[id:709d4b09-be4b-4769-9147-4e4cb0306feb][Mental Health]]
+
+https://docs.google.com/document/d/1HKT7yohy483CJWzlI9CvlUFGHhFJFgkQgbz7inNmQYg/edit

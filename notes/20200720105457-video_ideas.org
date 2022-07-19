@@ -6,22 +6,6 @@
 
 - related :: [[id:bd871c6d-afe7-4b11-868c-f27ad8bc3b34][Marketing Channels]], [[id:b5677bd2-5c31-4471-9c2c-cb655cbd9f32][TROPIN video channel]]
 
-* Formats
-- [[id:8d03b6c6-b5d7-4126-b72e-8a44746b1f60][Shorts]] on some topic, small parts of workflow.
-- Pair programming.
-- Articles overview and discussion.
-- Stream preparation for stream.
-** Music
-https://youtu.be/hfunIeGH57s
-* Presentation
-- Frequently change view
-- Plan questions for viewers ahead of talk
-- Show highlights of scientific papers on the topic
-** How to call videos
-- gnu changelog style :: guix: home: How to setup on foreign distro?
-- series style :: Managing finances s01e02: Double entry bookkeeping.
-** Click-baity titles
-- Modern way to configure Emacs
 * Topics
 ** RDE/Nix related
 - GNU starter kit (cool name for vid, can be an rde introduction or
@@ -39,8 +23,25 @@ https://youtu.be/hfunIeGH57s
 - Installing linux without root partition [[id:2708f0d8-8f10-4541-8c34-5dd443e820eb][NixOS: tmpfs as root]]
 - Installing linux from VRAM
 - [[https://www.youtube.com/watch?v=GKviflL9XeI][Tiling Window Management and i3wm config additions]]
+- [[https://youtu.be/Cnnv1sotmc0][Ubuntu Sway Remix]] :: Similiar video about rde system.
 ** OS related topics
 - Plain text is fundamentally broken.
+* Formats
+- [[id:8d03b6c6-b5d7-4126-b72e-8a44746b1f60][Shorts]] on some topic, small parts of workflow.
+- Pair programming.
+- Articles overview and discussion.
+- Stream preparation for stream.
+** Music
+https://youtu.be/hfunIeGH57s
+* Presentation
+- Frequently change view
+- Plan questions for viewers ahead of talk
+- Show highlights of scientific papers on the topic
+** How to call videos
+- gnu changelog style :: guix: home: How to setup on foreign distro?
+- series style :: Managing finances s01e02: Double entry bookkeeping.
+** Click-baity titles
+- Modern way to configure Emacs
 * Video series plan
 ** Guix FAQ series:
 - [[id:c0253188-65c4-41f9-91e4-d77d17c4ff1e][guix, channels and sudo]]

@@ -9,18 +9,23 @@
 #+end_src
 
 * To Schedule
-| Draft Name                        | Possible Date |
-|-----------------------------------+---------------|
-| rde: How to Fork                  |               |
-| Building a Custom Kernel for Guix |               |
-| [[id:7225e4cc-6198-4d85-8328-749b796fda1e][Installing Guix on Raspberry Pi]]   |               |
-| My Hardware Overview              |               |
-| Using native-comp Emacs           |               |
-| Guile Dev Environment             |               |
+| Draft Name                          | Possible Date |
+|-------------------------------------+---------------|
+| rde: How to Fork                    |               |
+| Building a Custom Kernel for Guix   |               |
+| [[id:7225e4cc-6198-4d85-8328-749b796fda1e][Installing Guix on Raspberry Pi]]     |               |
+| My Hardware Overview                |               |
+| Using native-comp Emacs             |               |
+| Guile Dev Environment               |               |
+| Greetd and seatd                    |               |
+| How guix build systems work?        |               |
+| Top 10 gnu/linux applications I use |               |
 
 * Schedule
 | Name                                                         | Date                   |
 |--------------------------------------------------------------+------------------------|
+| [[id:48c20b75-aeea-4b92-a8ac-5f0fcb3a0161][Emacs Completion Explained]]                                   | <2022-07-19 Tue 16:00> |
+| [[id:1a27280b-b340-4690-b46b-838280a4365f][Emacs packages in Guix]]                                       | <2022-06-21 Tue 16:00> |
 | [[id:386c8a45-8266-4518-9228-0cf69e836cf3][rde: Per-project features.]]                                   | <2022-05-10 Tue 16:00> |
 | [[id:7da1171c-6756-4a39-ac8f-b6faf5f5ea75][sway: Workflow and Configuration]]                             | <2022-02-08 Tue 18:00> |
 | [[id:490ec763-0b0b-4aab-9821-e925a10affbe][Using IRC in 2022]]                                            | <2022-01-25 Tue 18:00> |

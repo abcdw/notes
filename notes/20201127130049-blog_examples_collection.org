@@ -30,6 +30,8 @@
   /now page.
 - https://nikhilthota.com/ :: Engaging, has travel, second brain and
   other sections.
+- https://takeonrules.com/ :: Nice, minimalistic, hugo, emacs user.
+- https://jakob.space/pages/about.html :: haunt, lisp.
 
 * Setup guides
 - https://othacehe.org/hosting-a-blog-using-only-scheme.html

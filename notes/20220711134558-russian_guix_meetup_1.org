@@ -1,0 +1,82 @@
+:PROPERTIES:
+:ID:       bb94c5bf-484e-462f-93de-e730f0e3f032
+:END:
+#+title: Russian Guix Meetup #1
+
+* Introduction
+- About FPM.
+- Speedrun Guix understanding.
+
+* Functional Package Managers
+
+f(config, channels) -> package/system/home-environment
+
+Guix and Guix System differences.
+
+* Guile Scheme
+- Syntax basics.
+- SRFIs.
+- Records.
+[[id:f98634f0-dc12-4011-96c9-bf0b4d51fdb4][Scheme tutorial feat. Guile]], [[id:f71366ce-24d8-4d54-a9ee-536370fd14cf][Quotes and Gexps]]
+
+Lists and quotes
+#+begin_src scheme
+(+ 1 2 3)
+'it-is-a-symbol
+(display "hi")
+
+(list 1 2 3)
+'(1 2 3)
+;; Alist
+'((1 . 2) (3 . 4))
+
+(define a 3)
+`(1 2 a)
+(list 1 2 'a)
+`(1 2 ,a)
+(list 1 2 a)
+#+end_src
+
+* Basic configuration
+** Records
+#+begin_src scheme
+(define r1
+  (record-name
+   (field1 'value1)
+   (field2 "value2")))
+
+(define r2
+  (record-name
+   (inherit r1)
+   (field1 'value3)))
+#+end_src
+
+~operating-system~ in [[https://git.savannah.gnu.org/cgit/guix.git/tree/gnu/system.scm?h=7046e777212233b89df68379c270b448c45195ce#n214][system.scm]].
+
+inherit
+
+** Guix Services
+[[id:ce0d2529-a7d1-4f65-8e43-d1cba379ce8f][Guix Services and Shepherd]] stream.
+
+* Installation
+- Graphical Installer.
+- LiveCD.
+- Infect.
+
+** Custom ISO and Substitutes
+[[id:b8446fe3-94b1-4531-9df1-915c8ccea456][Custom GNU/Linux LiveCD]]
+
+[[http://guix.trop.in/en/manual/devel/en/guix.html#Copying-to-a-USB-Stick][dd if=guix-livecd.iso]]
+
+Add keys for substitutes.
+
+** Partitioning
+- efi partition to ~/boot/efi~.
+- Mount COW store.
+
+** Do it
+~sudo guix system init /mnt/etc/config.scm /mnt~
+
+* Conclusion
+- It's all Lisp.
+- Steep learning curve, but it worth it.

@@ -16,3 +16,7 @@
   examples of cli arguments parsing, state management.
 - https://git.sr.ht/~troels/dotfiles/tree/master/item/.config :: Not
   guix, but minimalistic and clean.
+- [[https://git.sr.ht/~bruun/home]] :: Very similiar by nature to rde,
+  emacs, sway, etc.
+- https://git.sr.ht/~ngraves/dotfiles :: rde based literate
+  configuration.
