@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       cba7d6a3-cf88-4872-ae04-e5f47d27f861
+:END:
+#+title: Emacs Snippets and Templates
+#+filetags: :Stream:
+
+* Introduction
+Continue the topic about in-buffer completion, but from a slightly
+different angle.
+
+* abbrev
+Very simple templates.
+
+- global/mode
+- ~list-abbrevs~
+
+Expansion:
+- abbrev-mode
+- ~C-x '~
+- ~cape-abbrev~
+
+* dabbrev
+Auto-generated prefix-based abbrevs.
+- ~dabbrev-expand~
+- ~dabbrev-completion~
+- ~cape-dabbrev~
+
+* Snippets
+Predefined text templates.
+
+** S-exps vs Plain-text
+It's a matter of taste, but also an important implementation detail.
+
+** Expansion
+- abbrev
+- capf
+- tempel-insert
+
+** Application area
+
+* TempEL cons and pros
+Pros:
+- Simple.
+- Based on already existing tempo syntax.
+- Integrates nicely with the rest of emacs.
+- Easy to contribute.
+
+Cons:
+- Less wide-spread.
+- Less templates.
+- Less tools for snippets conversion.
+
+* Conclusion
+- There are 3 more useful in-buffer completion mechanisms.
+- There are reason to use other packages than TempEL.
+- Make love, not war.

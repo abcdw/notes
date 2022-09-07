@@ -32,6 +32,9 @@
   other sections.
 - https://takeonrules.com/ :: Nice, minimalistic, hugo, emacs user.
 - https://jakob.space/pages/about.html :: haunt, lisp.
+- https://wilw.dev/blog/ :: hugo, lightweigh, green, simple design.
 
 * Setup guides
-- https://othacehe.org/hosting-a-blog-using-only-scheme.html
+- https://othacehe.org/hosting-a-blog-using-only-scheme.html :: huant.
+- https://edwardtufte.github.io/tufte-css/ :: css with nice side-notes.
+- https://nvk.pm/blog/bloggingsetup.html

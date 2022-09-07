@@ -13,6 +13,9 @@
   and I will pay 20), works for features, but not for maintaining.
 - providing software as a service
 - delayed open source (latest public version < latest paid version)
+- payed binaries has a complete functionality, anyone always can build
+  same themselves, but free/trial binaries can have restricted
+  functionality.
 * Other options
 ** Support subscription
    (Red Hat, SUSE, Nextcloud)

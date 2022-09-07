@@ -3,7 +3,7 @@
 :END:
 #+title: GNU/Linux Compatible Laptops
 
-- related :: [[id:27ed1ae2-d1a8-4733-b91b-8a21d5207164][h-node]]
+- related :: [[id:27ed1ae2-d1a8-4733-b91b-8a21d5207164][h-node]], [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FOSS]], [[id:27ed1ae2-d1a8-4733-b91b-8a21d5207164][Libre Hardware]]
 
 Funny fact, current [[id:2bcad25e-8ccf-4421-b434-9d7e034c2067][ThinkPad]]s most of the time requires some
 proprietary firmwares/blobs and it's hard to use [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] with them.
@@ -12,3 +12,7 @@ proprietary firmwares/blobs and it's hard to use [[id:714bc351-fe44-4f30-b5ac-49
 - http://kde.slimbook.es/specs/
 - https://tuxedocomputers.com/en/Linux-Hardware/Linux-Notebooks
 - https://www.pine64.org/pinebook/
+- https://puri.sm/
+- https://system76.com/
+- https://frame.work/ :: requires prorpietary blobs, but very
+  DIY/repair friendly.

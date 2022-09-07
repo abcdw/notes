@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       86f8bd95-a627-49ef-92bd-e357d4b7f062
+:ROAM_ALIASES: CV
+:END:
+#+title: Curriculum Vitae
+
+[[https://git.sr.ht/~bruun/cv/tree/master/item/cv.org][cv.org]] by @bruun, made with [[id:c93727b8-4258-40e2-8714-af5a5c735744][Org-mode]].

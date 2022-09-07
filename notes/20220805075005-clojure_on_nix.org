@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       c15ed432-9c06-4b19-aa69-8c56e42a3df5
+:END:
+#+title: Clojure On Nix
+
+- related: [[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]], [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]]
+
+* Links
+- https://github.com/jlesquembre/clj-nix
+- https://github.com/bevuta/clojure-nix-locker
+- https://github.com/fzakaria/mvn2nix

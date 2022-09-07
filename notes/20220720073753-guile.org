@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       e052a190-e23b-4ea2-b8b8-54c272f0b50a
+:END:
+#+title: Guile
+
+Scheme dialect used in [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][GNU Guix]].
+
+* Links
+- https://vijaymarupudi.com/blog/2022-02-13-error-handling-in-guile.html
+- https://spritely.institute/news/the-spritely-institute-publishes-a-scheme-primer.html
+
+
