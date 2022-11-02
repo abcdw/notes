@@ -1,0 +1,168 @@
+:PROPERTIES:
+:ID:       c341f233-8442-413e-a306-520f2c0bd8cf
+:END:
+#+title: EmacsConf 2022 rde Emacs
+
+* Introduction
+- The story behind my Emacs setup.
+- What rde and rde Emacs are?
+- Will make a small emacs configuration.
+
+* Motivation
+** Why?
+I wanted a ready-for-work development environment, which is reliable
+(guaranteed to work everytime I need), preferably performant and
+consistent.  I say development environment, but it applies to many
+other working environments.
+
+** Configuration framework?
+Spacemacs, Doom, Prelude.
+
+Sounds good, you get pre-configured Emacs in a minutes with all the
+bells and wistles, but... only Emacs.  In reality your environment
+consist not only from elisp packages, but also from "system" packages
+and thier configurations, project libraries, compilers, building
+tools, etc and thus you already have at least 3 things for managing
+your environment, but more likely 5 and more:
+- Emacs Configuration framework.
+- Emacs package manager (can be a part of configuration framework).
+- System package manager.
+- System/dotfiles configuration manager.
+- Project/language package manager.
+- etc
+
+Even having our emacs configuration and package manager covered by
+framework, we still have a lot of things, which we have to touch, keep
+in sync, and more importantly which can be broken.
+
+** Always works
+By works everytime I mean even if:
+- I updated my system/packages/configuration.
+- I migrated to different hardware.
+- Someone updated project dependencies.
+- etc.
+I can get back to work in a matter of seconds or minutes.
+
+If any of configuration tools breaks, the whole setup is broken.  If
+some of them doesn't support deterministic rollbacks you can't rescue
+or revive the environment.  The less points of failure we have the
+easier to stay sane.
+
+What about late breakage notice?  With 5+ different tools involved.
+
+** One tool to rule them all
+Is it possible to do all the work with one tool?  Yes, almost.
+Is it possible to achive a relible setup? Yes.
+
+How?
+With fu*c*i*n** package managers.
+
+They allows to manager system's, user's, emacs', project/language's
+packages and configurations in a declarative and reproducible manner.
+You just define what you need and they build it for you.  No matter
+what was before you get what you asked for.
+
+Two years ago I did a talk at EmacsConf 2020 ([[id:dbda175e-95d8-42ff-aebe-6e00c63b3406][Proposal]]), where I
+demonstrated a prototype of emacs configuration managed by [[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]].
+Originally, I wanted to base my work on existing Emacs configuration
+framework, but later decided that it will easier and more flexible to
+start from ground up.
+
+After first prototype in Nix, I decided to switch to [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]], to make it
+short Guix is another functional PM, but more freedom and
+reproducibility oriented and written in one language (Guile Scheme)
+instead of few: custom-made Nix DSL, Bash and C++.  So now, I can
+write lisp code, while this code writing another lisp code.
+
+Unfortunately, at the moment there was no tool to manage user's
+configurations (dotfiles) with Guix, so I wrote one, it's now a part
+of GNU Guix and called Guix Home.
+
+** What one good tool give us
+- Don't need to hack around to make tools work together, keep in sync.
+- Use one language.
+- Can share values between different parts of the system: colorscheme,
+  fonts, etc.
+
+** Recap
+I want a working environment, which is
+- ready-for-work :: configured in a minutes to almost what you want.
+- reliable :: get back to work in a seconds even if you broke smthng.
+- performant :: more a subjective thing, it should be snappy.
+- consistent :: apply the same concepts in different scenarios.
+
+* What is rde?
+My dotfiles repo grew in something bigger. Now it is a set of tools on
+top of GNU Guix, Guix System and Guix Home:
+- GNU/Linux distribution.
+- System and home environment manager or configuration framework.
+- Project environment manager.
+- Emacs distribution.
+
+Usually, you just pick a few features, parametrize them and get OS,
+home environment, project environment or emacs configuration.
+
+* How rde Emacs tastes?
+It's like an ice cream, vanilla flavored.
+
+No fancy macros for configuration, just plain elisp.
+
+Builtin or vanilla-flavored packages in priority over external or very
+fancy packages and there is a practical reason for this: Maybe
+sometimes you don't get the thing you used to, but we want to keep the
+final result consistent, so you can apply same interaction patterns in
+different situations and extend your expectations from one tool to
+another.
+
+/For example we encourage you to use minibuffer completion with
+orderless+vertico in code navigation, files/ /navigation, emails or just
+for jumping around./
+
+/Hotkeys are relatively consistent across different packages./
+
+It usualy gives no alternatives on what to use, but provides deeper
+integration, more reusability and consistency.  Of course it's a
+configuration framework after all and you can extend it as you want.
+
+* Deconstructing
+Appending things is usally easy, but not removing, it demonstrates the
+real power, when you can safely throw them out and nothing will broke
+and all the tails will be removed as well.
+
+- feature-vertico
+- roll back
+- feature-emacs-elpher (gemini://gemini.randomroad.net)
+- feature-docker (system service, group, cli, emacs config)
+
+* Constructing
+- rde-emacs-portable
+- keycast
+- which-key
+- vertico
+- completion
+- corfu
+- org*
+- faces
+- appearance
+
+* Summary
+rde
+- One tool to manage the whole computing experience.
+- Composable reliable configuration framework.
+- Distribution with ready-to-use components.
+
+rde Emacs is an Emacs distribution, which is
+- Vanilla-flavored.
+- Consistent.
+- Well-integrated.
+- Self-contained.
+
+* Contact me
+andrew@trop.in
+
+[[https://youtube.com/@abcdw][youtube.com/@abcdw]]
+[[https://sr.ht/~abcdw][sr.ht/~abcdw]]
+[[https://fosstodon.org/@abcdw][fosstodon.org/@abcdw]]
+[[https://github.com/abcdw][github.com/abcdw]]
+
+abcdw @ libera.chat

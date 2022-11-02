@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       559616a4-1c30-4792-96b3-51cfb046be55
+:END:
+#+title: Evacuation Checklist
+
+* TO DO
+- [X] поменять батарейки.
+
+* Zero order
+- [X] Sleeping bag, sleeping mat
+- [X] 3 x Pants
+- [X] 2 x Down Jacket
+- [X] 2 x Shell
+
+* First order
+- [X] 10 x T-shirt
+- [X] 10 x Underpants
+- [X] 10 x Socks Pairs
+- [X] Money 190k r, 2k u (separated)
+- [X] 1 x powerbank, cable A-C long
+- [X] Driver license, Card, cash
+
+** Backpack
+- [X] Flashlight
+- [X] Med kit
+- [X] Burner
+- [X] Laptop, Laptop Charger
+
+** Mini bag
+- [X] Documents (passport, international id), 10k r, 100u
+- [X] powerbank, cabel C-C
+- [X] Cash 50k r, 300u
+- [X] SIM, International SIM
+- [X] Flashlight
+
+* Second order
+- [X] Medical documents
+- [X] Old internation id
+- [X] Mic, mini usb cable, stand
+
+* Last order
+- [X] Pillow
+- [X] GoPro, battaries
+** Sport bag
+- [X] Alp equip

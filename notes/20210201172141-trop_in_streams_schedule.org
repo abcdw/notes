@@ -8,22 +8,34 @@
 (face-remap-add-relative 'default :weight 'bold :inherit 'org-verbatim)
 #+end_src
 
+* News for the Next Stream
+- Contributor status?
+- livecd with full rde config.
+
 * To Schedule
-| Draft Name                          | Possible Date |
-|-------------------------------------+---------------|
-| rde: How to Fork                    |               |
-| Building a Custom Kernel for Guix   |               |
-| [[id:7225e4cc-6198-4d85-8328-749b796fda1e][Installing Guix on Raspberry Pi]]     |               |
-| My Hardware Overview                |               |
-| Using native-comp Emacs             |               |
-| Guile Dev Environment               |               |
-| Greetd and seatd                    |               |
-| How guix build systems work?        |               |
-| Top 10 gnu/linux applications I use |               |
+| Draft Name                               | Possible Date    |
+|------------------------------------------+------------------|
+| rde: How to Fork                         |                  |
+| Building a Custom Kernel for Guix        |                  |
+| [[id:7225e4cc-6198-4d85-8328-749b796fda1e][Installing Guix on Raspberry Pi]]          |                  |
+| My Hardware Overview                     |                  |
+| Using native-comp Emacs                  |                  |
+| Guile Dev Environment                    |                  |
+| Greetd and seatd                         |                  |
+| Top 10 gnu/linux applications I use      |                  |
+| Prot trying rde emacs config?            |                  |
+| Testing changes in qemu                  |                  |
+| Multiple emacs servers, why?             |                  |
+| How many emacs instances do I need?      |                  |
+| Home environment in system config        |                  |
+| Building minimal rde emacs configuration | <2022-09-22 Thu> |
+
 
 * Schedule
 | Name                                                         | Date                   |
 |--------------------------------------------------------------+------------------------|
+| [[id:49057edb-c175-4df4-968b-842562ceb692][Guix Build Systems]]                                           | <2022-09-06 Tue 16:00> |
+| [[id:cba7d6a3-cf88-4872-ae04-e5f47d27f861][Emacs Snippets and Templates]]                                 | <2022-08-11 Thu 16:00> |
 | [[id:48c20b75-aeea-4b92-a8ac-5f0fcb3a0161][Emacs Completion Explained]]                                   | <2022-07-19 Tue 16:00> |
 | [[id:1a27280b-b340-4690-b46b-838280a4365f][Emacs packages in Guix]]                                       | <2022-06-21 Tue 16:00> |
 | [[id:386c8a45-8266-4518-9228-0cf69e836cf3][rde: Per-project features.]]                                   | <2022-05-10 Tue 16:00> |
