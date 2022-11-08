@@ -1,0 +1,63 @@
+:PROPERTIES:
+:ID:       0594e8f7-556e-4bab-bc6b-e852be45d9e5
+:END:
+#+title: Using SSH for Software Development
+
+* Introduction
+* Basic SSH config
+Change port, use key, preferably disable password auth at all.
+
+* Alias for Host
+#+begin_src conf
+Host pinky-ygg
+  HostName 200:554d:3eb1:5bc5:6d7b:42f4:8792:efb8
+  Port 50621
+  ControlMaster auto
+  ControlPath ~/.ssh/master-%r@%h:%p
+  Compression yes
+
+Host pinky
+  HostName 23.137.249.202
+  Port 50621
+  Compression yes
+#+end_src
+
+I can specify user, port, ip in configuration and use only host alias
+for accessing it.
+
+ControlPath allows to reuse already existing session.
+
+* Files
+scp, rsync.
+
+#+begin_src sh
+guix shell sshfs -- sshfs pinky-ygg:/ ~/mnt
+umount ~/mnt
+#+end_src
+
+#+begin_src text
+/ssh:pinky-ygg:~/
+#+end_src
+
+* Proxies and VPN
+#+begin_src sh
+ssh -N -L 2022:host:80 pinky-ygg
+guix shell python -- python3 -m http.server --bind localhost 8000
+
+ssh -N -R 50080:host:8080 pinky-ygg
+
+ssh -N -D 8123 pinky-ygg
+#+end_src
+
+[[https://github.com/haad/proxychains][proxychains]] allows to force almost any program to work over proxy.
+
+#+begin_src sh
+ssh -v -w any pinky-ygg
+#+end_src
+
+* Material
+Mosh - More persistent connections.
+https://hackertarget.com/ssh-examples-tunnels/
+
+* Conclusion
+- SSH can much more than just providing a shell to remote host.
