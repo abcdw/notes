@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       95718535-def2-4cde-b676-51b71d4aa16a
+:END:
+#+title: Getting Started with rde (Structuring Guix Config)
+
+* Introduction
+GNU Guix is a functional package manager, which allows not only build
+packages, but also whole operating systems and today we will explore
+the ways we can make and maintain configuration for it.
+
+* Guix System and Home Services
+Is a building block, which allows to build configuration files,
+packages and install them in system or user profile.  rde has its own
+set of services, which have some specifics in implementation.
+
+* rde Features
+First of all, it is a set of tools, which allows to generate
+~operating-system~, ~home-environment~ records and bridge the gap between
+them.  The rde feature is a wrapper around system and home services
+with pre-defined customizable configurations, which can integrate with
+other features by sharing values or conditionally extending services.
+
+The goal of this mechanism is to bypass some restrictions of guix
+services, split configuration in managable pieces and provide useful
+defaults.
+
+* Profiles
+Locking channels with ~guix pull~. Use with caution, it creates many gc
+roots.
+
+* Dispatcher
+How to maintain multiple ~home-environment~ and ~operating-system~
+records.
+
+* Hosts
+Hardware specific configurations.
+
+* Personal Settings
+
+* Conclusion
+- This is not a "right way", but there are some useful tips.
+- It's a good idea to keep lock your channels to be sure the setup
+  stays reproducible.
+- It's possible to maintain a complete system configuration under 1kloc.

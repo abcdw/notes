@@ -29,6 +29,7 @@
 | How many emacs instances do I need?      |                  |
 | Home environment in system config        |                  |
 | Building minimal rde emacs configuration | <2022-09-22 Thu> |
+| Using Postgres in rde                    |                  |
 
 
 * Schedule

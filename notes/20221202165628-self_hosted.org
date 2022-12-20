@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ad1b8a1c-0ac6-425a-ad7f-52272251a396
+:END:
+#+title: Self-Hosted
+
+- photo app :: https://github.com/photoprism/photoprism

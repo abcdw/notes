@@ -37,6 +37,8 @@
 - https://schnouki.net/about-me/ :: Looks like gemini page, but a
   little fancier, have book reviews.
 - https://matthias.thym.at/ :: CV/about page, hugo.
+- https://jvns.ca/blogroll/ :: Well-organized, a lot of content, but
+  simple representation.
 
 * Setup guides
 - https://othacehe.org/hosting-a-blog-using-only-scheme.html :: huant.

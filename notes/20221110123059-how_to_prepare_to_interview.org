@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ca3283bb-7c13-4988-b57d-c60aa18fec94
+:END:
+#+title: How to Prepare to Interview
+
+* Negotiating a job offer
+[[https://bayareabelletrist.medium.com/how-i-negotiated-a-software-engineer-offer-in-silicon-valley-f11590f5c656][How I negotiated a $300,000 job offer in Silicon Valley]].
+https://www.freecodecamp.org/news/ten-rules-for-negotiating-a-job-offer-ee17cccbdab6
+https://www.kalzumeus.com/2012/01/23/salary-negotiation/

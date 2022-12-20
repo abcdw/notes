@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       5971f3c6-4f43-42ae-875a-4ccd121a4a28
+:END:
+#+title: gx.do
+
+* Web Infrastructure for developers
+Why Web Infrastructure? What is this?
+Is using gx.do challenging?
+
+* Serverful
+#+begin_quote
+Servers are building blocks not unlike maps and sequences. We give you live, reflective, introspective tool to build your app's infrastructure in a functional, transactional, reproducible manner.
+#+end_quote
+Is this section about server provisioning or server configuration?
+Don't get the idea of the section, what it implies?
+
+* Deploy first
+Not sure if I like the wording, but IIUC the idea is following:
+- Create an execution environment (deployement).
+- Deploy it.
+- Get the same execution environment locally (dev environment).
+
+Does this section describe the workflow or highlight the features?
+
+I still don't get how the whole process looks like.  How the servers
+are spinned up?  How they connected to gx.do?
+
+* Guix
+Revenge of the Lisp Machine
+
+Do anyone cares?
+
+System d'hôte, System à la carte - how many people understand what does it mean?
+
+#+begin_quote
+Like Emacs, Guile Scheme kept the spirit of the Lisp Machine alive.
+#+end_quote
+I suppose nobody understand what does it mean, and moreover nobody cares.
+
+Overall, arguments in this sections are good.
+
+
+* General questions
+- What is a target audience of the landing?
+
+* Questions from Dev Perspective
+- What tools it provides?
+- How the process look like? Maybe some cli listing with a list of
+  commands and example config?
+- Does it vendor-lock us?
+- How it is compared to AWS/GCP/Kubernetes/Docker/whatever?
+
+* From Investor look
+- How gx.do plan to monetize?

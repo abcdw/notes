@@ -1,0 +1,31 @@
+:PROPERTIES:
+:ID:       43b402bb-89cb-4cc6-8b23-ede9d61f4053
+:END:
+#+title: Georgia Checklist
+
+* First order
+** DONE Buy a sim card
+https://telegra.ph/Registraciya-IP-v-Gruzii-10-27
+
+Magti https://www.magticom.ge/en/mobile/tariffs/
+
+| Internet | Minutes | SMS | Cost |
+|----------+---------+-----+------|
+|    unlim |       0 |   0 |   32 |
+|    unlim |      60 |   0 |   44 |
+|     5000 |      60 |   0 | 16.7 |
+|     5000 |       0 |   0 |   12 |
+|        0 |      60 |   0 |    5 |
+
+** TODO Open IP
+Better to do it earlier, as it may be much harder later.
+Translation of documents is not needed.
+https://telegra.ph/FAQ-IP-Gruziya-2022-01-25
+
+#+begin_quote
+https://t.me/Eliza7788
++995568719584
+Я у этой девушки регал, не знаю, сколько она берет сейчас и
+занимается ли этим ещё. но хотя бы не наёбывает))0
+#+end_quote
+** TODO Open bank account

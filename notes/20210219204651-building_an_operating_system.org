@@ -7,6 +7,19 @@
 An anchor for reference from materials related to OS construction.
 
 - Building a FS
-https://wiki.c2.com/?OperatingSystemsDesignPrinciples
 
-[[http://web.stanford.edu/class/cs240/][Advanced Topics in Operating Systems (CS240 Stanford)]]
+* Thoughts
+Reduce the number of methaphors, it will help user to re-apply the
+same concepts all over the system.
+
+* Building an OS
+- https://wiki.c2.com/?OperatingSystemsDesignPrinciples
+- [[http://web.stanford.edu/class/cs240/][Advanced Topics in Operating Systems (CS240 Stanford)]]
+- [[https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf][Writing a Simple Operating System — from Scratch]].
+- https://twilco.github.io/riscv-from-scratch/2019/03/10/riscv-from-scratch-1.html
+- [[https://www.youtube.com/watch?v=s_4tFz52jbc][Let's Build and OS: Day 0 - Getting familiar with RISC-V and writing a small bootloader.]]
+
+* Bootstraping
+- https://ekaitz.elenq.tech/bootstrapGcc0.html
+- [[https://archive.fosdem.org/2022/schedule/event/riscvadventures/attachments/slides/4815/export/events/attachments/riscvadventures/slides/4815/Slides.pdf][A year of RISC-V adventures: embracing chaos in your software journey]]
+- https://github.com/SgtCoDFish/bedrock-bootstrap !!!
