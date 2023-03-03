@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       812fbf49-485c-4dc1-abdd-ddfad9c27bda
+:END:
+#+title: FOSS Mobile Apps
+
+simplemobiletools.com/ for various apps
+
+https://ente.io/ for encrypted photo backup
+
+Simple Calendar
+
+* Keyboards
+- OpenBoard
+- FlorisBoard

@@ -22,7 +22,7 @@
 | Using native-comp Emacs                  |                  |
 | Guile Dev Environment                    |                  |
 | Greetd and seatd                         |                  |
-| Top 10 gnu/linux applications I use      |                  |
+| Top 10 applications I use                |                  |
 | Prot trying rde emacs config?            |                  |
 | Testing changes in qemu                  |                  |
 | Multiple emacs servers, why?             |                  |
@@ -30,6 +30,7 @@
 | Home environment in system config        |                  |
 | Building minimal rde emacs configuration | <2022-09-22 Thu> |
 | Using Postgres in rde                    |                  |
+| Voice synthesis                          |                  |
 
 
 * Schedule

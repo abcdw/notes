@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       d466c290-da7a-47f8-adf8-d4388e66dfaa
+:END:
+#+title: WebFinger
+
+Meta information about profiles served from ~/.well-known/webfinger~
+location.
+
+https://www.packetizer.com/ws/webfinger/

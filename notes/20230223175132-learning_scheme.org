@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       841ce771-d012-4aa9-8558-0bc2147802bd
+:END:
+#+title: Learning Scheme
+
+- https://spritely.institute/static/papers/scheme-primer.pdf :: Introduction to basics, with no prior knowlegde.
+- https://scheme.com/tspl4/ :: The Scheme Programming Language.
+- https://vijaymarupudi.com/blog/2022-02-13-error-handling-in-guile.html
+
+- http://synthcode.com/scheme/fmt/ :: pretty-printing.
+- https://srfi.schemers.org/srfi-166/srfi-166.html
+
+* Basic Types
+* List
+* Quotes and Quasiquotes
+* SRFI and ICE-9
+* Continuations
+call/cc vs delimited continuations.
+* Guix
+https://gitlab.com/pjotrp/guix-days-fosdem-2023/-/blob/main/debugging.org

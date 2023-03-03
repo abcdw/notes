@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4533960c-6fd4-4360-a77e-684fa3cb81f4
+:END:
+#+title: Backup Tools
+
+Is tightly related to [[id:f847f51e-e31c-48fd-90e4-aa98757c151d][Managed State]].
+
+https://github.com/andrewchambers/bupstash

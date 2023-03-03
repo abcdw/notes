@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       f96a539d-ba6b-4024-aa70-f08f25acc05c
+:END:
+#+title: 2023 Plan
+
+A bunch of ideas, and nice to dos.
+
+* Personal brand
+** Social media
+- Post daily on Mastodon
+- Make a blog
+- 2 video series of 10-15 vids?
+- Lern rde in 15 minutes.
+- YouTube, Twitch, Owncast, Peertube?
+- Stream daily? live: rde: and live: getting-money/job/funding project
+
+** Meetups
+fprog_tbs?
+rde meetup
+
+* Money
+Build a business.
+
+* Health
+Daily notes?
+Restrict yt to after 3 pm.
+Walk every morning.
+
+* Social Life
+- Visit a party weekly.
+- Visit a cafe/coworking daily.
+Where to meet more people?
+
+* Professional
+** Contribute to Open Standards
+some RFC in IETFs.
+** Technologies to Learn
+- [[id:ef8e61ea-d0bd-4ff8-b050-245c6f70d7be][CRDT]] to make a better code editor and vcs.
+- [[id:ee3e30da-de51-4bce-96ec-2a59db98dbe3][RISC-V]] to make a better OS.
+- QBL to make a better language.
+- Hare language to make a better language.
+- Scheme, Guile, Compiler tower.

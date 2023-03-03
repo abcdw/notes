@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b4453d67-c078-4264-8057-3adc6ae4685a
+:END:
+#+title: Bodyweight Fitness
+
+- related :: [[id:350a5ce2-a30e-4e3b-8c59-6b29f24be61e][Sport]]
+
+https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine/

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3e1a3375-1e94-4b69-b312-b3dddd9d4b51
+:END:
+#+title: SSH Tunnels
+
+[[id:078a6a65-723b-4f30-98ec-b581a63a042c][SSH]] tunnels well explained with nice pictures:
+https://iximiuz.com/en/posts/ssh-tunnels/

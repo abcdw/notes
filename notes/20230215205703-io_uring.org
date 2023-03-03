@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d9f56319-0132-4378-8921-e3a3786cc0eb
+:END:
+#+title: io_uring
+
+https://github.com/axboe/liburing/wiki/io_uring-and-networking-in-2023

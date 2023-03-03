@@ -16,6 +16,8 @@
 - payed binaries has a complete functionality, anyone always can build
   same themselves, but free/trial binaries can have restricted
   functionality.
+- contracts with other business.
+- grants.
 * Other options
 ** Support subscription
    (Red Hat, SUSE, Nextcloud)
@@ -27,9 +29,8 @@
    Can vote for most important features to implement.
 
    Knowledge access.
-   Knowledge base, trainings, courses,
-   workshops. Scaling expertise, legal expertise, specific stack
-   expertise.
+   Knowledge base, trainings, courses, workshops.  Scaling expertise,
+   legal expertise, specific stack expertise.
 
 * Links
 - https://youtu.be/2L1U2KpSgk8 :: Almost all monetization options for [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] project
@@ -40,3 +41,8 @@
   contracts, which is enough to sustain the work on the project
   without donations.
 - [[id:35d249ba-10c2-4358-83a5-0ff82486a802][fosspay]] :: self-hosted donation platform.
+- https://opensource.com/article/17/1/cultivating-business-foss-market
+- https://www.slideshare.net/thilinaj1/foss-business-model
+- https://www.investintech.com/resources/blog/archives/7975-pros-cons-open-source-business.html
+- https://www.opensourceforu.com/2009/08/deeproot-and-youre-saying-theres-no-money-in-the-foss-business/
+- https://www.researchgate.net/publication/228465137_Business_models_in_FLOSS-based_companies

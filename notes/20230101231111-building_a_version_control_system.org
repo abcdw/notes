@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f45f97ea-8e8c-4e4c-bfe2-503ffca43771
+:END:
+#+title: Building a Version Control System
+
+* Interesting Implementations
+- https://www.fossil-scm.org/home/doc/trunk/www/concepts.wiki
+- https://pijul.org/

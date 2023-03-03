@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4f3b95e9-e04b-4f83-850b-ee88c156dd88
+:END:
+#+title: Building a File System
+
+It's not necessary a usual file system, but something similiar by it's purpose.
+
+https://arrow.apache.org/
+
+https://karl-voit.at/2020/01/25/avoid-complex-folder-hierarchies/

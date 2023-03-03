@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3045a33c-4847-4e49-a5e8-48bee217cf6f
+:END:
+#+title: Y Combinator
+
+https://dreamsongs.com/Files/WhyOfY.pdf

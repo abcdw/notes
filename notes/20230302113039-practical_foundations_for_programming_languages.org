@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       ec056814-d1fb-49ee-b4cd-a71840bca1ee
+:END:
+#+title: Practical Foundations for Programming Languages
+
+https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf
+
+A book about fundamentals of programming languages, useful for constructing new
+ones.

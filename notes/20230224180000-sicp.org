@@ -1,0 +1,23 @@
+:PROPERTIES:
+:ID:       14338321-2b88-47d9-9b14-1fd4838d6cce
+:END:
+#+title: SICP
+
+HTML version: https://sarabander.github.io/sicp/html/
+Lections: https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090
+
+SICP Sequel: https://mitpress.mit.edu/9780262045490/
+
+* Lection 1A
+Techniques for controlling complexity:
+- Black-box abstraction.
+- Conventional interfaces.
+- Metalinguistic abstraction (Making new languages).
+
+What to ask about language:
+- What is primitive elements?
+- Means of combination.
+- Means of abstraction.
+
+Combination for lisp is applying operator to operands.
+Abstraction is done by define and lambda.

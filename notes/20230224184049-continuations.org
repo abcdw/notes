@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f8d063b6-d227-4a0d-97af-83a02e184b47
+:END:
+#+title: Continuations
+
+aka call/cc.
+
+https://cleare.st/code/call-cc-yin-yang-puzzle
+
+https://archive.jlongster.com/Whats-in-a-Continuation

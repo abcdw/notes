@@ -3,10 +3,74 @@
 :END:
 #+title: Building a Programming Language
 
+* Ideas
+This is mix of problem/possible solutions.
+
+** Program serialization is doomed
+The program is get serialized as a text. Loading or compiling it may result in
+execution of arbitrary code. Parsing text files is hard, messing up text files
+is easy. Dependencies are not a part of the source code/project, they are
+managed by another tool or usually tools and it's usually bloated and non
+reproducible.
+
+** Dependecy management is doomed
+Even in guix they are bloated and referenced by label.
+
+They should be:
+- Immutable :: I don't want to be fucked, after minor version bump.
+- Atomic :: I don't want to pull the whole emacs, when I need to build org
+  file. core-updates in guix needed only because deps are not atomic.
+
+** Modules hierarchy is doomed
+Usually you don't want to store functions in hierarchy, but to access them.  So
+it logical to store them in one place, but provide an access using different
+means: for example ~abs~ can be found in both (lang math) and (lang arithmetic)
+"modules", but it doesn't mean there are two versions of ~abs~, it's just too
+"module-queries", which both include the same ~abs~.
+
+** Bootstrapping is doomed
+Let's make a minimalistic relatively high-level language and build other
+languages on top of it.
+
+** Ops is doomed
+Setting and maintaining an execution environment for the application, delivering
+a software to end user is a nightmare.  It's inadequately hard.
+
+Nginx config file is actually a program and should have a dependency management
+as well, an exact version of nginx for example, but more preciesly it should
+have only modules required for parsing and execution of it, so we can easily
+build a closure "a slim version of nginx for this particular config", which is
+just an rtmp proxy without http and all other unneded stuff.
+
+** Security is doomed
+Values should be immutable => thread/IPC safe and sharable. Process/function
+should have access only to things explicitly passed to it.
+
+* Materials
+** Language Foundations
 Read the book about programming languages
-https://dmkpress.com/catalog/computer/programming/978-5-94074-539-6/
+[[id:ec056814-d1fb-49ee-b4cd-a71840bca1ee][Practical Foundations for Programming Languages]]
+https://justinethier.github.io/cyclone/docs/r7rs.pdf
+
+** Books
 https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/
 https://pragprog.com/titles/7lang/seven-more-languages-in-seven-weeks/
+https://dmkpress.com/catalog/computer/programming/978-5-94074-539-6/
 
+** Macros
+https://matt.might.net/articles/metacircular-evaluation-and-first-class-run-time-macros/
+
+** Syntax
 On parentheses less syntax
 https://beautifulracket.com/appendix/thoughts-on-rhombus.html
+
+** Interesting Links
+- https://www.draketo.de/software/guile-10x
+
+** Examples
+*** Clojure flavoured
+- Jannet
+- Carp
+- Fennel
+*** Query languges
+https://www.malloydata.dev/

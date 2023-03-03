@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       36de4860-a35e-4e0d-9bf4-0632704bb8f9
+:END:
+#+title: How to Start a Coding Channel
+
+
+* Live Coding
+Split coding/questions to stay focused with pomodoro for example.
+
+* Tips
+- Make font as big as possible.
+- Use gtrends and yt search autosuggestions to create a good title.
+- Advertise via forums/mls.
+- Put series name at the end, topic at the front.

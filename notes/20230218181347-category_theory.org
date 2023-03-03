@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d32ddcb9-e853-48f3-ad8a-853e1d4f65fc
+:END:
+#+title: Category Theory
+
+https://cats.for.ai/
+seven sketches + если становится грустно и нужен перерыв - Милевского.

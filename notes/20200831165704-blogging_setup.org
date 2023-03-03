@@ -5,9 +5,44 @@
 
 - related :: [[id:4367e118-aaff-45a8-a037-e32f95c9411e][Blogging]]
 
-* Concept
-Do I want a [[id:04803bd5-5355-44cd-bea2-dfd6db5a4283][Gemini]] support?
+* Requirements
+https://kevquirk.com/my-static-site-workflow/
+- Easily insert links to other posts (ideally org-roam like C-c n i).
+- Drag & drop images into posts (org-download like + auto-optimize size).
+- Live preview, ideally updated on file save.
+- Human-readable anchors in generated html.
 
+* Questions
+Do I want a [[id:04803bd5-5355-44cd-bea2-dfd6db5a4283][Gemini]] support?
+Do I need openring?
+Split tech and personal blogs?
+Clojure, Scheme?
+Webmentions? https://webmention.io/
+Footnotes, sidenotes?
+PDF version
+Responsivness?
+People I support page.
+Anchors for navigating on post page.
+https://picocss.com/
+
+Analytics?
+https://kevquirk.com/revisiting-the-web-analytics-rabbit-hole/
+
+* Decisions
+Write them down to decision-log in the blog repo.
+
+** Webfinger for mastodon and email.
+To be able to search with primary email in fediverse.
+https://www.packetizer.com/ws/webfinger/
+
+** Minimal to no js
+It should be fast, content-first, working in most browsers.
+
+** Comments
+https://commentpara.de/
+https://jakob.space/blog/pushing-haunt-to-its-limits.html
+
+** Note taking is set apart from blog
 Maybe I want to combine [[id:a293f298-61a4-4b67-844a-8aa6b3457130][Note-taking]] with blogging by publishing:
 - notes
 - graph of notes
@@ -26,3 +61,8 @@ org-roam [[https://org-roam.discourse.group/t/are-there-any-repositories-of-good
 [[id:162095a1-4fca-4793-8f46-1657d6b4261f][WriteFreely]] is a self
 
 [[https://joelchrono12.xyz/blog/how-to-add-mastodon-comments-to-jekyll-blog/][How to add comments to Jekyll blog (2022)]]
+
+- https://gitlab.com/luis-felipe/texinfo-css :: css for texinfo.
+- https://blog.fidelramos.net/software/privacy-respecting-self-hosted-web-analytics :: [[id:81d12f93-6b14-4af6-bd17-bcb4a8a4c167][Plausible]] and other options.
+- https://bearblog.dev/ :: mimalistic blogging platform.
+- https://terminalcss.xyz/ :: nice-loking small css framework.

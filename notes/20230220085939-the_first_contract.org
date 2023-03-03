@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       1e5ba5cb-1d2c-41ae-a37a-b191e9321404
+:END:
+#+title: The First Contract
+
+* Questions
+- The story of the company.
+- Project milestone (year 1 low level stuff, year 2 dev tools for dogfooding
+  community, year x).
+- How long the project should go.
+- What is the team?
+- Who do you need also?
+
+* Thoughts
+- I don't scale, but my expertise does.
+- I don't charge for the time I work, but the value provide (doing otherwise
+  ruins life/work balance).
+- I can do hard work.
+- No hired work, No micromanagement, only scope discussions/team consultancy.
+- Employee costs 40% more.
+
+* Compensastion
+** My rates
+- 9800/week for on-site work.
++5880 with 40% taxes.+
+20% of company over the year.
+
+*** Day of Training
+- 6850-20550 per day.
+- 685-2055 per ticket.
+
+** Equity
+Usually they worth nothing, sometimes they can match the diff with higher
+salary.
+
+** Avg Freelancer Rate
+120$/hour
+980$/day
+4900$/week
+21k$/month
+256k$/year
+
+* Can Provide
+- I reduce the complexity of the software.
+- Solution for business problems -- occasionally a computer is involved.
+- Expertise on guix, rde, guile.
+- Education on Scheme.
+- Custom development.
+- Content marketing.
+- Team leadership.
+- Have high-skilled/PhD ML, Proof, Idris, CoQ, VR.
+- Consulting on development, ops and processes.
+
+
+* Links
+- https://training.kalzumeus.com/newsletters/archive/consulting_1

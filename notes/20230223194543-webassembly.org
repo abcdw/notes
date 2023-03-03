@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       923628c0-9d16-40b3-95ee-e7ea0646cf2c
+:END:
+#+title: WebAssembly
+
+https://wasm4.org/

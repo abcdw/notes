@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       f847f51e-e31c-48fd-90e4-aa98757c151d
+:END:
+#+title: Managed State
+
+The idea from [[id:badddb19-edbc-4584-90c2-580176480aa4][Stateless OS]] and [[roam:rde]] that says All state must
+be explicit and syncable or temporary.  The explicit and syncable
+state is managed state.

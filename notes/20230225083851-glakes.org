@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       cc394b5e-2d95-4210-9689-adcd5ab7844c
+:END:
+#+title: Glakes
+
+[[id:aa7b4d37-6474-48f9-b185-1c88369b0e9b][Nix Flakes]] for [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]]
+
+~glakes run reconfigure-ixy~ or ~glakes run '(reconfigure-ixy "hey")'~.

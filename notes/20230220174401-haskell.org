@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       44d0d983-6a8a-471f-9f47-2bfbae5f61fd
+:END:
+#+title: Haskell
+
+* Books
+https://www.scribd.com/book/514578042/Haskell-in-Depth
+https://www.ohaskell.guide/
+Программируй на Haskell

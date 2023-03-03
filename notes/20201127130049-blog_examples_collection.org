@@ -39,6 +39,11 @@
 - https://matthias.thym.at/ :: CV/about page, hugo.
 - https://jvns.ca/blogroll/ :: Well-organized, a lot of content, but
   simple representation.
+- https://lambdaland.org/ :: technical blog, personal blog, cv, etc.
+- https://daniel.haxx.se/ :: Author of curl, unclurled, etc.
+- https://vadimkravcenko.com/shorts/software-development-subjective/ :: Clean, simple, popular.
+- https://blog.meain.io/about/ :: nice about page, clean monochrom CV pdf.
+- https://te.xel.io/quotes/ :: quotes!
 
 * Setup guides
 - https://othacehe.org/hosting-a-blog-using-only-scheme.html :: huant.

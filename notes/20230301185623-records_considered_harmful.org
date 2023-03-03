@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       8d66b357-1b2c-457b-b36e-2bd1873ece05
+:END:
+#+title: Records Considered Harmful
+
+Why srfi-9 records are suboptimal.
+
+Guix service extension mechanism with dynamically generated service types: you
+can't use identical, but created in different places service types.
+
+#+begin_src scheme
+(service
+ (create-service-type 'name-1)
+ (config-for-service-1))
+
+(simple-service
+ 'service-extension-for-name-1
+ (create-service-type 'name-1)
+ (extension-for-service-1))
+#+end_src

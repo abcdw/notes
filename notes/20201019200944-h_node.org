@@ -9,3 +9,5 @@
 
 Wiki containing information about hardware working with free/libre
 operating systems.
+
+https://www.xyte.ch/

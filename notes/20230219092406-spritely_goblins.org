@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7ec47431-b9a1-445b-9f6e-ea1a7f5d1813
+:END:
+#+title: Spritely Goblins
+
+[[https://youtu.be/nhhKzjT9uZI][David Thompson on Growing a Community with Spritely Goblins]]
+https://vvv.gay/goblins/hello-goblins/
+https://garbados.github.io/my-blog/conceptual-intro-to-spritely-goblins.html
