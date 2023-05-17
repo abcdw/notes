@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       6706bfe9-a115-41b3-9382-12a632801de9
+:END:
+#+title: Live Coding Streams
+
+* TODO scm->nginx serialization
+SCHEDULED: <2023-03-28>
+
+** Introduction
+Hello and welcome everyone.  I'm Andrew Tropin, you may know me for rde and Guix Home projects or some other way.  I solve problems and explore the world and usually it involves FOSS.
+
+** Initial Setup
+- REPL.
+- gider and test functions.
+
+** Tasks
+- [X] Fix xfail test.
+- [ ] Commit nginx test.
+- [ ] Draft nginx-service-type.
+
+** Notes
+- We don't have a function to run a particular test.
+- Rerun failed tests doesn't care about direct test function invocation. (when we call a function explicitly using eval last exp or similiar).
+- Rerun failed tests doesn't care about xfail.
+
+** Conclusion
+- Short feedback loop make the process enjoyable.
+- Tools for guile involves.
+- TDD allows to offload the big picture to tests, and focus on very specific
+  part.

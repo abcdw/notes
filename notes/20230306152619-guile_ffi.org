@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       d5215425-f17b-4bfd-8843-23602ca0bf23
+:END:
+#+title: Guile FFI
+
+https://www.nongnu.org/nyacc/nyacc-fh-ug.html
+https://github.com/TaylanUB/scheme-bytestructures

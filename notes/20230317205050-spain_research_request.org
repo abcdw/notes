@@ -1,0 +1,121 @@
+:PROPERTIES:
+:ID:       4e17cf95-2a9a-4358-8913-54fc7d1a5fed
+:END:
+#+title: Spain Research Request
+
+I'm looking for a country (and city/region) to live in and ways to move to it.
+It can be a few different cities in one country. https://immiguides.com/
+
+* Intermediate Residence
+If I pick a European country, it's very likely I'll need a permanent residence
+in some intermidiate place to be able to make a visa, have basics needs covered.
+Georgia or Turkey looks most reasonable places.  In first one I have a legal
+entity (IP) in the second one I have friends, who can hire me or invite for
+business trip.  There is a chance that it possible to do a visa in Armenia
+without premanent residence.  Also Serbia, Montenegro seems to be good options
+as well.  It's important one, because it depends what I do and where I live in
+the nearest future.
+
+/This is the first set of questions: How to get a visa to EU? Do I need a
+permanent residence for it? What country to pick for the next a few months? What
+is needed to be done to be able to stay for let's say half an year? What is
+needed to be done to make shengen visa here? How to get a residence, how much
+would it cost and how much time it takes?/
+
+** Montenegro
+1.5k, 3 months, need a non-court reference.
+
+* Passport trick
+I consider the following trick: to get a passport in latin america in a few years and live in Spain with nomad/startup visa for example.  So the citizenship and destination country can be different.
+
+* Criterias
+There are a few things, which are valuable IMO in no particular order.
+
+** Language
+One of them is language spoken, because I would like to learn it to better
+integrate. I consider English-speaking countries, but I would prefer non-English
+one as I want to become a trilingual.
+
+https://www.visualcapitalist.com/100-most-spoken-languages/
+https://wikiless.tiekoetter.com/wiki/List_of_languages_by_total_number_of_speakers?lang=en
+
+Learning a language is a big investment, so I would like to learn a relatively
+popular one to get more possibilities in the future.
+
+One, which looks promising to me is Spanish, it's relatively easy, has nice
+cultural background, used in different countries including very developed and
+looks and sounds cool to me.
+
+Portuguese is similiar to Spanish, but less spreaded.
+
+German and French looks quite popular, but harder and less benifitial as a big
+part of speakers also have a good english.
+
+Hindi, Mandarin is hugely widespread, but hard and probably have a cultural
+mismatch.
+
+Jap and Korean looks interesting, but also hard and not very spreaded.
+
+** Weather
+Number of sunny, cloudy and rainy days.
+
+Dry/wet climate (I prefer dry one, Helsinki and SaintP is not very comfortable).
+
+** Nature
+Diverse nature is a plus. Mountains for snowboarding, rocks for climbing and
+hicking/backpacking, Rivers for kayaking.
+
+Interesting to know how far it is, is it possible to come for weekends for
+example? Time to travel, number of routes <7c.
+https://www.thecrag.com/en/climbing/turkey/geyikbayiri
+
+** City Ecosystem
+Everyday activity is important, sitting in the appartement for the whole day
+isn't good.  Bicycle roads, public transport, climbing gyms in the town.
+Coworkings and hackspaces, bars-bookstores.
+https://hackerspaces.org/
+
+** Cost of Living
+Let's say the cost of rent 80-100 m^2 appartment, two rooms, kitchen and maybe hall/launge (can be a part of the kitchen).
+
+Cost of average consumer basket for one month.
+
+** Food and Life Span
+Probably there are some ratings on quality of food and life span.
+
+It would be interesting to know some info about it.
+
+** Medicine and Education
+Quality/cost of healthcare.
+
+Most rated/known universities.
+
+** Reachability
+Time to airport, time to Berlin, London, MSK, New-York, San-Francisco.
+
+** Predictability
+Transparency of decision making and sticking to the rules/laws.
+
+** Taxes and Legal Entities
+This is a tough one, but primary questions are:
+
+How hard to open a legal entity/Individual Enterprenuer? How much taxes for software development, consultancy?
+
+Hiring requirements, taxes for employees.
+
+Tax residence conditions.
+
+** Visa / Residence
+How to get visa to enter? How to get a permanent residence? How long do you need
+to stay to keep this permanent residence to work.
+
+** Passport
+Conditions and options to get a passport/citizenship. No-visa countries access.
+How much pressence is needed to count "years in country" and all related stuff.
+
+** Negative Moments
+What are negative or unusual about the country.
+
+* Useful Links
+- https://alegria-realestate.com/en/ :: real estate, re-rent, documents,
+  accounting and all that stuff.

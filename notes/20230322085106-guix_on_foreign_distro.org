@@ -1,0 +1,198 @@
+:PROPERTIES:
+:ID:       e058c7a7-52e5-4e11-986d-d6e480a839dc
+:END:
+#+title: Guix Introduction on Foreign Distro
+
+* Guix Basic
+** Introduction
+We will learn basics of guix and guix cli.  Everything will be performed on
+foreign distro.
+
+** Parts
+Install it via package manager or https://guix-install.sh.
+
+Build Daemon is stable and rarely changes.
+~systemctl start guix-daemon~.
+
+ls /usr/local/bin
+~which guix~ should point to ~~/.config/guix/current/~
+
+~/gnu/store~
+
+** Getting Help
+Commands, actions, prameters.
+
+~guix package --install htop~ == ~guix install htop~
+
+** Channels
+- ~/.config/guix/channels.scm :: default path for channels.scm.
+- guix pull :: produces a new generation of profile.
+- current profile :: guix cli + package definitions.
+- freezing :: guix describe -f channels
+- guix time-machine :: run guix command with arbitrary version.
+
+*** Content
+guix.git and other channels can contain:
+- package definitions, dependencies.
+- cli and extensions.
+- system services, images and other APIs.
+
+** Packages
+Searching, building, exploring. FHS.
+
+guix build htop
+guix build htop --source
+
+** Shell
+Creating polyglot virtual environments.
+Explore search-paths and shell profile, talk about consumers.
+
+** Profiles
+- shell
+- user
+- home
+- system
+Structure of profile. .../etc/profile.
+
+Installing packages and playing with generations.
+
+** GC
+Cleaning up the garbage. GC roots.
+
+** Tasks
+- Run htop of previous version (3.2.1) without installing anything.
+- Create a GC root for shell profile. (can be done with guix shell).
+- Prove that guix recognizes GC root.
+- Run GC.
+- Remove the root (created in step 3) and run GC.
+
+** Conclusion
+- It's different and requires some time to wrap head around.
+- There are a lot of capabilities provided by CLI, but there are much more
+  provided by API.
+
+* Guix Home
+** Introduction
+Build a simple home environment to manage zsh, install a sample dotfile and
+package for it.
+
+** Home Environment Parts
+How to get help: ~guix home --help~, ~C-h i m Guix~, ~g Home Configuration~
+
+Init, build and explore.
+
+Activating home-environment.
+
+Check that .profile doesn't break Ubuntu.
+
+** Customizing Home Environment
+Adding packages.
+
+Extending services.
+
+** Conclusion
+- Such approach is unusual, but makes the configuration almost immortal.
+- It's easy to share such a setup or move to a new device.
+
+* rde Emacs
+** Introduction
+We will try to replicate Doom Emacs like experience with vanilla flavor, but
+better :) using Guix Home and rde.
+
+** Preparing Reproducibility
+- Git repo.
+- channels lock.
+- ~guix pull~ to local dir.
+
+** Getting the Base Setup
+Home environment with fixes.
+
+** Getting rde Emacs
+Cleaning up ~~/.emacs.d~.
+Base setup.
+
+** Getting Fancy
+Advanced features, zsh and password-store.
+
+** Getting Emacs Help
+- C-h m, C-h k, C-h f, M-X.
+
+- C-h t :: tutorial.
+- C-h i :: info manual.
+
+** Installing Packages
+#:additional-elisp-packages
+
+** Integrating with Existing Config
+#:init-el
+
+** Conclusion
+
+* Guile Development Environment
+** Introduction
+We will set up a dev environment for guile projects.
+
+** Key Bindings
+Most of the hotkeys uses Control and CapsLock is rarely used.
+
+** Guix and rde
+https://git.savannah.gnu.org/git/guix.git
+https://git.sr.ht/~abcdw/rde
+
+** Environment Variables and dir-locals.
+zsh, direnv and envrc, dir-locals.
+
+** Better Emacs Configuration
+- smartparens
+- monocle
+- vterm
+- corfu
+- geiser
+
+** Geiser
+- make repl/connecting to the repl
+- eval
+- go-to-definition
+- imenu
+
+** Conclusion
+With just a few lines of code we got carefully crafted emacs configuration suitable for a complete and nice development environment.
+
+* Organizing Configuration
+** Introduction
+** Load Paths
+** Modules
+** Per-user and Per-host Conifgurations
+** Env Variables for Obtaining Different Values
+** Conclusion
+
+* Emacs Training
+** Menu Bar
+** Tutorial
+Basic movements, universal argument.
+
+** Keymaps
+** Buffers and Windows
+** Completion Styles
+- orderless
+- partial-completion
+
+** Minibuffer History
+~M-p~, ~M-n~, ~M-r~.
+
+** Finding File
+- ~M-n~ :: file under point.
+- partial-completion
+- project file
+
+** Project
+** Compilation
+** Consult Interfaces
+- grep
+- imenu
+- buffers
+
+** Conclusion
+- Mnemonics.
+- Primary keymaps.
+- Interface Consistency and Reusability.

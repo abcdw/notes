@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       0797fd89-d09a-4aa4-a5af-eb7921bd1093
+:END:
+#+title: Prompt Engineering
+
+https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+https://fosstodon.org/@mark_watson@mastodon.social/110277040866591249

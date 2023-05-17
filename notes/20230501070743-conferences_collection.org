@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       d72de459-2a8c-4d33-b3b2-4cd41498c900
+:END:
+#+title: Conferences Collection
+
+* Programming Languages
+- [[id:bc7fd84f-8c1a-488e-b5e1-51696cd536c8][Principles of Programming Languages (POPL)]]
+- [[id:6b02c6e0-ef4c-41db-872d-c5c69427c98a][Programming Language Design and Implementation (PLDI)]]
+- [[id:367bfd82-7f8d-45cc-bdc9-968cb98f51ed][International Conference on Functional Programming]]
+- https://european-lisp-symposium.org/

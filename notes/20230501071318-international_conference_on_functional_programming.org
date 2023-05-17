@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       367bfd82-7f8d-45cc-bdc9-968cb98f51ed
+:END:
+#+title: International Conference on Functional Programming
+
+https://www.icfpconference.org/

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a65e1ad6-0dcd-4af1-b338-ca775af2e229
+:END:
+#+title: Maru
+
+Bootstrapping [[id:17d7f5b1-8ce1-41ff-8d59-ae4a02547ce8][Scheme]] (sexps evaluator).

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ca7f129a-c3e3-4161-81cc-da425c5e5dcc
+:END:
+#+title: Projectional Editors
+
+https://www.alexeyshmalko.com/20200830010958/
+https://github.com/yairchu/awesome-structure-editors

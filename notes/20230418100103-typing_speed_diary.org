@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8e91c205-f409-4d79-a150-1a25a9de3aeb
+:END:
+#+title: Typing Speed Diary
+
+| 2023-04-18 | 323 | 2% |

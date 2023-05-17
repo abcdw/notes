@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       987b2ade-4861-40e4-ab86-4be0ebb38e05
+:END:
+#+title: Monads

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       4dadff86-15a1-4048-90ef-68c8b70b7bd9
+:END:
+#+title: PinePhone Pro
+
+- https://github.com/NixOS/mobile-nixos/issues/440 :: various related information.
+- https://github.com/Schroedinger50PCT/guix-pinephone :: guix config.
+- https://fosstodon.org/@tom@mastodon.pirateparty.be/110097470837617466 :: next steps.

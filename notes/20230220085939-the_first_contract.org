@@ -19,26 +19,28 @@
 - No hired work, No micromanagement, only scope discussions/team consultancy.
 - Employee costs 40% more.
 
-* Compensastion
-** My rates
+* Numbers
+** Rates
 - 9800/week for on-site work.
 +5880 with 40% taxes.+
 20% of company over the year.
 
 *** Day of Training
 - 6850-20550 per day.
-- 685-2055 per ticket.
+- 685-2055 per ticket/person.
 
 ** Equity
 Usually they worth nothing, sometimes they can match the diff with higher
 salary.
 
 ** Avg Freelancer Rate
-120$/hour
-980$/day
-4900$/week
-21k$/month
-256k$/year
+120/hour
+980/day
+4900/week
+21k/month
+256k/year
+
+Sourcehut [[https://sourcehut.org/blog/2022-08-23-how-does-our-consultancy-work/][rates]]: 250/h for senior, 150/h for junior.
 
 * Can Provide
 - I reduce the complexity of the software.
@@ -48,9 +50,9 @@ salary.
 - Custom development.
 - Content marketing.
 - Team leadership.
-- Have high-skilled/PhD ML, Proof, Idris, CoQ, VR.
+- Have high-skilled/PhD ML, Proof, Idris, CoQ, VR contacts.
 - Consulting on development, ops and processes.
-
 
 * Links
 - https://training.kalzumeus.com/newsletters/archive/consulting_1
+- https://sourcehut.org/blog/2022-08-23-how-does-our-consultancy-work/

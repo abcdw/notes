@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2f78340f-1fa5-419f-a52d-aca4edf3ba25
+:ROAM_ALIASES: Exokernel
+:END:
+#+title: Unikernel
+
+An operating system targeted for one application.

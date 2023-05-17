@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       557ebd13-f1d1-46b5-96a2-f14e99685f42
+:END:
+#+title: The Kernel Programming Language
+
+[[id:17d7f5b1-8ce1-41ff-8d59-ae4a02547ce8][Scheme]] dialect, where everything (including usual special forms) is a
+first-class citizen.

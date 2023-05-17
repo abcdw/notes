@@ -19,3 +19,6 @@ An anchor for reference from materials related to compiler construction.
 - https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X
 - [[id:f9109ad4-dca8-4803-b036-cb2f9dc46b3c][CS 6120: Advanced Compilers: The Self-Guided Online Course]]
 - [[https://youtu.be/dOfucXtyEsU][CppCon 2018: Matt Godbolt “The Bits Between the Bits: How We Get to main()”]]
+- https://craftinginterpreters.com/
+- [[id:099b72de-99c3-4259-9a98-4498921e493c][An Incremental Approach to Compiler Construction]]
+- https://craftinginterpreters.com/representing-code.html

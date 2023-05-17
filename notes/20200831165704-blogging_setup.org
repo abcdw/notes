@@ -5,24 +5,34 @@
 
 - related :: [[id:4367e118-aaff-45a8-a037-e32f95c9411e][Blogging]]
 
+* Workflow
+One big org file for each year.  Switching from TODO to DONE makes item
+publishable.  Move/export to a separate file when finished?
+
 * Requirements
+** Need
+- Two blogs and a few pages.
+** Nice to haves
 https://kevquirk.com/my-static-site-workflow/
 - Easily insert links to other posts (ideally org-roam like C-c n i).
 - Drag & drop images into posts (org-download like + auto-optimize size).
 - Live preview, ideally updated on file save.
 - Human-readable anchors in generated html.
+- Embed git log at the end of the blog.
+- IPFS support?
 
 * Questions
-Do I want a [[id:04803bd5-5355-44cd-bea2-dfd6db5a4283][Gemini]] support?
-Do I need openring?
-Split tech and personal blogs?
-Clojure, Scheme?
-Webmentions? https://webmention.io/
-Footnotes, sidenotes?
-PDF version
-Responsivness?
-People I support page.
-Anchors for navigating on post page.
+- Webmentions? https://webmention.io/ :: not yet.
+- Do I want a [[id:04803bd5-5355-44cd-bea2-dfd6db5a4283][Gemini]] support? :: not yet.
+- Do I need openring? :: not yet.
+- Split tech and personal blogs? :: yes, I would like not to mix them.
+- Clojure, Scheme? :: clojure is too beefy dep.
+- Footnotes, sidenotes? :: yes.
+- PDF version :: not yet.
+- Anchors for navigating on post page :: not that neccessary, if post are small.
+- Responsivness? :: yes.
+- People I support page :: it's just a page with content.
+
 https://picocss.com/
 
 Analytics?
@@ -66,3 +76,4 @@ org-roam [[https://org-roam.discourse.group/t/are-there-any-repositories-of-good
 - https://blog.fidelramos.net/software/privacy-respecting-self-hosted-web-analytics :: [[id:81d12f93-6b14-4af6-bd17-bcb4a8a4c167][Plausible]] and other options.
 - https://bearblog.dev/ :: mimalistic blogging platform.
 - https://terminalcss.xyz/ :: nice-loking small css framework.
+- https://pikchr.org/home/doc/trunk/homepage.md :: diagram DSL.

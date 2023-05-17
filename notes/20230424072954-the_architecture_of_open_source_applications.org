@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9314f771-88c3-452a-9e08-97e07ea84294
+:END:
+#+title: The Architecture of Open Source Applications
+
+The book explaining the architecture of various open-source project.
+Seems like a good source of inspiration and a learning resource.
+
+https://aosabook.org/en/

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7fa4aac3-ee52-4201-b273-18ed9fddade4
+:END:
+#+title: Algebraic Effects
+
+Alternative to [[id:987b2ade-4861-40e4-ab86-4be0ebb38e05][Monads]] for controlled side effects.
+
+https://bobkonf.de/2023/loeh.html

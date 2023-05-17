@@ -1,0 +1,87 @@
+:PROPERTIES:
+:ID:       9e2cfeb2-7d01-4e42-ae4b-c89bd2af3d7e
+:END:
+#+title: The First Proposal
+
+* What needed
+** For Project
+First phase:
+- Community.
+- Attention via functional DevOps.
+- Reproducible Emacs distribution.
+- Port of Emacs distro to pinephone and raspberry.
+
+Second phase:
+- Cross-platform content-addressable distributed storage.
+- Ports of CPCADS to Platforms (pinephone for example), to get more attention through the mobile OS trend.
+- Import of current code to CPCADS.
+
+** For Team
+- Knowledge and skills on Lisp, RDD, TDD.
+- On FP.
+- On Guix and FPM.
+
+* We can
+Prepare team for the Project.
+- Setup a team to use Guix, Guile.
+- Dog fooding with Guix -> introduction to lisp, taste of fp, fpm + same dev
+  environment (easier to share work).
+- Find, make and share materials on lisp, Guix and provide support.
+
+Primary courses:
+- Theoretical FP 1 (Scheme, quoting, macros) 1 week.
+- Guix (Packaging, API, Services mechanism, Features mechanism, part of G-exps)
+  1 week.
+
+Additional courses:
+- Emacs Development (Basics of elisp, transient, consult, packaging) 1 week.
+- Practical FP (RDD, TDD, Structured Side-Effects, Monads, G-exps) 1 week.
+- Theoretical FP 2 (lambda calculus, SICP) 1 week.
+
+On consulting:
+- Do a consulting and help to solve hard problems, designing architecture,
+  managing development and reducing waste.
+- Help with Emacs Distro Development.
+- Help with preparing patches for Guix/rde/Emacs.
+
+I plan to keep working on those things anyway:
+- Develop guile-tree-sitter :: useful for import to CPCADS.
+- Develop ~gider~, a scheme dev environment :: useful for guile development, but
+  later can be used as dev environment for CPCADS.
+- Develop functional DevOps tooling.
+
+* The Value
+** Education
+avg middle dev salary: 80k euro/y -> 6.6k/m,
+4 people learning for one month will cost ~27k/m.
+
+I can teach the same 4 times faster:
+1 week course will cost 22k. It saves ~5k euro and 3 weeks of time.
+
+** Consulting
+4 full days of consulting for 5k/m.
+
+Think about result-based consulting.
+
+10% cut + discuss other options (help with reloc, housing, equipment, making the
+course public, design on website).
+
+* 3 more weeks in Turkey
+** Install guix, setup shared emacs config
+- Make a guix workshop.
+- Prepare a repo with shared config.
+- Make a shared config workshop (escape hatch?).
+- Prepare a repo with [[id:4dadff86-15a1-4048-90ef-68c8b70b7bd9][PinePhone Pro]] config.
+- Make a ppp image build workshop.
+
+** Write a course outline and prepare a contract
+- See how workshops go.
+- Make and discuss the outline.
+- Discuss other tasks (to make an estimate work).
+
+** Learn Istanbul
+- Rent a room for 5 days.
+- Perform a research on ikamet or other stuff.
+
+* Links
+https://sourcehut.org/blog/2022-08-23-how-does-our-consultancy-work/

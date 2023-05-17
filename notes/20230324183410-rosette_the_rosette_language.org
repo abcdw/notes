@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       9d903ae0-a24a-412f-a889-1e28c0792a64
+:END:
+#+title: The Rosette Language
+
+https://emina.github.io/rosette/
+
+Solver-aided programming language on to of Racket.
+
+https://homes.cs.washington.edu/~emina/media/cav19-tutorial/index.html

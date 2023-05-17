@@ -29,10 +29,13 @@ part of the file and call it "old-logs". GC will be a little
 problematic, when application is using the "file", but probably
 solvable. But maybe it also solvable with another program(function)
 for logging ala syslog udp api.
+
 * Programs
 Program don't have to be a collection of bytes, it can be a collection
 of functions or other high-level objects. Lisp machines and smalltalk
 is a good example of such approach.
+[[id:a3dddfa9-a737-4ff1-ad7b-1bb8ce1d1a3e][The Unix process API is unreliable and unsafe]].
+
 * Data
 Currently programming is about transforming data from one format to
 another + a little logic to process it. In Unix every program is a

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       536bea14-0adf-43ab-a56b-7a847fe12fea
+:END:
+#+title: Hygienic Macros
+
+[[https://www-old.cs.utah.edu/plt/publications/popl16-f.pdf][Binding as Sets of Scopes]] :: article about hygienc racket's macro
+expander without renaming.

@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       095537b3-4f7b-46e6-b90d-34a1a64cf1b9
+:END:
+#+title: Lalambda School Course 2023
+
+* Introduction (Modern Lisps)
+
+Tired of waiting for the whole project to recompile just to test a minor change? Do you have an itch caused by the lack of a particular feature in your programming language? Have you always wanted to explore the magical world of Lisp but didn’t know which dialect to pick or where to start? This course has answers to those questions and almost a decade of professional Lisp experience to share with you.
+
+Functional programming is no surprise nowadays, but combining it with REPL and TDD to execute code, check it, and see the results as you type is not that common. All our practice will be highly interactive, programs are easily runtime-introspectable, and feedback loops are as short as possible.
+
+In addition to REPLs, Lisps are also famous for their homoiconicity and macros, and during the course, we will do a lot of meta-programming: from adding missing language features to creating data-driven eDSLs and interpreters for them. We will embed one Lisp dialect into another, launch the same code in different runtimes, and do markup, styling, database querying, data transformation, all in a single language.
+
+Of course, we will cover a brief history of Lisp language family, take a look at the basic building blocks, elegance and simplicity of the syntax, learn about what is so special about Lisp macros, discuss primary differences of various dialects, and try to understand which option is right for which task.
+
+After that, we will go all the way down with Lisp: from configuring a text editor in Elisp and building a web application in Clojure(Script) to describing the whole operating system and deploying it to the server using Guile Scheme and Guix
+
+* Day 1: Lisps and a Bit of History
+- Initial Dev Environment Setup.
+- REPL, Lisps Basics.
+
+* Day 2: Scheme
+- Macros and Meta-programming.
+- First Lisp Interpreter in Lisp.
+
+* Day 3: Clojure
+- Modern Lisp Dialects.
+- Real-world Application.
+
+* Day 4: DSLs
+- Classical DSLs.
+- Data-driven DSLs.
+
+* Day 5: Lisps All the Way Down
+- Operating Systems Configuration in Scheme.
+- A Complete Development Cycle in Lisps.

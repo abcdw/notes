@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       53bbe33d-fefb-485d-b888-e5d04c9914d1
+:END:
+#+title: Mail Providers
+
+- gandi.net
+- mailbox.org
+- www.migadu.com
+
+https://fosstodon.org/@abcdw/107591821459438659

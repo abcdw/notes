@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       64d654f2-aa9a-465a-95bb-2a510c65b925
+:END:
+#+title: 10 Usability Heuristics for User Interface Design
+
+https://www.nngroup.com/articles/ten-usability-heuristics/

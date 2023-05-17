@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       d972f279-4ef8-4bae-91ce-653a5d6dbb40
+:END:
+#+title: Guile Quirks
+
+A list of problematic places in Guile.
+
+* Maybe
+It's not clear how to handle maybe values. e.g. guix service field value without
+default value.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       71a70594-82bf-41a8-b242-5646cd47c085
+:END:
+#+title: Hangboard Protocols
+
+[[https://youtu.be/0rAkLqk3UXM][Hangboard Training 2 times per day for 2 years]]

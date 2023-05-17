@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       35c6c15c-e228-41ea-903e-8b6958d36ab3
+:END:
+#+title: Modern Lisps Course
+
+** DSLs
+The way to build vocabularies for each level of abstraction.  It's
+bottom-up approach for building systems and is more robust to
+propagating changes from lower levels of abstraction.

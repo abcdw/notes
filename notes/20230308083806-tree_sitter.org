@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       f4efaca0-58f5-4ee2-886d-6a9ec8685db0
+:END:
+#+title: Tree-sitter
+
+[[https://derek.stride.host/posts/comprehensive-introduction-to-tree-sitter][A Comprehensive Introduction to Tree-sitter]]
+
+Implementation notes on [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][emacs]] consult extensions based on tree-sitter:
+https://magnus.therning.org/2023-03-27-cabal,-tree-sitter,-and-consult.html
+https://magnus.therning.org/2023-03-30-more-on-tree-sitter-and-consult.html

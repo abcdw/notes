@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       f622b807-8e0f-42ba-9c56-2321d04a3083
+:ROAM_ALIASES: "Tropin Paper Reading Group"
+:END:
+#+title: trop.in/prg
+
+* Introduction
+An event, where we summarize and discuss papers.  Paper Hacking Group.
+
+* How To
+http://muratbuffalo.blogspot.com/2015/05/how-to-run-effective-paper-reading.html
+http://www.wucathy.com/blog/wp-content/uploads/2016/07/2012-How-to-lead-a-technical-reading-group-Cathy-Wu.pdf
+
+- Collect questions beforeahead.
+- Prepare a written review of the paper.
+
+* Papers
+- https://fexpr.blogspot.com/2011/04/fexpr.html
+- [[https://youtu.be/QNM-njddhIw][Delimited Continuations for Everyone by Kenichi Asai]]
+- [[https://www-old.cs.utah.edu/plt/publications/macromod.pdf][Composable and Compilable Macros]]
+
+* Resources
+- https://github.com/papers-we-love/papers-we-love
+- https://sci-hub.st

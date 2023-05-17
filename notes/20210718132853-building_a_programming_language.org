@@ -6,12 +6,21 @@
 * Ideas
 This is mix of problem/possible solutions.
 
-** Program serialization is doomed
+** Program representation is doomed
 The program is get serialized as a text. Loading or compiling it may result in
 execution of arbitrary code. Parsing text files is hard, messing up text files
 is easy. Dependencies are not a part of the source code/project, they are
 managed by another tool or usually tools and it's usually bloated and non
 reproducible.
+
+It's not possible to use spaces in variable names.
+
+[[id:6b3de564-e6a3-4cba-ae58-b2bba5a6b815][Structured editing]], understanding of the context, navigation is hard.
+
+Moldable development - excel could be atomic and really meaningful for software
+development.
+
+Patches, line-oriented diffs and vcs are suboptimal.
 
 ** Dependecy management is doomed
 Even in guix they are bloated and referenced by label.
@@ -28,6 +37,13 @@ means: for example ~abs~ can be found in both (lang math) and (lang arithmetic)
 "modules", but it doesn't mean there are two versions of ~abs~, it's just too
 "module-queries", which both include the same ~abs~.
 
+** Reification is doomed
+Providing an object representing some device, or sharing object of another
+program is hard.  You can't just pass the object from one program to another,
+you usually serialize it to text/binary format and then read/eval it.
+
+Emacs, Nyxt integration.
+
 ** Bootstrapping is doomed
 Let's make a minimalistic relatively high-level language and build other
 languages on top of it.
@@ -42,13 +58,27 @@ have only modules required for parsing and execution of it, so we can easily
 build a closure "a slim version of nginx for this particular config", which is
 just an rtmp proxy without http and all other unneded stuff.
 
+https://systemreboot.net/post/deploy-scripts-using-g-expressions
+
 ** Security is doomed
+Everything can access almost everything, ambient authority all over the place,
+there are a bunch of hacks and workarounds like containers, syncronization
+mechanisms, permissions and access lists. Almost all the source code is not
+signed => doesn't have a verifiable authorship.
+
+https://medium.com/agoric/pola-would-have-prevented-the-event-stream-incident-45653ecbda99
+
 Values should be immutable => thread/IPC safe and sharable. Process/function
-should have access only to things explicitly passed to it.
+should have access only to things explicitly passed to it, Side effects should
+be absolutely limited.
+
+* Questions
+** How to provide security updates?
 
 * Materials
 ** Language Foundations
 Read the book about programming languages
+[[https://techreports.cs.unc.edu/papers/87-011.pdf][Three Implementation Models for Scheme]]
 [[id:ec056814-d1fb-49ee-b4cd-a71840bca1ee][Practical Foundations for Programming Languages]]
 https://justinethier.github.io/cyclone/docs/r7rs.pdf
 
@@ -56,6 +86,12 @@ https://justinethier.github.io/cyclone/docs/r7rs.pdf
 https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/
 https://pragprog.com/titles/7lang/seven-more-languages-in-seven-weeks/
 https://dmkpress.com/catalog/computer/programming/978-5-94074-539-6/
+
+** Security
+[[id:e08bd26b-3df9-4d36-8887-3a503c1b7e0d][What Are Capabilities?]]
+
+[[https://www.ponylang.io/discover/#what-is-pony][pony langy]] :: open-source, object-oriented, actor-model, capabilities-secure,
+high-performance programming language.
 
 ** Macros
 https://matt.might.net/articles/metacircular-evaluation-and-first-class-run-time-macros/
@@ -68,6 +104,8 @@ https://beautifulracket.com/appendix/thoughts-on-rhombus.html
 - https://www.draketo.de/software/guile-10x
 
 ** Examples
+*** Other interesting languages
+https://www.ponylang.io/discover/#what-is-pony
 *** Clojure flavoured
 - Jannet
 - Carp

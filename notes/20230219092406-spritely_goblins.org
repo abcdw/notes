@@ -6,3 +6,4 @@
 [[https://youtu.be/nhhKzjT9uZI][David Thompson on Growing a Community with Spritely Goblins]]
 https://vvv.gay/goblins/hello-goblins/
 https://garbados.github.io/my-blog/conceptual-intro-to-spritely-goblins.html
+https://spritely.institute/news/introducing-a-distributed-debugger-for-goblins-with-time-travel.html

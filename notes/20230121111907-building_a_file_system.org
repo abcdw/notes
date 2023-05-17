@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       4f3b95e9-e04b-4f83-850b-ee88c156dd88
+:ROAM_REFS: https://github.com/unum-cloud/ustore
 :END:
 #+title: Building a File System
 
@@ -7,4 +8,9 @@ It's not necessary a usual file system, but something similiar by it's purpose.
 
 https://arrow.apache.org/
 
+[[id:531d94b0-a199-41a1-b375-53e1862ccf97][UStore]]
+
 https://karl-voit.at/2020/01/25/avoid-complex-folder-hierarchies/
+
+https://youtu.be/WOcdIBiWpkQ?t=555 :: immutable distributed content-addressable
+clojure like data structures and data types.

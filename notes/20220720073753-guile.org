@@ -8,5 +8,6 @@ Scheme dialect used in [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][GNU Guix]].
 * Links
 - https://vijaymarupudi.com/blog/2022-02-13-error-handling-in-guile.html
 - https://spritely.institute/news/the-spritely-institute-publishes-a-scheme-primer.html
-
-
+- https://notabug.org/ZelphirKaltstahl/awesome-guile/src/master/list.md :: a
+  cool list of guile resources.
+- https://sph.mn/foreign/guile-software.html

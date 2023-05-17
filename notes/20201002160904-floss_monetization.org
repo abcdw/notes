@@ -18,6 +18,7 @@
   functionality.
 - contracts with other business.
 - grants.
+
 * Other options
 ** Support subscription
    (Red Hat, SUSE, Nextcloud)
@@ -33,16 +34,19 @@
    legal expertise, specific stack expertise.
 
 * Links
-- https://youtu.be/2L1U2KpSgk8 :: Almost all monetization options for [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] project
-- [[https://braindump.rasen.dev/20200409124227][Open source business models]] :: a note by Alexey Shmalko
-- [[https://drewdevault.com/2021/03/03/To-make-money-in-FOSS-build-a-business.html][To make money in FOSS, build a business first]] :: post by Drew DeVault
+- [[https://news.ycombinator.com/item?id=25161220][There's Still No Viable Open Source Business Model]] :: despite the
+  name, HN comments has a lot of intresting ideas on the topic.
+- https://youtu.be/2L1U2KpSgk8 :: Almost all monetization options for [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] project.
+- [[https://braindump.rasen.dev/20200409124227][Open source business models]] :: a note by Alexey Shmalko.
+- [[https://drewdevault.com/2021/03/03/To-make-money-in-FOSS-build-a-business.html][To make money in FOSS, build a business first]] :: post by Drew DeVault.
 - https://blog.opencollective.com/funds-for-open-source/ :: ?
 - [[https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html][A New Future for GnuPG]] :: GnuPG has an income from commercial
   contracts, which is enough to sustain the work on the project
   without donations.
 - [[id:35d249ba-10c2-4358-83a5-0ff82486a802][fosspay]] :: self-hosted donation platform.
-- https://opensource.com/article/17/1/cultivating-business-foss-market
-- https://www.slideshare.net/thilinaj1/foss-business-model
-- https://www.investintech.com/resources/blog/archives/7975-pros-cons-open-source-business.html
-- https://www.opensourceforu.com/2009/08/deeproot-and-youre-saying-theres-no-money-in-the-foss-business/
-- https://www.researchgate.net/publication/228465137_Business_models_in_FLOSS-based_companies
+- [[https://www.slideshare.net/thilinaj1/foss-business-model][Foss business model]] :: some random slides from internet.
+- [[https://www.investintech.com/resources/blog/archives/7975-pros-cons-open-source-business.html][Pros & Cons of Open Source in Business]] :: can give some insights on
+  what to monetize.
+- [[https://www.opensourceforu.com/2009/08/deeproot-and-youre-saying-theres-no-money-in-the-foss-business/][And You’re Saying There’s No Money in the FOSS Business?]] :: random article.
+- [[https://www.researchgate.net/publication/228465137_Business_models_in_FLOSS-based_companies][Business models in FLOSS-based companies]] :: an article/research
+  published in 2007.

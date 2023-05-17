@@ -16,23 +16,18 @@
 - http://okmij.org/ftp/ :: home page without any fancy css, well
   structured, not time order, but has ~recent changes~ page. Link found
   in [[info:guix#G-Expressions][info:guix#G-Expressions]]
-- https://rce.sh/ :: Danish Police Officer, geeky, but cool design of
-  webpage
 - https://kl.wtf/ :: nice markdown like home page.
 - https://www.gwern.net :: found by a review for [[id:7178cb7a-8554-4a2a-a534-57d90fd13443][Worm (Parahumans
   series)]], has a changelog, subreddit, mailing list. Author do haskell
   programming, has a relationship to [[id:9daaec39-638d-4d78-a268-a6be03a92c28][LessWrong]] community blog.
-- https://www.ying-ish.com/essay/easy-hugo/ :: hugo, org mode, [[id:e6ea3c52-b620-40e7-84ff-e0628afd5557][Emacs]].
-- https://www.saschawunderlich.de/notes/ :: Minimalistic look,
-  Clojure, Emacs, Academia.
 - https://blog.aaronbieber.com/ :: Nice, simple, author uses org.
 - https://yarmo.eu/ :: minimalistic site from keyoxide founder, liked
-  /now page.
+  /now page idea.
 - https://nikhilthota.com/ :: Engaging, has travel, second brain and
   other sections.
-- https://takeonrules.com/ :: Nice, minimalistic, hugo, emacs user.
 - https://jakob.space/pages/about.html :: haunt, lisp.
-- https://wilw.dev/blog/ :: hugo, lightweigh, green, simple design.
+- https://wilw.dev/blog/ :: hugo, lightweight, green, simple design,
+  has notes/digital garden, available via gemini.
 - https://shom.bandopadhaya.com/photos/ :: Nice photos page.
 - https://schnouki.net/about-me/ :: Looks like gemini page, but a
   little fancier, have book reviews.
@@ -40,13 +35,22 @@
 - https://jvns.ca/blogroll/ :: Well-organized, a lot of content, but
   simple representation.
 - https://lambdaland.org/ :: technical blog, personal blog, cv, etc.
-- https://daniel.haxx.se/ :: Author of curl, unclurled, etc.
+- https://daniel.haxx.se/ :: Author of curl, uncurled, etc.
 - https://vadimkravcenko.com/shorts/software-development-subjective/ :: Clean, simple, popular.
 - https://blog.meain.io/about/ :: nice about page, clean monochrom CV pdf.
 - https://te.xel.io/quotes/ :: quotes!
+- https://bt.ht/webfonts :: Really minimalistic with system fonts.
+- https://inqlab.net/ :: pukkamustard haunt blog.
+- https://www.cs.cornell.edu/~asampson/contact.html :: Simple, nice
+  navigation on top, FAQ in contacts, Advanced Compilers and PLs
+  courses author.
+- https://git.mianmoreno.com/blog/tree/haunt.scm :: minimal haunt-based.
+- https://shishkin.org/ :: two pane layout.
 
 * Setup guides
 - https://othacehe.org/hosting-a-blog-using-only-scheme.html :: huant.
 - https://edwardtufte.github.io/tufte-css/ :: css with nice side-notes.
 - https://git.sr.ht/~sircmpwn/pages.sr.ht-examples/tree/master/item/haunt.yml :: sourcehut
   pages haunt example.
+
+(string-join (reverse '("example.com" "@" "email" "." "my")))

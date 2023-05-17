@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       682903b4-9e63-4855-b614-9b2f1a70c4b4
+:END:
+#+title: Scheme Macros
+
+Various materails on Scheme macros topic.
+https://github.com/mnieper/scheme-macros

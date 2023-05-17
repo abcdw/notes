@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       afc14842-58b7-4f16-b8e1-cff7c5cf93e9
+:END:
+#+title: Nanopass Compiler
+
+Compiler framework with very tiny passes.
+https://youtu.be/Os7FE3J-U5Q

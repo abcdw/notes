@@ -2,3 +2,5 @@
 :ID:       b3a28d6b-71d4-4b8b-b4f2-5ce52466b6c4
 :END:
 #+title: Usability
+
+[[id:64d654f2-aa9a-465a-95bb-2a510c65b925][10 Usability Heuristics for User Interface Design]]

@@ -1,0 +1,100 @@
+:PROPERTIES:
+:ID:       6a336b4f-6eef-4fc4-ac7f-f4b7fb8605ae
+:END:
+#+title: rde Showcase
+
+* Introduction
+- FP and FPM.
+- Closures.
+- Integration examples.
+- Home environment internals.
+- Project environment management.
+
+** Terms
+- Operating System :: /etc /bin /lib, kernel, bootloader.
+- Home Environment :: ~/.configs ~/bin.
+- Project Environment :: virtualenv, but for the whole project.
+
+In reality, there is no much difference between them.
+
+** History
+The latest encounter: My PHD friend from Cambridge was fighting with setting up
+a python ml project dev environment for a week.
+
+- It's hard to setup a dev environment for a new project.
+- Instructions/tutorials are hard to follow and breaks with time.
+- Dotfiles and /etc/configs are not standalone.
+- Operating systems are unbelievably hard to cleanup and maintain in general.
+- It's almost impossible to have a few different versions of the same
+  package/lib and stay sane.
+- Virtualenvs are an interesting step, but they are inefficient and works only
+  for python deps.
+
+* Introduction to FPM
+** What is FP?
+- Purity :: for testability, reasonability and overall satisfaction :)
+- In-place programming and value of values :: facts stating, comments example.
+** Persistent data structures
+How to not screw up the performance and not to take up all the free space.
+** FP for package managers
+- usual approach :: just remove some random files, add some random files, leads to eventual consistency and doesn't play well in long term.
+- functional approach :: f(config, versions) = system/environment, link to it.
+
+** Why it is important?
+- You get a new version of the environment every time you build it and you can easily roll back in case something broken.
+- If you build it once, it will work forever.
+- You never need to repeat what you've already done.
+
+* Small Recap
+There is system, home, project environment.
+
+f(config, channels) => environment + activation script.
+
+vterm example
+
+* Closures
+An entity with all it's dependencies. Inlining example.
++ ~xdg-open ./~ from feature-dired.
++ mailto, gopher
++ magnet, torrent files.
++ browser link (the bookmark right now added manually).
+
++ ripgrep example
++ docker
++ swaylock
++ networking
++ mail
+
+* Adaptive integration
+** vterm
+https://github.com/akermu/emacs-libvterm
+https://github.com/akermu/emacs-libvterm#shell-side-configuration
+- consult-yank.
+- pwd integration.
+
+* Break
+
+* Home Environment
+How it looks and builds, how the dependency graph becomes a real software
+distribution.
+- profile :: all the binaries libraries and configurations.
+- activation :: side-effectful installation script.
+- setup-environment :: entry point.
+
+* Minimal Emacs
+How to cut out and extract parts of the environment and instantiate it.
+
+* Conclusion
+- It's cool and already works!  The whole computing environment setup from one
+  configuration file.
+- It maybe not easy yet, but simple and delightful.
+- For last 2 years I never found myself in a situation with broken project env,
+  emacs or system.
+- It made it possible to implement very sophisticated well-integrated
+  emacs-based distribution with almost no regressions.
+- It's a big step towards structured or symbolic computing environments.
+
+
+* Interesting Future Topics
+** REPL
+** TDD

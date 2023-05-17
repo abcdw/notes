@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bc7fd84f-8c1a-488e-b5e1-51696cd536c8
+:END:
+#+title: Principles of Programming Languages (POPL)
+
+Conference on programming languages
+http://www.sigplan.org/Conferences/POPL/

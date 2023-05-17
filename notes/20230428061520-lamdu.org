@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       2d477057-280a-408a-a010-4ab728d2ff22
+:END:
+#+title: Lamdu
+http://www.lamdu.org/
+
+Programming language + projectional editor, with type inference and no
+syntax errors.

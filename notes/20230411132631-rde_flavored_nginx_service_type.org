@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       fbcd755a-bab3-460c-a5ff-2da70f148d78
+:END:
+#+title: rde Flavored Nginx Service Type
+#+filetags: :Stream:
+
+* Introduction
+I solve interesting problems and do a lot of FOSS development along
+the way, you may know me as an author of Guix Home and rde projects or
+maybe for something else.
+
+* Tasks
+- Explain why we need a separate implementation.
+- Make an nginx-service-type.
+
+* FOSS Business Updates
+- Contract on Guix/rde based Dev Environment and Education.
+- Possible projects.
+- More updates will be on [[https://fosstodon.org/@abcdw][fosstodon.org/@abcdw]].
+
+* Conclusion
+- I can keep working on rde and Guix.
+- I can finally start program my infrastructure in Scheme.
+- Hope you will find this work useful for educational and practical
+  purposes.

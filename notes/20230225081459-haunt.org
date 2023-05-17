@@ -6,8 +6,10 @@
 guile blog engine
 
 * Setup
-https://othacehe.org/hosting-a-blog-using-only-scheme.html
-https://jakob.space/blog/transition-to-haunt.html
+- https://othacehe.org/hosting-a-blog-using-only-scheme.html
+- https://jakob.space/blog/transition-to-haunt.html
+- https://elais.codes/deploying-this-site-with-ipfs-and-scheme.html
+- [[id:b8df439d-40e6-41bf-8273-9aabcf11aa15][Blog Examples Collection]]
 
 * Syntax highlight
 https://git.dthompson.us/blog.git/tree/markdown.scm#n46

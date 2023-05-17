@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       c5ccf550-6d91-4211-9e16-d3bddf011dce
+:END:
+#+title: 1 Week Guix Introduction Course
+
+* Day 1: Initial Setup
+** Part 1
+*** Setup, build, Guix REPL, LOAD PATHs
+*** Getting Help
+** Part 2
+*** Packages and Build Systems
+
+* Day 2: Reproducibility and Dependencies
+** Part 1
+*** G-expressions
+** Part 2
+*** Channels and Profiles
+
+* Day 3: Operating System
+** Part 1
+*** Guix Services
+** Part 2
+*** Operating System
+
+* Day 4: DevOps
+** Part 1
+*** Guix Deploy
+** Part 2
+*** Home Environment
+*** Integration with OS
+
+* Day 5: Provisioning Userspace Software
+** Part 1
+*** rde Features
+** Part 2
+*** Building a Complete Distribution
+
+* Day X: Contributing to Upstream

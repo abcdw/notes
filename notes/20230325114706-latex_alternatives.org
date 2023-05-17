@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       407f7ac4-1a66-4f90-8e9c-5a37dae386c4
+:END:
+#+title: LaTeX Alternatives
+
+https://github.com/typst/typst :: simpler, but probably almost the same powerful
+alternative written in Rust.

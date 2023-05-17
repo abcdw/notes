@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       87b07483-e45b-4bb4-9b12-13905fb547c0
+:END:
+#+title: Trying out Haunt
+#+filetags: :Stream:
+
+* Introduction
+Have you ever thought how to manage your own web page or blog?
+
+There are a plenty of options from SSG to full-fledged CMS and blog
+engines and today we will cover one of them
+
+
+I'm Andrew Tropin, I solve interesting problems and do a lot of FOSS
+development along the way, you may know me as an author of Guix Home
+and rde projects or maybe for something else.
+
+* Why SSG?
+Prevents repetition and makes it content first.
+
+* Why Haunt?
+Minimalistic, hackable, written in Scheme.
+
+* What to Try
+- Build a minimal blog.
+- A few pages + 2 blogs.
+- Shared css and header/menu.
+- Rebuild on change.
+- Using without CLI.
+- Building a guix package.
+
+* Conclusion
+- It's indeed minimalistic and hackable, and anyone can study it in a
+  reasonable amount of time, modify or throw out parts they want or
+  doesn't need easily.
+- Try out haunt yourself.

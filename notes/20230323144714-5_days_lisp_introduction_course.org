@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       d932f539-844b-4f42-b813-1ed53db32d63
+:END:
+#+title: 1 Week Lisp Introduction Course
+
+* Day 1: Basics
+** Part 1
+*** Setup
+*** Basic Types
+*** Function Application
+*** Getting Help
+info, geiser doc
+**** Links
+- https://spritely.institute/static/papers/scheme-primer.pdf :: very brief
+  basics.
+- https://mitpress.mit.edu/9780262560993/the-little-schemer/ :: a lot of small drills.
+- https://scheme.com/tspl4/ :: comprehensive scheme introduction.
+** Part 2
+*** defines
+Variables, procedures.
+*** lets
+*** values
+
+* Day 2: List, Control flow
+** Part 1
+*** Conditionals
+Comparison
+*** Iteration, Recursion
+** Part 2
+*** Lists, Pairs
+InsertR, InsertL, subst
+
+* Day 3: Code Transformation and Evaluation
+** Part 1
+*** Quotes and Quasiquotes
+** Part 2
+*** Macros
+
+* Day 4: Debugging
+** Part 1
+*** Closures
+** Part 2
+*** Iteration and Recursion
+- backtraces
+
+* Day 5: Libraries and Modules
+** Part 1
+*** ice-9
+- modules
+- pattern-matching
+- IO
+- FS
+** Part 2
+*** SRFI
+- collections
+- records
+- tests and TDD

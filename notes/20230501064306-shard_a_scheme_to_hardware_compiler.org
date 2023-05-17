@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9bab9ded-65d9-4d1b-b560-e3e7ed952be8
+:END:
+#+title: SHard: a Scheme to Hardware Compiler
+
+http://scheme2006.cs.uchicago.edu/05-saint-mleux.pdf

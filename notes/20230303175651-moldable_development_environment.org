@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       a22ecbab-ebe1-4ef5-a1f6-caeb026c32ee
+:END:
+#+title: Moldable Development Environment
+
+UI objects are first class citizens of programming language.
+
+https://codeberg.org/mmontone/mold-desktop
+https://gtoolkit.com/

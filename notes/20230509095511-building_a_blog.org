@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       e090bb19-94cd-4161-9c37-cf44d54b4e47
+:END:
+#+title: Building a Blog
+
+* Introduction
+Last time we explored the basics of Haunt, static site generator by
+David Thompson written in Scheme.  It's the second part of the series,
+where we try it for practical application.
+
+I'm Andrew Tropin, I solve interesting problems and do a lot of FOSS
+development along the way, you may know me as an author of Guix Home
+and rde projects or maybe for something else.
+
+* Small Recap
+We use SSG to prevent repetition and makes it content first.  We use
+Haunt, because it is minimalistic, hackable, written in Scheme (which
+is relatively thin on dependencies, fast enough and also my primary
+language ATM).
+
+Started experimenting with Haunt in REPL.
+
+* Plan
+- Use without CLI.
+- Take a look at basic haunt primitives.
+- Move org static pages to haunt-suitable HTML.
+- Build a minimal blog.
+- Make a shared css and navigation.
+- Build a guix package.
+
+* Notes
+- Think about blogging workflow ox-haunt or md or something else.
+- How to sync org-roam and blog posts.
+
+* Conclusion
+- It's thin on dependencies and works in the REPL.
+- Haunt kinda locks in with SXML representation.
+- Even if something won't work as I expect, I will be able to change
+  or reimplement it my way.

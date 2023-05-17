@@ -4,3 +4,4 @@
 #+title: ThinkPad
 
 - https://jp.mercari.com/item/m39858645438 :: Japanese keyboard x1 nano.
+- https://www.xyte.ch/ - modified thinkpads.

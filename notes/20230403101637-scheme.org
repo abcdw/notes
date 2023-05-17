@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       17d7f5b1-8ce1-41ff-8d59-ae4a02547ce8
+:END:
+#+title: Scheme
+
+Minimalistic well-defined Lisp dialect.
+
+https://scheme.org
+https://conservatory.scheme.org/schemers/Documents/Standards/R5RS/

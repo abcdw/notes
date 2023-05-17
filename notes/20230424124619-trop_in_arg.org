@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       aa9c9345-a2ae-4ae9-a1d5-a5e9d7bda520
+:ROAM_ALIASES: "Tropin Architecture Review Group"
+:END:
+#+title: trop.in/arg
+
+* Introduction
+An event, where we study and learn already exitsting software and its
+architecture.  Architecture Hacking Group.
+
+* Resources
+- https://aosabook.org/en/
+- https://www.unison-lang.org/whats-new/unison-services-preview/
+- [[id:7ec47431-b9a1-445b-9f6e-ea1a7f5d1813][Spritely Goblins]]

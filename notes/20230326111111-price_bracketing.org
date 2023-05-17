@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bce2e3ee-fd26-49e0-96e4-85659b496c15
+:END:
+#+title: Price Bracketing
+
+Say price before showing it.
+Call big number first. 20k$-10k$.

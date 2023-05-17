@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       531d94b0-a199-41a1-b375-53e1862ccf97
+:END:
+#+title: UStore
+
+Bare-metal KV-store.
+
+https://youtu.be/ybWeUf_hC7o :: Designing the fastest ACID Key-Value
+Store, brief history of modern dbms, fs', apis and how to make
+high-performant kv store without fs.  Integrates well with Apache
+Arrow.  Why we don't put video files directly into database?  Also,
+propose a standard for kv storage with swappable backends.

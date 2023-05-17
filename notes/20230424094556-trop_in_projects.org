@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3ccca218-86db-4d2a-aa70-d9b7cdbf4ac7
+:END:
+#+title: trop.in/projects
+
+- Paper Reading Group :: Reading scientific papers and learn important concepts.
+- Software Architecture Overview :: As architects learn from other architects works, Devs can learn from [[id:9314f771-88c3-452a-9e08-97e07ea84294][The Architecture of Open Source Applications]].

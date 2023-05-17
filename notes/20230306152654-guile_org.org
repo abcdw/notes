@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       418f436e-2e33-4181-af08-625d6df3f2ff
+:END:
+#+title: Guile Org
+
+There is a partial implementation:
+https://github.com/robert-lawrence/guile-orgfile
+
+Made a new one based on Tree Sitter using [[id:d5215425-f17b-4bfd-8843-23602ca0bf23][Guile FFI]]?
+https://tree-sitter.github.io/tree-sitter/using-parsers

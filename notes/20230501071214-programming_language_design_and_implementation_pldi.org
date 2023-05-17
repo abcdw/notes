@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       6b02c6e0-ef4c-41db-872d-c5c69427c98a
+:END:
+#+title: Programming Language Design and Implementation (PLDI)
+
+http://www.sigplan.org/Conferences/PLDI/

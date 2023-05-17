@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       255b20aa-7c6b-4078-aafa-00126dc8e48c
+:END:
+#+title: GreenArrays
+
+Ultra-low-powered multi-computer chips with integrated peripherals
+https://www.greenarraychips.com/

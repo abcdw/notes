@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       86170e47-322c-4f8b-b2e1-f91771c549fa
+:END:
+#+title: Problems of AI
+
+AI can kill humanity:
+https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities
+[[https://youtu.be/gA1sNLL6yg4][159 - We’re All Gonna Die with Eliezer Yudkowsky]]
+
+https://nymag.com/intelligencer/2023/03/on-with-kara-swisher-sam-altman-on-the-ai-revolution.html

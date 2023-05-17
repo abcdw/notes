@@ -15,4 +15,4 @@ https://bitcoin-vps.com/
 | vultr.com   |               |        | +   | +             | medium  |              | [[https://www.vultr.com/resources/faq/#billingpayments][BitPay]]     |
 | hetzner.com | +, expensive  | ?      | +   | + collocation | verylow | allowed      |            |
 | incognet.io | some          | -      | +   | -             | low     | + + +        | [[https://portal.incognet.io/knowledgebase/20/What-payment-methods-do-you-accept.html][many]], cash |
-
+| [[https://capsul.org/][capsul.org]]  | -             | -      | +   | -             | low     | + + +        | yes        |
