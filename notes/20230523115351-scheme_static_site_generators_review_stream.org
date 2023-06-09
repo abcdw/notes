@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       57a354f6-ccf7-4190-8072-d42796a46adc
+:END:
+#+title: Scheme Static Site Generators Review Stream
+
+* Introduction
+Curious what static site generators are available in Scheme world?
+How they work and how to improve them and related tools?  Today we
+will talk about it.
+
+I'm Andrew Tropin, I solve interesting problems and do a lot of FOSS
+development along the way, you may know me as an author of Guix Home
+and rde projects or maybe for something else.
+
+* Plan for Today
+- Talk about blog-stream workflow.
+- Take a brief look at article.

@@ -46,6 +46,9 @@
   courses author.
 - https://git.mianmoreno.com/blog/tree/haunt.scm :: minimal haunt-based.
 - https://shishkin.org/ :: two pane layout.
+- https://continuation.passing.style/ :: PL PhD page, cool domain,
+  racket-docs-like style.
+- https://emersion.fr/blog/ :: minimalistic monochrome.
 
 * Setup guides
 - https://othacehe.org/hosting-a-blog-using-only-scheme.html :: huant.

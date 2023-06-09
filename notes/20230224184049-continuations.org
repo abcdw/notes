@@ -4,10 +4,95 @@
 :END:
 #+title: Continuations
 
-aka call/cc.
+* Continuations
+The contiunations can be used to implement coroutines/green
+threads/fibers, exceptions, python's generators, backtracking, monads.
 
+call/cc is an abbreviation for call-with-current-continuation.
+
+#+begin_src scheme
+(define* (range #:optional (first 0) (last #f))
+  (define (get-elem return)
+    (let loop ((i 0))
+      (set! return (call/cc (lambda (k) (set! get-elem k) (return i))))
+      (if (and last (= i last))
+          'exit
+          (loop (1+ i))))
+
+    (return 'exhausted))
+
+  (define (generator)
+    (call/cc get-elem))
+
+  generator)
+
+(define rg (range 0 3))
+(rg)
+#+end_src
+
+
+* CPS
+Is a style of programming, where each function additionally accepts one argument function, which is a continuation and "returns" by calling it.
+
+The code becomes written inside-out.
+#+begin_src scheme
+(define (pyth x y)
+ (sqrt (+ (* x x) (* y y))))
+
+(define (pyth& x y k)
+ (*& x x (lambda (x2)
+          (*& y y (lambda (y2)
+                   (+& x2 y2 (lambda (x2py2)
+                              (sqrt& x2py2 k))))))))
+#+end_src
+
+Continuations are like callbacks.
+
+* Delimited continuations
+Delimited continuations is a generalization of continuations, it
+allows to slice the computation and provide only narrowed context.
+
+* MRV
+https://stackoverflow.com/a/45380365
+
+* Links
+
+https://en.wikipedia.org/wiki/Continuation
+https://archive.jlongster.com/Whats-in-a-Continuation
+https://www.cs.ru.nl/~freek/courses/tt-2011/papers/cps/histcont.pdf ::
+history of continuations.
+
+https://pages.lip6.fr/Christian.Queinnec/PDF/www.pdf :: contiunations
+in web programming.
+
+https://okmij.org/ftp/continuations/index.html
+
+https://en.wikipedia.org/wiki/Call-with-current-continuation
 https://cleare.st/code/call-cc-yin-yang-puzzle
 
-https://archive.jlongster.com/Whats-in-a-Continuation
 
 https://okmij.org/ftp/continuations/against-callcc.html
+
+https://www.gnu.org/software/guile/manual/html_node/Control-Mechanisms.html
+
+[[https://sci-hub.st/https://doi.org/10.1017/S0960129500001535][Representing Control: a Study of the CPS Transformation]] :: Introductory paper.
+
+* Delimited Continuations/Prompts
+
+[[https://youtu.be/QNM-njddhIw][Delimited Continuations for Everyone by Kenichi Asai]] :: talk in ocaml?
+https://github.com/papers-we-love/pwlconf-info/blob/master/2017/kenichi-asai/delimited-continuations-for-everyone.pdf
+
+https://youtu.be/uwiaT3MoDVs?t=1236 Andy Wingo explains on simple
+examples.
+
+Section 5 of [[id:3245ee91-cc6a-40f7-bec6-47b4033d3856][A Practical Approach for Describing Language Semantics]].
+
+* Dynamic Wind
+Non-local escape/reenter guards/cleanups.
+
+* Web
+https://wayback.archive-it.org/all/20120905083130/http://double.co.nz/pdf/continuations.pdf
+https://pages.lip6.fr/Christian.Queinnec/PDF/www.pdf
+
+* Other stuff
+Continuations used by type-safe(!) `printf'

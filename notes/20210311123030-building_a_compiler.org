@@ -22,3 +22,4 @@ An anchor for reference from materials related to compiler construction.
 - https://craftinginterpreters.com/
 - [[id:099b72de-99c3-4259-9a98-4498921e493c][An Incremental Approach to Compiler Construction]]
 - https://craftinginterpreters.com/representing-code.html
+- https://wingolog.org/archives/2023/05/20/approaching-cps-soup

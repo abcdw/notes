@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a04b058c-aaab-4f63-84e9-34489465171f
+:END:
+#+title: Email Tools
+
+https://sr.ht/~bzg/woof/ :: web UI for patches, bug reports, etc made
+by org devs.

@@ -50,3 +50,4 @@
 - [[https://www.opensourceforu.com/2009/08/deeproot-and-youre-saying-theres-no-money-in-the-foss-business/][And You’re Saying There’s No Money in the FOSS Business?]] :: random article.
 - [[https://www.researchgate.net/publication/228465137_Business_models_in_FLOSS-based_companies][Business models in FLOSS-based companies]] :: an article/research
   published in 2007.
+- [[https://wikiless.tiekoetter.com/wiki/Business_models_for_open-source_software?lang=en][Business models for open-source software]] :: wiki article.

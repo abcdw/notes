@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e5007457-a300-498f-8239-ee73117f3ff9
+:END:
+#+title: Structured Logging
+
+https://fpsd.codes/clojure-bites---structured-logging-with-mulog.html

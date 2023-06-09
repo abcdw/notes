@@ -1,0 +1,62 @@
+:PROPERTIES:
+:ID:       70ccb38b-a90b-454c-925f-7fe12decc40d
+:END:
+#+title: rde Meetup #3
+
+* Introduction
+
+* Roadmap
+
+** What we Did
+https://lists.sr.ht/~abcdw/rde-announce/%3C87o7r52x9x.fsf%40trop.in%3E
+- Tests, Test-runners, CI and gider.
+- ADRs.
+- ChangeLog. https://git.sr.ht/~abcdw/rde/tree/master/item/CHANGELOG
+- A lot of feature improvements.
+
+** What is on the Way
+- NREPL :: lightweight and quite capable protocol for networked REPL.
+  A possible foundation for good Scheme tooling, one of them will be
+  alternative to geiser, beneficial for the whole Scheme community.
+
+- deps.scm (aka Project Management) :: a mix of nix flakes and
+  deps.edn. A tool for managing load-paths, channel locks, build
+  targets.
+
+- Better Guix API :: REPL-friendly wrappers and tools.  CLI is a good
+  bridge from usual distros, but API with a good REPL providing much
+  more pleasant experience.
+
+- Migration from Makefiles :: bloated, hard to follow and non-guily.
+- Migration from home-services :: deprecated and non-idiomatic.
+- Mail Subsystem Refactoring :: it's ok, it works, but can be much
+  better.
+- Superfeatures :: compound features for better config structure.
+  They are different from just least of features because can be
+  customized with arguments.
+- Better example configuration layout.
+
+- State Management :: crucial missing piece.  Certeficates, git
+  repositories, databases, password-store, etc.
+
+** Next Release
+In June.  Clean up, migration to fresh guix, all the accumulated
+updates in fresh ISO.
+
+** Conclusion
+We did a quite good progress in QA and automatization.  The next
+release is a summarization of all nice changes and new rde features.
+We are targeting an improvement of guile tooling and ecosystem.
+
+Polished experince and scalability more automation (release,
+documentation, etc), better documentation, test coverage and CI.
+
+* Modal Editing
+https://git.sr.ht/~whereiseveryone/
+
+* Documentation
+- Docstrings.
+- Manual.
+- ADR.
+- ChangeLog.
+- News.

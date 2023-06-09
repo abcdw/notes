@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       6fda0df9-3255-4f44-a897-e78f7873d966
+:END:
+#+title: CPS Soup
+
+Intermediate representation for guile languages.
+
+https://wingolog.org/archives/2023/05/20/approaching-cps-soup
+https://www.gnu.org/software/guile/manual/html_node/Continuation_002dPassing-Style.html
+https://spritely.institute/news/scheme-to-wasm-lambdas-recursion.html

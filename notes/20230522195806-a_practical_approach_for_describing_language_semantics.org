@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3245ee91-cc6a-40f7-bec6-47b4033d3856
+:END:
+#+title: A Practical Approach for Describing Language Semantics
+
+https://people.rennes.inria.fr/Alan.Schmitt/papers/programming_draft.pdf
