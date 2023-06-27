@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       d2ecf04a-ef62-44cf-a1f8-8904fec3ddea
+:END:
+#+title: Sovereign Tech Fund Improve FOSS Developer Tooling Challenge 2023
+
+* What open source infrastructure component would you like to contribute to? Please provide more details.
+
+There are a few subprojects, which are being developed under the hood of rde: Guix Home (already upstreamed to Guix proper), various guix packages and guix home/system services, rde features api and distribution on top of it, guile test runner and emacs integration for it, guile-nrepl (in a separate repo) and deps.scm (in the design phase).
+
+While rde is already mature enough and actively used by a number of developers and researches, there is a lack of power in three important components, which decrease accessibility of the technology for wider audience: explicit state management facilities and guile scheme tooling, more specifically Guile text-editor/IDE integration and Guile project management infrastructure. There are a lot of other things to improve, but we would like to focus on this three components (state management, guile-nrepl, deps.scm) for the next few months.
+
+Functional package management facilities already allows to easily provide stateless part of operating systems, home environments (user applications configurations aka dotfiles + their dependencies + integrations with each other), project development environments. The explicit state management will simplify initial setup of the stateful part of OSs, HEs and PDEs, also it will dramatically reduce the amount of uncontrolled state and thus will improve the safety of important data.
+
+The Guile Scheme ecosystem is currently lacking comparing to other modern programming languages: the only viable (but still subomptimal) way to develop in that language is Emacs+geiser setup. Implementation of nREPL will open the doors for a better tooling for Guile language and for an easier and more uniform integration with text editors/IDEs other than Emacs. The implementation of deps.scm will reduce the friction on initial guile, guix, rde projects/configurations setups, and maintanance of bulid infrastructure for them.
+
+* Why is this technology critical? Please explain to us the relevance of this technology.
+
+rde provides ready to use components, which are easy to combine to construct the whole operating system, home environment of per-project development environment, but keeps the freedom to exchange and modify parts according to the needs. The final result is completely reproducible thanks to underlying guix functional package manager.
+
+rde allows to construct working setup (either for a small project or for the whole computing device) in a matter of minutes and once it's serves its needs, reuse it years later without any modifications or additional preparation costs.  This is almost unachievable without functional package managers or huge infrastructural costs.
+
+Guix makes it possible to maintain and develop operating systems, home environments, VM images, project environments as a usual software projects written in high level functional programming language, so you can easily commit, test, bissect, rollback, freeze, reproduce and do all other usual goodies with them.
+
+rde gives more user-friendly and high level API + set of preconfigured components and convinience utilities on top of Guix, Guix System and Guix Home, which makes power provided by functional package managers more accessible for a wider audience.
+
+Guix and rde are both based on top of Guile language and providing good modern and capable tools for developers is a cruicial task for their growth.
+
+* Please provide a brief overview over your project’s dependencies, including your own dependencies and projects that rely on your technology.
+
+rde api depends on guix api and guix build daemon.  The rde operating system and home environment components has dependencies on Linux, glibc, Emacs, Wayland.
+
+rde currently used mostly by developers, researches and small teams and probably it's not a critical infrastructural project yet. However, there are much more researchers, projects, universities and HPC clusters relying on Guix, which will hugely benifit from guile-nrepl and deps.scm projects developed on behalf of rde.
+
+* Who benefits from this technology and the improvements or contributions? Which target groups does your project address (who are its users?) and how do they benefit from the funding (directly and indirectly)?
+
+Researchers and Developers of all kinds will potentially benefit from it. Right now the focus on users from Emacs, Guix, Guile and Linux ecosystems.
+
+The grant can remove the need for core maintainers to look for external funds/contracts for living and gives more time to focus on the project, which lowers the entry barier, which in case increases the popularity of underlying technologies and stimulate their development further, so the users get more feature-full and polished software at their disposal.
+
+* How are decisions regarding this technology’s development made? Please describe the project’s governance model.
+
+There is a lightweight RFC-like decision making process, described in the documentation of the project: https://git.sr.ht/~abcdw/rde/tree/master/item/doc/decision-log/0001-architecture-decision-records.org
+
+Less important questions, which have an impact only on a small part of the project usually discussed on rde-devel mailing list or IRC.
+
+nREPL protocol is quite stable, so guile-nrepl is just a matter of implementation with some adjustments to Scheme specifics, however the governance model of rde still applies here.
+
+* How does this project handle security risks? Are there policies, procedures, or tools in place to minimize the introduction of vulnerabilities or undesired contributions?
+
+Most of the security risks are comming from upstream projects and usually reported and fixed in the respective projects, however temporary patches on rde side are possible in case of high severity security risk, while issue is getting fixed upstream.
+
+All the contributions get merged and signed with gpg keys into primary tree by one of the trusted project maintainers. On each build all the commits are authenticated against maintainers keys.

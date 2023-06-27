@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       6d6b3915-e2a7-4e6a-a305-60e5b8a1e676
+:END:
+#+title: Academic Writing
+
+* Resources
+[[https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit#heading=h.sgfiu451dqjh][Writing and Speaking with Style]]
+https://www.goodreads.com/book/show/246853.Style
+https://www.goodreads.com/book/show/20821371-the-sense-of-style

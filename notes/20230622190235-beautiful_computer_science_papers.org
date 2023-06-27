@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       ae2cd3e9-e44e-4fa1-aa6a-e1d18ecf1fa6
+:END:
+#+title: Beautiful Computer Science Papers
+
+https://docs.google.com/document/d/1wobQZ9dU9qtHF3OlOXdRX7kpirk7-ZE7xdM_fOC8FbA/edit

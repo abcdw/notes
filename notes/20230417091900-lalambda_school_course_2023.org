@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       095537b3-4f7b-46e6-b90d-34a1a64cf1b9
 :END:
-#+title: Lalambda School Course 2023
+#+title: Lalambda School Modern Lisps Course 2023
 
 * Introduction (Modern Lisps)
 
@@ -15,22 +15,31 @@ Of course, we will cover a brief history of Lisp language family, take a look at
 
 After that, we will go all the way down with Lisp: from configuring a text editor in Elisp and building a web application in Clojure(Script) to describing the whole operating system and deploying it to the server using Guile Scheme and Guix
 
-* Day 1: Lisps and a Bit of History
+* Lisp Basicst
+** Day 1: Lisps and a Bit of History
+- History of Lisp Family.
 - Initial Dev Environment Setup.
-- REPL, Lisps Basics.
+- Interactive development, REPL, Lisps Basics, TDD.
 
-* Day 2: Scheme
+** Day 2: Building a Lisp
 - Macros and Meta-programming.
-- First Lisp Interpreter in Lisp.
+- Hygenic Macros.
+- First Lisp Interpreter in Lisp (Scheme).
 
-* Day 3: Clojure
-- Modern Lisp Dialects.
-- Real-world Application.
+* Advanced Lisp
+Prerequisite: basic lisp and FP knowledge.
 
-* Day 4: DSLs
-- Classical DSLs.
-- Data-driven DSLs.
+** Day 3: Building Tools
+- Extending the language (Classical DSLs).
+- Making new languages (Data-driven DSLs).
+- Controlling the Flow (Continuations, Delimited Continuations).
 
-* Day 5: Lisps All the Way Down
+** Day 4: Lisps in the Wild
+- Real-world production usage examples.
 - Operating Systems Configuration in Scheme.
 - A Complete Development Cycle in Lisps.
+
+* Notes
+The way to build vocabularies for each level of abstraction.  It's
+bottom-up approach for building systems and is more robust to
+propagating changes from lower levels of abstraction.

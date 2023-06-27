@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       5d199d16-ffd6-48ef-bd5e-163bafca2e23
+:END:
+#+title: Lightweight Concurrency in Scheme
+#+filetags: :Stream:
+
+* Introduction
+Brief intro to concurrency, Thread-safety, Guile and Fibers
+
+* History
+** Forks and Threads
+- Works better in one-per-CPU-core fashion.
+- Quite resource hungry.
+- Hard to schedule, because managed by kernel.
+
+** Callbacks
+- Invertion of control flow.
+- Overhead for closure creation.
+- Can be messy with global state.
+
+** Erlang
+Message-passing system
+
+- Network Transparent.
+- Doesn't block on writing to full queue/mailbox.
+
+* Go and CML
+[[https://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf][Communicating Sequential Processes]]
+
+* Atomics
+https://www.gnu.org/software/guile/manual/html_node/Atomics.html
+
+* Fibers
+run-fibers, spawn-fiber, sleep.
+Operations and combinators.
+IPC is implemented via channels.
+Timers.
+Conditions (similiar to mutex).
+REPL commands.
+
+* Conclusion
