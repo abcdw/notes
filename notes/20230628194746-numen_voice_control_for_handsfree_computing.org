@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       acc5243c-6d0e-40c9-a0c0-1f68289245b0
+:END:
+#+title: Numen Voice Control for Handsfree Computing
+
+https://numenvoice.org/

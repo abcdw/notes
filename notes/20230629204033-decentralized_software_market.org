@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       bd0a70ea-6076-4004-9e45-aff50f31ae8f
+:END:
+#+title: Decentralized Software Market
+
+http://www.fossfactory.org/overview.php
+https://docs.gitopia.com/dao/index.html
+https://wtfisqf.com/?grant=&grant=&grant=&grant=&match=1000
+https://docs.offsetcredit.org/en/latest/intro/economic.html
+https://www.gitcoin.co/

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       d9bcc7ab-e43b-4aa4-8e92-bd07d040dcaa
 :END:
-#+title: FLOSS monetization
+#+title: FOSS monetization
 - related :: [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]]
 
 * Some options

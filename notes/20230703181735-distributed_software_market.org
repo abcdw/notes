@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       cb83e73f-4e74-4f93-bd14-4b453dd2afb1
+:END:
+#+title: Distributed Software Market
+
+The starting point can be
+https://opencollective.com/
+https://www.clojuriststogether.org/open-source/

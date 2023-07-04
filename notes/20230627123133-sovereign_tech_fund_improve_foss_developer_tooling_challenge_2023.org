@@ -29,13 +29,13 @@ Guix and rde are both based on Guile Scheme language and providing good modern a
 
 rde api depends on guix api and guix build daemon.  The rde operating system and home environment components has dependencies on Linux, glibc, Emacs, Wayland.
 
-rde currently used mostly by developers, researches and small teams and probably it's not a critical infrastructural project yet. However, there are many more researchers, projects, universities and HPC clusters relying on Guix, which will hugely benifit from guile-nrepl and deps.scm projects developed on behalf of rde.
+rde currently used mostly by developers, researches and small teams and probably it's not a critical infrastructural project yet, the conservative estimate is around 1800-2000 people. (10% of github stars per user). However, there are many more researchers, projects, universities and HPC clusters relying on Guix, which will hugely benifit from guile-nrepl and deps.scm projects developed on behalf of rde.
 
 * Who benefits from this technology and the improvements or contributions? Which target groups does your project address (who are its users?) and how do they benefit from the funding (directly and indirectly)?
 
-Researchers and Developers of all kinds will potentially benefit from it. Right now the focus is on users from Emacs, Guix, Guile and Linux ecosystems.
+Researchers and Developers of all kinds will potentially benefit from it. Right now the focus on users from Emacs, Guix, Guile and Linux ecosystems, but rde and guix also work on foreign distros like Ubuntu, Debian and many others and guile-nrepl will hugely boost adoption by non-Emacs users.
 
-The grant can remove the need for core maintainers to look for external funds/contracts for living and gives more time to focus on the project, which lowers the entry barier, which in turn increases the popularity of underlying technologies and stimulates their development further, so the users get more feature-full and polished software at their disposal.
+The grant can remove the need for core maintainers to look for external funds/contracts for living and gives more time to focus on the project, which lowers the entry barier, which in case increases the popularity of underlying technologies and stimulate their development further, so the users get more feature-full and polished software at their disposal.
 
 * How are decisions regarding this technology’s development made? Please describe the project’s governance model.
 
@@ -49,7 +49,7 @@ nREPL protocol is quite stable, so guile-nrepl is just a matter of implementatio
 
 Most of the security risks are comming from upstream projects and usually reported and fixed in the respective projects, however temporary patches on rde side are possible in case of high severity security risk, while issue is getting fixed upstream.
 
-All the contributions get merged and signed with gpg keys into primary tree by one of the trusted project maintainers. On each build all the commits are authenticated against maintainers keys.
+All the contributions get signed with gpg keys and merged into primary tree by one of the trusted project maintainers. On each build on end-user machines all the commits are authenticated against maintainers keys. On each push to the primary repository all commits signatures are verified against keyring with maintainers public keys and automated tests for existing functionality are executed.
 
 * How will you address the challenge described? Give an overview of your work and why it is significant, specifically addressing the challenge. Explain what the field will learn from your proposed work and how it contributes to the long-term sustainability of the technology.
 
@@ -57,16 +57,33 @@ The state management API will allow to use state records in place of pathes in g
 
 guile-nrepl will provide a flexible, asyncronous, well-defined network REPL server, which will step up the Guile Scheme tooling and will make it possible to do explorative and interactive development. All the need development tasks from test execution, function re-evaluation to navigating the source code and documentation will be possible without leaving an IDE, re-runnig the command in your terminal or loosing the state of application after recompilation. In addition to all of that guile-nrepl will allow to program in Guile Scheme outside of onlyEmacsWorld. Later it can be utilized as a foundation for LSP server for even easier integration with other text editor and IDEs.
 
-The deps.scm will shift load path and other environment variables crafting, execution of guile with multiple arcane cli flags and many other tasks earlier implemented in Makefiles and sh scripts to the Guile Scheme side with convenient programming interface.  The implementation of deps.scm is highly inspired by Clojure's well-designed cli and will follow it minimalistic look and feel, but covering the Scheme specifics.
+The deps.scm will shift load path and other environment variables crafting, execution of guile with multiple arcane cli flags and many other tasks earlier implemented in Makefiles and sh scripts to the Guile Scheme side with convenient programming interface.  The implementation of deps.scm is highly inspired by Clojure's well-designed cli and will follow its minimalistic look and feel, but covering the Scheme specifics.  It will help to manage project dependencies and glue CLI with language entities.
 
 All those three tools are bringing the modern development experience to the Guile and Guix ecosystem, expanding the reach and lowering the barier for newcommers.
 
 * How will you accomplish the work? Please provide a list of deliverables with associated effort and cost of each deliverable.
+
 Deliverable 1: Integrate state management API for rde with Guix G-expressions (20,000 Euros) (20 person days)
 Deliverable 2: Implement state management CLI for rde  (10,000 Euros) (10 person days)
 Deliverable 3: Add nREPL operations for completion, lookup, test-runner integration (20,000 Euros) (20 person-days)
 Deliverable 4: Adjust and enrich existing nREPL client to support go-to-definition, documentation lookup and test execution functionality  (20,000 Euros) (20 person-days)
-Deliverable 5: Design and implement deps.scm (60,000 Euros) (60 person-days)
+Deliverable 5: Design and implement deps.scm.  Profiles, which allows to specify dependencies/load-paths, nrepl integration for managing project from IDE, gider test framework integration for TDD or just unit/integration testing.  (60,000 Euros) (60 person-days)
 
 * Total amount in Euro
+
 13000
+
+* Your name/handle
+Andrew Tropin
+
+* Link to your profile
+https://github.com/abcdw
+
+* Describe your relationship to the maintainers of this technology. Are you yourself the maintainer? Do they know you plan to do this work and do they support it? Please tell us more about how you obtained their support and how you plan to work together to make sure your contributions are accepted.
+
+I'm a primary maintainer of rde project, committer in GNU [Guix](https://savannah.gnu.org/project/memberlist.php?group=guix), and original author of Guix Home subproject (will be important a little later). We discussed state management, guile-nrepl and deps.scm on rde meetup, so other maintainers and contributors are aware of my intentions  and current work and they support it. Also, many of Guile and Guix maintainers are subscribed to my [fediverse/mastodon account](https://fosstodon.org/@abcdw), we talk (in written form mostly :) from time to time and they are usually aware of what I work on.
+
+The same way [lightweight concurrency for Guile](https://github.com/wingo/fibers) is implemented as a separate library, guile-nrepl and deps.scm will be separate libraries at the beginning too and there is no need for explicit consent from GNU Guile maintainers, however later there is a big chance that those libraries will be merged into distribution of the language itself as it can radically improve the convinience of "out of the box" usage of the Guile. There is a huge intersection of Guile and Guix maintainers and we already have experience of upstreaming rde subprojects to Guix (e.g. Guix Home), so it should not be the problem to do the same for guile-nrepl, deps.scm and Guile.
+
+
+Comment according my residence: I live in Georgia, have legal entity and bank accounts here, but I have a russian passport, so not sure how to answer the question about residence, so I selected Georgia.

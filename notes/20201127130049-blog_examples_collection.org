@@ -49,6 +49,7 @@
 - https://continuation.passing.style/ :: PL PhD page, cool domain,
   racket-docs-like style.
 - https://emersion.fr/blog/ :: minimalistic monochrome.
+- https://michal.sapka.me/ :: Minimalistic monochrome, hugo.
 
 * Setup guides
 - https://othacehe.org/hosting-a-blog-using-only-scheme.html :: huant.

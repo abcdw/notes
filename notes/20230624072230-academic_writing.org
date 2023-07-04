@@ -4,6 +4,6 @@
 #+title: Academic Writing
 
 * Resources
-[[https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit#heading=h.sgfiu451dqjh][Writing and Speaking with Style]]
+[[https://docs.google.com/document/d/1_vBXbugoLjO171w3wovs3ugmRQI-O6EcSVFDBF7eUzE/edit#heading=h.sgfiu451dqjh][Writing and Speaking with Style]] course
 https://www.goodreads.com/book/show/246853.Style
 https://www.goodreads.com/book/show/20821371-the-sense-of-style
