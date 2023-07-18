@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       095537b3-4f7b-46e6-b90d-34a1a64cf1b9
 :END:
-#+title: Lalambda School Modern Lisps Course 2023
+#+title: Lalambda School 2023: Modern Lisps
 
 * Introduction (Modern Lisps)
 
@@ -15,31 +15,193 @@ Of course, we will cover a brief history of Lisp language family, take a look at
 
 After that, we will go all the way down with Lisp: from configuring a text editor in Elisp and building a web application in Clojure(Script) to describing the whole operating system and deploying it to the server using Guile Scheme and Guix
 
-* Lisp Basicst
-** Day 1: Lisps and a Bit of History
-- History of Lisp Family.
-- Initial Dev Environment Setup.
-- Interactive development, REPL, Lisps Basics, TDD.
+* Lisp Basics
+** Day 1: Lisps and a Bit of a History
+*** Introduction
+Day of practice and exploring the tools with a grain of history.
+
+#+begin_quote
+I think that it's extraordinarily important that we in computer
+science keep fun in computing.
+
+Alan J. Perlis.
+#+end_quote
+
+Which languages to learn and why?
+
+Do we want to touch the Hacker Culture?  Git without github and pull
+requests. Discussions without issue trackers and jira.
+
+*** Initial Dev Environment Setup
+Clone repo https://git.sr.ht/~abcdw/lalambda-2023, ~make emacs~.
+
+*** Primary Lisp Dialects
+https://en.wikipedia.org/wiki/Lisp_(programming_language)#Timeline
+- Scheme
+- Common Lisp, Elisp
+- Clojure
+
+https://twobithistory.org/2018/10/14/lisp.html
+
+[[https://youtu.be/5Kg7gC1YcWs][It's The Summer of Sexps!]] :: introductionary video to different type
+of lisps and how lisp differs from usual languages.
+
+https://youtu.be/oA-FdE3KV88?list=PLVFrD1dmDdvdvWFK8brOVNL7bKHpE-9w0&t=774
+:: dialects with icons close to them.
+
+Greenspun's tenth rule of programming:
+#+begin_quote
+Any sufficiently complicated C or Fortran program contains an ad hoc,
+informally-specified, bug-ridden, slow implementation of half of
+Common Lisp.
+#+end_quote
+
+*** Demistifying Emacs
+[[id:95f5c8a7-007a-4b0c-b3c7-c971d0346b98][The Modern Emacs]]
+
+Sending Patches.
+
+**** FFL
+Fabulous Feedback Loop.
+
+*** Quick Intro to Modern Lisp
+**** Data Types
+nil, 100, 0.1, 1/3, "hi", #"ho", :keyword, 'symbol.
+
+**** Value of Values
+https://youtu.be/-6BsiVyC1kM
+
+#+begin_quote
+A LISP programmer knows a value of everything, but the cost of
+nothing.
+#+end_quote
+
+***** Fact?
+Place where specific information is stored.
+There is a place for every piece of information.
+Facts have operations get, set, etc.
+Operations control how facts can change.
+To convey the fact, convey it's location.
+
+***** Value Proposition
+- Can be shared (not location, but a value itself).
+- Reduce coordination.
+- Lead to reproducible results.
+- Easy to make.
+- Language independent.
+- Generic (no need a separate class for each usage of same fact).
+- Values aggregates to values.
+- Values makes great interfaces.
+
+**** Data Structures
+~'(1 2 3), [1 2 3], {:a 1, :b 2}, #{1 2 3}~
+
+**** Syntax
+#+begin_src js
+function myfn(x, y)
+{
+  return x*x + y*y;
+}
+
+myfn(3, 5);
+#+end_src
+
+#+begin_src json
+["function", "myfn",
+ ["x", "y"],
+ ["+",
+  ["*", "x", "x"]
+  ["*", "y", "y"]]]
+
+["myfn", "3", "5"]
+#+end_src
+
+#+begin_src lisp
+[function myfn
+ [x y]
+ [+
+  [* x x]
+  [* y y]]]
+
+[myfn 3 5]
+#+end_src
+
+#+begin_src lisp
+(defn myfn
+  [x y]
+  (+
+   (* x x)
+   (* y y)))
+
+(myfn 3 5)
+#+end_src
+
+**** Special Forms and S-expression
+~(form arg1 (another-form arg2 arg3))~
+form can be a function, special form or macro.
+
+**** How evaluation works?
+
+**** Macro Example
+#+begin_src lisp
+(defmarco unless [pred c a]
+ `(if (not ~pred)
+      ~c
+      ~a))
+
+(unless true "ok" "not ok")
+#+end_src
+**** FP
+
+*** DSLs and a little bit of typing
+hiccup, honeysql, malli
+
+*** Interactive development, REPL, Lisps Basics, TDD
+
+**** CIDER
+**** Geiser
 
 ** Day 2: Building a Lisp
-- Macros and Meta-programming.
-- Hygenic Macros.
-- First Lisp Interpreter in Lisp (Scheme).
+*** Scheme Basics
+https://youtu.be/oA-FdE3KV88?list=PLVFrD1dmDdvdvWFK8brOVNL7bKHpE-9w0
+https://spritely.institute/static/papers/scheme-primer.pdf
+
+*** Macros and Meta-programming
+https://github.com/mnieper/scheme-macros
+
+**** Very Basic Macro.
+#+begin_src scheme
+(compile '(+ 1 2) #:from 'scheme #:to 'tree-il)
+#+end_src
+
+**** Hygenic Macros
+*** G-expressions
+*** Uniform Interfaces and How FOSS Hackers Works
+*** First Lisp Interpreter in Lisp (Scheme)
+http://languagelog.ldc.upenn.edu/myl/llog/jmc.pdf
 
 * Advanced Lisp
 Prerequisite: basic lisp and FP knowledge.
 
 ** Day 3: Building Tools
-- Extending the language (Classical DSLs).
-- Making new languages (Data-driven DSLs).
-- Controlling the Flow (Continuations, Delimited Continuations).
+*** Prepare Tools
+*** Making New Languages (Data-driven DSLs)
+Implement scm->ini serializer
+*** Extending the Language (Macros, Compilation, Reader)
+*** Controlling the Flow (Continuations, Delimited Continuations)
 
 ** Day 4: Lisps in the Wild
-- Real-world production usage examples.
-- Operating Systems Configuration in Scheme.
-- A Complete Development Cycle in Lisps.
+*** Making a Web Application
+https://code.thheller.com/blog/shadow-cljs/2023/07/16/applying-the-art-of-cljs-frontend.html
+*** Packaging and Distributing Application
+*** Operating Systems Configuration in Scheme
+*** A Complete Development Cycle in Lisps
+
 
 * Notes
 The way to build vocabularies for each level of abstraction.  It's
 bottom-up approach for building systems and is more robust to
 propagating changes from lower levels of abstraction.
+
+https://wiki.c2.com/?LispShowOffExamples
+https://github.com/torvalds/linux/pull/17#issuecomment-5654674

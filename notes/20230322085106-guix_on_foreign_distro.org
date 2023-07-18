@@ -94,7 +94,8 @@ Extending services.
 - Such approach is unusual, but makes the configuration almost immortal.
 - It's easy to share such a setup or move to a new device.
 
-* rde Emacs
+* rde Emacs Introduction
+
 ** Introduction
 We will try to replicate Doom Emacs like experience with vanilla flavor, but
 better :) using Guix Home and rde.

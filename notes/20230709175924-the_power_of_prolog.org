@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8736de11-9042-4690-9f46-f0fdb6f70a73
+:END:
+#+title: The Power of Prolog
+
+The book about Prolog and a bunch of videos:
+https://www.metalevel.at/prolog

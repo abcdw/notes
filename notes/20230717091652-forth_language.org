@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8736687f-0409-4330-b95a-4e1ec7f33069
+:END:
+#+title: Forth Language
+
+http://ratfactor.com/forth/the_programming_language_that_writes_itself.html

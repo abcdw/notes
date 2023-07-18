@@ -79,6 +79,7 @@ Take a breath.
 * Hotkeys and Modal Editing
 - Vanilla
 - Evil
+- Meow
   
 * COMMENT Answering Questions
 Take a sip.
