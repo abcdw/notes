@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1d702d2c-eda0-4303-a5c6-0fe43a24661b
+:ROAM_REFS: https://softwarefoundations.cis.upenn.edu/
+:END:
+#+title: Sofware Foundations
+#+filetags: :Book:
+
+Book series on formal verification of the programs, logic programming, theorem provers and coq.

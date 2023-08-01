@@ -162,6 +162,16 @@ hiccup, honeysql, malli
 **** Geiser
 
 ** Day 2: Building a Lisp
+*** Clojure Practice
+
+TG bot, web app?
+
+update-in
+macros
+hiccup, honeysql, malli, integrant?
+
+TDD
+
 *** Scheme Basics
 https://youtu.be/oA-FdE3KV88?list=PLVFrD1dmDdvdvWFK8brOVNL7bKHpE-9w0
 https://spritely.institute/static/papers/scheme-primer.pdf
@@ -185,12 +195,34 @@ Prerequisite: basic lisp and FP knowledge.
 
 ** Day 3: Building Tools
 *** Prepare Tools
+REPL and LOAD_PATH
+*** Destructuring in Clojure
+*** Introduction to Functional PMs
+*** Scheme Real World Usage (Basics)
+**** Records
+**** Packages and Build Systems
+**** Channels and Profiles
+**** G-expressions
+https://arxiv.org/pdf/1709.00833.pdf
+https://guix.gnu.org/manual/en/html_node/G_002dExpressions.html
+
 *** Making New Languages (Data-driven DSLs)
 Implement scm->ini serializer
+
 *** Extending the Language (Macros, Compilation, Reader)
-*** Controlling the Flow (Continuations, Delimited Continuations)
+SRFI-105
+
+
+*** How we built dev env for course
+*** NREPL
 
 ** Day 4: Lisps in the Wild
+*** Controlling the Flow (Continuations, Delimited Continuations)
+https://trop.in/blog/continuations-brief-summary
+*** Mailing List Driven Development Workflow
+*** Building an OS
+**** Guix Services
+**** Operating System and Home Environment
 *** Making a Web Application
 https://code.thheller.com/blog/shadow-cljs/2023/07/16/applying-the-art-of-cljs-frontend.html
 *** Packaging and Distributing Application
@@ -205,3 +237,5 @@ propagating changes from lower levels of abstraction.
 
 https://wiki.c2.com/?LispShowOffExamples
 https://github.com/torvalds/linux/pull/17#issuecomment-5654674
+
+dependency injection

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       6da8861f-5510-4253-8c06-ffae57546bf7
+:END:
+#+title: Memory Management
+
+The entry point to the topic: https://www.memorymanagement.org/

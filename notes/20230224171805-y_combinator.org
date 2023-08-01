@@ -3,4 +3,67 @@
 :END:
 #+title: Y Combinator
 
+* Introduction
+I get some fun out of computing and do a lot of FOSS development along the way and whant to share a part of that fun with you.
+
+#+begin_quote
+Y = λf.(λx.f (x x)) (λx.f (x x))
+#+end_quote
+
+* Combinators
+Lambda expression without free variables.
+
+* Non-Recursive Factorial
+#+begin_src scheme
+(define factorial
+  (lambda (n)
+    (if (= n 0)
+        1
+        (* n (factorial (- n 1))))))
+
+(define almost-factorial
+  (lambda (f)
+    (lambda (n)
+      (if (= n 0)
+          1
+          (* n (f (- n 1)))))))
+#+end_src
+
+* Fixed Point
+#+begin_src scheme
+(cos 0.7390851332151607) ;; => 0.7390851332151607
+#+end_src
+
+#+begin_src scheme
+(Y f) ;; = fixpoint-of-f ; 1
+
+(f fixpoint-of-f) ;; = fixpoint-of-f ; 2
+
+(Y f) ;; = fixpoint-of-f = (f fixpoint-of-f) ; 3
+
+(Y f) ;; = (f (Y f)) ; 4
+
+(define (Y f) (f (Y f)))
+#+end_src
+
+Delaying evaluation with simple lambda wrap.
+
+* The Real Y Combinator
+#+begin_src scheme
+(define Y ; real-strict-Y
+  (lambda (f)
+    ((lambda (z) (z z))
+     (lambda (x)
+       (f (lambda (y) ((x x) y)))))))
+#+end_src
+
+* Conclusion
+- Why at the first sight it not practical, it's at least aesthetically
+  pleasant.
+- If you are into PLT, it also quite useful.
+- Having this thing in mind there is a chance to find something
+  brilliant nearby.
+
+* Links
+https://mvanier.livejournal.com/2897.html
 https://dreamsongs.com/Files/WhyOfY.pdf

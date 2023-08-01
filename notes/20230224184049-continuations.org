@@ -65,6 +65,8 @@ history of continuations.
 https://pages.lip6.fr/Christian.Queinnec/PDF/www.pdf :: contiunations
 in web programming.
 
+https://matt.might.net/articles/programming-with-continuations--exceptions-backtracking-search-threads-generators-coroutines/
+
 https://okmij.org/ftp/continuations/index.html
 
 https://en.wikipedia.org/wiki/Call-with-current-continuation

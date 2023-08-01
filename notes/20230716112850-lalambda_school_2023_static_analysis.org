@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       0ef956e8-73d1-45ad-a051-fc6ddfd41b56
+:END:
+#+title: Lalambda School 2023: Static Analysis
+
+** Dirty Examples
+Hard to statically anaylize.
+#+begin_src python
+x^3 + y^3 + z^3 == 42
+while k != 1:
+  if k % 2 == 9: k /= 2 else: k = 3*k + 1
+#+end_src
