@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       dddfbe59-d032-46db-8a0a-239b41fee3c2
+:END:
+#+title: OCaml
+
+Is a language of ML family.
+
+[[https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU][OCaml Programming: Correct + Efficient + Beautiful]] video series + text
+book + Cornell University course.

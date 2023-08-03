@@ -1,0 +1,39 @@
+:PROPERTIES:
+:ID:       7db3b6d7-6647-430a-8a3a-6641e1e69ab9
+:END:
+#+title: re.host MVP
+
+* Possible workflow
+- Come to the https://re.host, read the intro.
+- Register an account.
+- Obtain auth token.
+- Attach a debit card.
+- Fire the configuration ~(deploy (my-re-host-config #:options "here"))~.
+
+* API-first or No Web Idea (1 week)
+Make a web page, which explains what re.host is and how to use it, but
+doesn't implement any interactive web app.  The actual intercation
+will happen via CLI and/or API (probably guile bindings for HTTP
+endpoints).
+
+* Setup Infrastructure (1 week)
+Provide a basic infrastructure with postgres/nginx/guix/whatever else
+needed here.  We would focus on vertical scaling, so no need for fancy
+architecture here, a simple VPS will do the trick here for a long
+time.
+
+* Implement Authentication (1 week)
+Most straightforward option is to implement oauth and let user
+register and generate the token.  The other potential, but more
+marginal option is to design some PGP-based solution.
+
+* Payment (2 weeks)
+Integrate with stripe for debit cards processing.  Have almost no
+experience here, don't know how much time will it take, but
+techincally should be relatively easy.
+
+* scm->Spinning VM (3 weeks)
+Integration with DO/Hetzner API to spin up a VM according to
+specification. The configuration can be sent via wires as serialized
+scheme record or possibly via git repo (ala heroku).  Need to think
+deeper on the exact interaction format and workflow here.

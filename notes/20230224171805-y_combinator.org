@@ -64,6 +64,139 @@ Delaying evaluation with simple lambda wrap.
 - Having this thing in mind there is a chance to find something
   brilliant nearby.
 
+* Code
+#+begin_src scheme
+(define factorial
+  (lambda (n)
+    (if (= n 0)
+        1
+        (* n (factorial (- n 1))))))
+
+(factorial 5)
+;; 1 * 2 * 3 * ... * n
+
+
+(define almost-factorial
+  (lambda (f)
+    (lambda (n)
+      (if (= n 0)
+          1
+          (* n (f (- n 1)))))))
+
+((lambda (x) x) 3)
+(+ 3)
+
+( 2)
+
+(define factorial
+  (... (almost-factorial (almost-factorial (almost-factorial +)))))
+
+(define fixed-point
+  (lambda (f value)
+    (if (= value (f value))
+        value
+        (fixed-point f (f value)))))
+
+(fixed-point cos 1230)
+
+(Y f) ;; fixed-point-f
+(f fixed-point-f) ;; fixed-point-f
+(Y f) = (f fixed-point-f)
+(Y f) = (f (Y f))
+
+(define (lazy-Y f) (f (Y f)))
+(define lazy-Y
+  (lambda (f) (f (Y f))))
+
+(define strict-Y)
+
+(define factorial (strict-Y almost-factorial))
+(factorial 5)
+
+(cos 123)
+((lambda (x) (cos x)) 123)
+
+(define partial-factorial
+  (lambda (self n)
+    (if (= n 0)
+        1
+        (* n (self self (- n 1))))))
+
+(partial-factorial 5)
+
+(define partial-factorial
+  (lambda (x)
+    ((lambda (f)
+       (lambda (n)
+         (if (= n 0)
+             1
+             (* n (f (- n 1)))))) ; almost-factorial
+     (lambda (y) ((x x) y)))))
+
+(define partial-factorial
+  (lambda (x)
+    (almost-factorial
+     (lambda (y) ((x x) y)))))
+
+(define make-recursive-1
+  (lambda (f)
+    (lambda (x)
+      (f (lambda (y) ((x x) y))))))
+
+(define make-recursive
+  (lambda (f)
+    ((lambda (z) (z z))
+     (lambda (x)
+       (f (lambda (y) ((x x) y)))))))
+
+(((make-recursive-1 almost-factorial) (make-recursive-1 almost-factorial)) 5)
+;; =>
+((make-recursive almost-factorial) 5)
+
+(define Y ; real-strict-Y
+  (lambda (f)
+    ((lambda (z) (z z))
+     (lambda (x)
+       (f (lambda (y) ((x x) y)))))))
+
+((Y almost-factorial) 5)
+
+
+1 1 2 3 5 8 13 21 34
+
+(define fib
+  (lambda (n)
+    (cond ((= n 0) 1)
+          ((= n 1) 1)
+          (else (+ (fib (- n 1)) (fib (- n 2)))))))
+
+(define almost-fib
+  (lambda (f)
+    (lambda (n)
+      (cond ((= n 0) 1)
+            ((= n 1) 1)
+            (else (+ (f (- n 1)) (f (- n 2))))))))
+
+((Y (lambda (f)
+      (lambda (n)
+        (cond ((= n 0) 1)
+              ((= n 1) 1)
+              (else (+ (f (- n 1)) (f (- n 2)))))))) 8)
+(fib 8)
+
+
+
+(define (part-factorial self)
+  ((lambda (f)
+     (lambda (n)
+       (if (= n 0)
+           1
+           (* n (f (- n 1))))))
+   (self self)))
+
+;; EOF
+#+end_src
+
 * Links
 https://mvanier.livejournal.com/2897.html
 https://dreamsongs.com/Files/WhyOfY.pdf
