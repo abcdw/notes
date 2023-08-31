@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0c59a69a-b4ef-40cb-bfac-1821cb42258b
+:END:
+#+title: On an Implementation of Modern REPL
+
+* Abstract
+* Introduction
+** TODO Add Goals
+
+* Conclusion

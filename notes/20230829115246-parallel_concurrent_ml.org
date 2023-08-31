@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5eda9eb6-3a53-4e4a-bed4-6323f7840733
+:ROAM_REFS: https://people.cs.uchicago.edu/~jhr/papers/2009/icfp-parallel-cml.pdf
+:END:
+#+title: Parallel Concurrent ML
+
+https://people.cs.uchicago.edu/~jhr/papers/2009/icfp-parallel-cml.pdf

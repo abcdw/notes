@@ -1,0 +1,34 @@
+:PROPERTIES:
+:ID:       9ada190f-1a85-450f-9b4c-ae59ce1828d1
+:END:
+#+title: Fibers: Communication and Syncronization
+#+filetags: :Stream:
+
+* Introduction
+We continue exploring [[id:5d199d16-ffd6-48ef-bd5e-163bafca2e23][Lightweight Concurrency in Scheme]], but will have
+more practice.  During it we will explore the communication and
+syncronization of lightweight and not very lightweight threads.  We
+will learn about operations, channels, condition variables, ports and
+how they fit into fibers ecosystem.
+
+LDSSH.
+
+* The Recap
+Fibers is a guile scheme library for lightweight concurrency and
+structuring asyncrconous computations based on [[id:5eda9eb6-3a53-4e4a-bed4-6323f7840733][Parallel Concurrent ML]]
+paper.
+
+* The Plan
+Implement part of nrepl eval functionality.
+- Make two lightweight process exchanging messages. (Recap)
+- Launch a long-running process and make it interruptable.
+- Capture and redirect stdout and stderr.
+- Buffer incoming messages and queue them for sending.
+
+* Buffering
+Add queue and allow either sending further or enqueing.
+
+* Conclusion
+- It's light.
+- A little bit involved.
+- But in long-term makes asyncronous programming much easier.

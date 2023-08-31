@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       694fd6dd-e483-4ed1-b63f-0a53393b3093
+:END:
+#+title: OCaml Programming: Correct + Efficient + Beautiful
+
+A book and video series on [[id:dddfbe59-d032-46db-8a0a-239b41fee3c2][OCaml]].
+
+
+Chapter 6 Video 20 Debugging tells to follow a scientific method:
+- Formulate falsifiable hypothesis.
+- Create an experiment that can refute that hypothesis (find a
+  smallest possible input to cause fault).
+- Run the experiment.
+- Make a note in lab notebook.

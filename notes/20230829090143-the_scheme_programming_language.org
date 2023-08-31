@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a0bd10bb-63c2-4865-96d1-1a3ee5339ab7
+:END:
+#+title: The Scheme Programming Language
+#+filetags: :Book:
+
+https://scheme.com/tspl4/

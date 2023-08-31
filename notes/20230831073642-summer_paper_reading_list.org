@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       8126f04d-812b-4e17-9fb0-825bc1c1896e
+:END:
+#+title: Summer Paper Reading List
+
+
+* Topics
+Possible topics.
+- [[id:0c59a69a-b4ef-40cb-bfac-1821cb42258b][On an Implementation of Modern REPL]].
+- Quantative Measurment of Interactive Development vs Non-Interactive.
+
+* Papers
+A reading list to prepare for PhD.
+Keywords: REPL, interactive development, content-addressable code.
+
+** TODO Make a list of 10 papers to read
+Better to find a good author first.
+DEADLINE: <2023-09-07 Thu>
+
+* Useful Links
+- https://arxiv.org/ :: feeds of articles.
+- https://scholar.google.com/ :: to see citations/connections of a person/article.
+- https://www.academia.edu/ :: easy to see references to your article.
+- https://www.researchgate.net/ :: social network for researchers.
+- https://sci-hub.st/
+
+** TODO Subscribe to insteresting rss feeds for fresh articles on topics
+** TODO Find people, who interested in the topic
+** TODO Watch a course, contact a person and schedule a call
+
+To get a pay-walled article or book you can ask a cambridge student to
+share a book with you.

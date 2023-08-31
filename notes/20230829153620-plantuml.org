@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       4f511451-cbef-44b6-a4e4-e44c09bbfd72
+:END:
+#+title: PlantUML
+
+Software for creating diagrams from text descriptions.
+Git diagrams: http://bit-booster.com/graph.html
