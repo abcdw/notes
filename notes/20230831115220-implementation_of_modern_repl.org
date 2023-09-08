@@ -3,8 +3,34 @@
 :END:
 #+title: On an Implementation of Modern REPL
 
+Bringing the joy to Scheme Programming in [[id:49c4a08a-9e53-4874-b903-39e6e40dc64f][EmacsConf 2023 Proposal]] is a
+related talk to this paper.
+
 * Abstract
 * Introduction
+- Text based REPL over socket is not interruptable.
+- call/cc works when pasted into prompt of the repl, but fails when
+  evaling from buffer with C-x C-e.
+- It's not possible to see stdout until evaluation completed.
+- Gider tests hangs repl on errors.
+- CAPF function is injected, even if there is no connection to REPL
+  and throws errors preventing other CAPFs to work.
+- There is no way to provide stdin input to running expression.
+
+Why we want to solve those problem?
+
+** TODO Find an article about feeback loop
+Is interactive (short feedback loop) programming is benefitial?
+Maybe article about Jazz, Lisp, Aikido.
+
 ** TODO Add Goals
+
+* Audience
+- Language tools developers.
+- Developer Productivity Researchers (https://fosstodon.org/@avandeursen@mastodon.acm.org).
+- Concurrency Researchers (Concurrent ML research).
+- https://emacsconf.org/2023/ (online).
+- https://fosdem.org/2024/ (mixed).
+- [[https://ifl23.github.io/index.html][Symposium on Implementation and Application of Functional Languages]] (offline).
 
 * Conclusion

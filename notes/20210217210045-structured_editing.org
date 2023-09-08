@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       6b3de564-e6a3-4cba-ae58-b2bba5a6b815
 :END:
-#+title: Structured editing
+#+title: Structured Editing
 
 Opposite to line/character based editing. Can be used for structured
 data with predefined grammar, for example for [[id:7533723d-e683-4113-9c6f-a41c784594e1][Lisp]], json, etc.

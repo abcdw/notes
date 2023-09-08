@@ -10,3 +10,5 @@
 - https://www.tweag.io/blog/2020-05-25-flakes/
 - https://www.tweag.io/blog/2020-06-25-eval-cache/
 - https://www.tweag.io/blog/2020-07-31-nixos-flakes/
+- https://jameswillia.ms/posts/flake-line-by-line.html
+- [[https://youtu.be/L-xORCdL3FI][Nix Flakes are your friend]] 2 minutes video.

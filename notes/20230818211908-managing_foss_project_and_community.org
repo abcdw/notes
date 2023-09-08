@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       4b3add1d-69c5-47f9-917c-22c2010ecaa5
+:END:
+#+title: Managing FOSS Project and Community
+
+Number of books on the topic:
+https://un.curl.dev/
+https://hintjens.gitbooks.io/social-architecture/content/chapter1.html
+https://rfc.zeromq.org/spec/42/
+https://harelang.org/blog/2023-08-28-scaling-the-community/
+https://fossandcrafts.org/episodes/059-governance-part1.html

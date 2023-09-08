@@ -7,3 +7,6 @@ Is a language of ML family.
 
 [[https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU][OCaml Programming: Correct + Efficient + Beautiful]] video series + text
 book + Cornell University course.
+
+Comparison with Standard ML
+http://adam.chlipala.net/mlcomp/

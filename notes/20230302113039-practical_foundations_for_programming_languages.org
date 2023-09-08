@@ -4,6 +4,7 @@
 #+title: Practical Foundations for Programming Languages
 
 https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf
+http://www.cs.cmu.edu/~rwh/pfpl.html
 
 A book about fundamentals of programming languages, useful for constructing new
 ones.

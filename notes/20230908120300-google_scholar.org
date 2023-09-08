@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       eeb72658-466c-442d-af25-99b72809ecba
+:ROAM_REFS: https://scholar.google.com/
+:END:
+#+title: Google Scholar
+
+Scientific literature search.

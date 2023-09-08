@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       f7c52429-9a5f-4af3-b30d-82f56ea70e1f
+:ROAM_REFS: https://arxiv.org/
+:END:
+#+title: arXiv
+
+A collection of scientific papers.

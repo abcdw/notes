@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       0cb1feba-29b6-43aa-b47d-eaf42c934d3c
+:END:
+#+title: How to Write Research Papers
+
+See [[id:cfbb01b2-96b7-463f-aa97-a5084ed9d337][Literature Survey]] from [[id:427223fe-0e89-4db6-bd11-9f99e0c393a8][How to Read a Paper (S. Keshav)]].
+https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/
+https://www.youtube.com/watch?v=PM1Atui30qU
+https://www.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf

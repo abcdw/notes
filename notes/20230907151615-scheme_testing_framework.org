@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       8964dbbf-00f3-47c3-9d8f-d501ae7cfd10
+:END:
+#+title: Scheme Testing Framework
+
+* SRFI-64
+test-group and other macros use dynamic-wind so it can be tricky to
+interact with it inside fibers or other contiunation-intensive code.

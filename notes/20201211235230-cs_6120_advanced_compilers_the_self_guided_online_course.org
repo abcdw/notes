@@ -1,9 +1,13 @@
 :PROPERTIES:
 :ID:       f9109ad4-dca8-4803-b036-cb2f9dc46b3c
-:ROAM_REFS: https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/
+:ROAM_REFS: https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/
 :END:
 #+title: CS 6120: Advanced Compilers: The Self-Guided Online Course
+
+https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/
 
 PhD-level compilers course.
 
 Cornell is top-20 CS universities, btw.
+
+[[id:ec056814-d1fb-49ee-b4cd-a71840bca1ee][Practical Foundations for Programming Languages]] book can be related.

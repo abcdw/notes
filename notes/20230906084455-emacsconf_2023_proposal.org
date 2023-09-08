@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       49c4a08a-9e53-4874-b903-39e6e40dc64f
+:END:
+#+title: EmacsConf 2023 Proposal
+
+20 minutes pre-recorded talk.
+
+*Bringing the joy to Scheme Programming.*
+
+Emacs is usually a primary tool people remember, when talk about
+development environment for lisp languages, it serves the purpose
+great for Common Lisp, Clojure and of course Emacs Lisp, but what
+about Scheme?  Let's talk about current state of the things, recent
+improvements, and emerging tools in this field.
+
+In the talk we cover:
+
+- How the Scheme developer day looks like?
+- Important developer duties, their automation and acceleration.
+- Interactive development and its benefits.
+- Emacs setup for Scheme development.

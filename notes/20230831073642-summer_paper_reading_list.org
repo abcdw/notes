@@ -12,7 +12,28 @@ Possible topics.
 * Papers
 A reading list to prepare for PhD.
 Keywords: REPL, interactive development, content-addressable code.
+- [[https://arxiv.org/abs/2303.12254][Practical compilation of fexprs using partial evaluation: Fexprs can performantly replace macros in purely-functional Lisp]]
+- [[https://dl.acm.org/doi/pdf/10.1145/356715.356719][Programming in an Interactive Environment: the "LISP" Experience]]
+- [[https://dl.acm.org/doi/abs/10.1145/3544216.3544232][Design and evaluation of IPFS: a storage layer for the decentralized web]]
+- [[https://vtda.org/pubs/ICLTechnicalJournal/ICL-Technical-Journal-v01i03.pdf#page=70][The content addressable file store - CAFS]]
+- [[https://programming-journal.org/2023/7/1/][Building a Secure Software Supply Chain with GNU Guix]]
+- [[https://arxiv.org/abs/1505.07375v1][The Mysteries of Lisp -- I: The Way to S-expression Lisp]]
+- [[https://arxiv.org/abs/1804.00485v1][Lisp, Jazz, Aikido -- Three Expressions of a Single Essence]]
+- [[https://arxiv.org/abs/2004.02504v1][Bringing GNU Emacs to Native Code]]
+- [[https://arxiv.org/abs/1106.2578v1][Extensible Pattern Matching in an Extensible Language]]
 
+** For some future
+- [[http://arxiv.org/abs/2003.03831v2][Why You Cannot (Yet) Write an "Interval Arithmetic" Library in Common Lisp]]
+- [[https://arxiv.org/abs/1505.00017v1][Comparative Analysis of Classic Garbage-Collection Algorithms for a Lisp-like Language]]
+- [[https://arxiv.org/abs/1412.1393v1][CLAZY: Lazy Calling for Common Lisp]]
+- [[https://arxiv.org/abs/1403.2765v2][Generalizers: New Metaobjects for Generalized Dispatch]]
+- [[https://arxiv.org/abs/0707.3807v1][How to be correct, lazy and efficient ?]]
+
+-> task [[file:~/work/abcdw/private/todo.org::*Add bibliography and reference articles in org roam][Add bibliography and reference articles in org roam]]
+** TODO How feedback loop affects productivity?
+** TODO Search for Scheme papers
+** TODO Look references of the papers
+** TODO Look authors of the papers
 ** TODO Make a list of 10 papers to read
 Better to find a good author first.
 DEADLINE: <2023-09-07 Thu>

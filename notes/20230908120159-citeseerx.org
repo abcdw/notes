@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b4e9f9e1-fc15-4009-ae07-0db1adca0ecd
+:ROAM_REFS: https://citeseerx.ist.psu.edu/
+:END:
+#+title: CiteSeerX
+
+Scientific digital library and search engine.

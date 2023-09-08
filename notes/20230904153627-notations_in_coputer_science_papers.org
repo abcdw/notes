@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       50946fc3-44b4-4b37-a7da-340b32f74487
+:END:
+#+title: Notations in Coputer Science Papers
+
+https://youtu.be/dCuZkaaou0Q

@@ -1,0 +1,63 @@
+:PROPERTIES:
+:ID:       427223fe-0e89-4db6-bd11-9f99e0c393a8
+:END:
+#+title: How to Read a Paper (S. Keshav)
+
+https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf
+
+* Three-pass approach
+
+** The First Pass
+- Read title, abstract, introduction.
+- Read section and subsection headings.
+- Read the conclusion.
+- Take a look at references.
+
+From the first read you understand:
+- Category :: theoretical, engineering, emperical.
+- Context :: how it realates to other works.
+- Correctness :: does it look reasonable? do assumptions look valid?
+- Contributions :: what a primary contributions of this paper?
+- Clarity :: is it well-written?
+
+Understand the scope, write down brief notes, skip/postpone the paper
+or keep reading more carefully.
+
+** The Second Pass
+Detailed reading, takes around 1-2 hours.
+
+- Pay attention to figures, diagrams, errors bars, axes labels.  It
+  can be a sign of poor/quality work.
+- Mark unread references.
+
+After that you can put it aside, return to the paper after reading
+background materials, or keep reading and do the third pass.
+
+** The Third Pass
+Re-create the work, it will show the inovation and maybe reveal hidden
+failings and assumptions.
+
+During this pass write down the ideas for future work.
+
+Takes 1-6 hours.  After that you can reconstruct the structure of the
+paper from the memory, highlight strong and weak points, missing
+citations, implicit assumptions, potential issues with experimental or
+analytical techniques.
+
+* Literature Survey
+:PROPERTIES:
+:ID:       cfbb01b2-96b7-463f-aa97-a5084ed9d337
+:END:
+Find 3-5 recent papers based on a couple of well-chosen keywoards.
+Good resources are: [[id:f7c52429-9a5f-4af3-b30d-82f56ea70e1f][arXiv]], [[id:b4e9f9e1-fc15-4009-ae07-0db1adca0ecd][CiteSeerX]] and [[id:eeb72658-466c-442d-af25-99b72809ecba][Google Scholar]].  Take a first
+pass and check the references.  This can already lead to finding a
+literature survey.  Otherwise, find a authors and citations, which
+appear multiple times in the references, it's probably a core
+researches and papers in this area.
+
+Download the key papers and put the aside, go and stalk the research
+and find where they published recently.  It will help to identify the
+top conferences.  Go to the conferences websites and see other related
+high-quality work.  Those papers + papers obtained earlier will be the
+first version of the survey.  Do the second pass on them and possibly
+extract a few more core papers, which repeats multiple times.

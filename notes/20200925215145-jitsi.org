@@ -5,3 +5,7 @@
 #+title: Jitsi
 
 [[id:714bc351-fe44-4f30-b5ac-49f3430d39cb][FLOSS]] video conferencing web app, similiar to Google Meet/Hangout.
+
+* Public Instances
+https://jitsi.tildeverse.org/
+

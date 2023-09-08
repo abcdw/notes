@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       86f1e037-b2d0-43f2-a7ec-b59547355e47
+:END:
+#+title: WireGuard in Guix in 10 minutes
+#+filetags: :Stream:
+
+* Introduction
+Today we talk about wireguard protocol, how to setup a VPN with it and
+forward all the traffic through it using nftables and built-in routing.
+
+I get some fun out of computing and do a lot of FOSS development along the way and whant to share a part of that fun with you.
+
+* Quick Intro to VPN
+tun0 <-> tun0
+
+* WireGuard basics
+** Creating keys
+
+* NAT
+sysctl + nftables.
+
+* Guix Config
+
+* Conclusion
