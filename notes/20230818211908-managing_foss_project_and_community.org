@@ -9,3 +9,5 @@ https://hintjens.gitbooks.io/social-architecture/content/chapter1.html
 https://rfc.zeromq.org/spec/42/
 https://harelang.org/blog/2023-08-28-scaling-the-community/
 https://fossandcrafts.org/episodes/059-governance-part1.html
+https://git.sr.ht/~sircmpwn/hare/tree/master/item/docs/rfc.md
+https://git.sr.ht/~sircmpwn/hare/tree/master/item/MAINTAINERS

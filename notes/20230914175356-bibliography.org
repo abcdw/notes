@@ -1,0 +1,59 @@
+:PROPERTIES:
+:ID:       7be2667b-797f-40b7-8f7c-067df4e44875
+:END:
+#+title: Bibliography
+
+* Introduction
+Materials about citation management:
+http://andreasmhallberg.github.io/managing-citations-in-latex/
+https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex
+https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX
+
+
+** Popular tools
+- [[id:084dddfa-1f1c-4f2d-af8a-3303b58b7d60][JabRef Bibliography Management]]
+- [[id:c4a19a16-bff5-415f-aa76-24c4f4caf9d6][Zotero]]
+
+* Obtaining bibtex entries
+https://github.com/rougier/persid
+https://github.com/zotero/translation-server/
+https://github.com/mpedramfar/zotra
+
+Another emacs-agnostic option is to use [[id:c4a19a16-bff5-415f-aa76-24c4f4caf9d6][Zotero]] and Better BibTeX
+plugin to sync entries to .bib file or use [[id:084dddfa-1f1c-4f2d-af8a-3303b58b7d60][JabRef]].
+
+* bibtex, biblatex or csl
+It seems there are three primary formats for storing bibliography data.
+
+bibtex being the oldest and most features lacking (unicode and
+capacity [[https://tex.stackexchange.com/a/5105][problems]]).
+
+https://tex.stackexchange.com/questions/434946/citation-style-language-vs-biblatex-vs-possibly-other-citing-systems
+
+biblatex is a reimplementation and improvement over
+bibtex. Human-readable and wide-spreaded in scientific community.
+
+csl is XML based (there is a csl json/yaml) being more universal and
+used outside of latex world.
+
+org-cite [[https://github.com/joostkremers/parsebib][supports]] all 3 formats.  They are not completely exchangable
+in terms of data they can store (fields available), but both biblatex
+and csl should work for usual use cases.
+
+You can store bibliography in a few files with different formats and
+final export can be done through csl/biblatex or some other way
+depending on output format.  So there is no big deal hear to pick the
+primary one.  However, with a target for scientific publication it
+seems that biblatex is a solid choice for default bibliography file,
+also almost every journal, conference, sci digital lib/archive
+provides a bibtex/biblatex entries that can be copied manually or
+obtained via API.
+
+* Unique Citation Key
+To reference an entry from your bibliography you will use a citation
+key, it should be unique and preferably consistent, for example:
+~<first author>_<first noun in title>_<year>~
+
+https://retorque.re/zotero-better-bibtex/citing/
+https://retorque.re/zotero-better-bibtex/citing/#configurable-citekey-generator
+https://github.com/retorquere/zotero-better-bibtex/wiki/Citation-Keys/cc94eb1b3f10d44ed2406ea4e4a7bea4d09a35e1

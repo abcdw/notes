@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       2edb7403-c167-4f0f-8d3e-b7adb020ce85
+:END:
+#+title: Mailing List Drivent Development
+
+* Linux docs
+https://docs.kernel.org/process/5.Posting.html
+https://www.kernel.org/doc/html/latest/process/submitting-patches.html
+https://www.kernel.org/doc/html/latest/process/submit-checklist.html
+https://docs.kernel.org/process/email-clients.html

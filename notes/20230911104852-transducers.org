@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       e575696a-18f8-4f34-b6cc-8fae95388c8c
+:END:
+#+title: Transducer
+
+https://dev.solita.fi/2021/10/14/grokking-clojure-transducers.html
+https://blog.danieljanus.pl/2023/09/09/transducers/

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       cf3e353f-72ae-456a-9124-15355b4f519f
+:END:
+#+title: Building a Scheme REPL
+#+filetags: :Stream:
+
+* The Goal
+To combine all things together and integrate asyncronous,
+interruptable evaluation into nrepl server.

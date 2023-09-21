@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       c61311d0-49ee-4b70-bf17-a3a04a5d6105
+:ROAM_REFS: https://rash-lang.org/
+:END:
+#+title: Rash - The Reckless Racket Shell
+
+Integration between Racket and Shell.  It allows to make a shell more
+structured and less text-based.

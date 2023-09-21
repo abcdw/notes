@@ -50,7 +50,7 @@
   racket-docs-like style.
 - https://emersion.fr/blog/ :: minimalistic monochrome.
 - https://michal.sapka.me/ :: Minimalistic monochrome, hugo.
-
+- https://blog.tecosaur.com/tmio/2021-07-31-citations.html#cite-syntax :: anchors with arrow pointing at anchored heading, image zoom, dark mode.
 * Setup guides
 - https://othacehe.org/hosting-a-blog-using-only-scheme.html :: huant.
 - https://edwardtufte.github.io/tufte-css/ :: css with nice side-notes.

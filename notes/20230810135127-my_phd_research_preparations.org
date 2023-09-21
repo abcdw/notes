@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       1512fda4-e7bd-417b-b4c6-b39b7808b178
+:END:
+#+title: My PhD Research Preparations
+
+* TODO Test task for agenda
+SCHEDULED: <2023-08-10 Thu>

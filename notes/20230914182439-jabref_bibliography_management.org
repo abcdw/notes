@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       084dddfa-1f1c-4f2d-af8a-3303b58b7d60
+:ROAM_ALIASES: JabRef
+:END:
+#+title: JabRef Bibliography Management

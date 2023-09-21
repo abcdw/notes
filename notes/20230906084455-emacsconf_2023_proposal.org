@@ -3,19 +3,68 @@
 :END:
 #+title: EmacsConf 2023 Proposal
 
-20 minutes pre-recorded talk.
 
-*Bringing the joy to Scheme Programming.*
+Talk title: Bringing Joy to Scheme Programming.
 
+Talk description (<= 500 words):
 Emacs is usually a primary tool people remember, when talk about
-development environment for lisp languages, it serves the purpose
+development environment for lisp languages.  It serves the purpose
 great for Common Lisp, Clojure and of course Emacs Lisp, but what
 about Scheme?  Let's talk about current state of the things, recent
 improvements, and emerging tools in this field.
 
-In the talk we cover:
+My talk covers the following:
 
-- How the Scheme developer day looks like?
+- What does a usual Scheme developer day look like? And how it can be
+  made more enjoyable?
 - Important developer duties, their automation and acceleration.
 - Interactive development and its benefits.
 - Emacs setup for Scheme development.
+
+
+Format (10 minutes, 20 minutes, description of other format) and outline:
+20 minutes pre-recorded talk.
+
+Introduction for you and your talk (<= 100 words):
+Talk about Lisp development workflows, REPLs, and modern Scheme tooling for Emacs.
+Author of Guix Home, maintainer of [rde](https://git.sr.ht/~abcdw/rde), FOSS developer.
+
+Speaker name (and optional pronunciation) and preferred pronouns:
+Andrew Tropin (he/him)
+
+Speaker availability (times and timezones that you're available Dec 2-3):
+Flexible, but I would prefer from 9 to 16 UTC+04.
+
+Preferred Q&A approach (live web conference, IRC, pad, wiki, e-mail questions after the event): live
+
+Public contact information (IRC nick, e-mail, website, and/or social media):
+Nick: [abcdw](https://trop.in/contact), Site: https://trop.in/, Fediverse: https://fosstodon.org/@abcdw
+
+Private emergency contact information (phone number or messaging) in
+case we need to reach you due to technical difficulties:
+
+Please include this speaker release in order to indicate your agreement with it.
+
+  By submitting this proposal, I agree that my presentation at
+  EmacsConf 2023 is subject to the following terms and conditions:
+
+  The EmacsConf organizers may capture audio and video (a "Recording")
+  of my presentation and any associated materials, which may include
+  slides, notes, transcripts, and prerecording(s) of my presentation
+  that I provide to the EmacsConf organizers.
+
+  I authorize the EmacsConf organizers to distribute, reproduce,
+  publicly display, and prepare derivative works of the Recording and
+  any derivative works of the Recording (the "Licensed Materials")
+  under the terms of the Creative Commons Attribution-ShareAlike 4.0
+  International (CC BY-SA 4.0) license.
+
+  I grant to the EmacsConf organizers permission to use my name,
+  likeness, and biographic information in association with their use
+  of the Licensed Materials under the above license.
+
+  I represent that I have the authority to grant the above license to
+  the EmacsConf organizers.  If my presentation incorporates any
+  material owned by third parties, I represent that the material is
+  sublicensable to the EmacsConf organizers or that my use of them is
+  fair use.

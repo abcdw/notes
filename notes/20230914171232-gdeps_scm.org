@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       216d68a4-b6e6-4ea4-81f1-315ae0918699
+:END:
+#+title: gdeps.scm
+
+guix based dependency and project management for project.

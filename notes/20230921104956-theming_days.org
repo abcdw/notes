@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       9447cefb-9e4f-47bd-8b3f-aa3b0c141415
+:END:
+#+title: Theming Days
+
+The idea from https://youtu.be/HZWKckdo2UU to color days in specific
+themes to batch related task and simplify planning/scheduling
+activities:
+
+- Monday :: FOSS maintanance
+- Tuesday :: beweekly planning/streaming
+- Thursday :: research.
+
+Changing locations for particular activities can be benifitial as
+well.

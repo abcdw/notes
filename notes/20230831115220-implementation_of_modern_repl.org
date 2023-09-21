@@ -7,6 +7,9 @@ Bringing the joy to Scheme Programming in [[id:49c4a08a-9e53-4874-b903-39e6e40dc
 related talk to this paper.
 
 * Abstract
+Asyncronous Reliable Extensible Scheme Network REPL and Guile
+imlementation of [[https://nrepl.org/nrepl/index.html][nREPL]] protocol.
+
 * Introduction
 - Text based REPL over socket is not interruptable.
 - call/cc works when pasted into prompt of the repl, but fails when
@@ -24,6 +27,26 @@ Is interactive (short feedback loop) programming is benefitial?
 Maybe article about Jazz, Lisp, Aikido.
 
 ** TODO Add Goals
+* Functionality
+- Parallel evaluation of multiple forms.
+- fork-eval op to run tests without affecting the state of the repl?
+
+* Implementation
+** General Data Flow
+- Make initial concurrency friendly state.
+- Create an extensions chain.
+- Pass the state, message and reply-channel through extensions chain.
+
+* References
+- https://tonsky.me/blog/clojure-sublimed-3/ :: Different repl
+  options, including the upgrade of existing network repl.
+- [[https://github.com/tonsky/Clojure-Sublimed/blob/master/src_clojure/clojure_sublimed/socket_repl.clj][Tonsky's socket_repl.clj]] :: socket repl.
+- https://nrepl.org/nrepl/1.0/alternatives.html :: comparison of repl
+  implementations.
+- https://metaredux.com/posts/2023/03/26/bad-nrepl.html :: Some usual
+  concerns about nREPL.
+- [[https://andreyor.st/posts/2023-03-25-implementing-a-protocol-based-fennel-repl-and-emacs-client/][Implementing a protocol-based Fennel REPL and Emacs client]] :: Comint
+  and self-made nREPL like protocol.
 
 * Audience
 - Language tools developers.

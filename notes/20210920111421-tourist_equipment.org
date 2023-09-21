@@ -1,7 +1,9 @@
 :PROPERTIES:
 :ID:       c68bfd42-b2eb-4332-93d9-5a31e1aeda42
+:ROAM_ALIASES: "Backpacking Gear"
 :END:
 #+title: Tourist Equipment
+
 * First Equipment
 - Trekking boots
 - Backpack
@@ -14,8 +16,10 @@
 - Trekking poles
 - Water filter
 - Knife
+
 * Boots
 Lowa - interesting boots brand.
+
 * Camping Tent
 - [[https://www.naturehike.com/products/naturehike-vik-series-970g-ultralight-15d-nylon-single-tent-nh18w001-k?variant=36760140349594][Naturehike VIK-1]]. 1.6kg
 
@@ -36,16 +40,18 @@ thermarest neoair xthem - pad
 * Knife
 Simple, but durable.
 https://morakniv.ru.com/products/kansbol
+
 * Multitool
 https://ileatherman.ru/multitul-leatherman-squirt-ps4-black-831233
+
 * Flashlight
 WIZARD PRO NICHIA
-* Sneakers
 
+* Sneakers
 Crocs, suitable for watersports?
 https://www.crocs.ru/catalog/muzhchinam/obuv/krossovki-i-lofery/#item-680608
-* Socks
 
+* Socks
 Waterproof
 https://dexshell.ru/vodonepronicaemye-noski--dexshell-coolvent-ague-blue-ds628/
 
@@ -57,5 +63,7 @@ NH18D020-Z палки карбоновый трекинговые
 BRS3000T горелка
 https://ileatherman.ru/multitul-leatherman-style-cs-831245
 TREK 100 FORCLAZ пуховка из декатлона
+
 * Links
 https://youtu.be/gD_nobywJnw
+https://youtu.be/EigFgZOpsG8 :: nice sleeping setup and a few more useful items.
