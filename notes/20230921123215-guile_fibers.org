@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       cf2f0a73-62ac-4861-af32-2b98f0b7cbee
+:END:
+#+title: Guile Fibers
+
+Implementation of [cite:@reppy_parallel_2009] in [[id:e052a190-e23b-4ea2-b8b8-54c272f0b50a][Guile]].

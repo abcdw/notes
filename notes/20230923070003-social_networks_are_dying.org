@@ -1,0 +1,54 @@
+:PROPERTIES:
+:ID:       502e9677-b42a-48a1-b5bb-ef26783cc401
+:END:
+#+title: Social Networks are Dying
+
+I have a feeling that many previously very popular networks are dying.
+Watched a talk [[https://youtu.be/rimtaSgGz_4][DEF CON 31 - An Audacious Plan to Halt the Internet's
+Ensh*ttification - Cory Doctorow]] and wrote down a lot of thoughts
+mixed with author's ideas.
+
+* The Usual Lifecycle
+They are somewhat different both technically and socially, but there are common
+things between them:
+
+1. They provided good quality content from peers to peers.
+2. Get owned by a large corporation. (or grew into it)
+3. Harvested all the data about user.
+4. Switched from chronological to algorithmic.
+5. Provided cheap and very precise advertisment tools.
+6. APIs get hugely restricted.
+7. Make algorithmic feeds barely interesting (almost shitty content
+   with sometimes high quality one makes them addictive).
+8. Mix feeds with ads.
+9. The value for end users get reduced to the minimum to keep users on
+the platform and make it really hard leave.
+
+Somewhere in between the posts with links to external sites get
+shadowbanned.  The most of the content doesn't reach subscribers.
+Copying an image on image-posting social network becomes a fucking
+reverse engineering journey.  Buy and extinct competitors.  Services
+become more walled gardens.
+
+* The Law Modification
+Big Corps protecting themselves by law, making it illegal to reverse
+engineer/provide alternative UIs, modify there software, bridge it
+with other services and so on.  They did it before this way the
+defended some of there competitors.
+
+* How To Fix
+Force big corps to provide interopable APIs to reduce switching cost
+and increase competition?  Federate?  Make it technically impossible
+to not support [[id:02395c50-e75f-46d7-9afe-cab401c51db2][ActivityPub]] and stay connected with its peers.
+
+Make it legal again to tinker, reverse engineer and modify.  So Tech
+Giants instead of this two options: "keep the API and lose disconted
+users or nerf API lock them down and screw the competitors", will
+have: keep the API and lose disconted users or nerf the API and get a
+warfare against angry engineers (who have [[id:2b9b0759-472d-4caa-9ed4-b531a69a62db][Attacker's Advantage]]), who
+can scrape the site and provide interopt themselves (if it was legal
+and not restricted by term of service).
+
+* How to Prevent your Business be Screwed up by VC
+Use a irrevocable licences like GPL. (The siren analogy: make it
+impossible to jump into sea when they sing).

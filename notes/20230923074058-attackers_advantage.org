@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       2b9b0759-472d-4caa-9ed4-b531a69a62db
+:END:
+#+title: Attacker's Advantage
+
+Defender have to be perfect, attacker need to find only one
+flaw/mistake defender have made.

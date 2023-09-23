@@ -21,6 +21,7 @@ Keywords: REPL, interactive development, content-addressable code.
 - [[https://arxiv.org/abs/1804.00485v1][Lisp, Jazz, Aikido -- Three Expressions of a Single Essence]]
 - [[https://arxiv.org/abs/2004.02504v1][Bringing GNU Emacs to Native Code]]
 - [[https://arxiv.org/abs/1106.2578v1][Extensible Pattern Matching in an Extensible Language]]
+- Read [cite:@reppy_parallel_2009]
 
 ** For some future
 - [[http://arxiv.org/abs/2003.03831v2][Why You Cannot (Yet) Write an "Interval Arithmetic" Library in Common Lisp]]
