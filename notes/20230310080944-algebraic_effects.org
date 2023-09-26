@@ -5,4 +5,14 @@
 
 Alternative to [[id:987b2ade-4861-40e4-ab86-4be0ebb38e05][Monads]] for controlled side effects.
 
-https://bobkonf.de/2023/loeh.html
+- https://github.com/yallop/effects-bibliography
+- [[https://www.eff-lang.org/handlers-tutorial.pdf][An Introduction to Algebraic Effects and Handlers]]
+- [[https://www.cs.uoregon.edu/research/summerschool/summer18/lectures/bauer_notes.pdf][Algebraic effects and handlers (OPLSS 2018 lecture notes)]]
+- [[https://link.springer.com/article/10.1023/A:1023064908962][Algebraic Operations and Generic Effects]]
+- [[https://link.springer.com/chapter/10.1007/978-3-642-00590-9_7][Handlers of Algebraic Effects]]
+- [[https://lmcs.episciences.org/705][Handling Algebraic Effects]]
+- [[https://youtu.be/tWLPrPfb4_U][Efficient Compilation of Algebraic Effect Handlers - Ningning Xie]]
+- [[https://dl.acm.org/doi/10.1145/3563289][First-class names for effect handlers]]
+- [[https://drops.dagstuhl.de/opus/volltexte/2018/9762/pdf/dagrep_v008_i004_p104_18172.pdf][Algebraic Effect Handlers go Mainstream]]
+- [[https://dl.acm.org/doi/abs/10.1145/3371116][Binders by day, labels by night: effect instances via lexically scoped handlers]]
+- https://bobkonf.de/2023/loeh.html

@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       c0571606-05e1-4c03-acd7-7e6083114749
+:END:
+#+title: 5 Concurrency Patterns in Scheme
+#+filetags: :Stream:
+
+* Introduction
+5 patterns I used in my recent work on asyncronous system for
+guile-nrepl project. The previous related streams are: [[id:9ada190f-1a85-450f-9b4c-ae59ce1828d1][Fibers:
+Communication and Syncronization]], [[id:5d199d16-ffd6-48ef-bd5e-163bafca2e23][Lightweight Concurrency in Scheme]].
+
+* Patterns
+** Atomic Function Application
+Simplifies integration with functional programming paradigm.
+
+** Get or Atomic Create
+Avoid problems with concurrent access to shared resources.
+
+** Finished Feedback and Life Cycle Managment
+Allows to make tests fast.
+
+** Buffering
+Make calls non-blocking.
+
+** Self-Massaging
+Prevent creation of unecessary actors.
+
+* Conclusion
+- Asyncronous programming is hard.
+- [[id:aee3e3f5-a06d-442b-b7ce-26eec99215df][Parallel concurrent ML]] is cool, [[id:cf2f0a73-62ac-4861-af32-2b98f0b7cbee][Guile Fibers]] is a nice implementation.
+- Diagrams help to understand a picture.
+- Tests help to stay sane.
+- Patterns help to reduce wheel reinvention.

@@ -8,3 +8,4 @@
 - [[id:6b02c6e0-ef4c-41db-872d-c5c69427c98a][Programming Language Design and Implementation (PLDI)]]
 - [[id:367bfd82-7f8d-45cc-bdc9-968cb98f51ed][International Conference on Functional Programming]]
 - https://european-lisp-symposium.org/
+- https://www.cs.uoregon.edu/research/summerschool/summer23

@@ -1,8 +1,9 @@
 :PROPERTIES:
 :ID:       aee3e3f5-a06d-442b-b7ce-26eec99215df
 :ROAM_REFS: https://people.cs.uchicago.edu/~jhr/papers/2009/icfp-parallel-cml.pdf @reppy_parallel_2009
+:ROAM_ALIASES: "Parallel Concurrent ML"
 :END:
-#+title: Parallel concurrent ML :: Reppy, John and Russo, Claudio V. and Xiao, Yingqi
+#+title: Parallel Concurrent ML - Reppy, John and Russo, Claudio V. and Xiao, Yingqi
 
 This is a cool article about implementation of concurenncy mechanism,
 which can work on multi-threaded system.

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       5883f06b-f3a3-430b-8766-b0b3ef0ab5ea
+:END:
+#+title: Ningning Xie
+
+https://xnning.github.io/
+
+Assistant Professor in the Department of Computer Science at the
+University of Toronto.  [[id:6344c96b-7e88-4414-9cf1-81ff0471adeb][PLT]] researcher.
