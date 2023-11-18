@@ -1,0 +1,99 @@
+:PROPERTIES:
+:ID:       03df7733-35a4-4206-af7f-e518dd6b4650
+:END:
+#+title: NLnet 2023 Proposal
+
+* Proposal
+It's an implementation of nREPL[1] protocol for Guile Scheme language
+and extensions for it.  It's needed to make a good cross-editor
+development tooling for Guile.
+
+The expected outcomes are:
+1. nREPL server.
+2. Extension mechanism for it.
+3. Base extensions for completion, documentation, go to definition,
+   auto-imports.
+4. Extensions for exceptions and continuations handling capabilities.
+4. Extensions for runnnig and re-running tests.
+5. Additional extensions for refactoring and debugging capabilities.
+6. Integration of additional extensions with one of the nREPL clients.
+
+The current prototype already works with existing nREPL clients and
+provides basic session management and evaluation capabilities, and
+minimal extension mechanism implementation.  Later it can be served as
+a backend for LSP server or other language-related tooling.  The
+long-term goal is to reach feature-parity with cider-nrepl, to make it
+possible to provide people experience similiar to CIDER[2] and
+Calva[3].
+
+[1]: https://nrepl.org
+[2]: https://cider.mx
+[3]: https://calva.io/nrepl_and_cider-nrepl
+
+* Contributions
+I work on rde project, it includes a lot of work on development tooling and requires some understanding of tree-sitter, guile testing frameworks, nREPL, LSP and text editors architecture. Also the project uses guile as a primary language, so it gives understanding of what is missing for comfortable guile development.
+
+Another related contributions are with Guix project (which is one of the biggest Guile projects at the moment). I'm a commiter in it and in addition to patch review done a few more things: created a Guix Home, helped in packaging tree-sitter and grammars for it, integrated it with Emacs.
+
+* Related Contributions
+I work on rde project, it includes a lot of work on development
+tooling and requires some understanding of tree-sitter, guile testing
+frameworks, nREPL, LSP and text editors architecture. Also the project
+uses guile as a primary language, so it gives understanding of what is
+missing for comfortable guile development.
+
+Another related contributions are with Guix project (which is one of
+the biggest Guile projects at the moment). I'm a commiter in it and in
+addition to patch review done a few more things: created a Guix Home,
+helped in packaging tree-sitter and grammars for it, integrated it
+with Emacs.
+
+* Requested Support
+The rate for a developer work is around 200 EUR/day.
+
+I expect the project to take half an year, which is about 120 working
+days, taxes are around 12%.
+
+No other sources of funding at the moment.
+
+* Comparison
+There is a geiser.el package, which is defacto standard at the
+moment. I faced many problems with it, so I started to document them a
+few months ago. There are a lot of other reliability and quality
+issues, but I'll list some most frequent:
+
+- It's Emacs-only solution, which prevents or hugely restricts people
+  from other ecosystems to participate in the development of guile
+  projects.
+- Evaluation over socket is not interruptible.
+- It's not possible to see stdout/stderr until evaluation completed.
+- call/cc works when pasted into prompt of the repl, but fails when
+  evaling from buffer with C-x C-e. (when saving continuation to
+  symbol with set!)
+- There are no tools for interactive test execution.
+- CAPF function is injected, even if there is no connection to REPL
+  and throws errors preventing other CAPFs to work.
+- When working on multiple projects evaluation happens in most recent
+  REPL connection instead of project related.
+- There is no way to provide stdin input to running expression.
+- Go to definition doesn't work for with-input-from-port and many
+  other cases.
+
+Due to implementation approach, support for multiple scheme
+implementation it would be hard to gradually improve it to solve
+issues listed earlier and get a good support of guile, so the decision
+to implement guile nrepl server was made.
+
+* Techical Challenges
+It's not clear yet how to implement suspendable evaluation, so it can
+be better integration in asyncronous architecture based on fibers
+library (at the moment a separate thread spawned for every evaluation
+request).
+
+* Ecosystem
+The primary users are people from Guix and Guile communities, which
+are tightly related and have a big intersection. I actively interact
+with them via IRC, mailing lists, fediverse. We have a trop.in/rde
+community and respective IRC, mastodon, youtube and peertube channels
+(~2-3k people). Also, there is a neighbour System Crafters community
+(~30k people), which we have a good relationship with.

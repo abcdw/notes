@@ -1,0 +1,117 @@
+:PROPERTIES:
+:ID:       0535e698-d0f0-458f-bc03-fd49099a376a
+:END:
+#+title: Programming an OS distribution - SeaGL 2023
+
+* Introduction
+Hello and welcome everyone.
+
+Today we discuss how to use only one programming language to create
+and maintain the whole Operating System distribution.
+
+* Why?
+Using an OS == Developing an OS.
+
+Changed a line in the config? -> You updated the source code of your OS.
+
+Installed a package? -> You implicitly modified the dependencies of
+all programs, edited the source code, headers at the same time.
+
+Do you track your / in VCS? -> You don't know what actually happens
+with your system.
+
+
+Working with OS today is like building the big software project but
+with worst possible development practices.
+
+
+We never have a shippable solution.
+
+Your future self will be very grateful to your past self if he gives
+him a maintanable system instead of a pure mess.
+
+* How?
+With Fuctional Package Managers.
+
+~f(inputs)~ -> resulting package.
+
+~f~ is a pure function, just a list of build instructions, which will be executed in isolated environment whithout acces to network, filesystem, etc.
+
+~inputs~ are the dependencies required for a build: source code,
+libraries, compilers, and other assets.
+
+- Built once?  Don't need to rebuild, it's reproducible.  You can
+  cache the result, use binary substitutes and so on.
+- Built with different inputs? You get different package and it
+  doesn't collide with previous one.
+- and much more.
+
+
+The package is a pure function (build phases) + meta information
+(home-page, version, inputs, sources).
+
+- How to make sure that we provide the same inputs every time?
+- Who built the first compiler?
+
+https://bootstrappable.org/
+
+* Programming your Packages
+Guix is a functional package manager written in Guile Scheme language.
+
+Guile REPL experience provided by ~emacs-arei~ and ~guile-ares-rs~.
+
+* From Package Manager to the Whole OS
+Collection of packages + activation script -> Profile.
+
+Activation script modifies environment variables of your shell or
+install symlinks to apropriate places.
+
+Rollbacks?
+
+* Your Operating System is a Software Project
+├── Makefile
+├── pre-inst-env
+├── profiles.mk
+├── rde
+│   ├── channels-lock.scm
+│   └── channels.scm
+└── src
+    └── rde-configs
+        ├── ci.scm
+        ├── configs.scm
+        ├── files
+        │   └── config
+        │       ├── alacritty
+        │       │   └── alacritty.yml
+        │       └── tmux
+        │           └── tmux.conf
+        ├── hosts
+        │   ├── ixy.scm
+        │   └── live.scm
+        ├── minimal-emacs.scm
+        ├── minimal.scm
+        └── users
+            ├── abcdw.scm
+            └── guest.scm
+
+* Power of Removing
+~RDE~ is developer and power user friendly GNU/Linux distribution based
+on GNU Guix, it provides a API and a lot of batteries.
+
+https://trop.in/rde
+
+In usual distro, you can tweak a thing or two, but if you go wild and
+start throwing out chunks of it, it will break quickly.
+
+Let's remove some parts!
+
+* Q&A Session
+I hope my internet connection will allow me to answer your questions
+live, but if not you can always contact me via email or fediverse.
+The contact you can find below.
+
+Thank your for you time and I'll see you in a bit.
+
+* Contacts
+
+~andrew@trop.in~

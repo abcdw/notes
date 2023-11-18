@@ -84,6 +84,9 @@ https://www.gnu.org/software/guile/manual/html_node/Control-Mechanisms.html
 [[https://youtu.be/QNM-njddhIw][Delimited Continuations for Everyone by Kenichi Asai]] :: talk in ocaml?
 https://github.com/papers-we-love/pwlconf-info/blob/master/2017/kenichi-asai/delimited-continuations-for-everyone.pdf
 
+https://stackoverflow.com/questions/29838344/what-exactly-is-a-continuation-prompt
+https://blog.poisson.chat/posts/2023-01-02-del-cont-examples.html :: delimited continuations in Haskell.
+
 https://youtu.be/uwiaT3MoDVs?t=1236 Andy Wingo explains on simple
 examples.
 

@@ -4,3 +4,6 @@
 #+title: Type Systems
 
 https://coalton-lang.github.io/20211010-introducing-coalton/ :: types for Common Lisp.
+
+
+[[https://dl.acm.org/doi/10.1145/1167473.1167479][A framework for implementing pluggable type systems]]

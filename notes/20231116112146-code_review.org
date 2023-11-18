@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0ef172c4-ec55-4051-ba2f-206094bf2bfa
+:END:
+#+title: Code Review
+
+- https://github.com/google/git-appraise :: git-based distributed code-review.

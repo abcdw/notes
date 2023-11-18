@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       92c2a537-106e-4382-8ef5-51164ff48f1f
+:END:
+#+title: Garbage Collector
+
+- https://v8.dev/blog/wasm-gc-porting

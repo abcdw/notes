@@ -2,3 +2,6 @@
 :ID:       987b2ade-4861-40e4-ab86-4be0ebb38e05
 :END:
 #+title: Monads
+
+Mondas in [[id:17d7f5b1-8ce1-41ff-8d59-ae4a02547ce8][Scheme]].
+https://eighty-twenty.org/2015/01/25/monads-in-dynamically-typed-languages

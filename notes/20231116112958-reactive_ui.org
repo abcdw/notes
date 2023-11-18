@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       da15974a-f5bd-42d6-9672-66b5232506d8
+:END:
+#+title: Reactive UI
+
+[[https://youtu.be/4vgrLHsD0-I][UIx, a story behind yet another React wrapper (by Roman Liutikov)]]

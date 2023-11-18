@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       2f9b0a19-d498-415d-b95d-1b913a0aa15d
+:END:
+#+title: Places in Turkey
+
+* South
+
+** Geyikbairi
+A big rock region, with 1500 routes and various camps.
+*** Rain Tips
+Дождик накрапывает, сыро и влажно, низкая облачность
+
+Для тех кто здесь впервые: в дождь можно лазать в секторах под
+нависаниями и пещерах Магара, Кулуюны, Посейдон, Лэфт Кейв, Алабалык
+Балкон, за рекой сектор Требенна и Патагония
+
+Если дождь не сильный, то остаются сухими маршруты под нависающими
+стенками на Туркиш Стандарте,Сарките, Мевлане, Оттомане, Коридоре
+
+Вчера ребята лазали до 16ч, на секторе Алабалык,потом дождь разошелся
+
+*** Rido Camp
+
+*** Contacts                                                          :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQIMA22UE5a+gjqFAQ//cs7wmvHfvX75asUJ3aLOCXhfYX8aitUlQsQg4MHTUmpi
+towR1zE3nvtE6vCj1knSvRm8nLxwXYI8vs/oYXhIF1Qrj0rx06XWsEjslyREv6Fl
+cf9NjJUoePDDf5BKdCvlWzH9neqZoq4bCsrhmPiByeuaF2vFdmffBqIkMZb3SOae
+EdAeVuYRM6LGafxXPf/WIX2Jb/4my+jBeCmQEXPkmbB3T1U7eIp0A1+rtencZX1h
+0kManYNBp6pNYoFu03A7zcpH9+u4GRRJxTowsqc6JcwSgrWJishLczrQPSvMS9ii
++F6oufo+3DFyn2dYYTIU3xMK3jTZHZrPuWdKDhtXrX/GUDesadDz84jC6ir8Yiue
+4ByLgcblyRHYQFnlOpoj9d9hVstIzBA7xpJt6d1//0bXY1rj6Dj8sMC2dJB5EmLm
+R7tThpniLyte422d7yMRsWQJeIZDuM6nBC1dfDYHWB7lJF7L/4uIhTd5DyuXFYwq
+nyC5g5TLlC8EFyrAIn/Yqtw44QaKgluEIrJvoG/k8/Sfjw0zadVcPz/cHdZg1sdP
+5XQoLFAeblKWpVEwCTaxHS/m5aP8m2a7qGB3w5WBv8kelrMjAcTOowcDcNpLeYhv
+npFFaknRPbXQnDrZSBpapofT5ZXCftzaD2myeTXpr4OC2g4LmiGGCg91qP1QvonS
+ZAHyTdfi3jdGFer4HxbYYilFyCOjiyJd+3svttuSDLUsrRSmfUz8+KstMm4elNyb
+wSAWcRrZWuifuVcLZSQBPWwJAuQBQm94rGO2SufGzGX0vc9aWLvO1CP7xNEtveHX
+HzuP0t4=
+=0kRJ
+-----END PGP MESSAGE-----
+
+*** Car Rent
+Локалрент.ком например только в евро, а не баксы.
+** Wild Beach Büyük Çaltıcak
+36.781503, 30.574116
+8G8GQHJF+5Q
+
+beach + rocks 5a-7a+
+
+* Useful Links
+- https://www.obilet.com/en/journeys/350-357/2023-10-23 :: buses.
+- https://t.me/BigBit0 :: different currencies (including crypto) exchange.
+** Outdoor shops
+- https://www.k2outdoor.com.tr/

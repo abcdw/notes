@@ -87,6 +87,9 @@ https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/
 https://pragprog.com/titles/7lang/seven-more-languages-in-seven-weeks/
 https://dmkpress.com/catalog/computer/programming/978-5-94074-539-6/
 
+** Numbers
+https://www.deinprogramm.de/sperber/papers/numerical-tower.pdf
+
 ** Security
 [[id:e08bd26b-3df9-4d36-8887-3a503c1b7e0d][What Are Capabilities?]]
 
@@ -101,6 +104,7 @@ On parentheses less syntax
 https://beautifulracket.com/appendix/thoughts-on-rhombus.html
 
 ** Interesting Links
+- [[https://codeberg.org/scheme/r7rs/issues/127][What should be the features of the language RωRS?]]
 - https://www.draketo.de/software/guile-10x
 - https://www.nongnu.org/guile-reader/doc/guile-reader.html
 

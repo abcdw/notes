@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       b4ec4e75-fd5f-4800-b7f3-a85613a24c82
+:ROAM_ALIASES: "Building a Window Manager"
+:END:
+#+title: Building a Compositor
+
+https://github.com/YaLTeR/niri :: paperwm like, scrolling compositor
+
+* Ideas
+- Fast auto-destructable contexts :: spawn a context for search an
+  article, return rendered html to development context with code
+  editor.
+- Context Stack :: create a couple temporary contexts and unwind back
+  to your primary, saving intermediate results.
+
+* Links
+- [[https://www.youtube.com/playlist?list=PLXH9dADRlWHaXM3Q8G_gaunljITif3cUl][NewWM features video demonstration]]

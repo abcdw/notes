@@ -1,0 +1,65 @@
+:PROPERTIES:
+:ID:       350bcf5b-64a0-43ca-a916-98201ca946dc
+:END:
+#+title: Modern Scheme IDE - BobKonf 2023
+
+Format: 40 minutes talk + 5 minutes Q&A.  English.
+* Proposal
+** Abstract
+The emergence of new IDEs, particularly those open to inspection,
+study, and modification, is a rarity in today's landscape. However,
+the need for enhanced development tools within the Guile Scheme
+ecosystem prompted the initiation of the guile-ares-rs project. To
+document and share the experiences of designing and developing an IDE,
+this talk has been prepared.
+
+The talk will provide a brief introduction to interactive and
+REPL-driven development workflows, a deep dive into IDE architecture,
+including its design rationale and key technical details. This
+exploration is intended to enhance the understanding of functional
+programming patterns and language constructions (like delimited
+continuations) through the examination of real-world examples of their
+application.
+
+Main topics covered are:
+- Client-server architecture, nREPL protocol and extensibility.
+- Concurrency and parallelism through Fibers ([[id:aee3e3f5-a06d-442b-b7ce-26eec99215df][Parallel Concurrent ML]]
+  paper implementation for Guile).
+- Reusable Threads and interruptible evaluation via delimited
+  continuations.
+
+By sharing this journey, the talk aims to encourage community
+collaboration and knowledge sharing, fostering the growth and
+evolution of development tools in the Guile, Scheme, Lisp and FP
+ecosystems.  It’s an invitation to join a conversation about advancing
+software development tooling and workflows.
+
+** Contributions
+This talk will provide:
+- A better understanding and practical application of functional
+  programming patterns, tools and ideas.
+- A deeper understanding of development tooling, its capabilities,
+  areas of application and possible workflows.
+- A good source of information for development of client part for
+  other text editors like vim, vscode, sublime, etc.
+- A foundation for future development of extensions and tools for
+  server side part.
+
+** Bio
+I'm Andrew Tropin, I work on operating systems and programming
+languages and do a lot of Free and Open Source Software Development.
+
+You may already know me from my involvement in the following projects:
+
+- Guix Home (author): A guix subsystem allowing to build and activate home environments.
+- Guix (committer): A functional package manager and generic devops tool.
+- RDE (maintainer): Developer and power user friendly GNU/Linux distribution and set of tools for managing development environments.
+- Guile Ares RS (maintainer): Guile implementation of RPC Server based on nREPL. protocol for making development tooling.
+- Emacs Arei (maintainer): Guile IDE for Emacs.
+
+https://trop.in/does
+
+** Past Presentations
+- [[https://youtu.be/gMROkHyOtT4][Programming an OS distribution - SeaGL 2023]]
+- [[https://youtu.be/chKc_YsvXKU][Functional Operating Systems (by Andrew Tropin)]]
+- [[https://youtu.be/ZbxUJz6a9Io][The Modern Emacs]]

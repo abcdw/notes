@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       27dad35d-94a6-4097-a665-728b2d9a7d1e
+:END:
+#+title: Gradual Typing
+
+Using malli and clj-kondo for gradual typing:
+https://blog.tvaisanen.com/take-your-linting-game-to-the-next-level

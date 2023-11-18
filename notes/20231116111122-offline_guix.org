@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       23b47f84-73b0-48b6-8af2-6558799de0c8
+:END:
+#+title: Offline Guix
+
+https://linus.schreibt.jetzt/posts/include-build-dependencies.html

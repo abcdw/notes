@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       14be4c97-cc12-46d8-83b2-44506fcb6f49
+:END:
+#+title: GNU Mes to Content Addressable Storage
+
+- The bootstrap process.
+- The bootstrap developers workflow.
+- How the boot process works? How hex0, m1, etc get loaded into memory?
+- How we input C files into M1?
+- How to represent as a data structure?

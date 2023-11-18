@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0aa6b360-bd6a-49ec-8045-cb8168989389
+:END:
+#+title: Bootstrapping
+
+Process of building compiler with other compiler and up to first
+binary seed.
+
+- https://simon.tournier.info/posts/2023-10-01-bootstrapping.html
+- https://justine.lol/lambda/ :: binary lambda calculus in 383 bytes.
+- https://justine.lol/sectorlisp2/
+- https://github.com/woodrush/lambdalisp
+- https://research.swtch.com/nih

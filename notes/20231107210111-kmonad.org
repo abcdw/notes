@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c64a59df-467e-488b-98e9-c80664233598
+:ROAM_REFS: https://github.com/kmonad/kmonad
+:END:
+#+title: Kmonad
+
+An advanced keyboard manager.
+
+https://github.com/kmonad/kmonad
+https://precondition.github.io/home-row-mods

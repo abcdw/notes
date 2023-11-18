@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       cc925962-b5c6-4b54-bb76-657e8c12ebae
+:END:
+#+title: Mobile Linux
+
+[[https://framatube.org/w/dHBrnMQeEt8Mq82KxV4zKm?start=0s][Sxmo: Freedom on mobile devices through simplicity and hackability]]

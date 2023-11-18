@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8f35dcdf-73f2-484c-b0d3-e2e3e42e97ea
+:END:
+#+title: Fonts
+
+* Interesting Fonts
+- https://github.com/githubnext/monaspace#monaspace

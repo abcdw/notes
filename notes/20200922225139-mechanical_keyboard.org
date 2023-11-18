@@ -4,6 +4,9 @@
 #+title: Mechanical Keyboard
 - related :: [[id:c82f8b8c-237d-4371-b922-2f80cb7aa6e1][Ergonomics]]
 
+* Guides
+- https://precondition.github.io/home-row-mods
+
 * Firmwares
 - https://zmkfirmware.dev/docs/
 - https://docs.qmk.fm/#/

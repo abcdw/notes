@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       abb5d6b5-5651-4caf-9956-72e469f0642e
+:END:
+#+title: WASM
+
+https://github.com/ktock/container2wasm

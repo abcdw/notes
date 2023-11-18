@@ -4,5 +4,7 @@
 #+title: How to Read Research Papers
 
 - [[id:427223fe-0e89-4db6-bd11-9f99e0c393a8][How to Read a Paper (S. Keshav)]]
-https://people.cs.pitt.edu/~litman/courses/cs2710/papers/howtoreadacspaper.pdf
-https://beta.elsevier.com/connect/infographic-how-to-read-a-scientific-paper?trial=true
+- https://people.cs.pitt.edu/~litman/courses/cs2710/papers/howtoreadacspaper.pdf
+- https://beta.elsevier.com/connect/infographic-how-to-read-a-scientific-paper
+- https://tratt.net/laurie/blog/2021/the_evolution_of_a_research_paper.html
+- https://tratt.net/laurie/blog/2022/where_do_research_problems_come_from.html

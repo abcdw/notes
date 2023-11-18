@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       28f69fc5-d719-46c8-8f18-06b6673562b7
+:END:
+#+title: SCION Scalability, Control, and Isolation on Next-generation Networks
+
+https://netsec.ethz.ch/people/aperrig/

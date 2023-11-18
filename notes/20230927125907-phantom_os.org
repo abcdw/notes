@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       fe6dddcb-fc8b-4907-ba4a-728ef6fde4e3
+:ROAM_REFS: http://phantomos.org
+:END:
+#+title: Phantom OS
+
+[[https://youtu.be/J8XBEJTXAwQ][Phantom OS Orthogonal Persistence-based OS Intro and Design Concepts]]

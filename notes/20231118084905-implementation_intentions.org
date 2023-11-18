@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       e26fd706-3174-4d23-8d28-f76d1d343402
+:END:
+#+title: Implementation Intentions
+
+A technique for achieving useful behaviors.  Find and anchor/signal,
+write down a desired behavior.
+
+| Goal                          | How                           | Implementation Intention                                           |
+|-------------------------------+-------------------------------+--------------------------------------------------------------------|
+| Be Healthy and Perform Better | By stretching two times a day | Every time before breakfast and before sleep do 10 minutes stretch |

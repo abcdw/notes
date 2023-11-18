@@ -1,0 +1,105 @@
+:PROPERTIES:
+:ID:       60f53715-51db-4170-8d41-582a7e6e0210
+:END:
+#+title: Bringing Joy to Scheme Programming - EmacsConf 2023
+
+20-min talk
+
+* Introduction
+Hello and welcome everyone.
+
+Today we discuss Lisps (Scheme in particular), REPLs, Interactive
+Development Workflows and how to make a development environment.
+
+* Interactive Development
+- Lisp are famous for nice Interactive Development Experience!
+- REPL is good?
+- Emacs is good for Lisps!
+
+The Perfect Setup!
+
+* REPL
+Read Eval Print Loop :: basically an event loop
+
+When you integrate it with text editor/IDE:
+- Not interruptible :: only local process can be interrupted with signal.
+- Output is not interactive :: Evaluation from buffer doesn't show any
+  stdout/stderr until the process is finished.
+- Has no protocol :: it's hard to say what is happenning rn.  Is it
+  still working?  Is it finished evaluation?  Is it requiring stdin?
+  Is it possible to extend?
+- Not scalable :: blocking single event loop, you can't run evaluation
+  and have a completion at the same time.  You can't run a long
+  running process in REPL and somehow meaningfully interact with it.
+
+Overall REPL is not friendly to development tooling.
+
+* nREPL
+Asyncronous dev tool friendly extensible protocol.
+
+#+begin_quote
+nREPL server started on port 7888 on host localhost - nrepl://localhost:7888
+=> (("op" . "clone") ("id" . "1"))
+
+<= (("session" . "none")
+    ("id" . "1")
+    ("status" . #("done"))
+    ("new-session" . "4507f0ac-cd9f-41f6-b299-c5639472caef"))
+
+=> (("op" . "eval")
+    ("code" . "(display \"hi\\n\")\n")
+    ("session" . "4507f0ac-cd9f-41f6-b299-c5639472caef")
+    ("id" . "2"))
+
+<= (("session" . "4507f0ac-cd9f-41f6-b299-c5639472caef")
+    ("id" . "2")
+    ("out" . "hi\n"))
+
+<= (("session" . "4507f0ac-cd9f-41f6-b299-c5639472caef")
+    ("id" . "2")
+    ("value" . "#<unspecified>")
+    ("status" . #("done")))
+#+end_quote
+
+https://git.sr.ht/~abcdw/guile-ares-rs :: implementation of nREPL server.
+https://git.sr.ht/~abcdw/emacs-arei :: Guile IDE on top of nREPL.
+
+* Arei, Ares and How to try
+** Do you need REPL?
+** nREPL
+** Sesman
+** Snippets from Geiser, CIDER, Monroe, Rail
+** CAPF, xref
+
+I hope by the time of conference the instruction will be in README :)
+
+* Support
+It took more than two months of full-time work funded by my own
+saving.  You can support the project on open collective:
+
+https://opencollective.com/rde
+
+You can contribute on https://sr.ht/~abcdw
+
+* Future Steps
+- Multiple simultaneous evaluations in different contexts.
+- Tree Sitter integration for better code navigation and syntax
+  avareness.
+- Full fledged Debugger.
+
+* FAQ
+- Does it support other scheme implementation?
+- Is it possible to use it with other text editors?
+
+* Conclusion
+- Thanks to authors, maintainers and contributors of Guile, Geiser,
+  CIDER, Clojure and Emacs.
+- Scheme Programming will be enjoyable!
+
+* Contacts
+join #tropin IRC channel at libera.chat
+
+or drop me a message via email or fediverse:
+
+~andrew@trop.in~
+

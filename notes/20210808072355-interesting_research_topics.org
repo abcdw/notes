@@ -1,9 +1,11 @@
 :PROPERTIES:
 :ID:       cb833ba0-562d-4d80-9b8d-1c2d85d63530
+:ROAM_ALIASES: "How to Find a Research Topic"
 :END:
 #+title: Interesting Research Topics
 
-
+* Links
+- https://tratt.net/laurie/blog/2022/where_do_research_problems_come_from.html
 * Fields
 ** Quantum Programming
 ** OS Design

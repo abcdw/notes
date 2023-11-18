@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       e1aab310-9c8d-415a-9c13-449178d70b9e
+:END:
+#+title: Reusable Threads in Guile
+
+* Introduction
+
+* API
+
+* Implementation
+** Scheduling a Procedure Execution on the Thread
+** Interrupting Evaluation with Delimited Continuations
+** Syncronization Point and Integration with Fibers
+
+* Conclusion
+- There is no a built-in API for reusable threads, but Guile is quite
+  flexible to implement such a tool.

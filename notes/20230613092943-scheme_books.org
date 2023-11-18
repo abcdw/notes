@@ -14,4 +14,5 @@ https://mitpress.mit.edu/9780262546379/the-little-learner/
 https://mitpress.mit.edu/9780262510875/structure-and-interpretation-of-computer-programs/
 https://mitpress.mit.edu/9780262045490/software-design-for-flexibility/
 
-https://www.scheme.com/tspl4/
+https://scheme.com/tspl4/
+[[https://www.cs.unm.edu/~williams/cs357/springer-friedman.pdf][Scheme and the Art of Programming]]

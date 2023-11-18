@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       488732f2-a6af-4018-8c77-9b1a7324d429
+:END:
+#+title: Unicode
+
+- https://tonsky.me/blog/unicode/
+- https://wingolog.org/archives/2023/10/19/requiem-for-a-stringref
+- https://hsivonen.fi/string-length/

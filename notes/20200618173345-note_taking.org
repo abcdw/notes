@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       a293f298-61a4-4b67-844a-8aa6b3457130
+:ROAM_ALIASES: "How to Take Notes"
 :END:
 #+title: Note-taking
 - related :: [[id:7c3d12f1-1596-432e-b2d7-b0ba758430cb][Knowledge sharing]]
@@ -15,3 +16,4 @@
 * Links
 - https://takesmartnotes.com/
 - https://jethrokuan.github.io/org-roam-guide/ :: [[id:f5774af1-8d49-4e16-b45a-cd493214cba9][org-roam]] guide.
+- https://alastairreid.github.io/RelatedWork/about/
