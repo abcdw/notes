@@ -51,3 +51,4 @@
 - [[https://www.researchgate.net/publication/228465137_Business_models_in_FLOSS-based_companies][Business models in FLOSS-based companies]] :: an article/research
   published in 2007.
 - [[https://wikiless.tiekoetter.com/wiki/Business_models_for_open-source_software?lang=en][Business models for open-source software]] :: wiki article.
+- https://plausible.io/blog/open-source-funding :: article on foss monetezation by [[id:81d12f93-6b14-4af6-bd17-bcb4a8a4c167][Plausible]].

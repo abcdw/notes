@@ -36,25 +36,33 @@ software development tooling and workflows.
 
 ** Contributions
 This talk will provide:
-- A better understanding and practical application of functional
-  programming patterns, tools and ideas.
-- A deeper understanding of development tooling, its capabilities,
-  areas of application and possible workflows.
-- A good source of information for development of client part for
-  other text editors like vim, vscode, sublime, etc.
-- A foundation for future development of extensions and tools for
-  server side part.
+- A better understanding and practical application of delimited
+  continuations (for concurrency and parallelism, interruptible
+  evaluation, and reusable threads).
+- A deeper understanding of Scheme development tooling, its
+  capabilities, areas of application, and possible highly-interactive
+  development workflows.
+- A good source of information about the nREPL protocol, which will
+  help with the creation of the client part for other text editors
+  like Vim, VSCode, Sublime, etc.
+- A foundation for future development of extensions and tools for the
+  server-side part.
+- An inspiration for the creation of development tooling for other
+  languages and use cases.
 
 ** Bio
 I'm Andrew Tropin, I work on operating systems and programming
-languages and do a lot of Free and Open Source Software Development.
+languages and do a lot of Free and Open Source Software Development
+along the way.
 
 You may already know me from my involvement in the following projects:
 
 - Guix Home (author): A guix subsystem allowing to build and activate home environments.
 - Guix (committer): A functional package manager and generic devops tool.
-- RDE (maintainer): Developer and power user friendly GNU/Linux distribution and set of tools for managing development environments.
-- Guile Ares RS (maintainer): Guile implementation of RPC Server based on nREPL. protocol for making development tooling.
+- RDE (maintainer): Developer and power user friendly GNU/Linux
+  distribution and set of tools for managing development environments.
+- Guile Ares RS (maintainer): Guile implementation of RPC Server based
+  on nREPL (the protocol for making development tooling).
 - Emacs Arei (maintainer): Guile IDE for Emacs.
 
 https://trop.in/does

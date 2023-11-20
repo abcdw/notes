@@ -5,5 +5,6 @@
 
 See [[id:cfbb01b2-96b7-463f-aa97-a5084ed9d337][Literature Survey]] from [[id:427223fe-0e89-4db6-bd11-9f99e0c393a8][How to Read a Paper (S. Keshav)]].
 https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/
-https://www.youtube.com/watch?v=PM1Atui30qU
-https://www.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf
+[[https://www.youtube.com/watch?v=PM1Atui30qU][How to write papers so that people can read them]]
+[[https://www.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf][How to write papers so people can read them]]
+[[https://statmodeling.stat.columbia.edu/2023/11/17/49679/][Here’s how to read and then rewrite the title and abstract of a paper.]]

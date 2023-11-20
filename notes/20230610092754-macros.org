@@ -2,3 +2,5 @@
 :ID:       de8f8d2d-02dd-42bf-a94f-4d12a3e3a425
 :END:
 #+title: Macros
+
+[[https://youtu.be/pK2E63mhRxI][Sam Tobin-Hochstadt on Composable and Compilable Macros]]

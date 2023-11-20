@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       e06abaa9-84e5-470b-937e-569b157094ee
+:END:
+#+title: Ethical Analytics
+
+google and yandex analytics are quite far from being ethical, however
+there are a few options:
+- [[id:81d12f93-6b14-4af6-bd17-bcb4a8a4c167][Plausible]]
+- [[id:934fbb7a-8d9b-4af7-a39f-e336fa1e8394][Shynet]]
+- [[id:8399c9dc-b116-42e4-96d7-48db75d1078c][Open Web Analytics]]
+
+The comparison:
+https://blog.fidelramos.net/software/privacy-respecting-self-hosted-web-analytics

@@ -4,3 +4,5 @@
 #+title: gdeps.scm
 
 guix based dependency and project management for project.
+
+https://clojure.org/reference/deps_and_cli#_coord_attributes

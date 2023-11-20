@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       934fbb7a-8d9b-4af7-a39f-e336fa1e8394
+:ROAM_REFS: https://github.com/milesmcc/shynet
+:END:
+#+title: Shynet
