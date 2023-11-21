@@ -3,8 +3,14 @@
 :END:
 #+title: Mail Providers
 
-- gandi.net
-- mailbox.org
-- www.migadu.com
+- https://www.migadu.com :: very focused on providing email service, more geeky, privacy and technology focused team.
+- https://mailbox.org :: more complete solution, have cardav/caldav,
+  office, conferencing, more usual user-oriented.
+- https://mxroute.com/ :: don't know much, found somewhere on reddit.
+- https://gandi.net :: become paid without providing any benifits over
+  options above.
 
-https://fosstodon.org/@abcdw/107591821459438659
+Related articles on the topic:
+- https://fosstodon.org/@abcdw/107591821459438659
+- https://european-alternatives.eu/category/email-providers
+- https://drewdevault.com/2020/06/19/Mail-service-provider-recommendations.html
