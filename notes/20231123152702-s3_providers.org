@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       caf8db14-616b-4761-83b8-789b7bee27eb
+:END:
+#+title: S3 Providers
+
+- https://wasabi.com/ :: cheap, fast.

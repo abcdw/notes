@@ -8,3 +8,4 @@ Minimalistic well-defined Lisp dialect.
 - https://scheme.org
 - https://conservatory.scheme.org/schemers/Documents/Standards/R5RS/
 - https://codeberg.org/scheme/r7rs/issues/127 :: How to Improve Scheme.
+- https://irvise.xyz/Blog/scheme-implementation-comparison.html

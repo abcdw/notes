@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       0c08bcd3-b9b4-48bd-8806-3e1d2caaab93
+:END:
+#+title: Practical compilation of fexprs using partial evaluation: Fexprs can performantly replace macros in purely-functional Lisp :: Braswell, Nathan and Khan, Sharjeel and Pande, Santosh
