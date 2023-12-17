@@ -29,12 +29,14 @@ https://youtu.be/Pl5-ZKdUCzo
 * Trekking Poles
 [[https://www.komperdell.com/en/Camera-Staff-PL/K1762300-10-Tele][Komperdell Camera Staff PL]] 294g
 
-* Camping Tent
+* Tent
 - [[https://www.naturehike.com/products/naturehike-vik-series-970g-ultralight-15d-nylon-single-tent-nh18w001-k?variant=36760140349594][Naturehike VIK-1]]. 1.6kg
 
 [[https://www.naturehike.com/collections/towel/products/naturehike-camping-sport-quick-drying-cooling-microfiber-towel][Naturehike Towel]]. 70g + bag.
 
 [[https://aliexpress.ru/item/1005004016616043.html][3F UL GEAR Lanshan Pro]]
+https://www.tarptent.com/product/dipole-1-dw/
+https://www.tarptent.com/product/dipole-1-li/
 
 * Sleeping
 ** Bag/Quilt
@@ -49,9 +51,15 @@ lixada - condensate
 thermarest neoair xthem - pad
 https://www.rei.com/product/199935/nemo-tensor-ultralight-insulated-sleeping-pad
 [[https://aliexpress.ru/item/1005001698879456.html][Blackdeer Archeos Light]]
+[[https://www.amazon.com/dp/B0BKC9SRQV/][Therm-a-Rest NeoAir XTherm NXT]]
+https://www.rei.com/product/228437/nemo-tensor-extreme-conditions-ultralight-insulated-sleeping-pad
+
+[[https://www.garagegrowngear.com/products/thinlight-foam-pad-1-8-by-gossamer-gear?variant=44562074960059][yoga/sleeping UL pad]]
+
 ** Pillow
 - [[https://www.backcountry.com/nemo-equipment-inc.-fillo-elite-pillow][Fillo Elite Pillow]]
 - [[https://www.amazon.com/Exped-Pillow-Camping-Travel-Large][Exped Mega Pillow]]
+- [[https://www.garagegrowngear.com/products/pillow-strap-by-pillow-strap][Pillow Strap]]
 
 * Washing
 https://www.naturebuffsoap.com/shop :: small soap in a net + zipper bag.
@@ -78,15 +86,20 @@ WIZARD PRO NICHIA
 * Chairs
 [[https://www.amazon.com/dp/B01M07GTOE][Helinox Chair Zero Ultralight]]
 
-* Food
+* Food, Cooking, Kitchen
 [[https://aliexpress.ru/item/4000799843939.html][Spoon/fork]]
 [[https://www.garagegrowngear.com/products/nanodry-trek-towel-small-by-matador?variant=40843662786747][NanoDry Trek Towel (Small) by Matador]]
 [[https://www.amazon.com/Katadyn-Membrane-Endurance-Camping-Backpacking/dp/B01M0MZ7NI/][0.6L beFree bottle]]
 [[https://www.amazon.com/Sea-Summit-View-Pacific-Liter/dp/B003Z24QCS/][See to Summit dry bag]]
+[[https://www.garagegrowngear.com/products/2l-vecto-water-container-by-cnoc-outdoors][2L water bag]]
+[[https://www.amazon.com/Sea-to-Summit-X-Mug-Lime/dp/B004VO2S2Y][Collapsible silicone mug]]
+[[https://www.garagegrowngear.com/products/cross-bands-6-by-grifiti][Cross Bands]]
+[[https://www.garagegrowngear.com/products/vesica-water-bottle-1l-by-cnoc][1L Collapsable Bottel]]
 
 * To sort
 NH18D020-Z палки карбоновый трекинговые
 BRS3000T горелка
+[[https://www.amazon.com/MSR-PocketRocket-Ultralight-Backpacking-Camping/dp/B01N5O7551][MSR Pocket Rocket]]
 TREK 100 FORCLAZ пуховка из декатлона
 
 * Links
@@ -97,3 +110,5 @@ https://youtu.be/8ZZgcNWIlJ4 :: 10 ultralight gear by some backpacking girl.
 http://jupiterhikes.com/gear/ :: UL gear list.
 https://youtu.be/_Luv47rRla4 :: a good least of equipment for each category.
 https://youtu.be/nmrVk4KGJkg :: three UL setups (backpack, sleeping pad, quilt, tent).
+https://lighterpack.com/r/748mki :: UL backpacking gear, https://youtu.be/RbIdckVX1Ek.
+https://youtu.be/ldyx5iJue5M :: warm gear list.

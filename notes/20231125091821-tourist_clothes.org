@@ -4,11 +4,14 @@
 #+title: Tourist Clothes
 
 * Shoes
-https://www.garagegrowngear.com/collections/mayfly-ultralight-equipment?
-Crocs, suitable for watersports?
-https://www.crocs.ru/catalog/muzhchinam/obuv/krossovki-i-lofery/#item-680608
-Lowa - interesting boots brand.
-Luna Sandals - Vibram Flip flops.
+- [[https://www.garagegrowngear.com/collections/mayfly-ultralight-equipment][UL flip-flops]]
+- https://www.crocs.ru/catalog/muzhchinam/obuv/krossovki-i-lofery/#item-680608
+- Lowa - interesting boots brand.
+- Luna Sandals - Vibram Flip flops.
+- https://www.chacos.com/US/en/ramble-puff-clog/54152W.html
+- [[https://www.amazon.com/dp/B0B19G7LJ9][Topo Athletic Men's Pursuit Comfortable Zero Drop Trail Running Shoes]]
+- [[https://www.rei.com/search?q=danner%202650&cm_mmc=aff_AL-_-126875-_-241597-_-NA&avad=241597_c35c14a41][Danner Trail 2650 Hiking Shoes - Men's]] :: light, narrow, relatively
+  cheap, more supportive/stiff than usual trail runners.
 
 * Socks
 Waterproof
@@ -17,3 +20,9 @@ https://dexshell.ru/vodonepronicaemye-noski--dexshell-coolvent-ague-blue-ds628/
 * Long Sleeve
 https://www.garagegrowngear.com/products/mens-8020-long-sleeve-tee-by-appalachian-gear-company
 https://www.decathlon.com.tr/p/erkek-uzun-kollu-tisort-merinos-yunu-lacivert-mt500/_/R-p-301659?mc=8501956
+[[https://www.brynjeusa.com/product/unisex-long-sleeve-shirt-inlay/ref/4/][Mesh Base Layer]]
+[[https://www.amazon.com/dp/B07FB8KKJB][Merino Wool]]
+
+Alpha fleece is a most advanced fleece ATM, lighter and much more breatheable.
+[[https://www.backcountry.com/norrona-falketind-alpha120-zip-hooded-jacket-mens][Falketind Alpha120 Zip Hooded Jacket]]
+[[https://senchidesigns.com/products/alpha-60-hoodie][Alpha 60 Hoodie]]

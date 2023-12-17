@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       ffdc801b-fc44-4d62-a675-637e141b76c3
+:END:
+#+title: Arei&Ares Scheme IDE - FOSDEM 2024
+
+Format: 20 minutes talk + 10 minutes Q&A.  English.
+
+* Proposal
+** Abstract
+#+begin_src markdown
+Overview of new asyncronous relaible extensible [Guile](https://git.sr.ht/~abcdw/guile-ares-rs) Scheme [IDE](https://git.sr.ht/~abcdw/emacs-arei), reasons why it appeared, showcase of most important functionality, a brief overview of architecture and explanation of how to go beyond.
+
+- Interruptible Evaluation.
+- Proper stdout/stderr capture and processing.
+- Complete continuations support.
+- Evaluation, which doesn't block text editor, completion,
+  documentation and all other functionality.
+- Multiple text editors support.
+- and much more!
+#+end_src

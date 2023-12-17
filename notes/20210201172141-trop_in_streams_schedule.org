@@ -24,9 +24,9 @@
 | Multiple emacs servers, why?             |                  |
 | How many emacs instances do I need?      |                  |
 | Home environment in system config        |                  |
-| Building minimal rde emacs configuration | <2022-09-22 Thu> |
 | Using Postgres in rde                    |                  |
 | Voice synthesis                          |                  |
+| 5 projects to make in guile              |                  |
 
 ** Next
 *** Restreaming with NGINX

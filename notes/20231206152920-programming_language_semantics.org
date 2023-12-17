@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       02fdcc0a-9f29-4380-9ab9-efa40ad6766d
+:END:
+#+title: Programming Language Semantics
+
+https://www.cambridge.org/core/journals/journal-of-functional-programming/article/programming-language-semantics-its-easy-as-123/EC2C046CF94382B3B408036B84475DC7

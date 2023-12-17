@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       350bcf5b-64a0-43ca-a916-98201ca946dc
 :END:
-#+title: Modern Scheme IDE - BobKonf 2023
+#+title: Modern Scheme IDE - BobKonf 2024
 
 Format: 40 minutes talk + 5 minutes Q&A.  English.
 * Proposal
