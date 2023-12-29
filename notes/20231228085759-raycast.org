@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       43d624f5-f27a-4ad5-b71c-4300942f0719
+:ROAM_REFS: https://www.raycast.com
+:END:
+#+title: Raycast
+
+A completion interface/assistant/calculator for MacOS like spotlight
+or alfred.
+
+https://www.raycast.com/

@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b970d981-3c51-4c15-be0b-4fbafe3fc7c9
+:END:
+#+title: Building a Completion Interface
+
+- [[id:43d624f5-f27a-4ad5-b71c-4300942f0719][Raycast]] :: a feature-full completion interface for MacOS with
+  myriads of functionality.

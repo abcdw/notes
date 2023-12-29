@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       e0ab7e28-37f0-4c0e-b23f-5f0ba0881d47
+:END:
+#+title: Servo (Browser Engine)
+
+[[https://youtu.be/tNWQkNvg3_U][Servo: A Web View From Somewhere Else]]

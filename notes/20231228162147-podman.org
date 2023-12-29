@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       45ce1cc6-cbb0-4c23-bc12-a21e2bc9a053
+:END:
+#+title: Podman
+
+More secure and capable alternative to docker for running OCI
+containers.
+
+https://livebook.manning.com/book/podman-in-action/front-matter/
+https://gooseandquill.blog/posts/install-rootless-podman-on-guix.pdf

@@ -11,5 +11,5 @@ Git is a good example of such software.
 https://www.inkandswitch.com/local-first.html
 
 The experiment of developing 3 popular apps clone with local-first
-approach using [[id:ef8e61ea-d0bd-4ff8-b050-245c6f70d7be][CRDT]].  Sumarry for different researches is provided at
+approach using [[id:ef8e61ea-d0bd-4ff8-b050-245c6f70d7be][CRDT]].  Summary for different researches is provided at
 the end.

@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       491729f7-9716-4280-a5a5-db7bbec2b698
+:END:
+#+title: Alists and Records in Guix Services
+
+Compound note on related discussions:
+- [[https://mail.gnu.org/archive/html/guix-devel/2023-12/msg00217.html][Are declarative app configs worth it?]] :: a thread questioning the
+  duplication of all options in guix service and lack of escape
+  hatches.
+- [[https://yhetil.org/87ild88kax.fsf@trop.in][Free Style Nginx Service Type]] :: example implementation of free
+  style alist and vector based configuration for nginx, which can
+  express arbitrary nginx configuration without any restrictions.
+  Zero replies.
+- [[https://yhetil.org/87r0nwh5om.fsf@trop.in][Sharing service code between Home and System]] :: a problematic patch,
+  which introduces state and unecessary DSL to bypass restrictions of
+  current service implementation approach.
+- [[https://yhetil.org/87h7b2b6n3.fsf@trop.in][[RFC PATCH] doc: Add Writing Service Configuration section.]] :: A
+  proposal/style-guide for guix service implementation approach.  It
+  was intended for making a foundation, which can help to standartize,
+  unify and improve service configurations.  No attention from guix
+  core team.
+- [[https://yhetil.org/87ily7hm4x.fsf@trop.in][[bug#50967] file-like objects instead of gexps]], [[https://yhetil.org/878rvp1deg.fsf@trop.in][Return back original implementation for text-config serialization]] :: a
+  little one-way discussions on implementation of guix services
+  configuration and its problems.

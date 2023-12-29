@@ -6,3 +6,7 @@
 [[https://www-old.cs.utah.edu/plt/publications/popl16-f.pdf][Binding as Sets of Scopes]] :: article about hygienc racket's macro
 expander without renaming.
 [[https://youtu.be/Or_yKiI3Ha4]["Let's Build a Hygienic Macro Expander" by Matthew Flatt]]
+
+- https://gist.githubusercontent.com/jgarte/beb03e000943b7426f00b3d04ed01262/raw/9d94f196421a041a9440a0f6fa18afcc81175457/syntax-rules.txt
+- https://raw.githubusercontent.com/mnieper/scheme-macros/main/README.org
+- https://mnieper.github.io/scheme-macros/README.html

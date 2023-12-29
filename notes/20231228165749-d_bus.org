@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       21b2e0df-01b4-4f04-9ba6-ae8b39fbb98b
+:END:
+#+title: D-Bus
+
+https://fedoramagazine.org/d-bus-overview/#more-39479
