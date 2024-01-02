@@ -2,6 +2,7 @@
 :ID:       dd74c4bd-289d-43fd-8ffe-2201acde8ba0
 :END:
 #+title: Programming Should Eat Itself by Nada Amin
+
 https://youtu.be/SrKj4hYic5A
 
 Black is a language on top of Scheme, showing how we can do fancy
@@ -12,3 +13,5 @@ applications happening during expression calculation.
 
 It can be quite useful when [[id:4d754bb3-3afc-4c14-bbcc-3aad16790a96][Building a Programming Language]] and trying
 to avoid [[id:de8f8d2d-02dd-42bf-a94f-4d12a3e3a425][Macros]].
+
+https://blog.sigplan.org/2021/08/12/reflective-towers-of-interpreters/
