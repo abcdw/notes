@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       98b90a7d-1462-4a71-9541-bc09d40f892a
+:END:
+#+title: 2023-09-14
+
+* PhD Weekly Summary
+- Almost Finished ML course.
+- Read and conspect [[id:427223fe-0e89-4db6-bd11-9f99e0c393a8][How to Read a Paper (S. Keshav)]].
+- Started a work on bibliography collection.
+- Get accepted for SeaGL and EmacsConf.
+
+* PhD Discussion
+- Writing paper (bibliogrpahy) workflow.
+- Why to do PhD?
+- PhD experience.
+- How to choose topic?
+- How to find a lab?
+
+Engineer problem vs research problem
+How to make a research problem statement.

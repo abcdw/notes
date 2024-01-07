@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       39bc1e11-2e1a-42f3-872d-a01eeb937434
+:END:
+#+title: Workout Plan 2024
+
+* Running
+HIIT on the same day with workout:
+20-50s Sprint, 1-5 minutes recovery walk.
+
+The rest days are level 1 - level 2 runs.

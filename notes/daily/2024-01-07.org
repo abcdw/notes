@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       686bd04b-0ca4-44c1-8b5e-2a2c6795e5cc
+:END:
+#+title: 2024-01-07
+
+* Making dairy public
+Nobody cares about you, making you diary to be public should not be a
+problem unless you expose someone's else private info.
+
+Also, it possible to encrypt sensible subheadings.
+* Dumping thoughts
+Just dumping your current thoughts in a written form frees up your
+mind.

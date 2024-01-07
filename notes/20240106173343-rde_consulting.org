@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       2784e40d-cca2-4916-82d9-e9ee62215bdb
+:END:
+#+title: RDE Consulting
+
+* Primary benifits of using RDE and Guix:
+- Easy to replicate dev environment (dependency and dev services
+  management).
+- Simple DevOps: deployment of declarative production environment.
+- Persistent datastructure, minimal rebuilds in case of dependency
+  change.
+- Trust and security of dependency tree.
+
+* Usual Services
+- Analyze of current project, existing workflows and infrastructure.
+  QA/CD/CI (git workflow, code review, linters, automatization, shared
+  binary cache) Providing feedback on weak parts and potential issues.
+- Designing and implementing solutions for explored problems.
+- Support for dev team.
+- On-site training.

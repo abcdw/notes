@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ae35b468-c26e-4c6e-acdd-33af9494c69d
+:END:
+#+title: A New Service Manager for Linux Distributions
+
+https://skarnet.com/projects/service-manager.html
+[[https://www.youtube.com/watch?v=gZqIEstv5lM][The s6 supervision suite A modern alternative to systemd]]
