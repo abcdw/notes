@@ -16,5 +16,5 @@
   QA/CD/CI (git workflow, code review, linters, automatization, shared
   binary cache) Providing feedback on weak parts and potential issues.
 - Designing and implementing solutions for explored problems.
-- Support for dev team.
+- Support for dev team. (20hours package)
 - On-site training.

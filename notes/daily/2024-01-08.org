@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b45fc481-a788-459c-9d99-8c194a78bb17
+:END:
+#+title: 2024-01-08
+
+* Guix Consulting Meeting Follow Up
+
+Write a list of [[id:fcf212ba-776c-4c58-b53a-220cde2f5bd8][practical applications]] of guix, govuk, bionf, inria HPC.
