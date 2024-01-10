@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       0950e9d4-fb34-423c-9a55-fe06c6472164
+:ROAM_REFS: https://benwr.posthaven.com/magic-immutable-ish-virtual-machines-with-guix-and-tailscale
+:END:
+#+title: Magic Immutable-ish Virtual Machines with Guix and Tailscale
+
+A 2MB [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]] VM images due to sharing of host's /gnu/store.

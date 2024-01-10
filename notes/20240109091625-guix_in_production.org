@@ -13,4 +13,7 @@
   http://bioinformatics.mdc-berlin.de/.
 - Bitcoin :: guix is used for bitcoin core development:
   https://github.com/bitcoin/bitcoin/blob/master/contrib/guix/README.md,
-  https://github.com/fanquake/core-review/blob/master/guix/README.md
+  https://github.com/fanquake/core-review/blob/master/guix/README.md.
+- AMD contributing to Guix :: https://fosstodon.org/@civodul@toot.aquilenet.fr/111487910791933745.
+- Nyxt browser :: development uses guix
+  https://github.com/atlas-engineer/nyxt.
