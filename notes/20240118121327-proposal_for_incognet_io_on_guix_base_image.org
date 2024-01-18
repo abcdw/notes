@@ -1,0 +1,36 @@
+:PROPERTIES:
+:ID:       e9de8a3d-fbe0-437d-ac1a-eebf1faf0c11
+:END:
+#+title: Proposal for incognet.io on Guix Base Image
+
+#+begin_src markdown
+Hello my dear incognet hackers!
+
+TLDR: Let's cooperate and make a guix base image for incognet.
+
+I'm Andrew Tropin, FOSS developer, one of Guix
+[committers](https://savannah.gnu.org/project/memberlist.php?group=guix). I
+work on operating systems and programming languages and
+[do](https://trop.in/does) consulting on reproducible development
+environments.
+
+I use your service for a couple years now and very happy with it. My
+VPS have a guix on it, and there are two options how to get it: via
+custom ISO or "infection" of Debian and both of them are quite
+involved. There is a demand for guix-ready VPSes in guix community and
+from my business customers (I do consulting for).
+
+If we could provide a guix base image, which is easy to spin up from
+control panel or API, I would be really happy to recommend incognet
+for guix hosting. Also, I have a youtube
+[channel](https://yewtu.be/@abcdw) and mastodon
+[account](https://fosstodon.org/@abcdw) with around 2-3k of very
+tech-savvy followers, and some of them will be interested in it too.
+
+I would be really happy to collaborate both in terms of implementation
+and marketing of the results. LMKWYT!
+
+--
+Best Regards,
+Andrew Tropin
+#+end_src
