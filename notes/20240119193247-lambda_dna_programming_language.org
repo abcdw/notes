@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       66d10bee-291a-4277-aee7-0a720008dbaa
+:ROAM_REFS: https://xtao.org/blog/ldna.html
+:END:
+#+title: Lambda DNA Programming Language
+
+Minimalistic language, potentially useful for [[id:0aa6b360-bd6a-49ec-8045-cb8168989389][bootstrapping]] related
+tasks.

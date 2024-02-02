@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       f6341c71-60ed-4a29-868c-f056eec2de56
+:ROAM_REFS: https://radwebhosting.com
+:END:
+#+title: Rad Web Hosting
+
+Contacted me on mastodon, very open for custom guix use cases support.
+
+https://fosstodon.org/@radwebhosting@mastodon.social/111800293268259549

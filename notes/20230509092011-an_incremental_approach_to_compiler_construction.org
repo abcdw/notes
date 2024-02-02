@@ -8,3 +8,6 @@
 http://scheme2006.cs.uchicago.edu/11-ghuloum.pdf
 
 Step by step Scheme to x86 compiler construction.
+
+There is a book, which is related to this paper:
+https://mitpress.mit.edu/9780262047760/essentials-of-compilation/

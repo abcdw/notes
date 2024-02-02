@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       27b5af1b-e962-484e-a964-db56a870fad9
+:ROAM_REFS: https://codeberg.org/mmontone/geiser-inspector
+:END:
+#+title: Geiser Inspector
+
+- related :: [[id:e052a190-e23b-4ea2-b8b8-54c272f0b50a][Guile]].
+https://codeberg.org/mmontone/geiser-inspector

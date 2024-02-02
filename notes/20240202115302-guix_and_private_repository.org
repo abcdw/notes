@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       ea68642b-ce59-4d46-b894-643b244bc922
+:END:
+#+title: Guix and Private Repository
+
+You can use git-checkout instead of origin to fetch git over ssh.
+#+begin_src scheme
+((@ (guix git) git-checkout)
+ (url "git@github.com:abcdw/rde.git")
+ (commit "378cba86cbdab79e7af138837b52df62e92a15de"))
+#+end_src
+
+The origin (via https):
+#+begin_src scheme
+(origin
+ (method git-fetch)
+ (uri (git-reference (url "https://git.sr.ht/~abcdw/rde")
+                     (commit "378cba86cbdab79e7af138837b52df62e92a15de")))
+ (sha256
+  (base32
+   "00brclzhl05a0xkzx3ggd3gj83yaza2ynh55ff55sy2rl97ixz2i"))
+ (file-name (string-append "rde-" version "-checkout")))
+#+end_src
+
+[[https://yhetil.org/guix/r00ApPlpIYKLyCkUfL38E5GJuMqhMJ-groP-70ghP2bzgE4uresXQLSjrJ4dYVOwZ1TJfhpRt0HjwS_HkiWad4CBw1qJ5q3tF6wN1FtouOk=@protonmail.com/][SSH in git-fetch]] thread on guix-devel mailing list.

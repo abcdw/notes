@@ -1,5 +1,6 @@
 :PROPERTIES:
 :ID:       531d94b0-a199-41a1-b375-53e1862ccf97
+:ROAM_REFS: https://github.com/unum-cloud/ustore
 :END:
 #+title: UStore
 

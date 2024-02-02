@@ -1,6 +1,5 @@
 :PROPERTIES:
 :ID:       4f3b95e9-e04b-4f83-850b-ee88c156dd88
-:ROAM_REFS: https://github.com/unum-cloud/ustore
 :END:
 #+title: Building a File System
 
