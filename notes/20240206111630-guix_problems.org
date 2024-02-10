@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       af57822b-0794-40f4-9649-d19d7dec7fdb
+:END:
+#+title: Guix Problems
+
+* ~guix pull~ is not reproducible
+guix pull from the same channel definition with specific commits
+produces different profiles hashes on different machines.

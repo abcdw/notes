@@ -17,3 +17,4 @@
 - AMD contributing to Guix :: https://fosstodon.org/@civodul@toot.aquilenet.fr/111487910791933745.
 - Nyxt browser :: development uses guix
   https://github.com/atlas-engineer/nyxt.
+- [[id:a14b33f2-d65e-4325-bd27-9de8e80ae108][The Dezyne Programming Language]] :: build with Guile and Guix.

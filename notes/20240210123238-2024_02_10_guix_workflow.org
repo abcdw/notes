@@ -1,0 +1,228 @@
+:PROPERTIES:
+:ID:       6954db12-ff11-497c-9b3f-866780c80077
+:END:
+#+title: 2024-02-10 Reproducible Dev Environment Workflow with Guix
+
+* Exact Guix Environment
+- Define a list of channels in rde/channels.scm (channels we get base
+  packages, services and APIs from).
+- Pin channels to exact version (to be able to reproduce the same
+  setup on different machines).
+#+begin_src makefile
+rde/channels-lock.scm: rde/channels.scm
+	echo -e "(use-modules (guix channels))\n" > ./rde/channels-lock-tmp.scm
+	guix time-machine -C ./rde/channels.scm \
+	--substitute-urls=$(SUBSTITUTE_URLS) \
+	-- describe -f channels >> ./rde/channels-lock-tmp.scm
+	mv ./rde/channels-lock-tmp.scm ./rde/channels-lock.scm
+
+# time make rde-channels-lock.scm
+# real    4m28.239s
+# user    4m7.227s
+# sys     0m1.738s
+#+end_src
+The first problem here: it takes 4-5 minutes to "just update" commit
+field of the channel to latest version.  Yes, it also builds those
+channels and checks if the build succeeds, but we don't need it here,
+we do it on the next step anyway.  The second problem is that I can't
+bump the version of only one channel, time-machine/pull just rolls to
+the latest version.  The third problem is that we need to keep
+channels definitions in separate file and can't keep it with the rest
+of guile source code (~src/guile/PROJECT/channels.scm~ for example).
+
+*POTENTIAL IMPROVEMENT 1:*
+It can and should be done easier, like in this hypotetical example:
+#+begin_src sh
+guile -c "((@ (rde channels) bump-channel) \"rde/channels-lock.scm\" 'guix)"
+guile -c "((@ (rde channels) update-channel) \"rde/channels-lock.scm\" 'rde \"0.5.0\")"
+#+end_src
+
+Ideally:
+#+begin_src sh
+guile -c "((@ (rde channels) update-channel) \
+(@ (PROJECT channels) pinned-channels) 'rde \"0.5.0\")"
+
+#+end_src
+or something like:
+~gix rde.channels.bump-channels #:channels '(guix rde erlang-fresh-packages)~
+
+
+and much faster: seconds or even less.
+
+- Generate an exact version of guix profile.
+#+begin_src makefile
+guix: target/guix-time-marker
+
+target/environments:
+	mkdir -p target/environments
+
+# make uses mtime of underlying file, not a symlink, so there is the
+# hack to prevent unecessary reubilds
+target/guix-time-marker: rde/channels-lock.scm
+	$(MAKE) target/environments/guix
+	touch $@
+
+target/environments/guix: target/environments rde/channels-lock.scm
+	guix pull -C rde/channels-lock.scm \
+	--allow-downgrades \
+	--substitute-urls=$(SUBSTITUTE_URLS) \
+	-p $@
+
+GUIX=target/environments/guix/bin/guix
+
+# make target/environment/guix
+# real    52m13.835s
+# user    4m34.450s
+# sys     0m2.659s
+#+end_src
+52 on foreign distro, 15 minutes on the first run on a fresh machine
+with guix system, 4-5 minutes on consequent runs (even with time-machine
+executed before ahead).
+
+1. It's slow.
+2. profile built by guix pull is not reproducible (doesn't have the
+   same hash and can't be cached and built on CI).
+
+*POTENTIAL IMPROVEMENT 2:*
+Make channels and guix profiles built reproducebly.  Provide API for it.
+#+begin_src sh
+guile -c '((@ (rde channels) build-guix) \
+(@ (PROJECT channels) pinned-channels) "target/environment/guix")'
+#+end_src
+
+* General Dev Environment
+- Define packages in ~src/guile/PROJECT/packages/CATEGORY{1,2,3}.scm~.
+- Define a development environment manifest or list of packages needed
+  for dev tasks in ~src/guile/PROJECT/environments.scm~. (make,
+  postgres, compilers, language dependencies).
+
+#+begin_src makefile
+target/environments/dev: guix
+	rm -f target/environments/tmp-env
+	$(GUIX) shell -L ./src/guile \
+	-e "(@ (PROJECT environments) dev)" \
+	--rebuild-cache \
+	--substitute-urls=$(SUBSTITUTE_URLS) \
+	-r target/environments/tmp-env --search-paths > /dev/null
+	mv -fT target/environments/tmp-env $@
+	echo 'export GUIX_ENVIRONMENT=$@' > target/$(@F)-env
+	echo 'export CC=gcc' >> target/$(@F)-env
+	echo 'export GUIX_LOCPATH=$@/lib/locale' >> target/$(@F)-env
+	# XXX: MacOS' LC_CTYPE leaking into ssh connection cause of
+	# SendEnv default value, which leads to incorrect value.  It's
+	# just a workaround, not a proper solution.  This situation
+	# should not happen at the first place.
+	echo 'export LC_CTYPE=$$LANG' >> target/$(@F)-env
+	# externally defined GUIX_PROFILE forces etc/profile helper
+	# script to source wrong profile
+	echo 'unset GUIX_PROFILE' >> target/$(@F)-env
+	echo '. $@/etc/profile && exec "$$@"' >> target/$(@F)-env
+	chmod +x target/$(@F)-env
+
+
+target/dev-env: $(LEDUNIA_DEFINITIONS)
+	$(MAKE) target/environments/dev
+
+DEV_ENV=target/dev-env
+
+dev-shell: target/dev-env
+	# Starts user's usual shell, but with apropriate environment
+	$(DEV_ENV) $(SHELL) -c $$SHELL
+#+end_src
+
+Now all needed make targets can use ~$(DEV_ENV)~ helper.  Developers can
+do ~make dev-shell~ to get a shell with apropriate env, but it's better
+to keep everything organized as make targets.
+
+For example:
+#+begin_src makefile
+
+#
+# State
+#
+
+state/log:
+	mkdir -p $@
+state/run:
+	mkdir -p $@
+
+state/clean:
+	rm -rf state
+
+
+#
+# Database
+#
+
+PG_CTL=$(DEV_ENV) pg_ctl -D state/db -l state/log/postgres.log \
+-o "-k $(ROOT_DIR)/state/run"
+
+state/db/init: state/log target/dev-env
+	$(DEV_ENV) initdb state/db
+
+state/db:
+	$(MAKE) state/db/init
+
+services/postgres/start: state/db state/log state/run target/dev-env
+	$(PG_CTL) start
+
+pg: servcies/postgres/start
+
+services/postgres/stop: target/dev-env
+	$(PG_CTL) stop
+
+deploy: guix
+	$(GUIX) deploy -L src/guile src/guile/PROJECT/system/machines.scm
+
+
+#
+# Other
+#
+erlang-version: target/dev-env
+	$(DEV_ENV) erl -noshell -eval \
+	'erlang:display(erlang:system_info(otp_release)), halt().'
+
+#+end_src
+
+* Language-specific Dev Environment
+Many packages can be obtained from different guix channels, but in
+projects with active develpoment language-specific packages get added
+and updated frequently and maintaining them in channel is painful,
+because every ~guix time-machine -C channels.scm > channels-lock.scm~
+and ~guix pull -C channels-lock.scm -p target/environments/guix~, takes
+a lot of time, not talking about building the dev env itself.
+
+It make sense to provide language (js for example) build tooling and
+package manager (npm for example) via guix and the language-specific
+deps via language package manager.  It's usually much faster, have
+access to fresh packages and convinient CLI/API for adding and
+updating APP dependecies.  However, the problem here is that you can't
+build the APP you develop with Guix anymore, it's even more important,
+when you want to deploy the APP as a part of ~operating-system~ with
+guix deploy.
+
+So we need to package APP with guix, but avoid using channels and
+other time-consuming and inconvinient things at the same time.
+Packaging manually is not a way here, usual project have from dozens
+to hundred dependencies.  Using ~guix import~ doesn't work too, because
+the project you work on usually is not deployed to language package
+repository.  Manually importing every dependency one by one is
+tedious.
+
+The usual way would be something like:
+- ~make dev-shell~ to get elixir and mix binaries
+- ~npm init APP~ to initialize js project.
+- ~npm install json~ to download and add library to the package.json and
+  package-lock.json.
+- Do other needed stuff.
+
+*POTENTIAL IMPROVEMENT 3:*
+Convert lock file into guix package definitions.
+~npm->guix package-lock.json > ./src/guile/PROJECT/packages/js.scm~
+
+Add ~(@ (PROJECT packages js) APP)~ to dev environment in
+~PROJECT/environments.scm~.
+
+~make dev-shell~ get the shell with both tooling and js dependencies.
+
+~npm install another-package~, ~npm->guix package-lock.json > ./src/guile/PROJECT/packages/js.scm~ and ~make dev-shell~.

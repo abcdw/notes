@@ -22,3 +22,6 @@ Compound note on related discussions:
 - [[https://yhetil.org/87ily7hm4x.fsf@trop.in][[bug#50967] file-like objects instead of gexps]], [[https://yhetil.org/878rvp1deg.fsf@trop.in][Return back original implementation for text-config serialization]] :: a
   little one-way discussions on implementation of guix services
   configuration and its problems.
+- [[https://fosstodon.org/@civodul@toot.aquilenet.fr/110213455806505015][Message by Ludovic Courtes]] :: Neat! I’ve been frustrated by the
+  nginx service, I agree we can do better:
+  https://issues.guix.gnu.org/37388

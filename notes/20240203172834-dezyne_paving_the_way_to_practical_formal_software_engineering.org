@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b9c64ce5-4e23-4ae7-a3dc-f2735e1399d8
+:ROAM_REFS: https://forum.verum.com/t/dezyne-paving-the-way-to-practical-formal-software-engineering/37/1
+:END:
+#+title: Dezyne: Paving the Way to Practical Formal Software Engineering
+
+Article about Dezyne programming language
+https://forum.verum.com/t/dezyne-paving-the-way-to-practical-formal-software-engineering/37/1

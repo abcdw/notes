@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a14b33f2-d65e-4325-bd27-9de8e80ae108
+:END:
+#+title: The Dezyne Programming Language
+
+C-like language with formal verification.

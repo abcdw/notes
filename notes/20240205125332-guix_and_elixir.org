@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       516f40bf-b2fe-4900-9267-a9dac512fe1f
+:END:
+#+title: Guix and Elixir
+
+https://github.com/pjotrp/guix-notes/blob/master/ELIXIR.org#introduction
+https://git.sr.ht/~sokolov/guix/commit/7e708a54ab55321c871b5beaf31d74030962896a
+
+https://github.com/ydlr/mix2nix

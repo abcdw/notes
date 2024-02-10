@@ -23,3 +23,5 @@ The origin (via https):
 #+end_src
 
 [[https://yhetil.org/guix/r00ApPlpIYKLyCkUfL38E5GJuMqhMJ-groP-70ghP2bzgE4uresXQLSjrJ4dYVOwZ1TJfhpRt0HjwS_HkiWad4CBw1qJ5q3tF6wN1FtouOk=@protonmail.com/][SSH in git-fetch]] thread on guix-devel mailing list.
+
+[[https://peterloleungyau.github.io/post/more_guix_private_channel/][More Guix: Private Channel and Internal Package]]
