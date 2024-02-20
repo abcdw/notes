@@ -3,6 +3,9 @@
 :END:
 #+title: Places in Turkey
 
+* Shops
+https://www.kutupayisi.com/arama/lasportiva
+
 * South
 
 ** Geyikbairi

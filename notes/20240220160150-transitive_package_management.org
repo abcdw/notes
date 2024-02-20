@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       27aa24b5-b0fd-40de-a1f0-3fd90cfee418
+:END:
+#+title: Transitive Package Management
+#+filetags: :Video:
+
+* Introduction
+* Language Package Managers and Lock Files
+- How they usually work?
+- Why packaging language-specific dependencies with Guix is a bad idea?
+
+* Transitive Package Management
+** Semi-Transitive
+#+begin_src scheme
+(define project-deps
+  (module-map
+   (lambda (sym var) (variable-ref var))
+   (module-public-interface
+    (resolve-module '(PROJECT packages PROJECT-deps)))))
+#+end_src
+
+** Transformations
+- Missing dependencies.
+- Hardcoded configuration options.
+- Build-system unparsable versions.
+** Topological Sort
+* Conclusion
