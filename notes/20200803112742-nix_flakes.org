@@ -5,6 +5,9 @@
 :END:
 #+title: Nix Flakes
 
+- It gives an ability to share and compose nix code.
+- It gives an ability to lock.
+
 * Links
 - https://github.com/tweag/rfcs/blob/flakes/rfcs/0049-flakes.md
 - https://www.tweag.io/blog/2020-05-25-flakes/
@@ -12,3 +15,4 @@
 - https://www.tweag.io/blog/2020-07-31-nixos-flakes/
 - https://jameswillia.ms/posts/flake-line-by-line.html
 - [[https://youtu.be/L-xORCdL3FI][Nix Flakes are your friend]] 2 minutes video.
+- [[https://discourse.nixos.org/t/flakes-what-why-and-how-in-12-minutes/40558][Flakes - What, Why and How (in 12 minutes)]] :: overview, CLI

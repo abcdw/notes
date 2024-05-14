@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       caa7bf36-4132-4579-be0c-850578a30c69
+:ROAM_REFS: https://youtu.be/gjmhqsakIS8 https://curtclifton.net/papers/MoseleyMarks06a.pdf
+:END:
+#+title: Out of the Tar Pit
+
+Paper explaining potential architecture, which combines benifits of
+relational algebra and functional programming.

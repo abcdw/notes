@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       62a059c4-af87-4bc1-a79d-7e2030dbac55
+:END:
+#+title: Guix Build System
+
+https://www.futurile.net/2024/04/24/guix-package-structure-build-system/
+[[id:49057edb-c175-4df4-968b-842562ceb692][Guix Build Systems]]

@@ -9,3 +9,7 @@
 - [[id:367bfd82-7f8d-45cc-bdc9-968cb98f51ed][International Conference on Functional Programming]]
 - https://european-lisp-symposium.org/
 - https://www.cs.uoregon.edu/research/summerschool/summer23
+
+* Linux/BSD
+- https://eurobsdcon.org
+- https://akademy.kde.org/2024/cfp/

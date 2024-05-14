@@ -6,3 +6,8 @@
 guix based dependency and project management for project.
 
 https://clojure.org/reference/deps_and_cli#_coord_attributes
+
+Two lock file parts? to bootstrap mechanism for obtaining deps via
+git, guix or whatever way.
+
+https://en.wikipedia.org/wiki/Dependency_hell

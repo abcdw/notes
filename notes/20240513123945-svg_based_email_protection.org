@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       08a51c08-636e-4a9e-bb54-bbcdeda09680
+:END:
+#+title: SVG-based Email Protection
+
+https://rouninmedia.github.io/protecting-your-email-address-via-svg-instead-of-js/

@@ -6,3 +6,4 @@
 * ~guix pull~ is not reproducible
 guix pull from the same channel definition with specific commits
 produces different profiles hashes on different machines.
+https://issues.guix.gnu.org/69284

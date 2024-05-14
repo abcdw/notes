@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       35590bef-219c-4391-bf43-6c70d7b7e90d
+:END:
+#+title: Guix Channels are not Flakes
+
+Of course there are not, but what is missing?
+
+There is no tool in guix for conviniently compose and use channels:
+
+- No standard way to define inputs/outputs of channel and those to
+  compose.
+- No way to get a few different versions of the same channel and thus
+  a need to solve diamond dependency problem. (inferiors doesn't help
+  much here and they still very inconvinient and untested mechanism).
+- No way to lock the dependencies versions, so you need to do some
+  make [[id:6954db12-ff11-497c-9b3f-866780c80077][dirty magic]].
+- No way to override inputs of inputs of other channels. (first of all
+  because there is no inputs, but also because it's not possible to
+  have a few versions of the same channel).
+- No way to do hermetic evaluation of package definitions.
+
+Speed of guix pull/time-machine is far from satisfying.
+
+It's a bit ironic, that guix solves the [[https://en.wikipedia.org/wiki/Dependency_hell][diamond dependency problem]] for
+other software, but doesn't solve it for itself.
+
+#+begin_quote
+> except for pulling multiple versions of the same channel.
+> the issue is just that there isn't any unified and defined way to write it like under nix.
+
+They both are big deals actually :)
+
+Without unified and defined format, you can't specify inputs/outputs,
+generate lock files, compose and re-use channels.  Without ability to
+pull multiple versions the composability becomes even harder and usual
+dependency resolution problems arises. In addition to very slow guix
+pull/time-machine, we are currently quite far from functionality and
+usability of flakes, unfortunately.
+
+And as mentioned above, there is no way to guarantee a hermetic
+evaluation of guile code ATM.
+#+end_quote

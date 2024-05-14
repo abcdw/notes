@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       d60da850-f062-465d-ad70-eeed717159fa
+:END:
+#+title: Guix Packages and Modules Porblems
+
+Guix packages being defined as a variables in modules is problematic.
+
+Hard to troubleshoot cyclic module dependencies.
+https://guix.gnu.org/en/manual/devel/en/html_node/Cyclic-Module-Dependencies.html
+
+Not possible to use a few versions of the same channel.
+[[id:35590bef-219c-4391-bf43-6c70d7b7e90d][Guix Channels are not Flakes]]
+
+Hard to programmatically transform: packages are not functions
+depending only on their inputs as in nix, but a mutable language
+objects, which can reference everything from any location.
+
+Package definitions can be impure (depend on values of environment
+variables, do some random stuff, etc).

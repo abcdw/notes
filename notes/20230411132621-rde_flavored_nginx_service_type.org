@@ -1,4 +1,0 @@
-:PROPERTIES:
-:ID:       09cfb8ca-766c-4db0-9beb-76d390b1666d
-:END:
-#+title: rde Flavored Nginx Service Type
