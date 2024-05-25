@@ -1,0 +1,81 @@
+:PROPERTIES:
+:ID:       f8467448-ad17-43e6-a384-8e5035468294
+:END:
+#+title: How My Phone Put on Fire the Repair Service
+#+filetags: :Story:
+
+* It's fine (en)
+This is one of the stories in the spirit: "debugging my relatively
+simple and straightforward code for 3 days to realize that the bug was
+in the compiler" - very unlikely to happen, but still happening to me
+:)
+
+I have a 5-year-old phone, it's nice, the pictures are of good
+quality, the navigation is precise and snappy, and more importantly,
+the device is very compact. One and a half years ago, when I was in
+Georgia, I messaged the repair service and asked to change the battery
+(you need to unglue and glue back the backplate for that). Everything
+went well, the battery was ordered and came relatively quickly, it was
+original and it cost around 80 lari (which was under 20$) including
+the work.
+
+Time passed by, there were a lot of hard surfaces around, my fingers
+are quite dry and insensitive because of climbing and the phone slips
+and falls from time to time, so the screen has a couple of small
+cracks and the backplate has a few big ones, the corners had better
+days too. Of course, the battery is degraded as well and started to
+discharge much faster and also to heat up easier and more often.
+
+When I was in Turkey I messaged the same service in Georgia, they
+ordered a battery and backplate for my phone and when I came to
+Tbilisi I got a message that I can come and bring my phone. A few days
+later I did it, left my phone and went for a walk, took an ice cream
+in the place where we were with my friend Max in 2019 during our
+Georgia snowboarding trip, took a bottle of water in the shop, and
+went back to the worklab.
+
+The rain began to drip harder, I came to the place, the door was
+closed and it opened just at the moment I hesitated whether I was at
+the right location. The girl went out of the room, everything was in
+smoke and near the reception/working desk on the floor something was
+burning. The owner opened the window and waved a piece of wood, trying
+to drive away the smoke and said to me: By the way, it's your
+phone. Standing in the doorway with a wet backpack and jacket and
+slightly smiling, I said: it's fine :)
+
+* It's fine (ru)
+Это одна из тех историй в духе: "дебажил свой относительно простой и
+понятный код 3 дня, чтобы понять, что ошибка была в компиляторе" -
+маловероятно, но всё же происходит со мной :)
+
+У меня есть 5-летний телефон, он хорош, фотографии отличного качества,
+навигация точная и быстрая, и что важно, девайс оч компактный. Полтора
+года назад, пока я был в Грузии, написал в сервис и попросил поменять
+батарею (для этого нужно отклеить и приклеить обратно заднюю
+панель). Всё прошло хорошо, батарею заказали и она пришла относительно
+быстро, она была оригинальной и стоила около 80 лари (что вышло меньше
+30$) включая работу.
+
+Шло время, вокруг было много твёрдых поверхностей, мои пальцы довольно
+сухие и нечувствительные из-за скалолазания, и, конечно, телефон не
+упускает шанс выскользнуть и полетать, так что на экране появилось
+несколько мелких трещин, а на задней панели несколько больших, углы
+тоже видали лучшие дни. Конечно, батарея тож немного деградировала и
+стала разряжаться сильно быстрее, а ещё и нагреваться бодрее и чаще.
+
+Когда я ещё был в Турции, я написал в тот же сервис в Грузии, они
+заказали батарею и заднюю панель для моего телефона, и когда я приехал
+в Тбилиси, получил сообщение, что можно прийти и принести
+телефон. Несколько дней спустя я так и сделал, оставил телефон и пошёл
+прогуляться, взял мороженое в месте, где мы были с Максом в 2019 году
+во время нашего сноуборд путешествия по Грузии, взял бутылочку воды в
+магазине и пошёл обратно в мастерскую.
+
+Дождь начинал капать сильнее, я спустился по лестнице под козырёк,
+дверь была закрыта, когда я засомневался, туда ли пришёл, дверь
+распахнулась. Девушка вышла из помещения, всё было в дыму, а возле
+стойки регистрации/рабочего стола что-то догорало на полу. Владелец
+открывал окна и махал куском дерева, пытаясь прогнать дым, потом
+повернулся ко мне и сказал: Кстати, это твой телефон. Стоя в дверном
+проёме с мокрым рюкзаком и курткой, я сказал слегка улыбаясь: It's
+fine :)
