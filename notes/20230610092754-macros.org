@@ -4,3 +4,4 @@
 #+title: Macros
 
 [[https://youtu.be/pK2E63mhRxI][Sam Tobin-Hochstadt on Composable and Compilable Macros]]
+[[https://www.youtube.com/watch?v=LIEX3tUliHw][Kent Dybvig: Macro-Writer's Bill of Rights (Dan Friedman's 60th Birthday)]]

@@ -81,6 +81,7 @@ Read the book about programming languages
 [[https://techreports.cs.unc.edu/papers/87-011.pdf][Three Implementation Models for Scheme]]
 [[id:ec056814-d1fb-49ee-b4cd-a71840bca1ee][Practical Foundations for Programming Languages]]
 https://justinethier.github.io/cyclone/docs/r7rs.pdf
+[[https://youtu.be/_ahvzDzKdB0][Growing a Language, by Guy Steele]]
 
 ** Books
 https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/

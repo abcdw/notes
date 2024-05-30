@@ -24,6 +24,8 @@ Speed of guix pull/time-machine is far from satisfying.
 It's a bit ironic, that guix solves the [[https://en.wikipedia.org/wiki/Dependency_hell][diamond dependency problem]] for
 other software, but doesn't solve it for itself.
 
+One of the related discussions on guix-devel is [[https://lists.gnu.org/archive/html/guix-devel/2024-04/msg00120.html][Functional package interface]].
+
 #+begin_quote
 > except for pulling multiple versions of the same channel.
 > the issue is just that there isn't any unified and defined way to write it like under nix.

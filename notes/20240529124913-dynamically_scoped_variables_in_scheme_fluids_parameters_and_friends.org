@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       c2746a1c-cd45-4a4c-973b-4df74bafbdfc
+:END:
+#+title: Dynamically Scoped Variables in Scheme (Fluids, Parameters and Friends)
+#+filetags: :Video:
+
+* Introduction
+* Lexical Scope and Dynamic Scope
+* Fluids
+* Threads and Dynamic State
+* Thread-Local Fluids
+
+* Parameters
+- More function-like
+- Have validator/converter.
+- A bit more high-level and convinient interface.
+
+* Conclusion
+Use with caution, see you in a Bit.
+
+* Links
+- https://www.gnu.org/software/guile/manual/html_node/Scoping-Example.html
+- https://www.gnu.org/software/guile/manual/html_node/Fluids-and-Dynamic-States.html
+- https://www.gnu.org/software/guile/manual/html_node/Parameters.html

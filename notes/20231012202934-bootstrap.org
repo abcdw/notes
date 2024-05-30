@@ -11,3 +11,5 @@ binary seed.
 - https://justine.lol/sectorlisp2/
 - https://github.com/woodrush/lambdalisp
 - https://research.swtch.com/nih
+- https://www.devever.net/~hl/bootstrapping-exam :: How to make a full
+  open-source bootstrap on power9 rack.

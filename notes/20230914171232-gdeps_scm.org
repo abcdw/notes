@@ -1,7 +1,10 @@
 :PROPERTIES:
 :ID:       216d68a4-b6e6-4ea4-81f1-315ae0918699
+:ROAM_ALIASES: codeps.scm
 :END:
 #+title: gdeps.scm
+
+Alternative name is codeps.scm (composable dependencies).
 
 guix based dependency and project management for project.
 
