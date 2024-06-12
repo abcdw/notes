@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       5cbb33e1-8d0a-4c0e-9380-82d1b9534b7c
+:END:
+#+title: Pubnix Collection List (Public Unix Server with Self-Hosted Services)
+
+- https://sdf.org :: huge, established in 1987.
+- https://projectsegfau.lt/ :: looks "modern", js and all that stuff.
+- http://tilde.club/ :: big, aestetically pleasant.
+- https://tildeverse.org/ :: a collection of pubnix.
+- https://ctrl-c.club/
+- https://unix.dog
+- https://cyberia.club/ :: coop/pubnix.
+- https://hcoop.net/ :: not exactly a pubnix, but a hosting cooperative.
+- https://servers.coop/

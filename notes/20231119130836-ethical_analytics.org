@@ -10,4 +10,5 @@ there are a few options:
 - [[id:8399c9dc-b116-42e4-96d7-48db75d1078c][Open Web Analytics]]
 
 The comparison:
-https://blog.fidelramos.net/software/privacy-respecting-self-hosted-web-analytics
+- https://blog.fidelramos.net/software/privacy-respecting-self-hosted-web-analytics
+- https://selfh.st/alternatives/google-analytics/

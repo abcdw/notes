@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       bfce408f-ea35-47f9-a94b-99491bd2fbbc
+:ROAM_REFS: https://seedsforchange.org.uk/handbook
+:END:
+#+title: A Consensus Handbook
+
+Co-operative decision-making for activists, co-ops and communities.

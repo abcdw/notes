@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b4205b0e-043b-46ff-b838-ee27ecae06a4
+:END:
+#+title: muGuix
+
+Micro Guix is a hypotetical guix package manager with very small main
+channel, containing only base compilers bootstrapped, the rest is
+managed in separate channels/[[id:216d68a4-b6e6-4ea4-81f1-315ae0918699][codeps.scm]].

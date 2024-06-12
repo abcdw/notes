@@ -4,7 +4,8 @@
 :END:
 #+title: gdeps.scm
 
-Alternative name is codeps.scm (composable dependencies).
+Alternative names are codeps.scm (composable dependencies), ggpm -
+good guile package manager.
 
 guix based dependency and project management for project.
 

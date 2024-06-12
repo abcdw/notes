@@ -3,4 +3,17 @@
 :END:
 #+title: Self-Hosted
 
+- https://selfh.st/apps/
+- https://recipes.coopcloud.tech/
+- https://awesome-selfhosted.net/
+- https://apps.yunohost.org/
+
+* Apps
 - photo app :: https://github.com/photoprism/photoprism
+- notifications app :: https://ntfy.sh/
+- https://linkwarden.app/ :: collaborative link management.
+- https://github.com/heussd/fivefilters-full-text-rss-docker :: RSS filter.
+- https://www.nocodb.com/ :: spreadsheet and integrations for your database.
+- https://penpot.app/ :: collaborative design tool.
+- https://docs.rsshub.app/guide/
+- https://github.com/firefly-iii/firefly-iii/ :: personal [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]].

@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       9335a7cc-b92b-4b09-a9c6-b2776655fac4
+:END:
+#+title: Consensus Cheatsheet
+
+* Tools
+- https://www.loomio.com/ :: [[id:ad1b8a1c-0ac6-425a-ad7f-52272251a396][Self-Hosted]] decision making tool.
+
+* Consensus Process
+** 1. Declare and clarify issues/questions for discussion
+Share all needed and related information.  Generate key questions for
+the topic.
+** 2. Exlore the issues and look for ideas
+1. Gather initial thoughts, reactions and concerns.
+2. Collect all the solutions and write them down.
+3. Have a broad ranging discussion and debate the ideas.  What are
+   pros and cons?
+
+Start thinking about solutions to people's concerns.  Eliminate some
+ideas, shortlist others.
+** 3. Look for emerging proposals
+Look for a proposal that weaves together the best elements of the
+ideas discussed.  Look for solutions that address people's key
+concerns.
+** 4. Discuss, clarify and amend your proposal
+Ensure that any remaining concerns are heard and that everyone has a
+chance to contribute.  Look for amendments that make the proposal even
+more acceptable to the group.
+** 5. Test for Agreement
+Do you have agreement? Check the following:
+- Blocks :: There is a fundamental problem with the core of the
+  proposal that has not been resolved.  We need to look for a new
+  proposal.
+- Stand asides :: I can't support the proposal because ..., but I
+  don't want to stop the group, so I'll let the decision happen
+  without me.
+- Reservations :: I have some reservations, but am willing to let the
+  proposal pass.
+- Agreement :: I support the proposal and am willing to let the
+  proposal pass.
+- Consensus :: No blocks, not too many stand asides and reservations?
+  Active agreement?  The consensus reached!
+** 6. Implement the decision
+Who, when, how? Action point the tasks and set deadlines.
