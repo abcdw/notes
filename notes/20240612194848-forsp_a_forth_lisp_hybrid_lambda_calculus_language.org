@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       ce83924b-700b-409a-8507-7a0a3a36a6f5
+:ROAM_REFS: https://xorvoid.com/forsp.html
+:END:
+#+title: Forsp: A Forth+Lisp Hybrid Lambda Calculus Language
+
+https://xorvoid.com/forsp.html

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d3580c93-8ae2-4db8-8cf8-e963a885e9d1
+:END:
+#+title: Food Places in Tbilisi
+
+https://docs.google.com/spreadsheets/d/1cH1oywXpuuV3ia7McHbhPTX9msM8inN8mU10crYPQtg/edit?gid=0#gid=0

@@ -5,7 +5,7 @@
 #+title: gdeps.scm
 
 Alternative names are codeps.scm (composable dependencies), ggpm -
-good guile package manager.
+good guile package manager. guile-mini-make, guile-gg (guix + guile).
 
 guix based dependency and project management for project.
 

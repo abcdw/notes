@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       7a301958-c2d4-4443-897b-3ee2071428a8
+:END:
+#+title: Governance Models
+
+Related to [[id:9335a7cc-b92b-4b09-a9c6-b2776655fac4][Consensus Cheatsheet]].
+https://srfi.schemers.org/srfi-process.html

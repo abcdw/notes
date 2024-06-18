@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       50fbb8f9-8302-4004-8e82-fec6553ee5e8
+:END:
+#+title: CalDav
+
+Calendar syncronization protocol.
+
+** TODO Add syncronize calendar with server feature
+- https://github.com/dengste/org-caldav
+- https://200ok.ch/posts/2022-02-13_integrating_org_mode_agenda_into_other_calendar_apps.html

@@ -1,0 +1,46 @@
+:PROPERTIES:
+:ID:       c671ba76-0bf7-40e0-a798-474320dc45a1
+:END:
+#+title: Rootless Podman instead of Docker on Guix
+#+filetags: :Video:
+
+* Introduction
+- Environment isolation
+- Quick deployment
+- Low hardware footprint
+
+To quickly setup needed app consisting of a few services.  Check
+something on a different distribution/environment.
+
+* Why not Docker?
+- Security
+- Simplicity
+- Modularity
+- Consistency
+- Features (pods, compose, kube, etc)
+
+Basically all the functionality of the docker, but a bit cleaner
+implementation and organization wise.
+
+* How?
+https://github.com/containers/podman/blob/main/docs/tutorials/rootless_tutorial.md
+https://github.com/containers/podman/blob/main/rootless.md
+- Add subuid/subgid.
+- Tweak some goodies.
+
+https://opensource.com/article/19/2/how-does-rootless-podman-work
+
+* Testing
+- ~podman run --rm alpine ls / -lia~
+- ~podman images~
+- ~podman ps -a~
+- ~podman run -dt -p 8080:80/tcp httpd~
+- ~podman stop -l~
+- ~pomman rm -l~
+
+* What next?
+- Building containers with Guix. (Without Buildah, Container or
+  Dockerfiles).
+- Using OCI containers for Guix Home/System Services.
+
+* Conclusion

@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       3b1eb55e-f397-4d48-8332-75e3a46de459
+:END:
+#+title: Setting up LDAP and SSO
+
+[[https://possiblelossofprecision.net/?p=2519][389ds LDAP server configuration]]
+https://openid.net/specs/openid-connect-registration-1_0-errata2.html
+https://blog.please-open.it/ldap-keycloak/

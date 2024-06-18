@@ -20,6 +20,7 @@ https://kevquirk.com/my-static-site-workflow/
 - Human-readable anchors in generated html.
 - Embed git log at the end of the blog.
 - IPFS support?
+- Join crafters webring? https://craftering.shom.dev/
 
 * Questions
 - Webmentions? https://webmention.io/ :: not yet.

@@ -18,6 +18,10 @@ Guix substitutes mirror and/or Guix substitutes as a service.
 - Make web intercation private and reliable.
 - Make service experience integrated.
 
+* Costs
+- https://www.pikapods.com/apps :: source of inspiration and
+  approximate prices/expenses.
+
 * Governance
 - Global Maintainers :: responsible for core infrastructure, very conservative.
 - Team Maintainers :: responsible for team infrastructure, open for experiments.
@@ -28,6 +32,7 @@ I've written a [[id:9335a7cc-b92b-4b09-a9c6-b2776655fac4][Consensus Cheatsheet]]
 
 * Software To Deploy
 ** Base
+[[id:3b1eb55e-f397-4d48-8332-75e3a46de459][Setting up LDAP and SSO]]
 - [[id:2af87cb1-f4cf-442a-a16d-d8681399715f][389 Directory Server]] :: for identities management.
 - Wiki :: for community [[id:7c3d12f1-1596-432e-b2d7-b0ba758430cb][Knowledge sharing]].
 - Laminar CI
@@ -41,7 +46,8 @@ https://awesome-selfhosted.net/tags/money-budgeting--management.html
 
 ** Governance
 - https://www.loomio.com/ :: [[id:ad1b8a1c-0ac6-425a-ad7f-52272251a396][Self-Hosted]] decision making tool.
-- cal.com :: to find a time, which works for everyone in the team.
+- https://schedulingkit.com/ or https://cal.com :: to find a time,
+  which works for everyone in the team.
 
 ** Content Cnosumption
 - https://www.newsblur.com :: Featureful RSS Reader with mobile app.

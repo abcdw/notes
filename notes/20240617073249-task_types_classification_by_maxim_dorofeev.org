@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       0bdf08d0-a67f-4c87-a354-ab430213389e
+:END:
+#+title: Task Types Classification by Maxim Dorofeev
+
+It's a simple classification, which helps to escape writers
+block/procrastination/fear of upcomming uknown amount of work.
+
+- Task :: something you just need to do, without much of mindfulness
+  state.
+- Project :: not actionable item, requires mindfulness and focus to
+  produce 1-2 tasks to proceed in the right direction.
+- Idea :: requires a creative state of mind, can produce task, project
+  or be discarded.
