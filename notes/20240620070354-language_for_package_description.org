@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       076111c7-fd57-4f28-ad8f-06c0998aae1e
+:END:
+#+title: Language for Package Description
+
+https://archive.fosdem.org/2023/schedule/event/nix_and_nixos_nixel/
+
+* Common Problems
+- [[https://github.com/tweag/nickel/issues/235#issuecomment-738763040][Provenance]] :: where did this attribute come from.

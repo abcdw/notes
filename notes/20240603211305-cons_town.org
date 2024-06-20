@@ -15,8 +15,8 @@ Guix substitutes mirror and/or Guix substitutes as a service.
 
 * Goals
 - Make content consumption mindful.
-- Make web intercation private and reliable.
-- Make service experience integrated.
+- Make web interaction private and reliable.
+- Make services experience integrated.
 
 * Costs
 - https://www.pikapods.com/apps :: source of inspiration and
@@ -29,6 +29,9 @@ Consensus management [[id:bfce408f-ea35-47f9-a94b-99491bd2fbbc][process]].
 https://autonomic.zone/blog/2021/01/how-we-make-decisions/
 
 I've written a [[id:9335a7cc-b92b-4b09-a9c6-b2776655fac4][Consensus Cheatsheet]] to follow during discussions.
+
+* Hardware
+- https://contabo.com/en/
 
 * Software To Deploy
 ** Base
@@ -59,6 +62,8 @@ https://awesome-selfhosted.net/tags/money-budgeting--management.html
 - ngrok/frp
 - https://www.nocodb.com/ :: spreadsheet and integrations for your database.
 
+* Future Ideas
+- https://nixbuild.net/
 
 * Nice related domains
 - cons.camp :: retreat/school/offline meetup.

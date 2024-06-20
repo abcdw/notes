@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       2552d653-3a28-486f-9ed2-1b5aa8f79b92
+:END:
+#+title: Project Development Environment Manager
+
+The tool for:
+- Package management.
+- Service management.
+- CI.
+
+https://github.com/nickel-lang/organist

@@ -3,7 +3,20 @@
 :END:
 #+title: Guix Problems
 
+Notes for myself, not intended for external reader without context,
+but if you want to understand more underlying issues, just ask.
+
 * ~guix pull~ is not reproducible
 guix pull from the same channel definition with specific commits
 produces different profiles hashes on different machines.
 https://issues.guix.gnu.org/69284
+
+* Services are drafty, untested and inflexible
+You can't add rtmp section to nginx.  directory-service don't export
+backend-userroot-configuration, create-suffix-entry? breaks the
+config.
+https://git.savannah.gnu.org/cgit/guix.git/tree/gnu/services/ldap.scm?h=0beb0dbfe0#n136
+
+Records doesn't provide "compile-time guarantees" and doesn't allow
+to implement arbitrary config at the same time.
+[[id:491729f7-9716-4280-a5a5-db7bbec2b698][Alists and Records in Guix Services]].
