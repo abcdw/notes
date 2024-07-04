@@ -12,3 +12,15 @@ block/procrastination/fear of upcomming uknown amount of work.
   produce 1-2 tasks to proceed in the right direction.
 - Idea :: requires a creative state of mind, can produce task, project
   or be discarded.
+
+* Green/Red
+There are tasks that are required (red), usually they have deadlines
+and failing them leads to negative outcomes.  There are green tasks,
+which are nice to do for future yourself, but it's easy to postpone
+them, because they are not necessary.
+
+How do you feel after accomplishing/failing:
+| type  | not done               | done okeish    | done well  |
+|-------+------------------------+----------------+------------|
+| Red   | Negative effect / loss | it's fine      | it's fine? |
+| Green | it's fine              | Good and Nice! | Wunderbar! |

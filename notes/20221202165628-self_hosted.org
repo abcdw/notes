@@ -18,7 +18,12 @@
 - https://penpot.app/ :: collaborative design tool.
 - https://docs.rsshub.app/guide/
 - https://github.com/firefly-iii/firefly-iii/ :: personal [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]].
+- https://pipedream.com/, https://n8n.io, huginn :: workflow automations.
 
 ** Social
 - https://codeberg.org/grunfink/snac2 :: really minimalistic [[id:02395c50-e75f-46d7-9afe-cab401c51db2][ActivityPub]] server.
 - [[https://www.epfl.ch/labs/dedis/wp-content/uploads/2020/01/report-2019-2-Timothee-Floure-Matrix-federation-over-Yggdrasil.pdf][Matrix-federation-over-Yggdrasil]] :: article by EPFL.
+
+* I use
+- https://forwarddomain.net/ :: allows to setup redirects to
+  particular web pages with DNS records only.

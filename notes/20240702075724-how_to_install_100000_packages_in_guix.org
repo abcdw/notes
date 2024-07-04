@@ -1,0 +1,83 @@
+:PROPERTIES:
+:ID:       ec31a039-cb53-4acf-be6a-ed029c0c652b
+:END:
+#+title: How to Install 100000 Packages in Guix?
+#+filetags: :Video:
+
+* Introduction
+
+* Channels
+https://toys.whereis.xn--q9jyb4c/
+
+https://guix.gnu.org/en/manual/devel/en/html_node/Using-a-Custom-Guix-Channel.html
+
+#+begin_src sh
+guix time-machine -C ./rde/channels-lock.scm -- search emacs-zotra
+guix time-machine -C ./rde/channels-lock.scm -- search guile-ares-rs
+guix time-machine -C ./rde/channels-lock.scm -- shell guile-next guile-ares-rs -- guile -c '((@ (ares server) run-nrepl-server))'
+#+end_src
+
+* Own Package Definitions
+#+begin_src sh
+guix search swaykb
+guix search -L ./src swaykb
+GUILE_LOAD_PATH="./src" guix search swaykbdd
+GUILE_LOAD_PATH="./src" guix build -e '(@ (rde packages wm) swaykbdd)'
+GUILE_LOAD_PATH="./src" guix shell man-db -e '(@ (rde packages wm) swaykbdd)'
+#+end_src
+
+* FHS Bianries
+guix shell --container --emulate-fhs
+https://guix.gnu.org/en/manual/devel/en/html_node/Invoking-guix-shell.html#index-FHS-_0028file-system-hierarchy-standard_0029
+
+binary-build-system
+
+* Containers
+#+begin_src sh
+podman run --name paisa -p 7500:7500 -v /home/bob/work/abcdw/private/finances:/root/Documents/paisa/ ananthakumaran/paisa:latest
+podman start paisa
+podman ps
+#+end_src
+
+Can be tricky to run x11/wayland app.
+
+* Distrobox
+#+begin_src sh
+distrobox create --name debian --image debian:unstable
+#+end_src
+
+#+begin_src sh
+distrobox enter debian
+sudo apt install gedit
+distrobox-export -b /usr/bin/gedit
+distrobox-export -b /usr/bin/gedit --delete
+#+end_src
+
+* Flatpak
+#+begin_src sh
+guix shell flatpak -- flatpak --user remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+guix shell flatpak -- flatpak run --socket=wayland org.eclipse.Java
+#+end_src
+
+Be aware of crapware.
+
+* Nix
+https://guix.gnu.org/en/manual/devel/en/html_node/Miscellaneous-Services.html#index-Nix
+
+~nix-shell -p htop~
+
+flakes, home-manager, whatever
+
+* Cleaning up
+Remember that all solutions above is kinda ad-hoc, most of them don't
+have declarative configuration, not integrated tightly with Guix and
+thus requires manual interventions and additional maintanance, but the
+cleaning up and maintanance are not today topics.
+
+* Conclusion
+There a few other ways to get more software, for example
+virtualization with qemu-kvm, but they a bit more havy-handed and
+approaches mentioned today already covers most of use cases.
+
+Take care of your privacy and freedoms.

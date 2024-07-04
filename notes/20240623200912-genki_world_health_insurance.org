@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       85af35ee-bdf6-4959-8752-dd9d655b8861
+:END:
+#+title: genki.world Health Insurance
+
+|                | Eplorer                 | Native     | Native Premium |
+|----------------+-------------------------+------------+----------------|
+| Time Limit     | 2 years                 | Lifetime   |                |
+| Price          | 57                      | 180        | 260            |
+| Insurer        | Allianz                 | Squarelife |                |
+| Deductible     | 50 per case             |            |                |
+| Telehealth     | AirDoctor               | No         | No             |
+| Transportation | Only Ambulance, no Taxi |            |                |
+| Vaccine        | No                      | No         | Covered        |
+| Medications    | No                      | Maybe      |                |
+
+* Questions for Call
+- Why not Allianz? Because it considered group insurance.
+
+- Types of insurance.
+- Deductibles?  What I need to pay for? (all the cases)
+- How telehealth works?
+
+- What happnes if I get caner/whatever?
+- What happens if tick or dog bites me?
+- What if I break my leg/arm?
+- My friend did surgery 3 years ago, what if the same thing will start
+  to pain, depression.
+- I'm in a region without hospital and public transportation? Taxi?
+- Vaccine for country with malaria or something.
+
+No:
+- Allergy Pills.
+- Dentist.
+- Massage.
+- Glasses.
+- Psychologist.

@@ -30,6 +30,9 @@ https://autonomic.zone/blog/2021/01/how-we-make-decisions/
 
 I've written a [[id:9335a7cc-b92b-4b09-a9c6-b2776655fac4][Consensus Cheatsheet]] to follow during discussions.
 
+A list of principles and values for inspiration:
+https://oxide.computer/principles
+
 * Hardware
 - https://contabo.com/en/
 
@@ -37,9 +40,10 @@ I've written a [[id:9335a7cc-b92b-4b09-a9c6-b2776655fac4][Consensus Cheatsheet]]
 ** Base
 [[id:3b1eb55e-f397-4d48-8332-75e3a46de459][Setting up LDAP and SSO]]
 - [[id:2af87cb1-f4cf-442a-a16d-d8681399715f][389 Directory Server]] :: for identities management.
-- Wiki :: for community [[id:7c3d12f1-1596-432e-b2d7-b0ba758430cb][Knowledge sharing]].
+- Wiki :: for community [[id:7c3d12f1-1596-432e-b2d7-b0ba758430cb][Knowledge sharing]], [[https://www.xwiki.org/xwiki/bin/view/Main/WebHome][XWiki]].
 - Laminar CI
 - Guix Substitutes
+- https://forwarddomain.net/
 
 ** Project [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]]
 https://awesome-selfhosted.net/tags/money-budgeting--management.html
@@ -67,6 +71,7 @@ https://awesome-selfhosted.net/tags/money-budgeting--management.html
 
 * Nice related domains
 - cons.camp :: retreat/school/offline meetup.
+- cons.im :: xmpp name.
 - cons.cafe ::
 - cons.chat ::
 - cons.house ::
@@ -79,3 +84,6 @@ https://awesome-selfhosted.net/tags/money-budgeting--management.html
 - cons.fm :: internet radio
 - cons.jobs ::
 - cons.link ::
+- ct.ws :: cons town web sites. url shortener/web pages hosting.
+- cons.tube :: peertube? yt frontend?
+- cons.social :: pleroma?

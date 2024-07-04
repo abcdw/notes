@@ -4,28 +4,29 @@
 #+title: ThinkPad X13s Gen 1
 
 
-https://github.com/jhovold/linux/tree/wip/sc8280xp-v6.3.1
-https://github.com/aarch64-laptops/linux/commits/lenovo-x13s
+- https://github.com/jhovold/linux/tree/wip/sc8280xp-v6.3.1
+- https://github.com/aarch64-laptops/linux/commits/lenovo-x13s
 
-https://libreddit.tiekoetter.com/r/thinkpad/comments/vh1xse/setup_linux_on_x13s_snapdragon_thinkpad_megathread/
+- https://libreddit.tiekoetter.com/r/thinkpad/comments/vh1xse/setup_linux_on_x13s_snapdragon_thinkpad_megathread/
 
-https://github.com/steev/thinkpad-x13s
-https://git.linaro.org/people/manivannan.sadhasivam/linux.git/?h=lenovo-x13s
-https://github.com/steev/linux/tree/lenovo-x13s-linux-v6.3-rc2
+- https://github.com/steev/thinkpad-x13s
+- https://git.linaro.org/people/manivannan.sadhasivam/linux.git/?h=lenovo-x13s
+- https://github.com/steev/linux/tree/lenovo-x13s-linux-v6.3-rc2
 
 
-https://www.youtube.com/watch?v=YWRbNogRBTw :: Mark Pearson, techlead
+- https://www.youtube.com/watch?v=YWRbNogRBTw :: Mark Pearson, techlead
 lenovo linux pc on debconf, to research interest in linux community.
 
 * Distros
-https://github.com/ironrobin/archiso-x13s/wiki/Feature-Support
-https://www.mail-archive.com/arm@lists.fedoraproject.org/msg12720.html
-https://fedoraproject.org/wiki/Thinkpad_X13s
-https://wiki.gentoo.org/wiki/ThinkPad_X13s
+- https://github.com/ironrobin/archiso-x13s/wiki/Feature-Support
+- https://www.mail-archive.com/arm@lists.fedoraproject.org/msg12720.html
+- https://fedoraproject.org/wiki/Thinkpad_X13s
+- https://wiki.gentoo.org/wiki/ThinkPad_X13s
 
 * People
-https://nullr0ute.com/about/ :: Peter Robinson
-https://www.youtube.com/@bioxvirizm/about
+- https://nullr0ute.com/about/ :: Peter Robinson
+- https://www.youtube.com/@bioxvirizm/about
+- https://www.youtube.com/@bullhaddha :: running Guix on x13s
 
 * Coupon
 THINKMAY

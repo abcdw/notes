@@ -1,8 +1,49 @@
 :PROPERTIES:
 :ID:       3b1eb55e-f397-4d48-8332-75e3a46de459
 :END:
-#+title: Setting up LDAP and SSO
+#+title: LDAP and SSO for cons.town
 
 [[https://possiblelossofprecision.net/?p=2519][389ds LDAP server configuration]]
 https://openid.net/specs/openid-connect-registration-1_0-errata2.html
 https://blog.please-open.it/ldap-keycloak/
+
+Cooperative self-hosting.
+
+We have a few organizations: RDE, cons.town, genenetwork, EF.  They
+can have different software/hardware requirements, so can be deployed
+on different physical machines.  How to reuse identity infrastructure?
+
+- cons.town team :: admins and developers.
+- cons.town users
+- RDE team
+- Genenetwork team
+- EF
+
+Can be on on RDE team and be a cons.town user.
+
+What we want:
+- Keycloak for OIDConnect/SAML.
+- SSH access
+- Multiple xmpp accs for one user.
+custom domain xmpp accounts.
+- Email accounts, custom domain as well.
+- Non-cons.town users it projects. Wanting to re-use monitoring and
+  SSO capabilities.
+
+Questions:
+- OpenLDAP vs 389ds
+
+- What ou to create? Can I just create ou people and use groups for
+  rest?
+- How to design and setup a base schema? Create uid and gid for every user?
+
+- How many users 389ds can handle?
+- GUI for LDAP?
+- Fault-tolerance Distributed FS?
+- How to create multiple roots for different organizations? dc=cons,dc=town and dc=ef,dc=org. Do I need a separate tree?
+
+We can just use groups or ou attributes.
+** Operation
+Backup/restore: https://possiblelossofprecision.net/?p=2597
+** Useful Links
+  https://github.com/oauth2-proxy/oauth2-proxy
