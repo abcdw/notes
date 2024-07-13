@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       fea2193a-2458-430d-bd89-e03b026c7514
+:ROAM_REFS: https://keri.one/
+:END:
+#+title: KERI Decentralized Identity System
+
+- related :: [[id:b2cb185a-08cb-4462-b087-93ff9d6b3a21][Identity Management]]
+
+https://medium.com/finema/the-hitchhikers-guide-to-keri-part-1-51371f655bba

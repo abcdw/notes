@@ -8,12 +8,12 @@
   office, conferencing, more usual user-oriented.
 - https://glesys.com/ :: Sweden-based (1.1EUR/month in 2023).
 - https://runbox.com/ :: Norway-based, runs since 2000, 60 days refund
-  policy, 2 years for the price of one, support replies very quickly,
-  web interface is quite sucky (inconsistent and unintuitive), can pay
-  with crypto.
+  policy, 2 years for the price of one, support replies are very
+  quick, web interface is quite sucky (inconsistent and unintuitive),
+  can pay with crypto.
 - https://mxroute.com/ :: don't know much, found somewhere on reddit.
-- https://gandi.net :: become paid without providing any benifits over
-  options above.
+- https://gandi.net :: advertised as free, became paid without
+  providing any benifits over options above.
 
 Related articles on the topic:
 - https://fosstodon.org/@abcdw/107591821459438659

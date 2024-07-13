@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       b2cb185a-08cb-4462-b087-93ff9d6b3a21
+:END:
+#+title: Identity Management
+
+Big important thing, probably one of the root things in CS and
+technology, made this node to refernces it from other nodes, to gather
+related notes on the topic.

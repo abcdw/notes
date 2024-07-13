@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       d0d5ba5d-7aed-4541-8532-8d956925c08b
+:END:
+#+title: RDE Features Problems 2024
+
+* Hard to introduce new values
+Imagine I build base-os out of a few features, I want to easily
+override primary disk from ~/dev/vda~ to ~/dev/sda~ for other deployement
+target.
+
+I want to declare a value file-systems.primary-disk and
+- bootloader-configuration.targets
+- file-systems."/".device
+- cloud-init.primary-drive
+to be set/sourced from it.
+
+* Overriding of Parameters in Guile Records is not Ergonomic
+It's related to [[id:491729f7-9716-4280-a5a5-db7bbec2b698][Alists and Records in Guix Services]].
+
+Imagine you need to take a template config and just update hostname in
+it.  You need to generate an OS, inherit it and change the value in
+inherited OS.
+
+Imagine you need to override a file-systems."/".device value.  You
+need to obtain all the values on the path (operating-system,
+file-systems, exact filesystem) make a 2 inheritances and override
+value in each of them and one update of list of file-systems.
+
+In clojure it could be:
+
+~(assoc-in config
+ [:operating-system :file-systems [:select "/"] :device] "/dev/sda")~
+
+In nix it would be:
+
+~operating-system.file-systems."/".device = "/dev/sda"~
+
+* Guix Service mechanism lacks Polymorphism
+Sometimes I want to extend a primary-shell service type, which can be
+implemented by zsh or bash under the hood.  Or user-account service
+type, which can by a system service creating /etc/passwd or home
+service provisioning users via cgroups.  Or profile service type, but
+depending on the list of provided service implementations it could be
+home-profile or dev-profile, not only system profile.
+

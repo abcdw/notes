@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       647c3697-0feb-4253-9870-b3d2a0d838e6
+:END:
+#+title: Do ares.extension Need to Depend on nrepl.session?
+
+- related :: [[id:15f9ea06-65b4-4898-97e4-199a065e2d9e][nREPL]]
+
+Semantically it doesn't make much sense because extensions are tied to
+processing loop and independent from session.  It can even modify
+nrepl.session extension, so it probably should not depend on it.
+
+Cause of it ares.bencode (ares.transport) extension have a fallback
+for adding id te replies.

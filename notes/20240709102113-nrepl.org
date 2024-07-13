@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       15f9ea06-65b4-4898-97e4-199a065e2d9e
+:ROAM_REFS: https://nrepl.org
+:END:
+#+title: nREPL
+
+Language-agnostic protocol for implementing dev tooling for
+interactive development workflows.  Originally created for Clojure,
+later factorized for reuse in other ecosystems.
