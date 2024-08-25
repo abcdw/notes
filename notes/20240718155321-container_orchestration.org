@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       a301b65f-2bce-450e-93d4-3fff2d1a5502
+:END:
+#+title: Container Orchestration
+
+- Nomad :: support multiple types of clients, including [[id:b09f7147-eacd-42dd-a972-10eb8ec73b1a][Docker]] and
+  [[id:45ce1cc6-cbb0-4c23-bc12-a21e2bc9a053][Podman]].

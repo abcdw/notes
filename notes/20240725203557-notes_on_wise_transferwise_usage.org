@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       8704359d-2ca5-48b8-bd6f-96926c56a8d3
+:END:
+#+title: Notes on Wise (TransferWise) Usage
+
+- It's better to send (SWIFT) money from Wise USD account to BOG EUR
+  account, than in BOG USD.
+
+- It seems cheaper (at least for small amounts < 1000) to send money
+  directly to BOG USD account from guru.com than transfering them to
+  Wise without commision and then sending them to BOG USD
+  account. 12.43 USD commission for any amount.
+
+- However, if I want to convert USD to EUR, it's much better to send
+  to Wise USD account and then to BOG EUR. 5.11 USD commission for 700 USD.

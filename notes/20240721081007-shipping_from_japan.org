@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       93f3d89b-9fe1-4ab1-8e33-17c660206ae3
+:END:
+#+title: Shipping from Japan
+
+https://www.parcelabc.com/order/addresses
+https://users.jsmjapan.com/ru/delivery/agreement

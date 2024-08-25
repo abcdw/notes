@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b86aef9a-2f3f-4cfb-b7d9-3322ef95a220
+:END:
+#+title: Kubernetes Tools Collection
+
+- [[https://youtu.be/Yb3_4PZX0B0][ArgoCD]] :: GitOps + kube WebUI.  Shows a diagram of components in
+  cluster.

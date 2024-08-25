@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       c134224b-4317-4f07-9b52-9ea7faa7d87c
+:END:
+#+title: Scheme Testing Framework Meeting with graywolf
+
+* Questions/Topics
+- Why nobody publicly noticed that SRFI-64 is so incomplete?
+- Tests inside REPL.
+- How to make a good testing framework?
+- How to improve guile in general?

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       30add277-7f25-426e-9188-ed340904f89f
+:ROAM_REFS: https://ed25519.cr.yp.to/
+:END:
+#+title: ed25519
+
+Ed25519 is a public-key signature system with several attractive features.
+
+It looks interesting to me because it should be more performant than
+rsa-4096, without compromising security.  I currently suffer a bit
+from [[id:3efb3781-5efa-4037-8a95-abeec91292f4][YubiKey]] + RSA-4096 performance.

@@ -1,0 +1,121 @@
+:PROPERTIES:
+:ID:       e9d96bc0-64c2-41d7-a330-e61bbb8ec6f0
+:END:
+#+title: Designing a Good Keyboard Layout
+
+* Resources
+- [[https://optozorax.github.io/p/my-keyboard-layout/][optozorax' keyboard layout]] :: good summary of many important ideas
+  related to keyboard layout.
+
+- https://dreymar.colemak.org/ :: very fast typer bag of tricks.
+
+* Layout
+http://www.keyboard-layout-editor.com/#/gists/871c3dacf82a8153a405ad41ff63b751
+** Principles
+- Optimizing for prose typing, not particular software :: documentation,
+  communication usually are taking more time, than coding.  In a few
+  years with a development of local LLMs it will be possible to reduce
+  the necessity of complex text modification workflows, refactorings
+  and similiar hotkey-heavy activities in a favor of explaining
+  computer on how to change or what to do with the text and just
+  looking at the resulting diff.  The advancing in the structured and
+  more syntaxless programming can make such workflow even more
+  efficient.
+- Consult with Pareto :: make improvements (with respect to
+  constraints), which brings 80% of the impact, don't chase the
+  perfect keyboard.
+- Sticking to Dvorak :: there are a plenty of other interesting
+  keyboards layouts, but I feel very comfortable with dvorak, not in
+  terms I used to, but how it feels on my writsts and fingers, there
+  is a minor issue with letter l, but it's minor inconvinient, other
+  than that I'm happy with hands load, altering, home row usage and
+  other stuff.  Getting a few
+
+** Design Decisions
+*** Using Japanese Thinkpad Layout
+It's compromise in [[id:c82f8b8c-237d-4371-b922-2f80cb7aa6e1][Ergonomics]] and portability.  I think having a 3
+thumb keys provides good enough ergonomics already and solves 80% of
+usual keyboard problem.  [[id:2bcad25e-8ccf-4421-b434-9d7e034c2067][ThinkPad]]'s have quite good jp layout with
+quite small space and they have [[id:72bafe50-7534-4059-8943-83796f6510e6][TrackPoint]], probably not most
+important factor, but still nice to have.
+
+*** Shift on the left thumb
+Shift is used often, thumb is strong and flexible.  Thumb shift
+doesn't require to move hand as pinky shift and also doesn't block
+pinky letters.  Shift on the left hand is potentially useful for
+applications with mouse for modifying selection type. Altering shift
+doesn't provide a lot of benifits, but introduce a lot of complexity
+and cognitive load.  No other shifts on the layout.  Shift on the
+thumb home position probably is a good idea too.
+
+*** Sticky Shift
+Make shift sticky for short period of time to avoid syncronization
+problems and treat shift as a usual character (can be preset
+separately from the next character), while typing.
+
+*** Space on the right thumb
+Most used letter, definitely a good candidate for a thumb, should be
+on the other thumb than shift for fast typing (prevent two very
+frequent keys being on the same thumb) and SCREAMING CASE TEXT.
+Altering thumbs for pressing shift is also questionable: low
+perfomance gain, higher cognitive load, plus reduces the amount of
+thumb keys available.  I tried all three options and even re-learned
+couple times, right now I type space with right thumb anyway.
+
+*** Press qwerty's R (dvorak's P) with middle finger
+Index finger is too stressful for this job, also left hand has a
+better stagger in this regard, it goes up and left, but the right goes
+up and left too, which is uncomfortable for index finger.
+
+** Ideas
+*** WASD-like arrows on right hand
+http://xahlee.info/emacs/misc/xah-fly-keys.html
+- It's rare when you need up and down at the same time, so it's ok to
+  have them on one finger.
+- It's confusing, when up and down are on the same row, adds cognitive
+  load.  Probably becomes better with time, still confusing and having
+  ctrl left/right on top of left/right and not having separate keys
+  for ctrl up/down seems like a good idea + saving of the two keys for
+  other useful functions.
+- ctrl up/down is rarely used, but ctrl left right are frequent for navigation words.
+
+* How to Train
+- keybr.com :: for particular letters.
+- monkeytype.com :: for pleasure, shifts and fun.
+
+* Problems
+- Backspace is very far and I really use it.
+- (){}[]/=\ is really hard to type and very pinky instensive.
+- Enter is also quite uncomfortable.
+
+* Tasks
+** TODO Swap ; and :
+I need : much more often than ;.
+
+** TODO Swap alt and shift?
+The position of alt and bspc on left thumb is very confusing, probably
+moving a shift to left alt would make it easier.
+
+
+* Possible improvements
+- There is no which-key for layers, ui for that would be huge.
+- Home row mods [[https://precondition.github.io/home-row-mods#home-row-mods-order][guide]] with kmonad implementation.
+- Combo keys instead of layers.
+
+* Home row modifiers
+- [[https://github.com/kmonad/kmonad/issues/228#issuecomment-2038427927][kmonad/issues/228]] :: a trick for disabling home row modifiers, when typing.
+
+* Materials
+- [[https://github.com/manna-harbour/miryoku/tree/master/docs/reference][Miryoku Keyboard Layout]] :: well-documented layout with a list of
+  good design principles.
+- [[Https://youtu.be/rhdMVXlnQIM][Keyboard Layouts - Things to consider before switching]]
+- [[https://github.com/urob/zmk-config][urob's zmk config]] :: 34 keys, I think it has pretty advanced techniques.
+- [[https://github.com/yogthos/configs/blob/master/linux/key-rempping.md][key-remapping.md]] :: various notes on key remmmaping and information.
+- [[https://lars.ingebrigtsen.no/2024/04/28/the-simplest-thing-in-the-world-modifing-keymaps-in-wayland/][The Simplest Thing In The World: Modifing Keymaps in Wayland]]
+- https://gitlab.com/interception/linux/tools :: A minimal composable
+  infrastructure on top of libudev and libevdev.
+- [[https://github.com/abcdw/rde/blob/61a6fd1ea4368fe948e2dd34331b0d40c7babadf/stale/atreus_qmk/keymaps/abcdw/keymap.c][My Atreus Layout]] :: my old layout for atreus.
+
+#+begin_quote
+xkeyboard-config версии 2.42 с патчем для универсальных расклдок ru/en отсюда - https://github.com/moigagoo/universal-layout-linux. Картинки раскладок можно глянуть тут - https://github.com/braindefender/universal-layout. Варинат копирования в ~/.config/xkb и запуска в sway через xkb_file не заработал, поэтому так.  https://git.sr.ht/~akagi/rrr/tree/master/rrr/packages/xorg.scm#L37
+#+end_quote

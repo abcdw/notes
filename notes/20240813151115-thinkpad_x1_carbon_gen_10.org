@@ -1,0 +1,44 @@
+:PROPERTIES:
+:ID:       51221bed-9374-4aa2-9634-adb401dae221
+:END:
+#+title: ThinkPad X1 Carbon Gen 10 Anniversary Edition
+
+* Problem
+- Oled screen has pwm.  Didn't notice negative impact from it yet.
+- It can heat up like a hell if you mess power management settings.
+  Seems default guix tlp config does so (probably decreases fan speed?).
+
+* Camera
+
+* Power Consumption
+
+** Usual usage
+80-100% brightness
+- 11:13 Disabled charged at
+- 12:16 68%
+- 13:26 39%
+- 14:02 19%
+
+** Sleep/Suspend
+
+When Linux S3 chosen in UEFI.
+It fails to wake up from S3 on most kernels.  Only Fedore 40 works somehow.
+
+*** Non-S3 Sleep
+
+x1 carbon
+20:55 39%
+06:06 32%
+7% 1%/hour
+
+x1 yoga 4th
+22:29 99%
+07:08 82%
+
+17% 2%/hour
+
+* Links
+- https://wiki.ubuntu.com/IntelMIPICamera
+- [[https://wiki.archlinux.org/title/Lenovo_ThinkPad_X1_Carbon_(Gen_10)][Lenovo ThinkPad X1 Carbon (Gen 10)]] :: arch wiki page.
+- [[https://forums.lenovo.com/t5/Fedora/Fedora-on-X1-Carbon-Gen-10/m-p/5135869][Fedora on X1 Carbon Gen 10]] :: thread on lenovo forum.
+- [[https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X1_Carbon_Gen_10/ThinkPad_X1_Carbon_Gen_10_Spec.pdf][ThinkPad_X1_Carbon_Gen_10_Spec.pdf]] :: specification.

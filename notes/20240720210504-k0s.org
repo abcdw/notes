@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       964af869-2946-41ea-8da0-ccd8362d7bd7
+:ROAM_REFS: https://k0sproject.io
+:END:
+#+title: k0s
+
+Simple single-binary [[id:411be08a-366e-480b-839d-aa3bc1637611][Kubernetes]] distribution.

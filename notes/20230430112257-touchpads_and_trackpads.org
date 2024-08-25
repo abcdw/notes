@@ -4,3 +4,4 @@
 #+title: Touchpads and Trackpads
 
 https://www.cirque.com/ have some circle touchpads.
+https://www.mouser.com/datasheet/2/892/TM040040_SPI-I2C-PINNTrackpad_SPEC1-2-1223705.pdf

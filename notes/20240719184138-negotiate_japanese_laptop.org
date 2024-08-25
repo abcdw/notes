@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       fbfa29d6-760a-4c85-a19d-0697fd56a1cb
+:END:
+#+title: Negotiate Japanese Laptop
+
+Trying to get a better price for the laptop.
+
+* Lot
+ThinkPad X1 Carbon Gen8 i7-10th 16GB 1024GB New
+https://www.avito.ru/sankt-peterburg/noutbuki/thinkpad_x1_carbon_gen8_i7-10th_16gb_1024gb_new_3770203639?slocation=621540
+
+1920x1080
+Intel Core i7-10510U, 1.8 ГГц
+20U90008RT
+
+https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_X1_Carbon_Gen_8/ThinkPad_X1_Carbon_Gen_8_Spec.PDF
+
+
+
+* Other lots
+- [[https://www.avito.ru/sankt-peterburg/noutbuki/thinkpad_x1_carbon_i7_16gb_512gb_lte_kak_novye_3194029474?slocation=621540][ThinkPad X1 Carbon i7 16GB 512GB + LTE Как Новые]] 34990
+- [[https://www.avito.ru/sankt-peterburg/noutbuki/thinkpad_x1_carbon_i7-8650u_16gb_256gb_3066309832?slocation=621540][Thinkpad X1 Carbon i7-8650U 16GB 256GB]] 44990
+- [[https://www.avito.ru/sankt-peterburg/noutbuki/thinkpad_x1_carbon_gen_8_4k_i5-10th_16gb_512gb_lte_4058456636?slocation=621540][ThinkPad X1 Carbon Gen 8 4K i5-10th 16GB 512GB LTE]] 76000
+
+* Arguments
+- А экран тач? (Нет).
+- Нет русской клавиатуры.
+- Неудобный энтер.
+- Сколько будет стоить поставить ещё 16ГБ
+- Мне не нужен модем.  Можно его вытащить?
+
+** Amazon lot
+69 937 рублей новый.
+https://www.amazon.com/Lenovo-ThinkPad-Ultrabook-i7-10510U-Processor/dp/B08FRNCPXF?th=1
+
+** Parts
+SSD:
+
+https://pcsupport.lenovo.com/us/ru/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-8th-gen-type-20u9-20ua/20u9/parts/display/compatible?linkTrack=Caps%3ABody_SearchProduct&searchType=4&keyWordSearch=X1%20Carbon%208th%20Gen%20-%20%28Type%2020U9,%2020UA%29%20Laptop%20%28ThinkPad%29%20-%20Type%2020U9
+
+https://pcsupport.lenovo.com/us/ru/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-8th-gen-type-20u9-20ua/20u9/parts/display/compatible?linkTrack=Caps%3ABody_SearchProduct&searchType=4&keyWordSearch=X1%20Carbon%208th%20Gen%20-%20%28Type%2020U9,%2020UA%29%20Laptop%20%28ThinkPad%29%20-%20Type%2020U9

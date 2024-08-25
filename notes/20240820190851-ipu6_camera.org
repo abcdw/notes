@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8a83ab2a-24b7-4fcf-9fdb-4807160a5351
+:END:
+#+title: IPU6 Camera
+
+https://bbs.archlinux.org/viewtopic.php?id=297262
+https://github.com/linux-surface/linux-surface/discussions/1354

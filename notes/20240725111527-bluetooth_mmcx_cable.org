@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       99e6e834-62c8-465c-8025-e74dec139397
+:END:
+#+title: Bluetooth MMCX Cable
+
+- Hidizs H2 + short jack mmcx can work. [[https://store.hiby.com/products/3-5mm-short-cable][hiby short cable]].
+- https://trn-audio.com/trn-bt20s-pro.html :: Needs case for charging => bulky.
+
+
+Just a cool mmcx cble with mic:
+https://antlionaudio.com/products/kimura-microphone

@@ -38,8 +38,8 @@ https://oxide.computer/principles
 
 * Software To Deploy
 ** Base
-[[id:3b1eb55e-f397-4d48-8332-75e3a46de459][Setting up LDAP and SSO]]
-- [[id:2af87cb1-f4cf-442a-a16d-d8681399715f][389 Directory Server]] :: for identities management.
+- [[id:3b1eb55e-f397-4d48-8332-75e3a46de459][Setting up LDAP and SSO]], [[id:9272f2b9-d4ea-41ce-990b-c89a68ddd9c8][Authentik]]
+- SSL, forward proxy, probably Traefik.
 - Wiki :: for community [[id:7c3d12f1-1596-432e-b2d7-b0ba758430cb][Knowledge sharing]], [[https://www.xwiki.org/xwiki/bin/view/Main/WebHome][XWiki]].
 - Laminar CI
 - Guix Substitutes

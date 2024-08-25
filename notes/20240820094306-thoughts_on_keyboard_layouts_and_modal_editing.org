@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       228a3214-20ff-4549-94a9-e7911cc56feb
+:END:
+#+title: HCI: On Keyboard Layouts, Modal Editing and LLMs
+
+* Introduction
+Let's talk about Human-Computer Interaction.  This a huge topic, but
+let's focus on keyboards.
+
+8 years of Vim usage, 9 years of Emacs
+
+* Natural Language Interaction
+
+** Typing and Hotkeys
+Alphanumeric characters is a primary target.
+
+Special characters are hacks in most cases because everything thing is
+a textfile and we don't have underlying structure.
+
+*** Shift
+
+*** Introduce Structure to Reduce Special Characters Usage
+There is a tendency to make programming more programming language
+agnostic.  The exact syntax matters less and less.  Take a look at
+Guile/WISP, Racket's #lang or Unison text frontend.
+
+There are definitely use cases like typesettings or very complex
+alphabets, which probably require a separate input methods and ideas.
+
+** Speaking
+Basically the same as usual typing.
+
+* Commands
+** Learning
+Natural language, full-text searchable commands/functions with
+documentation is definetily easier to explore rather than highly
+nested hierarchical menus, or arcane hokeys.
+
+** Using
+- Some generic actions and frequently used editing and navigation
+  commands would be nice to have on hotkeys.
+- However, having the raise of LLMs + good UI, the natural language
+  prompts will be able to substitute many advanced VIM-foo use cases,
+  especially complex editing scenarios.  Of course we will need more
+  open and resource lightweight models to appear.
+
+* Hotkeys
+
+* Reachy Typing keys
+Shift, backspace, enter.
+
+* Modifiers
+** 2-3-4 at The Same Time
+Locks your hand, wrecks your wrist and twists your mind.  It also can
+cause syncronization problems.
+
+** Left/Right Modifiers
+Adds excessive cognitive load.
+
+** Modifiers Position
+*** Space and Thumb Cluster
+*** Minimization of
+
+* Modal editing
+Vim << kakoune or emacs meow.  Good modal editing embraces mnemonics
+and easier to use.
+** Sticky Modifiers and Leader Keys
+
+
+* Conclusion
+- Optimize layout for natural language typing.
+- Use separate keycodes for frequently used actions, which can later
+  be bound to single modifier layers.
+- Prefer Leader Key to multiple modifiers.

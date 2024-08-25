@@ -6,6 +6,13 @@
 Notes for myself, not intended for external reader without context,
 but if you want to understand more underlying issues, just ask.
 
+* Interactive Phase Launch
+https://fosstodon.org/@csepp@merveilles.town/112961828242923443
+#+begin_quote
+So far a clear win for #Nix over #Guix for me: it's very easy to run build steps from a shell.  I don't have to jump through hoops, like adding a deliberate error after a build phase in Scheme and enabling keep-failed and then entering the build environment and copy-pasting commands from the log to re-run them.
+None of that nonsense, you just enter a nix-shell '<nixpkgs>' -A pkgname, set out to some output folder in /tmp, then run your build phases, or a generic build.
+#+end_quote
+
 * ~guix pull~ is not reproducible
 guix pull from the same channel definition with specific commits
 produces different profiles hashes on different machines.

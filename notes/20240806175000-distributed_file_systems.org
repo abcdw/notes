@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       aedbeedc-cfbc-4d4d-b87e-789e3f677e13
+:END:
+#+title: Distributed File Systems
+
+- https://longhorn.io/ :: [[id:411be08a-366e-480b-839d-aa3bc1637611][Kubernetes]] native fs.

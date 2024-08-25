@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       05765b44-4423-4b0e-b263-5f8779e95988
+:END:
+#+title: Scheme Package Managers
+
+- https://akkuscm.org/
+- https://snow-fort.org/
+- https://retropikzel.neocities.org/schubert/usage/

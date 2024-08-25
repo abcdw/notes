@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       bd23798c-7ef4-481b-a707-c56eeada3946
+:END:
+#+title: Extending Scheme IDE: nREPL and sesman sessions | Emacs Arei | Guile Ares
+#+filetags: :Video:
+
+* Introduction
+There are two primary type of sessions
+
+* Sesman
+* nREPL sessions
+* Conclusion

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       27787bb2-42a7-41fc-8ca8-d652224e51ea
+:END:
+#+title: Sharing a GPU Between Multiple Pods in Kubernetes
+
+https://youtu.be/EPqR2RKzufE

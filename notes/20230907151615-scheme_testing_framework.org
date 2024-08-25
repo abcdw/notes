@@ -3,6 +3,31 @@
 :END:
 #+title: Scheme Testing Framework
 
+* Questions
+- What to do with the code that escapes the scope of the group with
+  continuations?
+
+* Thoughts
+- We don't need to skip test, because we can run particular test
+  directly or skip/run tests based on metadate.
+
 * SRFI-64
+SRFI-64 spceification is incomplete and controversial, also it is too
+imperative (have a lot of state involved and conditional behaviors
+based on it, which are not specified exactly and expected to be
+executed from the CLI, everytime from the ground up), which makes it
+very hard to use it from REPL.
+https://wolfsden.cz/blog/post/state-of-srfi-64.html
+
 test-group and other macros use dynamic-wind so it can be tricky to
 interact with it inside fibers or other contiunation-intensive code.
+
+Also skip mechanics is to imperative and error prone.  What happens if
+we have 10 skips and have only 9 test in test group?  What if I move a
+test above test-skip?  Such behavior must not be detached from tests
+themselves.  Does test-skip skips the whole group or only one test
+inside following nested group?
+
+* Other
+Contact https://fosstodon.org/@graywolf@emacs.ch, when implementing
+testing framework.

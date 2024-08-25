@@ -1,0 +1,61 @@
+:PROPERTIES:
+:ID:       7c5c92d7-b145-41a9-86b1-102bf4a217a4
+:END:
+#+title: Setting up Yubikey with ed25519
+
+https://www.procustodibus.com/blog/2023/04/how-to-set-up-a-yubikey/
+
+
+
+* Basic Setup
+ykman and other programs:
+
+guix shell python-yubikey-manager
+
+Default admin pin is 1234578, user pin is 123456.
+
+The admin pin is needed to reset user pin.
+
+Reset pin is not needed for single-user scenario: https://forum.yubico.com/viewtopicd01c.html?p=9055#p9055
+
+~ykman info~ to get basic info about your device. firmware is not
+upgradable by design, you need to get a new yubikey to get newer
+firmware.
+
+** Swap OTP to long press
+When you accidentially touch yubikey it starts typing a long OTP
+string and enter.  To avoid that move this functionality to the second
+slot, which requires long press.
+
+~ykman otp swap~
+
+** Increase number of retries
+#+begin_src sh
+ykman openpgp access set-retries 5 5 5
+#+end_src
+
+** Enable kdf
+Enable kdf. https://github.com/drduh/YubiKey-Guide?tab=readme-ov-file#enable-kdf
+#+begin_quote
+gpg --command-fd=0 --pinentry-mode=loopback --card-edit <<EOF
+admin
+kdf-setup
+12345678
+EOF
+#+end_quote
+
+** Setting Settings
+gpg --edit-card
+admin
+name
+url
+
+** Setting up Passwords
+ykman openpgp access change-pin
+ykman openpgp access change-admin-pin
+
+** Use keys from another smartcard
+gpg-connect-agent "scd serialno" "learn --force" /bye
+
+* Restore from Backup
+gpg --import keys.gpg

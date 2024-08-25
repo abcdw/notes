@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       abc3d561-8d79-4388-b9c1-b6ced6308560
+:END:
+#+title: k3s vs k0s
+
+https://programming-group.com/assets/pdf/papers/2023_Lightweight-Kubernetes-Distributions.pdf
+
+k3s has bundled traefik.  Is it that big deal?
+
+#+begin_quote
+The k0s project is mainly developed by Mirantis (the same company that aggressively tries to get businesses to pay for Docker Desktop and also removed once free features in Lens and paywalled them), that's all that really needs to be said. 🥲
+#+end_quote

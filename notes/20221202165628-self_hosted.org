@@ -3,6 +3,7 @@
 :END:
 #+title: Self-Hosted
 
+- https://ente.io/blog/self-hosting-101/
 - https://selfh.st/apps/
 - https://recipes.coopcloud.tech/
 - https://awesome-selfhosted.net/
@@ -20,6 +21,24 @@
 - https://github.com/firefly-iii/firefly-iii/ :: personal [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]].
 - https://pipedream.com/, https://n8n.io, huginn :: workflow automations.
 - https://hypothes.is :: notes and collaboration on web pages annotations.
+
+
+** FS
+[[id:294f886d-188a-4173-a9bc-b21b020e3632][Filesystems]].
+
+** VPNS
+- netbird :: https://youtu.be/QQaRB1vL6Q8.
+- https://hiddify.com/ :: Multi-platform auto-proxy client, supporting
+  Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an
+  open-source, secure and ad-free.
+
+** Images and photos
+- https://www.photoprism.app :: photo organization and storage.
+- https://ente.io
+- https://immich.app/ ::
+
+** Dashboard
+- https://github.com/gethomepage/homepage
 
 ** Social
 - https://codeberg.org/grunfink/snac2 :: really minimalistic [[id:02395c50-e75f-46d7-9afe-cab401c51db2][ActivityPub]] server.

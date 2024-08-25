@@ -1,0 +1,52 @@
+:PROPERTIES:
+:ID:       aca8c332-08b1-4adc-9170-c8373e60cffc
+:END:
+#+title: Guile Load Path Explained
+#+filetags: :Video:
+
+* Introduction
+Ever been confused by load pathes?  Couldn't get a dependency or some
+module loaded?  Was curious why load pathes needed at all?
+
+* Basics
+https://www.gnu.org/software/guile/manual/html_node/Load-Paths.html
+
+There are a few predefined values for load-path.
+
+Load pathes are relative to the running guile process.
+
+~GUILE_LOAD_PATH="../prj1/src:/data/prj2:...:src/guile" guile -L ./test/guile~
+
+* Modules and Load Path
+
+~(my super library)~ is located in ~"my/super/library.scm"~ in load path.
+
+GUILE_LOAD_COMPILED_PATH
+
+* API
+%load-path
+
+%load-extensions
+
+(%search-load-path)
+(search-path)
+
+* Use Cases
+** Specifying Dependencies
+** Overriding Dependencies
+Just put on top of %load-path.
+
+** Splitting test, dev and src
+Shipping only code that needed.
+
+** src/guile src/hoot src/common
+Reusing the code between different dialects.
+
+** Search for Resources in %load-path
+~find-file-in-load-path~ in ~(rde lib file)~ of RDE project.
+
+* Tricky Things
+- Be aware of symbolic links and canonicalize-path.
+- %load-extensions.
+
+* Conclusion

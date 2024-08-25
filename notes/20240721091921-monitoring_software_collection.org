@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       49ad335e-2cae-4d30-a90c-81795d79a014
+:END:
+#+title: Monitoring Software Collection
+
+- https://github.com/VictoriaMetrics/VictoriaMetrics :: alternative to
+  Prometheus.

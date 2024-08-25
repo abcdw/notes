@@ -1,0 +1,57 @@
+:PROPERTIES:
+:ID:       dcfafdc1-3c58-4e91-8479-b6fd17e26c54
+:END:
+#+title: YubiKey GPG Benchmark (RSA4096, ED25519) on 5C Nano, 5 Nano and Plain
+
+This is very naive benchmark, just to get a general understanding of
+perfomance gains.
+
+I do it because RSA4096 feels quite sluggish on my 5C Nano and I want
+to migrate to 5 Nano with newer firmware.  Also, I want to change my
+GPG key type to ED25519.
+
+5C Nano (5.2.1 firmware), RSA4096.
+
+#+begin_quote
+gpg --yes --output verysmall.sig --sign verysmall  0.00s user 0.00s system 0% cpu 0.862 total
+gpg --yes --output verysmall.sig --sign verysmall  0.00s user 0.00s system 1% cpu 0.864 total
+gpg --yes --output verysmall.sig --sign verysmall  0.01s user 0.00s system 1% cpu 0.855 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  11.46s user 0.43s system 93% cpu 12.778 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  12.38s user 0.47s system 93% cpu 13.761 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  12.61s user 0.47s system 92% cpu 14.105 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.49s user 0.39s system 48% cpu 1.823 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.46s user 0.40s system 50% cpu 1.711 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.52s user 0.40s system 51% cpu 1.803 total
+mbsync -a > /dev/null  0.19s user 0.07s system 2% cpu 9.748 total
+mbsync -a > /dev/null  0.18s user 0.07s system 3% cpu 7.944 total
+mbsync -a > /dev/null  0.17s user 0.09s system 2% cpu 11.717 total
+ssh pinky echo -n  0.07s user 0.00s system 3% cpu 2.050 total
+ssh pinky echo -n  0.09s user 0.01s system 4% cpu 2.123 total
+ssh pinky echo -n  0.07s user 0.01s system 3% cpu 2.005 total
+#+end_quote
+
+Plain (just gpg without security token), RSA4096.
+
+#+begin_quote
+gpg --yes --output verysmall.sig --sign verysmall  0.00s user 0.01s system 5% cpu 0.131 total
+gpg --yes --output verysmall.sig --sign verysmall  0.01s user 0.00s system 4% cpu 0.129 total
+gpg --yes --output verysmall.sig --sign verysmall  0.00s user 0.00s system 3% cpu 0.130 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  11.74s user 0.37s system 98% cpu 12.323 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  12.76s user 0.46s system 98% cpu 13.385 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  13.71s user 0.56s system 98% cpu 14.424 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.54s user 0.41s system 81% cpu 1.159 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.53s user 0.39s system 80% cpu 1.142 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.49s user 0.45s system 80% cpu 1.158 total
+mbsync -a > /dev/null  0.20s user 0.06s system 3% cpu 8.088 total
+mbsync -a > /dev/null  0.18s user 0.07s system 2% cpu 8.226 total
+mbsync -a > /dev/null  0.18s user 0.07s system 1% cpu 14.392 total
+ssh pinky echo -n  0.07s user 0.01s system 6% cpu 1.343 total
+ssh pinky echo -n  0.06s user 0.01s system 3% cpu 1.636 total
+ssh pinky echo -n  0.07s user 0.00s system 4% cpu 1.347 total
+#+end_quote
+
+5 Nano (5.7.1 firmware), RSA4096.
+
+#+begin_quote
+
+#+end_quote

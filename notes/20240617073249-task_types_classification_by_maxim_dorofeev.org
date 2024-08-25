@@ -24,3 +24,8 @@ How do you feel after accomplishing/failing:
 |-------+------------------------+----------------+------------|
 | Red   | Negative effect / loss | it's fine      | it's fine? |
 | Green | it's fine              | Good and Nice! | Wunderbar! |
+
+* Priorities
+- A :: have to be done today.
+- B :: this week.
+- C :: not this week.

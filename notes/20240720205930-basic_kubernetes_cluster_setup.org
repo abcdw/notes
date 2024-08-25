@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       b83fef65-5e9b-4ea7-a591-65750c9dd5ff
+:END:
+#+title: Basic Kubernetes Cluster Setup on Guix
+
+I use [[id:964af869-2946-41ea-8da0-ccd8362d7bd7][k0s]] as a simple single-binary distribution, wrapped with some
+guix stuff to deploy the cluster.
+
+I've read the docs and got started with [[https://www.youtube.com/watch?v=aHPGf6FsY7Y&list=PL34sAs7_26wPu4YL9wW1HLwtssQx1EgS][K0S Kubernetes Demo Playlist]].
+
+Other useful improvements to the cluster can be inspired by [[id:b86aef9a-2f3f-4cfb-b7d9-3322ef95a220][Kubernetes
+Tools Collection]].
+
+* Packaging
+- [[https://github.com/kitnil/dotfiles/blob/04a0e3ece346cdb4afbb592a87afcca31375be32/dotfiles/guixsd/modules/services/kubernetes.scm][wigust guix services]].
+- https://git.genenetwork.org/guix-bioinformatics/tree/gn/packages/kubernetes.scm

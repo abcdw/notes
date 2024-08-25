@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       58ed9d99-8ace-49b8-b900-7e3cc9435e5e
+:END:
+#+title: Superseding GPG Key
+
+- https://security.stackexchange.com/questions/204200/preparing-to-change-over-to-new-gpg-key-what-to-do-with-my-old-ones
+- https://www.reddit.com/r/GnuPG/comments/11ers72/questions_about_expired_key_security_and_revoking/
+- https://gist.github.com/grenade/6318301

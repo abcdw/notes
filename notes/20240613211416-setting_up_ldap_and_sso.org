@@ -6,7 +6,20 @@
 [[https://possiblelossofprecision.net/?p=2519][389ds LDAP server configuration]]
 https://openid.net/specs/openid-connect-registration-1_0-errata2.html
 https://blog.please-open.it/ldap-keycloak/
+https://goauthentik.io/
+https://www.authelia.com/
 
+https://www.reddit.com/r/selfhosted/comments/ub7dvb/authentik_or_keycloak/
+https://blog.devgenius.io/authentik-vs-keycloak-2906fcf5756d
+
+
+* Use Cases
+** Multiple XMPP/Email account for a single person
+
+** Cluster Management
+https://medium.com/@extio/kubernetes-authentication-with-oidc-simplifying-identity-management-c56ede8f2dec
+
+* Notes
 Cooperative self-hosting.
 
 We have a few organizations: RDE, cons.town, genenetwork, EF.  They

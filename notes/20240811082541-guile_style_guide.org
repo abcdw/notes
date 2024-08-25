@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       01ed2e11-a751-459c-90ba-5e25e66959d8
+:END:
+#+title: Guile Style Guide
+
+We need a centralized place with [[id:e052a190-e23b-4ea2-b8b8-54c272f0b50a][Guile]] language best practices.
+
+Actually, I don't want it to be exactly a style guide, for formatting
+code the linter must be used (and created first).
+
+I talk about the way you should structure you code, document and
+distribute.
+
+Obvious areas to cover:
+
+- Documentation :: both inline and external/project-wise.
+- Project Structure :: directory names, src/scheme, test/hoot, etc.
+- Naming Conventions :: from variables to modules and files.
+- Primary Libraries :: which SRFIs and libraries to use and which to
+  avoid.  What records implementation, testing framework, exceptions.
+- Exceptions :: what API to use to define them, how to raise and how
+  to handle.
+- Tests :: how to write tests, where to place them, how to make
+  fixtures, how to run locally and on CI.

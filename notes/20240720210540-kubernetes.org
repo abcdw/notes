@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       411be08a-366e-480b-839d-aa3bc1637611
+:ROAM_ALIASES: k8s
+:END:
+#+title: Kubernetes

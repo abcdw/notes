@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       9272f2b9-d4ea-41ce-990b-c89a68ddd9c8
+:END:
+#+title: Authentik
+
+It provides a page for managing your own account, which is quite cool,
+especially comparing to pure ldap setup.
+
+- [[https://www.youtube.com/watch?v=owk1a_1xYe4&list=PLH73rprBo7vSkDq-hAuXOoXx2es-1ExOP&index=2][Cooptonian Authentik Setup]] :: a lot of authentik use cases covered.
+
+
+The problem I see at the moment, that it's a bit hard to integrate it
+into declarative infrastructure.  I want to get a list of providers
+from external configuration I can generate.
+(Probably can be solved with blueprints).

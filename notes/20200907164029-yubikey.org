@@ -13,3 +13,5 @@ Also can be referenced as a smartcard.
 * Materials
 - https://github.com/drduh/YubiKey-Guide/blob/master/README.md
 - [[id:f96cd00e-9f83-4320-8bac-9e74e804c254][Setting up GnuPG + Yubikey on NixOS for SSH authentication]]
+- https://musigma.blog/2021/05/09/gpg-ssh-ed25519.html
+- https://www.unixtutorial.org/project-setup-ed25519-key-with-yubikey-5-nano/
