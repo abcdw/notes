@@ -25,11 +25,16 @@ http://www.keyboard-layout-editor.com/#/gists/871c3dacf82a8153a405ad41ff63b751
   constraints), which brings 80% of the impact, don't chase the
   perfect keyboard.
 - Sticking to Dvorak :: there are a plenty of other interesting
-  keyboards layouts, but I feel very comfortable with dvorak, not in
-  terms I used to, but how it feels on my writsts and fingers, there
-  is a minor issue with letter l, but it's minor inconvinient, other
-  than that I'm happy with hands load, altering, home row usage and
-  other stuff.  Getting a few
+  keyboards layouts, but after evaluating some comparisons and just
+  reading through description and test I don't think that benifit
+  switching to them would be that big. I feel very comfortable with
+  dvorak, not in terms I used to, but how it feels on my writsts and
+  fingers, there is a minor issue with letter l, but it's minor
+  inconvinient, other than that I'm happy with hands load, altering,
+  home row usage, finger extension rather than bending and other
+  stuff.
+- Comfort first, speed second :: while the speed is important, comfort
+  and low cognitive load must be considered first.
 
 ** Design Decisions
 *** Using Japanese Thinkpad Layout
@@ -61,6 +66,19 @@ Altering thumbs for pressing shift is also questionable: low
 perfomance gain, higher cognitive load, plus reduces the amount of
 thumb keys available.  I tried all three options and even re-learned
 couple times, right now I type space with right thumb anyway.
+
+*** Shift right hand one column to the right
+It allows to place a flat keycap under thumb, which allows to easier
+find the home poisiton.  The next key on the left have a round keycap
+and it's really easy to distinguish those too with tactile mark or
+looking on it.  Luckily this button is also quite narrow, which help
+to reach the button on the right much easier.  And it's even possible
+to reach the next one with a thumb without moving the hand.
+
+Also, it places a cluster of small buttons under pinky
+finger, which makes them easier to reach, along with enter, it helps
+to prevent unecessary streches and at the same time provide more
+buttons, which can be conviniently reached.
 
 *** Press qwerty's R (dvorak's P) with middle finger
 Index finger is too stressful for this job, also left hand has a

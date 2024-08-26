@@ -53,5 +53,39 @@ ssh pinky echo -n  0.07s user 0.00s system 4% cpu 1.347 total
 5 Nano (5.7.1 firmware), RSA4096.
 
 #+begin_quote
+gpg --yes --output verysmall.sig --sign verysmall  0.01s user 0.00s system 0% cpu 1.209 total
+gpg --yes --output verysmall.sig --sign verysmall  0.01s user 0.00s system 0% cpu 1.282 total
+gpg --yes --output verysmall.sig --sign verysmall  0.00s user 0.01s system 0% cpu 1.181 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  11.90s user 0.38s system 90% cpu 13.539 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  12.26s user 0.48s system 91% cpu 13.981 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  13.19s user 0.36s system 90% cpu 14.932 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.40s user 0.45s system 42% cpu 2.030 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.48s user 0.39s system 41% cpu 2.065 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.45s user 0.44s system 42% cpu 2.084 total
+mbsync -a > /dev/null  0.22s user 0.04s system 2% cpu 10.945 total
+mbsync -a > /dev/null  0.19s user 0.09s system 3% cpu 8.641 total
+mbsync -a > /dev/null  0.19s user 0.05s system 2% cpu 9.059 total
+ssh pinky echo -n  0.07s user 0.00s system 3% cpu 2.303 total
+ssh pinky echo -n  0.06s user 0.01s system 3% cpu 2.354 total
+ssh pinky echo -n  0.07s user 0.01s system 3% cpu 2.461 total
+#+end_quote
 
+5 NFC (5.7.1 firmware), RSA4096.
+
+#+begin_quote
+gpg --yes --output verysmall.sig --sign verysmall  0.00s user 0.00s system 0% cpu 1.190 total
+gpg --yes --output verysmall.sig --sign verysmall  0.00s user 0.01s system 0% cpu 1.161 total
+gpg --yes --output verysmall.sig --sign verysmall  0.01s user 0.00s system 0% cpu 1.166 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  11.25s user 0.42s system 90% cpu 12.869 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  12.05s user 0.47s system 91% cpu 13.689 total
+gpg --yes --output random-500mb-foo.sig --sign random-500mb-foo  12.25s user 0.43s system 90% cpu 13.941 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.45s user 0.35s system 40% cpu 2.006 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.49s user 0.38s system 41% cpu 2.100 total
+gpg --yes --output random-500mb-foo.dec --decrypt random-500mb-foo.gpg 2>   0.44s user 0.33s system 39% cpu 1.940 total
+mbsync -a > /dev/null  0.19s user 0.05s system 2% cpu 8.711 total
+mbsync -a > /dev/null  0.20s user 0.06s system 3% cpu 7.793 total
+mbsync -a > /dev/null  0.22s user 0.06s system 3% cpu 8.011 total
+ssh pinky echo -n  0.06s user 0.01s system 3% cpu 2.321 total
+ssh pinky echo -n  0.07s user 0.00s system 3% cpu 2.368 total
+ssh pinky echo -n  0.07s user 0.00s system 2% cpu 3.010 total
 #+end_quote
