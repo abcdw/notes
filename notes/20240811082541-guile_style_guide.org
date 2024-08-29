@@ -22,3 +22,10 @@ Obvious areas to cover:
   to handle.
 - Tests :: how to write tests, where to place them, how to make
   fixtures, how to run locally and on CI.
+
+* Examples
+- https://github.com/bbatsov/clojure-style-guide :: mostly about the
+  style of the code and basic idioms.
+- https://practical.li/clojure/testing/unit-testing :: very
+  comprehensive collection of resources on various topics, closer to
+  what I expect from GSG.

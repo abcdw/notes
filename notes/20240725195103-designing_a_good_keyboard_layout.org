@@ -6,8 +6,8 @@
 * Resources
 - [[https://optozorax.github.io/p/my-keyboard-layout/][optozorax' keyboard layout]] :: good summary of many important ideas
   related to keyboard layout.
-
 - https://dreymar.colemak.org/ :: very fast typer bag of tricks.
+- [[id:745dce3f-5d37-4289-9e37-45d64c54532a][Punctuations Ferquency]]
 
 * Layout
 http://www.keyboard-layout-editor.com/#/gists/871c3dacf82a8153a405ad41ff63b751
@@ -37,14 +37,14 @@ http://www.keyboard-layout-editor.com/#/gists/871c3dacf82a8153a405ad41ff63b751
   and low cognitive load must be considered first.
 
 ** Design Decisions
-*** Using Japanese Thinkpad Layout
+*** DONE Using Japanese Thinkpad Layout
 It's compromise in [[id:c82f8b8c-237d-4371-b922-2f80cb7aa6e1][Ergonomics]] and portability.  I think having a 3
 thumb keys provides good enough ergonomics already and solves 80% of
 usual keyboard problem.  [[id:2bcad25e-8ccf-4421-b434-9d7e034c2067][ThinkPad]]'s have quite good jp layout with
 quite small space and they have [[id:72bafe50-7534-4059-8943-83796f6510e6][TrackPoint]], probably not most
 important factor, but still nice to have.
 
-*** Shift on the left thumb
+*** DONE Shift on the left thumb
 Shift is used often, thumb is strong and flexible.  Thumb shift
 doesn't require to move hand as pinky shift and also doesn't block
 pinky letters.  Shift on the left hand is potentially useful for
@@ -53,12 +53,12 @@ doesn't provide a lot of benifits, but introduce a lot of complexity
 and cognitive load.  No other shifts on the layout.  Shift on the
 thumb home position probably is a good idea too.
 
-*** Sticky Shift
+*** DONE Sticky Shift
 Make shift sticky for short period of time to avoid syncronization
 problems and treat shift as a usual character (can be preset
 separately from the next character), while typing.
 
-*** Space on the right thumb
+*** DONE Space on the right thumb
 Most used letter, definitely a good candidate for a thumb, should be
 on the other thumb than shift for fast typing (prevent two very
 frequent keys being on the same thumb) and SCREAMING CASE TEXT.
@@ -67,7 +67,7 @@ perfomance gain, higher cognitive load, plus reduces the amount of
 thumb keys available.  I tried all three options and even re-learned
 couple times, right now I type space with right thumb anyway.
 
-*** Shift right hand one column to the right
+*** DONE Shift right hand one column to the right
 It allows to place a flat keycap under thumb, which allows to easier
 find the home poisiton.  The next key on the left have a round keycap
 and it's really easy to distinguish those too with tactile mark or
@@ -80,13 +80,46 @@ finger, which makes them easier to reach, along with enter, it helps
 to prevent unecessary streches and at the same time provide more
 buttons, which can be conviniently reached.
 
-*** Press qwerty's R (dvorak's P) with middle finger
+*** DONE Press qwerty's R (dvorak's P) with middle finger
 Index finger is too stressful for this job, also left hand has a
 better stagger in this regard, it goes up and left, but the right goes
 up and left too, which is uncomfortable for index finger.
 
-** Ideas
-*** WASD-like arrows on right hand
+*** DONE Modifiers must be on slightly curled thumb
+It feels easier for me to press modifiers with slightly curled thumb,
+so space and backspace will be the furtherst thumb buttons to the
+center and modifiers will be on one side from them.
+
+Also moving space to the left most button makes it reside on a
+different type of more round keycap, which are more familiar for thumb
+as a space and feels a bit more natural to type.  So the backspace and
+space (both non-modifiers keys) now on the place of original space and
+henkan, which both have round keycaps, the rest thumb keys have flat
+keycaps.
+
+*** TODO Num keys layer on home row and above
+Reaching for numbers is taxing and error prone, also, typing them in
+my experience with numpad-like layer on atreus is much easier.
+
+However, on usual keyboards due to stagger the bottom row is too much
+shifted, so it maybe better to use only two rows for nums.  The row above home row is
+easier to reach than the on below.
+
+Also, talking about numpad: very
+frequent 0 should be in a better reach.
+
+default one.
+#+begin_quote
+  5 6 7 8 9
+  0 1 2 3 4
+#+end_quote
+
+More ergonomic.
+#+begin_quote
+8 4 5 6 7
+9 0 1 2 3
+#+end_quote
+*** TODO WASD-like arrows on right hand
 http://xahlee.info/emacs/misc/xah-fly-keys.html
 - It's rare when you need up and down at the same time, so it's ok to
   have them on one finger.
