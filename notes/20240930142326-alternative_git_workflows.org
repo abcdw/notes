@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       6d7574c8-3942-46ad-b2a8-4cde63a3281f
+:END:
+#+title: Alternative Git Workflows
+
+Alternative workflows, not email and not github-like.
+
+https://pr.pico.sh/
+https://radicle.xyz/

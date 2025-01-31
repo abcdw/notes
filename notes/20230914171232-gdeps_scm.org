@@ -4,6 +4,8 @@
 :END:
 #+title: gdeps.scm
 
+- related :: [[id:05765b44-4423-4b0e-b263-5f8779e95988][Scheme Package Managers]]
+
 Alternative names are codeps.scm (composable dependencies), ggpm -
 good guile package manager. guile-mini-make, guile-gg (guix + guile).
 

@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       d8cabc0a-5e2e-407c-bed2-f9aabf201f31
+:END:
+#+title: Assistant Setup
+
+- related :: [[id:8ab4b2b7-4811-4dbb-b78f-2b7266952a7b][Personal Assistant]]
+
+
+* Pavel Vovk
+** Projects
+- Guix
+- Genentwork
+- cons.town
+- RDE
+- Arei/Ares
+- SRFI-264
+- youtube
+- mastodon
+- tg
+
+** Task for the week
+- NLNet application. (Read status SRFI-64 and draft the application).
+- Deploy jbrowse page.
+- Kick off cons.town.
+- Buy tickets to Abu-Dhabi (1-5 Dec).
+- Answer to talk request on guix.social.
+- Give jgart commit access.
+- Plan the quarter.
+
+** What I need
+- Schedule Meetings, preparing agendas.
+- Preparing grant and conference proposals.
+- Writing changelogs, blog posts.
+- Writing documentation, checklists.
+- Testing deployements, ISOs, etc.
+- Planning weeks/quarter.
+
+** What I can provide
+- Linux/Porgramming/Reproducible Research skills.
+- Experience related to academia work: fundraising, proposal and
+  technical writing, English practice.
+- Mentorship on sport, life, career.
+- A skill of how to care less. (by giving the amount of work that
+  couldn't be done perfectly).
+- Soft-skills from public speaking to time-management.
+
+** Workflows
+- Weekly planning.
+- Polling me about task status.

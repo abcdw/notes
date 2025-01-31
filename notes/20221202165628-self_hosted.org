@@ -12,7 +12,7 @@
 
 * Apps
 - photo app :: https://github.com/photoprism/photoprism
-- notifications app :: https://ntfy.sh/
+- notifications app :: https://ntfy.sh/ or gotify
 - https://linkwarden.app/ :: collaborative link management.
 - https://github.com/heussd/fivefilters-full-text-rss-docker :: RSS filter.
 - https://www.nocodb.com/ :: spreadsheet and integrations for your database.

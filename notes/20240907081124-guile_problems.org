@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b26512cc-d885-4512-abfe-06c790d8bf16
+:END:
+#+title: Guile Problems
+
+* Contributions are not welcomed
+The contributions are not aknowledged and rarely got merged.
+
+https://fosstodon.org/@ekaitz_zarraga@mastodon.social/113092989137741399
+https://fosstodon.org/@ekaitz_zarraga@mastodon.social/113092976343147531

@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       81241d03-a228-4834-a702-2cf90267aef3
+:END:
+#+title: Building a Launcher
+
+An entry point to other applications.  It's not necessary the app that
+launches other, it potentially can do some pre-processing.
+
+https://github.com/cerebroapp

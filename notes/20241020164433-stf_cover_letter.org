@@ -1,0 +1,47 @@
+:PROPERTIES:
+:ID:       dc5b7a39-b2d8-435b-bb7f-40f757f7f729
+:END:
+#+title: STF Cover Letter
+
+I was enjoying GNU/Linux and FOSS ecosystem since my child hood,
+playing with Gentoo, experimenting with gcc4 for prototyping UIs and
+doing competitive programming, netcat and wireshark for network
+forensics.
+
+After university, where I got a computer science degree I went to the
+development of commercial software for managing hospices in US.  In
+parallel to it I was making libraries and other small free and open
+source projects and tried to contribute back to the ecosystem as much
+as I could, but wasn't satisfied with the amount of things I could
+produce, it was hard to combine it with the primary work.  I was
+gathering money and other resources and wanted to go FOSS full-time
+some day.  After we sucessfully deployed the EMR system to the first
+hospice I decided that the day X came.
+
+For the last five years I work on FOSS projects full-time and got a
+number of noticeable results: I've created Guix Home, Guile Ares/Arei
+IDE, RDE project, few smaller ones and contributed to the various
+other projects and their distribution from OBS Studio, pipewire,
+libcamera to Emacs and language-specific package managers (when I was
+packaging them for GNU Guix and RDE or just used for my own sake).
+
+I try to keep my expenses very low (just mimimal sport equipment,
+clothes, food and health insurance), but due to the start of the war I
+was forced to leave my home country and even those small expenses
+raised and became much more noticeable.  Originally, I anticipated 10
+years of my work fully covered by savings, but last year I had to
+start consulting small and medium enterprises to keep funding my work.
+Right now I also do a few hours a week of paid FOSS bio/genetics work,
+which covers my very basic needs.
+
+I have ways to fund and sustain the development of the projects, but
+it takes a lot of my time, so the amount of maintanance I can provide
+significantly drops and I again participate in FOSS less than I could
+and want.  It's especially sad because we got a lot of expertise and
+have very significant results in the development of Guile IDE this
+year (which would be a huge deal not only for GNU Guix, functional
+package managers and reproducible research, but for the whole Guile
+ecosystem around and outside of Guix), but it's hard to keep the pace,
+when you are constantly looking for side contracts.
+
+Thank you for your attention to my usual maintainer's complaints :)

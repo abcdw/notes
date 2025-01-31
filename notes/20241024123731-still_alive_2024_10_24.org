@@ -1,0 +1,73 @@
+:PROPERTIES:
+:ID:       559ddd58-f32a-4ba2-b5d3-edebf96875c1
+:END:
+#+title: Still Alive: October 2024
+#+filetags: :Video:
+
+* Life Updates
+** RSI and new Laptop
+I have a long-lasting story with RSI and pain in the wrists, and
+recently it hit again.  I thought it could be due to boxing workout,
+but probably the real reason was a combination of not very ergonomic
+workplace and usual laptop keyboard.  I can't carry the whole
+keyboard, ergonomic desktop and chair in my only backpack, so I
+decided to try an intermediate solution and make a laptop keyboard
+more orgonomic, for this I needed a Japanese Layout (to have
+additional physical keys under my thumbs).  Unfortunately, japanese
+keyboard for my old laptop just doesn't exist on this planet, so I
+found a whole laptop in Japan and delivered.  It's not new, it's a few
+year old, but in a very good condition, it's lighter, more compact and
+specs are nice.
+
+I spent a few weeks designing a new layout, it still WIP, but already
+very good, I don't have pain anymore, plus feel almost satisfied with
+the design decisions every time I type.  Funny fact, modern thinkpads
+don't have n-key-rollover, which is a shame in my opinion, but also
+introduces unfotunate constraints into design that I have to deal
+with.
+
+Another thing that took a lot of my time: the support for the
+questionable intel IPU6 webcam is not here yet.  We worked with
+libcamera devs to get it running and it actually runs, but still not
+usable, because it completely freezes the whole OS from time to time.
+
+** Hoot, Bio work and funding
+I have a few small ongoing guix and guile related contracts, all of
+them produces FOSS work and I have my basic expenses covered at the
+same time.  It not only makes me feel a bit more secure, but also
+allows me to allocate funding collected through the opencollective for
+direct development of RDE and Ares/Arei Guile IDE.  Probably it will
+be GSoC-like internship for one of the contributors.  We still
+discussing the details and project scope.
+
+In parallel to that I've applied for two grants.  One for the
+development of unit testing framework for Scheme and its integration
+into IDE and another for maintainership support for RDE and Ares/Arei.
+I don't have much hope here, but it would make a huge boost for the
+projects and the whole ecosystem if it happens.
+
+During my work on the one of contracts I'm not only helping with
+Genetics Research, but also building a expertise and thus foundation
+for the future functionality of Ares IDE for Guile Hoot.
+
+** Movements
+Throught the last few months I moved once inside Georgia, moved to
+Turkey and going to travel to Emirates to visit my friend, run a
+marathon, train Muay Thai and have a bit better internet connection
+than I have right now in the forest.  So maybe I can even stream.  I
+have further plans, but they are a bit vague so I won't share them today.
+
+** cons.town
+Another update I have is on a cons.town project, which stands for
+Consensus Operated Network Services.  The concept is still WIP, but
+for now you can think of it as a group of interconnected self-hosted
+servics with SSO and other cool stuff operated by its own users.
+
+The update itself is that I was able to successfully deploy a
+kubernetes cluster with Guix, so we can gradually start deploying
+needed services: certificate manager, load balancer, multi-protocol
+authentication service.
+
+* Conclusion
+That's it for today, I hope you enjoyed and I'll see you in a bit,
+bye!

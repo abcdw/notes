@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       84a10d5f-315e-4c35-b92f-e3fa16e4c7cd
+:END:
+#+title: Guix on tmpfs
+https://codeberg.org/look/misako/src/branch/main/install/README.md

@@ -15,7 +15,7 @@ An anchor for reference from materials related to compiler construction.
 - [[id:486dc483-fdda-4a2e-a82f-b2d3326ac7a3][MessagePack]] :: binary serialization format.
 
 * Materials
-- https://mitpress.mit.edu/9780262047760/essentials-of-compilation/
+- https://mitpress.mit.edu/9780262047760/essentials-of-compilation/ :: compilation in Racket.
 - https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X
 - [[id:f9109ad4-dca8-4803-b036-cb2f9dc46b3c][CS 6120: Advanced Compilers: The Self-Guided Online Course]]
 - [[https://youtu.be/dOfucXtyEsU][CppCon 2018: Matt Godbolt “The Bits Between the Bits: How We Get to main()”]]
@@ -26,4 +26,4 @@ An anchor for reference from materials related to compiler construction.
 - [[id:099b72de-99c3-4259-9a98-4498921e493c][An Incremental Approach to Compiler Construction]]
 - https://craftinginterpreters.com/representing-code.html
 - https://wingolog.org/archives/2023/05/20/approaching-cps-soup
-- https://mitpress.mit.edu/9780262047760/essentials-of-compilation/
+- https://mitpress.mit.edu/9780262201759/design-concepts-in-programming-languages/

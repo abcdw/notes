@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       06ad5b7d-041c-4000-b45b-fadc266eb936
+:END:
+#+title: HCI
+
+Just a generic node for human-computer interaction

@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       27aa24b5-b0fd-40de-a1f0-3fd90cfee418
 :END:
-#+title: Transitive Package Management
+#+title: Transitive Package Management (Notes)
 #+filetags: :Video:
 
 * Introduction

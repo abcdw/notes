@@ -1,0 +1,25 @@
+:PROPERTIES:
+:ID:       3dbaa69d-1d87-44f6-8a9a-c62f6da53d48
+:END:
+#+title: Future Configuration Management with RDE
+
+Nix has [[id:a233c540-6ada-4641-a5df-9566a2bd8e18][NixOS modules]], Guix has guix services, but we probably need
+[[id:4ffa2c98-43e8-465b-82cb-f338e0364f1d][Propogator Networks]] as a foundation for such system.
+
+* Functionality
+** Secrets Management
+Dealing with encrypted values, so you don't need to commit sensitive
+data to the source code.
+
+** Controlling enablement of features with RDE Values
+Automatically enable feature (set rde values), when some value nested
+value is set?  if mail.accounts is set, enable mail feature
+automatically, but allow to explicitly disable it?
+
+
+** Node Connector
+Connect one value to multiple (for example I set one letter for some
+action and it automatically binds in both window manager, browser and
+editor, but with maybe different prefix or something). It should be
+possible to achieve it by explicitly specifying this connection (not
+only predefined).

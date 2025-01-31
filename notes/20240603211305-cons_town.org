@@ -13,6 +13,9 @@ https://wiki.gentoo.org/wiki/Gentoo_Wiki:About
 This infrastructure can be shared with RDE project, can be used for
 Guix substitutes mirror and/or Guix substitutes as a service.
 
+* Inspiration
+- https://tchncs.de/en/
+
 * Goals
 - Make content consumption mindful.
 - Make web interaction private and reliable.
@@ -44,6 +47,10 @@ https://oxide.computer/principles
 - Laminar CI
 - Guix Substitutes
 - https://forwarddomain.net/
+
+** Communication
+- https://github.com/apache/incubator-answer :: Q&A service.
+- [[id:79b7fa60-81c9-42e9-ad13-7d62f24301e0][Discource]] :: forum platform.
 
 ** Project [[id:4f2f7e02-e934-4525-8404-7d4df54ed217][Finances]]
 https://awesome-selfhosted.net/tags/money-budgeting--management.html

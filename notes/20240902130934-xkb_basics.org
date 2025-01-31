@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       41f70085-9c85-428d-a9cf-9d2e2f641f4a
+:END:
+#+title: XKB Basics
+
+https://www.charvolant.org/doug/xkb
+
+Key Codes maps physical scan codes to human-readable aliases.  It
+allows to define keyboard-independent layouts.
+
+Symbols maps keycodes to whatever symbol user want to produce.  If no
+_keys specifiers provided than keymap considered to cover the whole
+keyboard.

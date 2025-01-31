@@ -486,6 +486,145 @@ https://git.sr.ht/~abcdw/jbrowse-plugin-hoot-gwas/commit/72c7771718110ace49d12d0
 The full journal log:
 #+end_quote
 
+* W35
+
+#+begin_quote
+Made a simple html page with two divs, the left one contains plain text,
+the right one contains jbrowse showing 3 tracks, the view, initial
+tracks and their settings are quite flexible.  The data get downloaded
+from external urls.
+
+<#part type="image/png" filename="~/swappy-20240830_092108.png" disposition=attachment>
+<#/part>
+
+The source code is here:
+https://git.sr.ht/~abcdw/jbrowse-plugin-hoot-gwas/commit/2c216a5
+#+end_quote
+* W36
+#+begin_quote
+Good afternoon!
+
+CC: Sarthak.
+
+Added mm10 assembly, reference and GWAS tracks for it into embeded
+jbrowse linear genome view.
+
+WIP code:
+https://git.sr.ht/~abcdw/jbrowse-plugin-hoot-gwas/tree/master/item/embed
+
+Trying to load hoot renderer for GWAS track, have troubles including
+plugins into embedded jbrowse. Got out of power and ideas trying to fix
+it, asked in jbrowse chat, waiting for response.
+#+end_quote
+
+* W37
+Updating Hoot to release version, new paths to reflect.js and
+respective wasm binaries are in separate directory now.
+
+Capabilities moved under key in map in second argument of load_wasm.
+
+I'm getting very strange ~TypeError: Services.prefs is undefined~.  I
+tried another instance of the repo, with clean state and not updated
+hoot, it still throws the same error.  It was fucking cache.
+Restarted the browser, and it started to work.  Migration complete.
+
+Upstreaming export fix for reflect.js:
+https://gitlab.com/spritely/guile-hoot/-/merge_requests/266
+
+Splitting hoot code into modules for easier maintanance.
+define-library doesn't work, when compiled directly.
+Reported here:
+https://gitlab.com/spritely/guile-hoot/-/issues/321
+
+Return back to loading plugin to embeded jbrowse view.
+
+* W38
+#+begin_quote
+Made a package for jbrowse2-linear-genome-view and its deps.
+https://git.sr.ht/~abcdw/jbrowse-plugin-hoot-gwas/tree/16378db/scheme/guile/org/genenetwork/packages/jbrowse2.scm#L7
+
+Made a package for hoot-gwas plugin.
+https://git.sr.ht/~abcdw/jbrowse-plugin-hoot-gwas/tree/16378db/scheme/guile/org/genenetwork/packages/jbrowse2.scm#L32
+
+The data and corresponding indicies are here:
+http://files.trop.in/genenetwork/mm10/
+
+Reworked a bit an example of embeding into page:
+https://git.sr.ht/~abcdw/jbrowse-plugin-hoot-gwas/tree/16378db/embed/index.html#L2
+
+Instead of external urls they should point to the urls from which the
+content of the packages above is served.
+
+Let me know how I can help further with the deployement.
+#+end_quote
+
+* W39
+Trying to fixup commit got into troubles:
+#+begin_quote
+128 git … rebase -i --autosquash --autostash --keep-empty 4008e2e\^
+Created autostash: 03f43f8
+error: unable to unlink old 'src/reflect-js/reflect.js': Permission denied
+fatal: could not reset --hard
+
+  1 git … rebase --abort
+warning: could not read '.git/rebase-merge/head-name': No such file or directory
+
+magit-rebase--todo: Opening input file: No such file or directory, /home/bob/work/abcdw/jbrowse-plugin-hoot-gwas/.git/rebase-merge/git-rebase-todo
+Mark set
+
+#+end_quote
+
+* W40
+Adding gene track. Started with mm10.ncbiRefSeq.gtf.gz, tabix can't
+build an index file for it.
+
+When trying to convert to bed:
+
+#+begin_quote
+gtf2bed --do-not-sort < data/mm10.refGene.gtf > 1.txt
+realloc(): invalid next size
+/gnu/store/6mmsix73cd0vr26il7q1rn291rs0wqfx-profile/bin/gtf2bed: line 139: 12557 Aborted                 ${cmd} ${options} - 0<&0
+zsh: exit 134   gtf2bed --do-not-sort < data/mm10.refGene.gtf > 1.txt
+#+end_quote
+
+* W43
+Reading the docs about the way data get loaded in jbrowse2.
+
+* W45
+Trying to convert provided big file into bed format
+
+#+begin_quote
+[E::get_intv] Failed to parse TBX_GENERIC, was wrong -p [type] used?
+The offending line was: "1      2931544 rs10909855      C       T       0.5676362587591954      -0.01553074     0.01407956      0.128"
+[E::get_intv] Failed to parse TBX_GENERIC, was wrong -p [type] used?
+The offending line was: "1      2932527 rs17391750      G       A       0.1427937689150803      -0.005477851    0.0152596       0.112"
+[E::get_intv] Failed to parse TBX_GENERIC, was wrong -p [type] used?
+The offending line was: "1      2973490 rs6661908       G       A       0.40766288315158367     -0.01030219     0.01200131      0.189"
+[E::hts_idx_push] Invalid record on sequence #1: end 694027 < begin 2973528
+#+end_quote
+
+* W46
+Setting up a separate domain for demo page, adding certificates and using nginx instead of npm serve.
+
+* W47
+Trying Hao data. A lot of trasformation and adjustments.
+
+Refactoring goes here, need to make a few instances of jbrowse for
+different purposes.  Moving data under subfolders, using absolute
+paths to access bundles and data.
+
+* W48
+Call and planning.
+
+* W49
+Tried out clickmap on top of rbush data structure for clickable features
+(getting feature info by x, y coordinate).  Serializes a lot of data,
+potentially it can have a performance penalty. The information displayed
+in a modal window right now.
+
+* W50
+Staring at code, call with Pjotr and Sarthak.
+
 * Future Features
 ** DONE Check if it possible to show all chromosomes at once
 ** TODO Embed jbrowse into genetwork page

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       109c5f26-75e2-49ec-ae24-73f153ba7fe2
+:END:
+#+title: Dog's Breed
+
+- Belgium Malinois

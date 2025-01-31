@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       3751dc06-67b1-419e-a2b5-2da995973692
+:END:
+#+title: Terraform Alternatives
+
+- opentofu
+- pulumi.com

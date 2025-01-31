@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       ade71f1a-1c35-492a-89c7-c10f51c007ce
+:END:
+#+title: Live Programming Environments
+
+Something that is really interactive.  It's tightly related to
+[[id:a22ecbab-ebe1-4ef5-a1f6-caeb026c32ee][Moldable Development Environment]].
+
+https://albertzak.com/run-build-grow/
+https://github.com/albertzak/open

@@ -5,6 +5,8 @@
 
 We need a centralized place with [[id:e052a190-e23b-4ea2-b8b8-54c272f0b50a][Guile]] language best practices.
 
+Proof of demand: https://fosstodon.org/@abcdw/113051825694771844
+
 Actually, I don't want it to be exactly a style guide, for formatting
 code the linter must be used (and created first).
 

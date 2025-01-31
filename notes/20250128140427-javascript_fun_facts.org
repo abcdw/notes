@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       823b4b1d-494f-4518-bcc7-518748856d34
+:END:
+#+title: JavaScript Fun Facts
+
+A list of cool and nice things about JavaScript (not fun and not nice).
+
+* React ships only CommonJS version
+Which means you can't include it directly to html page.
+https://github.com/facebook/react/issues/11503
+
+However, you can use esm.sh to obtain esm compatible version of react.

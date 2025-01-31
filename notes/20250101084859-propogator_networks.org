@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       4ffa2c98-43e8-465b-82cb-f338e0364f1d
+:ROAM_ALIASES: Propogators
+:END:
+#+title: Propogator Networks
+
+Graph of interconnected cells, which contains information about values
+and can reactively update themselves depending on new input.
+
+[[id:5077b101-e79d-4a02-bcba-6839d03b0b92][Functional Reactive Programming]] can be built on top of propogators.
+
+Propogation can be a fundamental computing principle and even
+substitute the evaluation of expressions.

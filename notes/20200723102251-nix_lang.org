@@ -5,3 +5,12 @@
 
 - [[https://nixos.org/nixos/nix-pills/why-you-should-give-it-a-try.html][Nix Pills]] :: canonical [[id:1b4c67ce-0e48-4e53-9ccc-2608ab3ad0a7][Nix]] and [[id:5bad0080-e327-45f7-8f69-73762474ed67][Nix Lang]] introduction.
 - [[https://medium.com/@MrJamesFisher/nix-by-example-a0063a1a4c55][Nix by example]] :: medium article about [[id:5bad0080-e327-45f7-8f69-73762474ed67][Nix Lang]], faced it few times.
+
+- https://edolstra.github.io/talks/build-systems-nov-2019.pdf :: Eelco
+  ramble on Nix lang.
+
+#+begin_quote
+I gave a (rambling) talk on the Nix DSL a couple of weeks ago: https://nixos.org/~eelco/talks/build-systems-nov-2019.pdf
+
+TLDR: the Nix language has all the problems of a general purpose language (namely too much expressiveness, allowing people to build new abstractions that make it harder for other people to understand their code, and making evaluation slow), while not having the features you would expect from a general purpose language, and at the same time not having many domain-specific features (indeed string contexts are one of the few). So it’s not that great as a DSL or a GPL.
+#+end_quote

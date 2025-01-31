@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       b773e06a-35fd-4ce1-8060-63cb9cba9bd6
+:END:
+#+title: DDoSing Maintainer's Capabilities
+
+Most of the FOSS projects are a single man effort.
+
+Bus factor.
+
+Maintainer become a bottleneck.

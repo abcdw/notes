@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       26329791-3f4a-4b44-8748-f86cadfbface
+:END:
+#+title: Emacs Packages Autoload in Guix
+
+https://issues.guix.gnu.org/65575

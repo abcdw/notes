@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       fb108de3-1bd8-4329-bb41-dfed3481ebe6
+:END:
+#+title: N-Key Rollover
+
+- http://gadzikowski.com/nkeyrollover.html :: n-key rollover tester.

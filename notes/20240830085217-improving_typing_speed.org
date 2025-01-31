@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       eff5c007-dd41-4df1-87b3-cf95f078103b
+:END:
+#+title: Improving Typing Speed
+
+* Hardware-wise
+Ensure that keyboard have at least 3 [[id:fb108de3-1bd8-4329-bb41-dfed3481ebe6][N-Key Rollover]].
+
+- https://youtu.be/dqDF04EJCnM :: another good guide, the good idea to
+  type as fast as you can to exceed your usual speed, but keeping
+  around 90% accuracy.  After that practice accuracy.
+
+- https://youtu.be/oOdfefV2R1I :: fastest dvorak keyboard typer's tips
+  and tricks.  206WPM.  Uses right thumb for space.
+
+** 80 WPM
+Use home row and static regions, improve accuracy.  Use ctrl+bspc to fix errors.
+
+** 120 WPM
+Type by words, pause between them.
+
+** 160 WPM
+
+Read 3-4 words ahead.
+
+** 200 WPM
+Eliminate consequentive finger usage, don't use the same finger for
+two letters.
+
+* Practice tools
+- https://ranelpadon.github.io/ngram-type/
+- https://monkeytype.com/
+- https://www.keybr.com/

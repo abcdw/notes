@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       5077b101-e79d-4a02-bcba-6839d03b0b92
+:ROAM_ALIASES: FRP
+:END:
+#+title: Functional Reactive Programming
+
+A few initial papers on the topic:
+https://cs.brown.edu/people/sk/Publications/Papers/Published/ck-frtime/paper.pdf
+https://cs.brown.edu/people/ghcooper/thesis.pdf
+https://www.infoq.com/presentations/elm-reactive-programming/
+
+There are more modern papers on FRP and its implementation.
+
+A book, containing a section about Reactivity and FRtime, with very
+straightforward examples:
+https://www.plai.org/3/2/PLAI%20Version%203.2.2%20electronic.pdf
+
+Also, take a look at propogators:
+https://groups.csail.mit.edu/mac/users/gjs/propagators/

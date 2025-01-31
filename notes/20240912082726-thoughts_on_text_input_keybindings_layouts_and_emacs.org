@@ -1,0 +1,60 @@
+:PROPERTIES:
+:ID:       499a4120-9439-44a9-aef2-2ecc7213fcfb
+:END:
+#+title: Thoughts on LLMs, Text Input, Keybindings, Layouts and Emacs, Vim
+
+
+* Introduction
+Text input and editing approaches, related topics and experiments with
+my current setup.
+
+* Text Input, Modal editing, CUA and friends
+I would to like to have very consistent UI: both keybindings and
+interaction patterns -wise.
+
+3 primary text input/editing pradigms and tools for them.
+
+- Vim modal editing is bad :: cause of action/object approach (can't
+  focus on selecting object first and decide what to do with it
+  later), which creates huge uneccessary cognitive load.  kakoune and
+  meow is ok.  Switching between modes add cognitive load and friction
+  in your writing flow.
+- Emacs keybindings is manageable :: not great, but mnemonic and usable.
+- IBM CUA :: bad if you use a separate arrow block, good enough otherwise.
+
+I tried to implement/hack together it with per-application keybindings
+interception and make everything emacs-flavored.  It worked to some
+extent, but requires a lot of work, still have quite rough edges.
+
+The proper solution is compositor/wm-level one (tabs, list selection,
+completion, text input and editing).  For that you need more
+composable and UNIXy-way tools with less opinionated UI elements and
+less elements in general.
+
+https://github.com/shegeley/hatis by Grigory Shepelev.
+
+* Keyboard Layout
+Optimized for:
+- Health :: prevent RSI, improve the comfort, and get out of the
+  computer more often.  Health and comfort first, speed second.
+- Prose input, not particular software :: because of M-x and LLMs.
+- Not modal editing or keybindings :: the most frequent actions are
+  already quite close, the rest are preliminary uneccessary
+  optimization. The exception is structural navigation and editing,
+  but it's possible to find locations for keybindings.
+
+Notes [[id:e9d96bc0-64c2-41d7-a330-e61bbb8ec6f0][Designing a Good Keyboard Layout]].
+
+* Primary Emacs changes for CUA
+- C-c/C-v/C-w - copy/paste/close buffer.
+- C-z and C-y - for undo/redo + linear undo history with undo-fu.
+- Search on Ctrl-f.
+- Text input during region selection now erase selected text.
+- C-/ for line/region comments.
+- Restore selection after action.
+- Join lines with more "modern behavior" and accessible hotkey.
+
+* Conclusion
+- This is just an experiment.
+- It's attempt to reduce an Emacs vendor lock.
+- And a step towards more consistent and unified UX.

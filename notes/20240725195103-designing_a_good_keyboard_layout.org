@@ -6,10 +6,16 @@
 * Resources
 - [[https://optozorax.github.io/p/my-keyboard-layout/][optozorax' keyboard layout]] :: good summary of many important ideas
   related to keyboard layout.
-- https://dreymar.colemak.org/ :: very fast typer bag of tricks.
-- [[id:745dce3f-5d37-4289-9e37-45d64c54532a][Punctuations Ferquency]]
+- https://dreymar.colemak.org/ :: fast typer bag of tricks.
+- [[id:745dce3f-5d37-4289-9e37-45d64c54532a][Punctuations Ferquency]] :: self-describing.
+- [[https://www.charvolant.org/doug/xkb/html/xkb.html][An Unreliable Guide to XKB Configuration]] :: just an article with
+  cool name, gives an intro to XKB with enough amount of details.
+- https://www.neo-layout.org/ :: deutch layout with layers.
+- https://spectator.ru/entry/1041 :: russian letters frequency.
+- https://github.com/dderg/dvorak-qwerty :: xkb layout allowing to use
+  qwerty shortcuts on dvorak layout.
 
-* Layout
+* English Layout
 http://www.keyboard-layout-editor.com/#/gists/871c3dacf82a8153a405ad41ff63b751
 ** Principles
 - Optimizing for prose typing, not particular software :: documentation,
@@ -85,7 +91,7 @@ Index finger is too stressful for this job, also left hand has a
 better stagger in this regard, it goes up and left, but the right goes
 up and left too, which is uncomfortable for index finger.
 
-*** DONE Modifiers must be on slightly curled thumb
+*** TODO Modifiers must be on slightly curled thumb
 It feels easier for me to press modifiers with slightly curled thumb,
 so space and backspace will be the furtherst thumb buttons to the
 center and modifiers will be on one side from them.
@@ -130,6 +136,13 @@ http://xahlee.info/emacs/misc/xah-fly-keys.html
   other useful functions.
 - ctrl up/down is rarely used, but ctrl left right are frequent for navigation words.
 
+* Universal Russian Layout
+It's a challenge to make the same punctuation on dvorak and jcuken.
+
+- https://github.com/LightAir/DvorakRus
+- https://github.com/braindefender/universal-layout?tab=readme-ov-file#linux
+- https://tonsky.livejournal.com/318571.html
+
 * How to Train
 - keybr.com :: for particular letters.
 - monkeytype.com :: for pleasure, shifts and fun.
@@ -157,6 +170,8 @@ moving a shift to left alt would make it easier.
 - [[https://github.com/kmonad/kmonad/issues/228#issuecomment-2038427927][kmonad/issues/228]] :: a trick for disabling home row modifiers, when typing.
 
 * Materials
+- [[id:eff5c007-dd41-4df1-87b3-cf95f078103b][Improving Typing Speed]] :: my notes on the topic of learning
+  improving typing habbits.
 - [[https://github.com/manna-harbour/miryoku/tree/master/docs/reference][Miryoku Keyboard Layout]] :: well-documented layout with a list of
   good design principles.
 - [[Https://youtu.be/rhdMVXlnQIM][Keyboard Layouts - Things to consider before switching]]

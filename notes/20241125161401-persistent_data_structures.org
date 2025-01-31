@@ -1,0 +1,4 @@
+:PROPERTIES:
+:ID:       6b2a6223-9b82-4c15-bd37-eddd36aa6f07
+:END:
+#+title: Persistent Data Structures

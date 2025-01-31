@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       745dce3f-5d37-4289-9e37-45d64c54532a
+:END:
+#+title: Punctuations Ferquency
+
+- [[http://xahlee.info/comp/computer_language_char_distribution.html][Computer Languages Characters Frequency]] :: by programming language
+  and total statistics.
+- https://www.jonashietala.se/blog/2021/06/03/the-t-34-keyboard-layout/

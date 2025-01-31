@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       0db188b9-5d88-4768-b01e-4d4fd240b2f1
+:END:
+#+title: Muay Thai Gyms
+
+- https://youtu.be/v6Jer37cqps :: a video showing a few gyms

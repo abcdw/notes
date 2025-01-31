@@ -1,0 +1,66 @@
+:PROPERTIES:
+:ID:       bd5acc95-b665-4241-b72c-c1b218ecb4a6
+:END:
+#+title: How to Use Arei Guile IDE with Guix
+
+* Introduction
+One of the reasons why we made Arei Guile IDE is to make Guix-related
+projects development more interactive and comfortable.  Today I will
+share all the needed technical knowledge to achive it from guile load
+paths and guix channels to guile reader extensions and G-exps.
+
+I'm Andrew Tropin, I work on operating systems and programming
+languages and do a lot of Free and Open Source Software along the way.
+
+* Arei and Ares
+- Arei is a UI.
+- Ares is a workhorse, a separate guile process.
+
+* Guile Environments
+Guile execution environment is primary defined by load paths.  Guile
+load paths is a collection of places, where Guile looks up the source
+code.
+
+- GUILE_LOAD_PATH
+- ~-L~ flag
+- Some hardcoded bulid-time internals
+- add-to-load-path
+
+guile -c '(format #t "~s" %load-path)'
+echo $GUILE_LOAD_PATH
+GUILE_LOAD_PATH="./test/place" guile -L ./random/place -c '(format #t "~s" %load-path)'
+
+* Building Environment with Guix
+- Using guix shell to build environment.
+- Consumer Packages.
+- Current profile with ~guix describe~.
+
+guix shell --pure guile-ares-rs coreutils -- env | grep GUILE_LOAD_PATH
+guix shell --pure guile-next guile-ares-rs coreutils -- env | grep GUILE_LOAD_PATH
+
+* Connecting to Dev Environment from Arei
+guile -c "((@ (ares server) run-nrepl-server))"
+
+* Freezing the Environment
+Creating reproducible environments with guix time-machine and channels.scm
+
+* Adding Guix Channels to Environment
+To make the modules of channels accessible.
+
+guix-from-channels quirk.
+
+* Guile Reader Extensions and G-expressions
+#~(+ 1 2) are implemnted through the Reader Extensions.  Reader
+extensions are stored in dynamic variables.
+
+[[id:c2746a1c-cd45-4a4c-973b-4df74bafbdfc][Dynamically Scoped Variables in Scheme (Fluids, Parameters and
+Friends)]] :: talk about fluids, parameters and dynamic state.
+
+dynamic variable values are inherited by child threads,
+
+(use-modules (guix gexp))
+
+* Conclusion
+I hope in the future we will simplify the environment management for
+Guile, but no matter how it goes you already can use Arei for
+developing guix and guix-related projects.

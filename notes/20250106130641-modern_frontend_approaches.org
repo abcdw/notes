@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       3f0d925f-8495-478f-b4e3-88f92f2e66b4
+:END:
+#+title: Modern Frontend Approaches
+
+https://github.com/hyperfiddle/electric

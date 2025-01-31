@@ -1,0 +1,172 @@
+:PROPERTIES:
+:ID:       4644ef2d-22a4-4833-ade4-bc6088259102
+:ROAM_ALIASES: "Arei/Ares: A modern, extensible IDE for Guile Scheme"
+:END:
+#+title: Arei/Ares Guix Social talk
+
+Arei/Ares: A modern, extensible IDE for Guile Scheme
+* Introduction
+- Motivation and Demo of the base functionality.
+- How Arei/Ares works and why it designed this way.
+- Practice of setting up the environment with Guix.
+- How to use Arei for the development of Guix-related projects.
+
+I'm Andrew Tropin, I work on operating systems and programming languages. I'm the author of Guix Home, RDE, Arei and contribute to many other FOSS projects.
+
+* Motivation
+I wanted more intrective workflow like a had in the days I were
+programming in Clojure.  CIDER for Emacs, Calva for vscode.
+
+** Ecosystem and Language
+- SRFI-64
+
+** Why not Geiser?
+I tried, but:
+- [[id:f8d063b6-d227-4a0d-97af-83a02e184b47][Continuations]].
+- no stdin handling.
+- interruption of long-running process.
+- Nested REPLs conflicting with all other functionality.
+- no live stdout.
+More in [[id:60f53715-51db-4170-8d41-582a7e6e0210][Bringing Joy to Scheme Programming - EmacsConf 2023]].
+
+** Why not improve Geiser?
+Due to the technical limitations.
+
+* Arei Demo 1
+Base functionality.
+
+Requests in progress.
+
+Run a web server from Arei
+
+* How it works?
+- [[id:60f53715-51db-4170-8d41-582a7e6e0210][Bringing Joy to Scheme Programming - EmacsConf 2023]]
+
+** Two Parts
+Frontend and Backend.
+
+** Guile Environments
+Guile execution environment is primary defined by load paths.  Guile
+load paths is a collection of places, where Guile looks up the source
+code.
+
+- GUILE_LOAD_PATH
+- ~-L~ flag
+- Some hardcoded bulid-time internals
+- add-to-load-path
+
+guile -c '(format #t "~s" %load-path)'
+echo $GUILE_LOAD_PATH
+GUILE_LOAD_PATH="./test/place" guile -L ./random/place -c '(format #t "~s" %load-path)'
+
+- [[id:aca8c332-08b1-4adc-9170-c8373e60cffc][Guile Load Path Explained]]
+
+** What is nREPL?
+Asyncronous dev tool friendly extensible protocol. Using bencode, but
+can use other transport: json/edn/whatever.
+
+#+begin_quote
+nREPL server started on port 7888 on host localhost - nrepl://localhost:7888
+=> (("op" . "clone") ("id" . "1"))
+
+<= (("session" . "none")
+    ("id" . "1")
+    ("status" . #("done"))
+    ("new-session" . "4507f0ac-cd9f-41f6-b299-c5639472caef"))
+
+=> (("op" . "eval")
+    ("code" . "(display \"hi\\n\")\n")
+    ("session" . "4507f0ac-cd9f-41f6-b299-c5639472caef")
+    ("id" . "2"))
+
+<= (("session" . "4507f0ac-cd9f-41f6-b299-c5639472caef")
+    ("id" . "2")
+    ("out" . "hi\n"))
+
+<= (("session" . "4507f0ac-cd9f-41f6-b299-c5639472caef")
+    ("id" . "2")
+    ("value" . "#<unspecified>")
+    ("status" . #("done")))
+#+end_quote
+
+** Why not something else?
+- Slime :: https://github.com/astine/swank-client/blob/master/swank-description.markdown
+- LSP
+- jupyter notebook
+
+** Why not automated backend start?
+No project/env management tool at the moment, running guile process
+with no environment doesn't make much sense for real-world usage, so
+it's better to be explicit here.
+
+** Extensibility
+Built around extension.
+
+* How to Use it with Guix
+
+** Building Environment with Guix
+- Using guix shell to build environment.
+- Consumer Packages.
+- Current profile with ~guix describe~.
+
+guix shell --pure guile-ares-rs coreutils -- env | grep GUILE_LOAD_PATH
+guix shell --pure guile-next guile-ares-rs coreutils -- env | grep GUILE_LOAD_PATH
+
+** Connecting to Dev Environment from Arei
+guile -c "((@ (ares server) run-nrepl-server))"
+
+** Freezing the Environment
+Creating reproducible environments with guix time-machine and channels.scm
+
+** Adding Guix Channels to Environment
+To make the modules of channels accessible.
+
+guix-from-channels quirk.
+
+** Guile Reader Extensions and G-expressions
+#~(+ 1 2) are implemnted through the Reader Extensions.  Reader
+extensions are stored in dynamic variables.
+
+[[id:c2746a1c-cd45-4a4c-973b-4df74bafbdfc][Dynamically Scoped Variables in Scheme (Fluids, Parameters and
+Friends)]] :: talk about fluids, parameters and dynamic state.
+
+dynamic variable values are inherited by child threads,
+
+(use-modules (guix gexp))
+
+
+* Arei+Guix Demo
+
+* Questions
+
+- Will Arei/Ares have a debugger like slime in the future or should we
+just keep using the pk macro?
+- Metacommands
+- jgart wants REPL, not to make a mess in a file.
+- Does arei have documentation / symbol-lookup-in-manual support (similar to geiser)?
+- Guile doesnt have build tool like Leiningen ?
+- What's my easiest way to try all this in Guix, please?
+- Andrew, is the macro expander support ready?
+
+
+
+- Why not langserve?
+- Will it integrate well with Guix?
+- Relation to Geiser. Pros and cons. Why not contribute there instead? Or fork? PS: I use ares now ;)
+
+- What future debugging features are in scope, if any?
+
+- I guess this is a more of a general question but what is it that
+  guile provides that allow this kind of IDE integration? I'm asuming
+  that Arei uses the guile interpreter or the guild compiler to
+  provide some of the functionality. I'm curious as to what they
+  provide that allow an IDE to be build on top of them ( other
+  languages seem very lacking in this regard).
+
+- I think that a traditional REPL is still useful in the same way that
+  not having to insert debug statements in my code is useful. In other
+  words, with the current arei/ares workflow I have to edit my buffer
+  in order to evaluate things but sometimes I want to just try a form
+  at the REPL without modifying my buffer. Will arei/ares ever
+  consider having a traditional REPL in addition to having a
+  buffer-oriented workflow?

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       4bb60a9d-19d9-4c3e-be77-94d778575e74
+:END:
+#+title: Typing with Pleasure
+
+- related :: [[id:06ad5b7d-041c-4000-b45b-fadc266eb936][HCI]]
+
+https://pavelfatin.com/typing-with-pleasure/
+
+The article about input/render lag in different text editors and their
+effects on typing/perception and other aspects.

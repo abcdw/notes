@@ -1,7 +1,94 @@
 :PROPERTIES:
 :ID:       8964dbbf-00f3-47c3-9d8f-d501ae7cfd10
 :END:
-#+title: Scheme Testing Framework
+#+title: Scheme Unit Testing Framework
+
+* NlNet
+https://nlnet.nl/propose/
+
+** Project Description
+A Scheme unit testing framework.  Well-defined, consistent,
+interactive, extensible.  Combining the experience of testing
+frameworks from other ecosystems and interactive nature of Lisp we can
+provide a quality assurance, regression prevention and TDD set of
+tools with very short feedback loop and seamless integration in IDE.
+
+- Reference Implementation :: a Guile implementation, similiar in API
+  to clojure.test.
+- REPL Test Runner :: an API, which is convenient to work with from
+  REPL, IDE or other tooling.  Will be the foundation for CLI test
+  runner and IDE integration.
+- CLI Test Runner :: to make it possible to run different test suites
+  from terminal and see human-readable reports.
+- SRFI-264 :: a formal detailed specification, that can be implemnted
+  in other Scheme dialects.
+- Integration with Ares/Arei Guile IDE :: to allow to interactive with
+  live Scheme process by not only evaluating new procedure
+  definitions, but also executing/re-executing specific or
+  whole-module/project tests.
+- JUnit XML Output :: to make it possible to re-use a rich ecosystem
+  of existing tooling for testing.
+
+** Involved with projects
+Yes, I'm an author of Arei/Ares Guile IDE, Guix Home and RDE
+projects. A committer in GNU Guix project. I also develop tools for
+bioinformatics in Guile Hoot (Scheme on WASM) and have often interact
+with Scheme libraries ecosystem and their authors.
+
+** Budget
+40k
+
+5k/month for full-time work.
+- Developing a reference implementation - 2 months.
+- Developing test runners - 1 month.
+- Documentantion, Specification, SRFI - 1 month.
+- Integration with IDE - 1.5 month.
+- JUnit compatibility - 0.5 month.
+- Help incorporating in existing and new libraries - 1 month.
+- Conferences, meetup, blogs and videos - 1 month.
+However, the timeline can become shorter. There is a potential
+contributor, who can take a part of the work and do it in parallel.
+
+** Compare
+There is a good article by Tomas on the current state of SRFI-64, the
+most popular (?) testing library for Scheme.
+https://wolfsden.cz/blog/post/state-of-srfi-64.html
+
+It highlights not only problems of implemntations, but also of
+specification itself.
+
+In addition to points listed in the article and minor issues with
+usability and API it was designed for usage from CLI.  The tests are
+meant to be executed on file load, which makes it almost impossible to
+use them in REPL and incorporate in intercative workflows in IDE.
+
+It's possible to workaround some of the issues of SRFI-64 to make it
+more REPL/tooling friendly, but going further than just prototype
+probably doesn't make sense in long-term due to fundamental design
+flaws.
+
+https://youtu.be/pDBOKTK9SL8?t=1480
+
+** Technical Challenges
+- It's not clear yet what to do when the code escapes the scope
+  of test groups/cases using continuations.
+- It's tricky to get all modules with tests loaded and available in
+  runtime for introspection/test execution.
+- The prototype code relies on some Guile specific features like
+  procedure metainformation, which can make it potentially hard to
+  implement this SRFI in other Schemes.
+
+** Ecosystem and Promotion
+Integration with Arei/Ares IDE and modern SRFI, which will allow
+people to have an obvious pick for testing library for new projects.
+
+Work with maintainers of important existing libraries and help with
+adding tests/migrating to new testing framework.  Migration of
+projects like RDE, Ares, maybe Guix.
+
+Educational materials via mastodon, blog, rde-monthly newsletter and
+youtube.  Including cooperation with David Wilson (aka System
+Crafters).
 
 * Questions
 - What to do with the code that escapes the scope of the group with
@@ -10,6 +97,14 @@
 * Thoughts
 - We don't need to skip test, because we can run particular test
   directly or skip/run tests based on metadate.
+
+* Ideas
+** Restartable Continuations
+Capturing lexical scope to be able evaluate code in the context of
+failed exception.
+- https://link.springer.com/book/10.1007/978-1-4842-6134-7
+- https://srfi.schemers.org/srfi-249/srfi-249.html
+-
 
 * SRFI-64
 SRFI-64 spceification is incomplete and controversial, also it is too
@@ -31,3 +126,5 @@ inside following nested group?
 * Other
 Contact https://fosstodon.org/@graywolf@emacs.ch, when implementing
 testing framework.
+
+https://gerbil.scheme.org/reference/dev/test.html

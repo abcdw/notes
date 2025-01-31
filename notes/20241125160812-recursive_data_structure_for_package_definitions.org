@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       c3ac32ab-a5b9-484f-963f-573ed0f98130
+:END:
+#+title: Recursive Data Structure for Package Definitions
+
+One of the [[id:af57822b-0794-40f4-9649-d19d7dec7fdb][Guix Problems]] is that the packages are defined in modules
+and directly depends on other packages, making it quite involved to
+programmatically modify or manipulate them.  From my experience the
+API is unclear, the modification is error prone and inefficient.
+
+Also, the way packages defined in [[id:08f0f4aa-21b1-44e7-bec6-d9cdc3313519][Guix]] right now make it really
+hard to compose channels/repos, override dependencies and probably
+something else I already forgot.
+
+We very likely need a combination of [[id:5077b101-e79d-4a02-bcba-6839d03b0b92][FRP]] and [[id:6b2a6223-9b82-4c15-bd37-eddd36aa6f07][Persistent Data
+Structures]] to make a nice and comfortable package interface.
+
+In the future it can be used not only for defining package sets, but
+also can substitute Guix System/Home Services mechanism and make a
+more comfortable API for RDE's feature mechanism.
