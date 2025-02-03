@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       3f5193b8-f86e-4f67-9ccd-bf7d408c6791
+:END:
+#+title: CS 6120: Advanced Compilers: Notes
+
+Notes on [[id:f9109ad4-dca8-4803-b036-cb2f9dc46b3c][CS 6120: Advanced Compilers: The Self-Guided Online Course]]
+
+* Lesson 1: Welcome & Overview
+Reading:
+- https://gwern.net/doc/cs/algorithm/2001-scott.pdf
+- https://zeux.io/2022/01/08/on-proebstings-law/
+
+Reasons to study compiler:
+- Make programs go faster.
+
+(reasons written by myself)
+- Provide infrastructure for easier runtime introspection of the running program.
+  
+The course is not about parsing! Yay!
+
+** Tasks
+- https://dl.acm.org/doi/10.1145/1542476.1542528 :: infer type in
+  dynamically typed language to compile more wisely and get 10x
+  performance.

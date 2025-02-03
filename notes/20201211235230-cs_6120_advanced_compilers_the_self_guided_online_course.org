@@ -1,10 +1,10 @@
 :PROPERTIES:
 :ID:       f9109ad4-dca8-4803-b036-cb2f9dc46b3c
-:ROAM_REFS: https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/
+:ROAM_REFS: https://www.cs.cornell.edu/courses/cs6120/2025sp/self-guided/
 :END:
 #+title: CS 6120: Advanced Compilers: The Self-Guided Online Course
 
-https://www.cs.cornell.edu/courses/cs6120/2023fa/self-guided/
+https://www.cs.cornell.edu/courses/cs6120/2023sp/self-guided/
 
 PhD-level compilers course.
 
