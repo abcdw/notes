@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       1f769ac6-13a5-4a22-94e8-d91632414e83
+:END:
+#+title: RDE Summer Internship 2025
+
+Debbugging tooling for Guile.
+
+This is a preliminary steps/subprojects:
+
+- nREPL service for Shepherd.
+- Mail client, PGP keys and other tooling setup.
+- Better Shepherd Integration (series for review and merge).
+- Goblins Extension for Arei (with debugger actions).
+- Guile Debugger state and capabilities research.
+- Review of Alexander Vytiazev debugger PoC.
+- Debugger API renovation/implementation.
+- Integration of debugger with Ares/Arei.
+
+Some additional possible subprojects:
+
+- Interactive macroexpander [with wrapped list of syntax (?)].
+- Shepherd Extension for Arei.
+
+
+* 2025-04-04 notes
+
+page-breaks-lines-mode
+
+* 2025-04-14 notes
+
+Add ares shepherd extension to ares and release new ares and rde with
+feature-shepherd.

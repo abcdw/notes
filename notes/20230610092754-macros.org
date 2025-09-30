@@ -3,5 +3,11 @@
 :END:
 #+title: Macros
 
-[[https://youtu.be/pK2E63mhRxI][Sam Tobin-Hochstadt on Composable and Compilable Macros]]
-[[https://www.youtube.com/watch?v=LIEX3tUliHw][Kent Dybvig: Macro-Writer's Bill of Rights (Dan Friedman's 60th Birthday)]]
+- [[id:536bea14-0adf-43ab-a56b-7a847fe12fea][Hygienic Macros]]
+
+- [[https://youtu.be/pK2E63mhRxI][Sam Tobin-Hochstadt on Composable and Compilable Macros]]
+- [[https://www.youtube.com/watch?v=LIEX3tUliHw][Kent Dybvig: Macro-Writer's Bill of Rights (Dan Friedman's 60th Birthday)]]
+
+* CL Macros
+- https://gigamonkeys.com/book/macros-defining-your-own
+- https://letoverlambda.com/index.cl/guest/chap3.html

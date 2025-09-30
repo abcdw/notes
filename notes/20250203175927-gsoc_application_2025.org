@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       110827f4-adb2-49ab-884a-b573306e54d9
+:END:
+#+title: GSoC RDE Application 2025
+
+Q: Why does your organization want to participate in Google Summer of Code?
+A: We have a number of mid and small size self-contained subprojects in our community, which are important, but not urgent and they just require a bit of attention and love. Having someone working full time on one of such subprojects for a couple months can provide a huge benefit for the whole community and valuable experience for the implementer.
+
+Q: What would your organization consider to be a successful GSOC program?
+A: We will consider a success to have a working prototype of the project as a separate repository or a patch series in mailing list, but will be even happier if it will be merged in a primary repo.
+
+Q: How will you keep mentors engaged with their GSOC contributors?
+A: Our maintainers are already onboard and support contributors at least a few hours a week, so it's a natural state of a maintainer to be engaged with contributors.
+
+Q: How will you keep your GSOC contributors on schedule to complete their projects?
+A: We are regularly communicate with contributors on the mailing list, in addition to that GSoC contributor will be posting a weekly demo/progress report and have a biweekly planning call. We also will provide additional guidance and on-demand calls for the participant to make sure they are not stuck.
+
+Q: How will you get your GSOC contributors involved in your community during GSOC?
+A: The primary communication channel of the project is a developer's mailing list, so the contributor will be naturally involved into the community. Also, a bit less formal IRC is always here for help, idea discussion or casual chat.
+
+* Ideas
+- Transitive Package Management.
+- NVim frontend for Arei/Ares Guile Scheme IDE.
+- VSCode frontend for Arei/Ares Guile Scheme IDE.
+- Debugger for Arei/Ares.
+- Hoot backend for Arei/Ares.
+- GUI for Making configuration/package installation easier.  Maybe
+  guix-arei.el?  which allows to select a service from drop down list
+  and which provides a default oob configuration snippet.
+- Pattern Matching Library
+- Immutable data structures with reader macros (How to integrate
+  clojure-like polymorphism of data structure operations into Scheme).
+- Flakes/[[id:cc394b5e-2d95-4210-9689-adcd5ab7844c][Glakes]]
+- Scheme.spec. malli for Scheme language.
+- Offline Guix installer.
+- Org-mode and markdown tree-sitter based parser for guile to make it
+  possible to use strike in haunt :)

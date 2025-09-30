@@ -7,11 +7,12 @@
 https://nlnet.nl/propose/
 
 ** Project Description
-A Scheme unit testing framework.  Well-defined, consistent,
-interactive, extensible.  Combining the experience of testing
-frameworks from other ecosystems and interactive nature of Lisp we can
-provide a quality assurance, regression prevention and TDD set of
-tools with very short feedback loop and seamless integration in IDE.
+A Scheme interactive universal testing base library.  Well-defined,
+consistent, interactive, extensible.  Combining the experience of
+testing frameworks from other ecosystems and interactive nature of
+Lisp we can provide a quality assurance, regression prevention and TDD
+set of tools with very short feedback loop and seamless integration in
+IDE.
 
 - Reference Implementation :: a Guile implementation, similiar in API
   to clojure.test.
@@ -128,3 +129,4 @@ Contact https://fosstodon.org/@graywolf@emacs.ch, when implementing
 testing framework.
 
 https://gerbil.scheme.org/reference/dev/test.html
+https://srfi.schemers.org/srfi-78/srfi-78.html

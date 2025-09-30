@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       4362a106-0d62-4e89-9049-f56d970b2557
+:END:
+#+title: Home Row Modifiers
+
+It's a simple idea of making keys under your fingers to act as
+modifiers, when you hold them.  However, implementing it to work
+reliably and not interfering with your typing is really really tricky!
+
+https://sunaku.github.io/home-row-mods.html#solution

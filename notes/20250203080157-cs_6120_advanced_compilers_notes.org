@@ -5,6 +5,8 @@
 
 Notes on [[id:f9109ad4-dca8-4803-b036-cb2f9dc46b3c][CS 6120: Advanced Compilers: The Self-Guided Online Course]]
 
+- https://pomofocus.io :: tool to make breaks consistent.
+
 * Lesson 1: Welcome & Overview
 Reading:
 - https://gwern.net/doc/cs/algorithm/2001-scott.pdf
@@ -15,10 +17,23 @@ Reasons to study compiler:
 
 (reasons written by myself)
 - Provide infrastructure for easier runtime introspection of the running program.
+- Improve debugging capabilities of the language.
   
 The course is not about parsing! Yay!
 
 ** Tasks
-- https://dl.acm.org/doi/10.1145/1542476.1542528 :: infer type in
-  dynamically typed language to compile more wisely and get 10x
-  performance.
+- [[https://dl.acm.org/doi/10.1145/1542476.1542528][Trace-Based Just-in-Time Type Specialization for Dynamic Languages]] :: infer
+  type in dynamically typed language to compile more wisely and get
+  10x performance.
+
+* Lesson 2: Representing Programs
+
+
+Summarize your work in the discussion thread associated with this lesson (see the link above). Check out the relevant section in the syllabus to know more about what this post should consist of.
+
+#+begin_quote
+How the unnamed blocks are handled? What if there was a block
+terminator, but no label following it?
+
+
+#+end_quote

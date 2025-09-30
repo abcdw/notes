@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       cd47d30d-6b74-4500-bc91-c5ddd50f65bf
+:END:
+#+title: RDE Meetup #4
+
+* List of features
+- Password store, embark, auto-type, auth-source.el.
+- Updates on email features.

@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       195c7e0e-da22-4786-bcc0-60d1380bffde
+:END:
+#+title: Macros Problems
+
+* Can't use macro as a function
+~(apply begin (list 'hi 'ho))~
+
+At first glance it can look unecessary, but when you create a macro,
+which pre-evaluate arguments, it will fail horribly.
+#+begin_src scheme
+(define-syntax try-expression
+  (lambda (x)
+    (syntax-case x ()
+      ((_ (pred args ...))
+       #'(let* ((evaluated-args (list args ...))
+                (form `(pred args ...))
+                (result-thunk (lambda () (apply pred evaluated-args))))
+           ((run-assert) result-thunk form))))))
+#+end_src

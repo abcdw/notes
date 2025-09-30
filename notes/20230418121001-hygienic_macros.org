@@ -10,3 +10,14 @@ expander without renaming.
 - https://gist.githubusercontent.com/jgarte/beb03e000943b7426f00b3d04ed01262/raw/9d94f196421a041a9440a0f6fa18afcc81175457/syntax-rules.txt
 - https://raw.githubusercontent.com/mnieper/scheme-macros/main/README.org
 - https://mnieper.github.io/scheme-macros/README.html
+- https://www.greghendershott.com/fear-of-macros
+- https://cs.brown.edu/~sk/Publications/Books/ProgLangs/2007-04-26/plai-2007-04-26.pdf :: chapter 36
+- https://hipster.home.xs4all.nl/lib/scheme/gauche/define-syntax-primer.txt
+
+- [[https://arxiv.org/pdf/2001.10490][BEYOND NOTATIONS: HYGIENIC MACRO EXPANSION FOR THEOREM PROVING LANGUAGES]]
+- [[https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SNAPL.2019.5][From Macros to DSLs: The Evolution of Racket]]
+
+- [[https://lists.gnu.org/archive/html/guile-user/2018-05/msg00042.html][macroexpand-1 for Guile]] :: some useful notes on implementing
+  interactive macro expansion for Guile.
+
+- https://docs.racket-lang.org/macro-debugger/index.html

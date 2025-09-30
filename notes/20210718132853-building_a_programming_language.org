@@ -3,6 +3,9 @@
 :END:
 #+title: Building a Programming Language
 
+* Papers
+- [[https://legacy.cs.indiana.edu/~dyb/papers/3imp.pdf][Three Implementation Models for Scheme]]
+
 * Ideas
 This is mix of problem/possible solutions.
 

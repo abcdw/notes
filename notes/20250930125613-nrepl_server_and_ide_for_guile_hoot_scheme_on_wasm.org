@@ -1,0 +1,180 @@
+:PROPERTIES:
+:ID:       83216801-a8be-4092-91e8-28fb882eb609
+:END:
+#+title: (H)IDE for Guile Hoot (Scheme on WASM)
+
+* Abstract
+Hackable and Highly Interactive Development Environment for Guile
+Hoot. It allows to evolve and enhance the running application from
+the comfort of the text editor and has all the tools for full
+development cycle.
+
+The evaluation capability: 1. provides a rapid feedback loop and
+allows to get the values of arbitrary expressions, 2. allows to
+create/update function and module definitions, 3. preserves the state
+and helps to avoid constant compile+restart cycle for each
+modification. The runtime information availability enhances navigation
+and code editing experience. This significantly improves development
+productivity, and most likely adds a lot of joy to the process.  The
+primary outcomes are:
+
++ Reflection Libraries :: runtime introspection and
+  evaluation/macroexpansion/compilation of Guile Hoot and
+  corresponding contributions to Guile Hoot.
++ Hoot-Ares :: a Hoot implementation of nREPL protocol and RPC
+  server and extensions mechanism.
++ Base Extensions :: Evaluation, Completion, Go to Definition, stdio
+  handling, error handling Hoot-Ares/nREPL extensions.
++ Ares/Arei integration :: Guile-Ares extension and corresponding
+  Emacs-Arei (Emacs frontend for IDE) modules, which will allow to
+  seamlessly work with both Guile code and Hoot code (through
+  Hoot-Ares).
+
+* Relevant Experience
+Yes.
+
+I'm the primary developer of Arei/Ares Guile Scheme IDE. It's a (H)IDE
+based on nREPL protocol.  In only two years of development we
+implemented all the functionality mentioned above (but for usual
+Guile, not Hoot), and in addition to that we've done stack viewer,
+test runner and debugger PoC. I've designed the architecture of the
+IDE, implemented nREPL protocol and primary operations. Also, I
+supervised most of the developments and continue actively contribute
+to the project.
+
+In addition to that, I have 6 years of professional experience with
+Clojure, ClojureScript and CIDER (JVM and browser dialects of Clojure
+and IDE for both of them respectively), and thus understanding of
+primary needs and ideas on how the IDE's UX/UI should look like.
+
+Also, we with Pjotr Prins are working on the tool for genetics
+research, so I got a year of hands on experience with Guile Hoot.
+
+We keep in touch with Spritely Institute: discussed the tooling they
+miss for guile and hoot, had a call with Dave Thomas (their CTO),
+studying his development workflow, sometimes chat with Andy Wingo
+(Hoot architect), from time to time I get a word of appreciation from
+Christine (their CEO), like those ones:
+
+> I've also been impressed with a lot of the work that Andrew Tropin
+has done, but there's a lot more in general.
+https://yhetil.org/guix-devel/87r083ht4p.fsf@dustycloud.org/
+
+> We talk about you work often at Spritely.
+
+* Costs
+50k
+
+5k/month for full-time work.
+
+- RnD on eval/macroexpansion capabilities (0.5-1 month).
+- Reflection Libraries Implementation (2 months).
+- Hoot-Ares RPC server and extensions mechanism (1 months).
+- Evaluation and stdio handling extension (2 month).
+- nREPL protocol implementation (1 month).
+- Nested evaluation and evaluation session switcher (2 month)
+- Completion extension (0.5 month).
+- Error handling (0.5 month).
+- Go To Definition extension (1 month).
+- Emacs frontend updates (1 month).
+
+We have no other funding for this project yet, but:
+
+1. We collect donations on openncollective
+   https://opencollective.com/rde and funded a Guile debugger PoC
+   project with it:
+   https://lists.sr.ht/~abcdw/rde-announce/%3C87ecx0trh6.fsf@xn--no-cja.eu%3E
+
+2. There is a tightly related project "suitbl: a scheme testing
+   library", and its test runner and integration with Arei/Ares funded
+   by NLnet.
+
+* Compare
+There is no IDE for Guile Hoot yet, and there are no direct
+comparisons, however, there are a few related projects worth
+mentioning.
+
+There is a prototype of web-based REPL, very bare-bone at the moment,
+allows to evaluate some simple expressions.
+https://www.spritely.institute/hoot/
+
+Geiser.  A basic Scheme IDE for Emacs, supports Guile, doesn't support
+Hoot. Single-threaded, blocking, not always reliable.
+
+CIDER an Emacs frontend + Cojure/ClojureScript backend IDE for
+Clojure. The place, where nREPL appeared, the great inspiration for
+Arei/Ares and Highly Interactive Development Environments in general.
+And a great example of IDE supporting a few dialects of the same
+language at the same time.
+https://cider.mx/
+
+Calva a VSCode frontend for Clojure/ClojureScript IDE.
+https://calva.io/
+
+Ares/Arei Guile Scheme IDE. Sleek, reliable, and fun to work with.
+Basically, it is what we want to achieve, but for Hoot.
+https://git.sr.ht/~abcdw/emacs-arei
+https://git.sr.ht/~abcdw/guile-ares-rs
+
+You can see a lot of excitement about Arei/Ares over the internet,
+I'll attach one quote and a link to bemonthly RDE meetups, where we
+often discuss Arei/Ares:
+
+> Oh hey if you're an Emacs and Scheme pervert like me, make sure to
+check out what @abcdw has been working on
+https://emacsconf.org/2023/talks/scheme/ it's like Geiser on that drug
+from Limitless (2011).
+
+https://youtu.be/VUnY1LY4Las?list=PLZmotIJq3yOL5BW3b_SXUltgs5w1zRyEU
+
+* Challenges
+One of the primary challenges during original Guile-Ares
+implementation was a blocking eval, which would freeze all the fibers
+and thus won't allow any asynchronous requests to be processed.  So, I
+expect potential complications with Fibers/Threads in Wasm, but I hope
+not to face them :)
+
+Another potential challenging thing is macroexpansion and eval
+themselves.  Only recently a runtime macroexpansion was implemented in
+Hoot, so it gives a hope that we have all what we need for reflection
+libraries, but I anticipate that more work on Hoot will be required in
+this regard.
+
+Also, we probably will need to re-implement bencode library and some
+other helper libraies from Guile-Ares, as Hoot lacks some of the
+needed dependencies and SRFIs.
+
+Most of the architectural challenges were already solved during the
+work on original Guile-Ares for the last two years, but we will see
+what other fun stuff Wasm runtime will bring to our plates :)
+
+* Ecosystem
+I hope to work tightly with Spritely Institute on Hoot and, of course,
+in foreseeable future to onboard their team to use Arei/Ares fulltime
+not only for Guile development, but also for Hoot.  This means it will
+become a de-facto development environment for the Hoot Programming
+Language.
+
+There are a few communities and events we interact with and I would
+like to share the beauty of the Hoot IDE with:
+- System Crafters and David Wilson
+- Emacs and Emacs Conf
+- Lisp Game Jam
+- RDE
+- Guix and Guix Days
+- FOSSDEM
+
+In addition to that, I make a lot of educational content, articles and
+streams about Guile and related projects on my youtube channel and my
+personal blog, so the Hoot and Hoot IDE won't be exception.
+https://www.youtube.com/@abcdw
+https://trop.in/blog
+https://arxiv.org/search/cs?searchtype=author&query=Tropin,+A
+
+Hoot IDE opens gates to the world of web and especially frontend
+development for Scheme Programmers, which can hugely expand the
+adoption of Guile language in general.
+
+Also, I hope this work will benefit Sprietly's Goblins, Shepherd on
+Goblins and the whole Guix ecosystem.
+https://spritely.institute/news/shepherd-goblins-update.html

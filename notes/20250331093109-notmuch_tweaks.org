@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       d911e266-01af-4224-8f6a-9eb3e79ed1a3
+:END:
+#+title: Notmuch Tweaks
+
+https://gist.github.com/runejuhl/df9060590ecb2f81dd5801e1e6882545

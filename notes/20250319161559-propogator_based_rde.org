@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       683665bd-4f06-4009-a942-bf8090bee853
+:END:
+#+title: Propogator-based RDE
+
+This is an implementation of the configuration framework based on
+[[id:4ffa2c98-43e8-465b-82cb-f338e0364f1d][Propogator Networks]].  It should solve many problems of Guix Services
+and RDE.
+
+* Must-haves
+** Update Tracing
+Tracing of changes happenned to the network due to update of the value
+of a particular node.
+
+Updated colorscheme -> all the applications using this info have their
+configs updated as well and user would like to see it.

@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       57d3a09c-5544-481e-95f2-1080cd555866
+:END:
+#+title: JavaScript Haters Series
+
+A series of video, making fun of JavaScript.

@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       f74df4bb-d691-4e30-8e44-8a2991eae389
+:END:
+#+title: Meta-Commands for Goblins Debugger
+
+* How to filter the ,vat-tail output?
+I want to "pipe" the output of vat-tail to fiend only events of a
+particular type.
+
+* How to implement programmatic vat-up/vat-down/vat-jump calls?
+Probably by "Auto-typing" them into the REPL and checking the output
+and prompt.  We have a bit of experience that stdin/stdout integration
+is far from great (no async, no concurency, impossible to tell if it
+frozen or just WIP, impossible to interrupt, etc).

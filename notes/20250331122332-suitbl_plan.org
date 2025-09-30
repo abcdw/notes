@@ -1,0 +1,50 @@
+:PROPERTIES:
+:ID:       ccdbd0eb-9e6c-480f-9def-495e04241193
+:END:
+#+title: SUITBL Plan
+
+
+#+begin_src markdown
+
+takentaal v1.0
+
+# Scheme Testing Framework
+
+This project addresses a critical gap in the Scheme ecosystem by delivering a comprehensive and extensible testing framework that will serve as foundational infrastructure for current and future development. The Scheme family of languages powers numerous important projects in reproducible builds, decentralized systems, and security-critical applications, yet lacks a modern, well-designed testing solution compatible with today's development practices. Our library bridges this gap, enables interactive testing workflows with immediate feedback for REPLs and IDEs while supporting automated CI/CD pipelines through standardized interfaces. By creating SRFI specification with an implementation-agnostic design, proper test isolation, and metadata-driven test runners, we will empower developers to build more reliable software across the entire Scheme ecosystem. This contribution in core development infrastructure will strengthen existing projects, lower barriers to entry for newcomers, and enable the next generation of Scheme applications.
+
+## {10500} PoC release
+
+The goal of this milestone is to provide a working implementation suitable for day to day usage: defining tests, handling custom reporting for different predicates, providing API for running tests. There is no backward guarantees at the moment, but the library must be already usable and available in Guix repo.
+
+- {5000} Initial Library Implementation (API and repl test runner)
+- {4000} Ares/Arei integration via nREPL
+- {500}  Initiate a SRFI
+- {1000} Documentation and packaging for Guix package manager
+
+## {13000} QoL release
+
+The goal of the following milestone is to improve usability of the project. Re-iterate on the base API, adding API for loading, searching and selecting tests. Improve test runners to make them faster and more capable. Providing CLI for CI, Makefile and terminal usage of the library.
+
+- {1000} Improving library API (breaking changes)
+- {2000} Test discoverability and meta-data (for test selection via queries/filters).
+- {4000} Advanced test runners (re-run failed/selected, parallel testing)
+- {5000} CLI test runner
+- {1000} Documentation, packaging for Guix, public release
+
+## {13500} Standardization
+Providing JUnit-compatible output for utilizing already existing JUnit tooling. Writing a SRFI for making a standardized well-defined specification for testing library for different Scheme dialects.  Testing specification with independent implementation.
+
+- {4000} JUnit compatibility
+- {5000} SRFI Specification
+- {4000} Independent R7RS-compatible implementation
+- {500}  Release of specification-conforming version
+
+## {4000} Introducing library to ecosystem
+Adding the library to most important Guile projects for better adoption inside ecosystem.
+
+- {1000} Preparing SRFI to add to Guile standard distribution
+- {500}  Add SRFI to Guile standard distribution
+- {500}  Rewriting tests for RDE
+- {1000} Rewriting tests for Guile Fibers
+- {1000} Rewriting tests for Guile Hoot
+#+end_src

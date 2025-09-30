@@ -12,6 +12,7 @@ https://github.com/YaLTeR/niri :: paperwm like, scrolling compositor
   editor.
 - Context Stack :: create a couple temporary contexts and unwind back
   to your primary, saving intermediate results.
+- Emacs： control where buffers are displayed (the 'display-buffer-alist') [1-UIzYPn38s].webm :: rules similiar to display-buffer-alist.
 
 * Links
 - [[https://www.youtube.com/playlist?list=PLXH9dADRlWHaXM3Q8G_gaunljITif3cUl][NewWM features video demonstration]]

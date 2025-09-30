@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       fefeff9c-1734-4166-9ed6-780b063f5caa
+:END:
+#+title: Hygienic Macros in Guile
+
+There are a few difference with Racket macro system and it's better to
+know about them, because many papers and tutorials are written for
+Racket.
+
+* There is no syntax->list
+https://www.greghendershott.com/fear-of-macros/pattern-matching.html
+
+There is no such function as syntax->list, because syntax containing a
+few nested syntax is already a proper list in Guile Scheme.  Such
+function can be implemented with syntax-case, but as it turned out
+it's not needed, you can just directly work with the list :)
+
+* There is no syntax-id-rules
+It's called identifier-syntax and uses slightly different syntax. But
+it should be relatively easy to implement syntax-id-rules with it.

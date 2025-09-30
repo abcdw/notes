@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       9be7a40d-b308-4d30-b28d-98aacfd19241
+:ROAM_REFS: https://youtu.be/LtpJgrrcHtI
+:END:
+#+title: Organize Your Day by Maxim Dorofeev
+
+https://youtu.be/LtpJgrrcHtI
+
+1. Do a green task (the one, which help to reach long-term goals and
+gives you a satisfaction) before reading messages.
+2. Plan the stuff for you monkey mind, when you are fresh.  Prepare very clear and actionable tasks for your tired self before you get tired, so you can still move in the right direction even, when you can't make decisions or hard intellectual work.
+
+- Post-action approve :: if you feel that you are a bottleneck of the
+project your are managing, let people do their stuff.  They still need
+to report important decisions that you can ban/veto, but they can
+proceed without your approval.
+
+
+There are a few different types of words to use in task description:
+Most straightforward and understandable are to take, to look, to
+visit, etc.
+
+But to think, to research, to understand are too abstract and
+non-actionable.  Non-verb words are also non-actionable, so to
+formulate an understandable task for your monkey-mind use very clear
+and actionable verbs.
+
+If you can't formulate task, you don't understand how to accomplish it
+or even how to start to perform it.  Reduce the level of abstraction
+and simplify the task until you can write it down in actionable form.
+
+*Note*: don't overcomplicate planning, write down next a couple tasks.

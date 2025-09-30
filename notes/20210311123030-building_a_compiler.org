@@ -14,6 +14,11 @@ An anchor for reference from materials related to compiler construction.
 - [[id:93af2db1-c393-4681-952d-6e73067dd64c][Dark Language]] :: doesn't have files.
 - [[id:486dc483-fdda-4a2e-a82f-b2d3326ac7a3][MessagePack]] :: binary serialization format.
 
+* Courses
+- https://github.com/IUCompilerCourse/IU-Fall-2024/blob/main/index.md
+- https://www.students.cs.ubc.ca/~cs-411/2024w2/index.html
+- https://www.cs.cornell.edu/courses/cs6120/
+
 * Materials
 - https://mitpress.mit.edu/9780262047760/essentials-of-compilation/ :: compilation in Racket.
 - https://www.amazon.com/Compiling-Continuations-Andrew-W-Appel/dp/052103311X

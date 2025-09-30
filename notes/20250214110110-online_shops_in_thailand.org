@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       5f307969-eea8-4a25-b7a0-2e487fc86641
+:END:
+#+title: Online Shops in Thailand
+
+- https://www.lazada.co.th/
+- https://marketplacethailand.com/

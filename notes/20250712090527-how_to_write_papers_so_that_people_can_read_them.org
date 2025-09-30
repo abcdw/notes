@@ -1,0 +1,35 @@
+:PROPERTIES:
+:ID:       c4079814-f13f-4988-97d9-305e79e8af89
+:END:
+#+title: How to Write Papers So That People Can Read Them
+
+* Principles
+** Old to New
+In the sentence (or paragraph) put the know information first
+(optionally references the previous sentence), and new information
+second.
+
+** Coherence
+It should be clear how each paragraph and sentence relate to the big
+picture.
+
+** One paragraph, one point
+A paragraph should have one main point, expressed in a sigle pointe
+sentence.  Typically the point sentence appear at the beginning of the
+paragraph or close to it.
+
+** Name your babies
+Give a name to the entities your use in the paper and reference them by the same name.
+
+** Just In Time
+Give the information exactly, when it needed, not before.
+
+* Sections
+
+** Abstract/Intro
+
+- Context: Set the stage, motivate the general topic
+- Gap: Explain the specific problem and why existing work doesn't
+  solve it
+- Innovate: State what you've done that is new, and explain how it
+  helps fill the gap.

@@ -6,3 +6,4 @@
 - https://akkuscm.org/
 - https://snow-fort.org/
 - https://retropikzel.neocities.org/schubert/usage/
+- [[id:216d68a4-b6e6-4ea4-81f1-315ae0918699][gdeps.scm]]
